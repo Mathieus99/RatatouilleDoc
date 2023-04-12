@@ -3,145 +3,98 @@
         Vengono qui riportate le tabelle di cockburn 
     \end{flushleft}
 
+    \begin{center}
+      \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth,  rowhead=1}
+        \textbf{Use Case \#1} & \SetCell[c=3]{c} \textbf{Aggiunta ristorante} \\
+        \textbf{Goal in Context} & \SetCell[c=3]{l}{Un admin (proprietario di uno o più ristoranti)\\ vuole aggiungere uno di questi nell' app Ratatuille.}\\
 
-    \begin{table}[H]    
-    \def\arraystretch{1.5}
-    \begin{tabularx}{\linewidth}{|l|X|X|X|}
-    
-      \hline \textbf{Use Case \#1} & \multicolumn{3} {l|}
-            {Aggiunta ristorante} \\
-            
-      \hline \textbf{Goal in Context} & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}
-            { Un admin (proprietario di uno o più ristoranti) vuole aggiungere uno di questi nell' app Ratatuille.} \\
-            
-     \hline \textbf{Preconditions} & \multicolumn{3}{l|}
-            {Il proprietario deve essere registrato e loggato nell'app come amministratore} \\
-            
-     \hline \textbf{Success End Conditions} & \multicolumn{3}{l|}
-            {Il proprietario aggiunge correttamente il ristorante} \\
-            
-     \hline \textbf{Failed End Conditions} & \multicolumn{3}{l|}
-            {Il proprietario non riesce ad aggiungere il ristorante} \\
-            
-     \hline \textbf{Primary Actor} & \multicolumn{3}{l|}
-            {Amministratore} \\
-            
-     \hline \textbf{Trigger} & \multicolumn{3}{l|}
-            {Preme il pulsante "Aggiungi"} \\
-    
-      \hline \multirow{2}{*}{\textbf{Description}} & \textbf{Step} & \textbf{User Action} & \textbf{System} \\
-          \cline{2-4} &{1} & {L'amministratore preme sul tasto "AGGIUNGI RISTORANTE" sulla schermata \textbf{\textit{M04}}} & \\
-          
-          \cline{2-4} &{2} & {} & {Mostra la schermata \textbf{\textit{M06}}} \\
-          
-          \cline{2-4} &{3} & {Compila i campi necessari per la registrazione del proprio ristorante e preme sul tasto "SALVA" per aggiungere il Ristorante} & \\
-          
-          \cline{2-4} &{4} & & {Ricarica la schermata \textbf{\textit{M04}} aggiungendo nella lista dei ristoranti l'ultimo appena inserito} \\
-    
-      \hline
+        \textbf{Precodition} & \SetCell[c=3]{l}{Il proprietario deve essere registrato e loggato nell'app come amministratore}\\
 
+        \textbf{Success End Condition} & \SetCell[c=3]{l}{Il proprietario aggiunge correttamente il ristorante}\\
 
-    
-    \end{tabularx}
-    
-    \end{table}
-    
-        \begin{table}[H]    
-    
-        \def\arraystretch{1.5}
-        
-        
-        \begin{tabularx}{\linewidth}{|X|X|X|X|}
-        
+        \textbf{Failed End Condition}  & \SetCell[c=3]{l}{Il proprietario non riesce ad aggiungere il ristorante}\\
 
+        \textbf{Primary Actor}  & \SetCell[c=3]{c}{Amministratore}\\
+        \textbf{Trigger}  & \SetCell[c=3]{c}{Preme il pulsante "Aggiungi"}\\
 
-         \hline \multirow{2}{*}{\textbf{Extension \#1}} & \textbf{Step} &
-         \textbf{User Action} & \textbf{System} \\
-         \cline{2-4} {L'Amministratore non fa nulla e torna indietro} &{4.a} & & {Torna alla schermata \textbf{\textit{M04}}} \\
+        \SetCell[r=4]{c}\textbf{Description}  & Step & UserAction & System\\
+                                              & 1    & {L'amministratore preme sul tasto \textit{"AGGIUNGI RISTORANTE"}\\ sulla schermata \textbf{\textit{M04}}} & \\
+                                              & 2    &       & {Mostra la schermata \textbf{\textit{M06}}}\\
+                                              & 3    &  {Compila i campi necessari per la registrazione del proprio ristorante e preme sul tasto "SALVA" per aggiungere il Ristorante}     & \\
+                                              & 4    &       & {Ricarica la schermata \textbf{\textit{M04}} aggiungendo nella lista dei ristoranti l'ultimo appena inserito} \\
+        %% Extensions
+        \SetCell[r=2]{c}{\textbf{Extension \#\ 1}\\ L'amministratore non fa nulla e torna indietro} & Step & UserAction & System\\
+                                                                                                    & 4a   &  & Torna alla schermata \textbf{\textit{M04}}\\
 
+        \SetCell[r=2]{c}{\textbf{Extension \#2}\\ L'amministratore ha aggiunto un ristorante già presenta nella propria lista di ristoranti} & Step & UserAction & System\\*
+                                                  & 4b   &  & {Mostra uno dei messaggi di errore della schermata \textbf{\textit{{M0boh:}}} restando allo step \textbf{2} dello scenario principale}\\
 
+        \SetCell[r=2]{c}{\textbf{Extension \#3}\\ L'amministratore ha lasciato uno o più campi vuoti}
+                                                  & Step & UserAction & System\\
+                                                  & 4c   &  & {Mostra uno o più dei messaggi di errore della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{2} dello scenario principale}\\
+
+        \SetCell[r=2]{c}{\textbf{Extension \#4}\\ L'amministratore ha aggiunto un nome troppo corto}
+                                                  & Step & UserAction & System\\
+                                                  & 4d   &  & {Mostra il messaggio di errore di fianco al campo "Nome" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{3} dello scenario principale} \\
+
+        \SetCell[r=2]{c}{\textbf{Extension \#5}\\ L'amministratore ha aggiunto un numero di coperti non valido}
+                                                  & Step & UserAction & System\\
+                                                  & 4e   &  & {Mostra il messaggio di errore di fianco al campo "Numero di coperti" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{3} dello scenario principale} \\
+
+        \SetCell[r=2]{c}{\textbf{Extension \#6}\\ L'amministratore ha aggiunto un indirizzo troppo corto}
+                                                  & Step & UserAction & System\\
+                                                  & 4f   &  & {Mostra il messaggio di errore di fianco al campo "Indirizzo" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{3} dello scenario principale} \\
+
+        \SetCell[r=2]{c}{\textbf{Extension \#7}\\ L'amministratore ha aggiunto un numero di telefono non valido} 
+                                                  & Step & UserAction & System\\*
+                                                  & 4g   &  & {Mostra il messaggio di errore di fianco al campo "Numero di telefono" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{3} dello scenario principale} \\
+
+        %%% Subvariations
+        \SetCell[r=3]{c}{\textbf{Subvariation \#1} \\ L' amministratore torna indietro completando solo parzialmente i campi}  & Step & UserAction & System\\
+                                                                                                                             & 1 & & Mostra la schermata \textbf{\textit{M0boh}}\\
+                                                                                                                             & 2 & {Preme su "SI"} & \\
+                                                                                                                             & 3 & & Torna alla schermata \textbf{\textit{M04}}\\
+
+        \SetCell[r=3]{c}{\textbf{Subvariation \#2} \\ L' amministratore inizialmente vuole tornare indietro completando solo parzialmente i campi ma cambia idea}
+                                                        & Step & UserAction & System\\
+                                                        & 1 & & Mostra la schermata \textbf{\textit{M0boh}}\\
+                                                        & 2 & {Preme su "NO"} & \\
+                                                        & 3 & & Torna alla schermata \textbf{\textit{M06}} alo step \textbf{2} dello scenario principale\\
+
+        %\textbf{Notes}  & \SetCell[c=3]{c}{\textcolor{red}{TODO}}\\
+      \end{longtblr}
+      \end{center}
          
-          \hline\multirow{2}{*}{\textbf{Extension \#2}} & \textbf{Step} & \textbf{User Action} & \textbf{System} \\
-         \cline{2-4} {L'amministratore ha aggiunto un Ristorante già presente nella propria lista di Ristoranti} & {4.b} & & {Mostra uno dei messaggi di errore della schermata \textbf{\textit{{M0boh:}}} restando allo step \textbf{2} dello scenario principale} \\
-        
-
-        \hline\multirow{2}{*}{\textbf{Extension \#3}} & \textbf{Step} & \textbf{User Action} & \textbf{System} \\
-         \cline{2-4} {L'amministratore ha lasciato uno o più campi vuoti} & {4.c} & & {Mostra uno o più dei messaggi di errore della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{2} dello scenario principale} \\
-
-         
-        \hline\multirow{2}{*}{\textbf{Extension \#4}} & \textbf{Step} & \textbf{User Action} & \textbf{System} \\
-         \cline{2-4} {L'amministratore ha aggiunto un nome troppo corto} & {4.d} & & {Mostra il messaggio di errore di fianco al campo "Nome" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{3} dello scenario principale} \\
          
 
-         \hline\multirow{2}{*}{\textbf{Extension \#5}} & \textbf{Step} & \textbf{User Action} & \textbf{System} \\
-         \cline{2-4} {L'amministratore ha aggiunto un numero di coperti non valido} & {4.e} & & {Mostra il messaggio di errore di fianco al campo "Numero di coperti" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{3} dello scenario principale} \\
-         
-
-         \hline\multirow{2}{*}{\textbf{Extension \#6}} & \textbf{Step} & \textbf{User Action} & \textbf{System} \\
-         \cline{2-4} {L'amministratore ha aggiunto un indirizzo troppo corto} & {4.f} & & {Mostra il messaggio di errore di fianco al campo "Indirizzo" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{3} dello scenario principale} \\
-         
-         \hline
-        
-        \end{tabularx}
-        
-        \end{table}
-        
-        \begin{table}[H]    
-    
-        \def\arraystretch{1.5}
-        
-        
-        \begin{tabularx}{\linewidth}{|X|X|X|X|}
-
-         
-        \hline\multirow{2}{*}{\textbf{Extension \#7}} & \textbf{Step} & \textbf{User Action} & \textbf{System} \\
-         \cline{2-4} {L'amministratore ha aggiunto un numero di telefono non valido} & {4.g} & & {Mostra il messaggio di errore di fianco al campo "Numero di telefono" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{3} dello scenario principale} \\
-         
-
-         \hline \multirow{2}{*}{\textbf{Subvariation \#1}} & \textbf{Step} & \textbf{User Action} & \textbf{System} \\
-         \cline{2-4} {L' amministratore torna indietro completando solo parzialmente i campi} & {1} & & {Mostra la schermata \textbf{\textit{M0boh}}} \\
-         \cline{2-4} & {2} & {Preme su "SI"} &  \\
-         \cline{2-4} & {3} & & {Torna alla schermata \textbf{\textit{M04}}} \\
-
-         
-        \hline \multirow{2}{*}{\textbf{Subvariation \#2}} & \textbf{Step} & \textbf{User Action} & \textbf{System} \\
-         \cline{2-4} {L' amministratore inizialmente vuole tornare indietro completando solo parzialmente i campi ma cambia idea} & {1} & & {Mostra la schermata \textbf{\textit{M0boh}}} \\
-         \cline{2-4} & {2} & {Preme su "NO"} &  \\
-         \cline{2-4} & {3} & & {Torna alla schermata \textbf{\textit{M06}} allo step \textbf{2} dello scenario principale} \\
-        \hline       
-        
-        \end{tabularx}
-        
-        \end{table} 
-
+        % BIAGIO: tornato, Valentino sei un santo
         \newpage
         
         \begin{center}
-              \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth}
-                     \textbf{Use Case \#2}       & \SetCell[c=3]{c} \textbf{Aggiunta piatto al menù} \\
-
-                     \textbf{Goal in Context}    & \SetCell[c=3]{l}{Un admin (proprietario di uno o più ristoranti) vuole aggiungere un piatto \\in un menu di un suo ristorante}\\
-                     
-                     \textbf{Precodition}        & \SetCell[c=3]{l}{Il proprietario deve essere registrato e loggato nell'app come amministratore, \\deve aver aggiunto almeno un ristorane e deve averne creato un menu}\\
-                     
-                     \textbf{Success End Condition} & \SetCell[c=3]{l}{Il proprietario aggiunte correttamente un piatto al suo menu}\\
-                     
-                     \textbf{Failed End Condition}  & \SetCell[c=3]{l}{Il proprietario non riesce ad aggiungere un piatto al suo ristorante}\\
-                     
-                     \textbf{Primary Actor}  & \SetCell[c=3]{c}{Amministratore}\\
-                     \textbf{Trigger}  & \SetCell[c=3]{c}{Preme il pulsante "Accetta"}\\
-                     
-                     \SetCell[r=4]{c}\textbf{Description}  & Step & UserAction & System\\
-                                                        & 1 & {L'amministratore preme sul tasto \textit{"AGGIUNGI RISTORANTE"}\\ sulla schermata \textbf{\textit{M04}}} & \\
-                                                        & 2 &  TODO &     \\
-                                                        & 3 &       & TODO\\
-                     
-                     \SetCell[r=2]{c}\textbf{Extension} & Step & UserAction & System\\
-                                                        & Step & UserAction & System\\
-                     
-                     \SetCell[r=2]{c}\textbf{Subvariation}  & Step & UserAction & System\\
-                                                               & Step & UserAction & System\\
-                     
-                     \textbf{Notes}  & \SetCell[c=3]{c}{\textcolor{red}{TODO}}\\
-              \end{tblr}
+        \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth}
+          \textbf{Use Case \#2} & \SetCell[c=3]{c} \textbf{Aggiunta piatto al menù} \\
+          \textbf{Goal in Context} & \SetCell[c=3]{l}{Un admin (proprietario di uno o più ristoranti) vuole aggiungere un piatto \\in un menu di un suo ristorante}\\
+        
+          \textbf{Precodition} & \SetCell[c=3]{l}{Il proprietario deve essere registrato e loggato nell'app come amministratore, \\deve aver aggiunto almeno un ristorane e deve averne creato un menu}\\
+        
+          \textbf{Success End Condition} & \SetCell[c=3]{l}{Il proprietario aggiunte correttamente un piatto al suo menu}\\
+        
+          \textbf{Failed End Condition}  & \SetCell[c=3]{l}{Il proprietario non riesce ad aggiungere un piatto al suo ristorante}\\
+        
+          \textbf{Primary Actor}  & \SetCell[c=3]{c}{Amministratore}\\
+          \textbf{Trigger}  & \SetCell[c=3]{c}{Preme il pulsante "Accetta"}\\
+          
+          \SetCell[r=4]{c}\textbf{Description}  & Step & UserAction & System\\
+                                        & 1 & {L'amministratore preme sul tasto \textit{"AGGIUNGI RISTORANTE"}\\ sulla schermata \textbf{\textit{M04}}} & \\
+                                        & 2 &  TODO & System\\
+                                        & 3 &       & TODO\\
+        
+          \SetCell[r=2]{c}\textbf{Extension}  & Step & UserAction & System\\
+                                              & Step & UserAction & System\\
+        
+          \SetCell[r=2]{c}\textbf{Subvariation}  & Step & UserAction & System\\
+                                                 & Step & UserAction & System\\
+        
+          \textbf{Notes}  & \SetCell[c=3]{c}{\textcolor{red}{TODO}}\\
+        \end{longtblr}
         \end{center}

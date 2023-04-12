@@ -5,19 +5,19 @@
 \contentsline {subsection}{\numberline {2.1}Requisiti Funzionali}{5}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Admin}{5}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}Cameriere}{7}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Cucina}{7}{subsubsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.4}Supervisore}{7}{subsubsection.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.5}Tutti}{8}{subsubsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.2}Requisiti Non Funzionali}{9}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Requisiti di Dominio}{9}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Modellazione dei casi d'uso}{10}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Mock-up dell'applicazione}{16}{subsection.2.5}%
-\contentsline {subsubsection}{\numberline {2.5.1}Homepage dell'applicazione}{16}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}Schermata di accesso nel sistema}{17}{subsubsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.3}Schermata di registrazione nel sistema}{18}{subsubsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.4}Schermata home per gli admin}{19}{subsubsection.2.5.4}%
-\contentsline {subsubsection}{\numberline {2.5.5}Schermata di registrazione di un nuovo ristorante}{20}{subsubsection.2.5.5}%
-\contentsline {subsubsection}{\numberline {2.5.6}Schermata di modifica di un ristorante}{21}{subsubsection.2.5.6}%
-\contentsline {subsubsection}{\numberline {2.5.7}Schermata di registrazione di un nuovo dipendente}{22}{subsubsection.2.5.7}%
-\contentsline {subsubsection}{\numberline {2.5.8}Schermata di gestione del menù}{23}{subsubsection.2.5.8}%
-\contentsline {subsection}{\numberline {2.6}Modellazione dei casi d'uso}{24}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.1.3}Cucina}{8}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Supervisore}{8}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}Tutti}{9}{subsubsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.2}Requisiti Non Funzionali}{10}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Requisiti di Dominio}{10}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Modellazione dei casi d'uso}{12}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Mock-up dell'applicazione}{18}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Homepage dell'applicazione}{18}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Schermata di accesso nel sistema}{19}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Schermata di registrazione nel sistema}{20}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Schermata home per gli admin}{21}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.5.5}Schermata di registrazione di un nuovo ristorante}{22}{subsubsection.2.5.5}%
+\contentsline {subsubsection}{\numberline {2.5.6}Schermata di modifica di un ristorante}{23}{subsubsection.2.5.6}%
+\contentsline {subsubsection}{\numberline {2.5.7}Schermata di registrazione di un nuovo dipendente}{24}{subsubsection.2.5.7}%
+\contentsline {subsubsection}{\numberline {2.5.8}Schermata di gestione del menù}{25}{subsubsection.2.5.8}%
+\contentsline {subsection}{\numberline {2.6}Modellazione dei casi d'uso}{26}{subsection.2.6}%
