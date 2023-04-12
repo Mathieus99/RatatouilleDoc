@@ -1,0 +1,483 @@
+\section{Modello Funzionale}
+    \subsection{Requisiti Funzionali}
+        \begin{flushleft}  
+            {\large
+                Vengono qui presentati i requisiti funzionali dell'applicativo, ossia quei servizi che l'app  deve offrire agli utenti:
+            } 
+        \end{flushleft}
+        
+        \subsubsection{Admin}
+        
+        \begin{tabular}{l}
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}         & Admin\_1                      \\
+                \hline
+                \textbf{Nome}       & Registrazione account amministratore \\
+                \hline
+                \textbf{Descrizione}    & 
+                \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette ad un amministratore non registrato di registrarsi alla\ \ \ \  \\piattaforma utilizzando: \textit{nome}, \textit{cognome}, \textit{email}, \textit{codice fiscale}, \textit{P.IVA} \\ e \textit{password}
+                \end{tabular} \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Admin\_2                   \\
+                \hline
+                \textbf{Nome}        & Modifica account Amministratore      \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette ad un amministratore loggato di modifcare i campi del \ \  \\ proprio account
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Admin\_3                   \\
+                \hline
+                \textbf{Nome}        & Registrazione dei dipendenti      \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette ad un amministratore di creare utenze per i dipendenti\ \ \ \\ non registrati del ristorante, specificandone \textit{nome}, \textit{cognome}, \textit{email} e \textit{ruolo},\\ inviandogli per email le credenziali di accesso (Username e Password \\generata automaticamente)
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Admin\_4                  \\
+                \hline
+                \textbf{Nome}        & Modificare/Eliminare account dipendenti  \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                    Il sistema permette ad un amministratore loggato di modificare gli account \ \   \\dei propri dipendenti.
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Admin\_5                 \\
+                \hline
+                \textbf{Nome}        & Aggiungere personale della cucina  \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                    Il sistema permette ad un amministratore loggato di aggiungere al proprio \ \ \  \\ristorante il personale della cucina.
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Admin\_6                   \\
+                \hline
+                \textbf{Nome}        & Aggiunta dei Ristoranti  \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette ad un amministratore di poter aggiungere le proprie\ \ \ \ \ \ \  \\attività di ristorazione (CAMPI DA DEFINIRE).
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Admin\_7                       \\
+                \hline
+                \textbf{Nome}        & Modifica/Eliminazione dei Ristoranti  \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                    Il sistema permette ad un amministratore di poter modificare ed eliminare le \\proprie attività di ristorazione del sistema.
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+        \end{tabular}
+        \newpage
+        \begin{tabular}{l}
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Admin\_8                    \\
+                \hline
+                \textbf{Nome}        & Modifica dati dei Dipendenti  \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette ad un amministratore loggato di poter cambiare i dati \ \ \ \ \ \  \\personali dei dipendenti (nome, cognome, email, luogo).
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Admin\_9                    \\
+                \hline
+                \textbf{Nome}        & Aggiungere/Modificare elementi nel menù  \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette ad un amministratore o supervisore dell'attività di \\ristorazione di aggiungere/modificare elementi nel menù dell'attività. Ogni \ \ \ \ \ \  \\elemento dovrà avere \\i seguenti campi:\\
+                        - Nome\\
+                        - Costo\\
+                        - Descrizione\\
+                        - Elenco di allergeni\\
+                        - Categoria/e
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Admin\_10                    \\
+                \hline
+                \textbf{Nome}        & Modifica dati personali  \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                    Il sistema permette ad un amministratore loggato di poter cambiare i propri \ \ \ \  \\dati  personali.
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Admin\_11                    \\
+                \hline
+                \textbf{Nome}        & Avvisi dall'amministratore        \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                    Il sistema offre all'amministratore di poter creare un avviso per  il proprio \ \ \ \ \ \ \ \ \\ristorante.
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Admin\_12                    \\
+                \hline
+                \textbf{Nome}        & Tradurre il menu                \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                   Il sistema permette ad un Amministratore di poter tradurre gli elementi del \ \ \ \ \  \\proprio menù in un altra lingua \\
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Admin\_13                    \\
+                \hline
+                \textbf{Nome}        & Visualizza statistiche personale della cucina\\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                   Il sistema permette ad un Amministratore di visualizzare, grazie anche \ \ \ \ \ \ \ \ \ \ \ \  \\all'ausilio di grafici interattivi, informazioni sull'operato degli addetti alla \\cucina\\
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Admin\_14                    \\
+                \hline
+                \textbf{Nome}        & Modifica menu                \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                   Il sistema permette ad un Amministratore di poter aggiornare (aggiungere, \ \ \ \ \ \  \\modificare ed eliminare elementi) il menu del ristorante
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+        \end{tabular}
+        \subsubsection{Cameriere}
+            \begin{tabular}{l}
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & Waiter\_1                 \\
+                    \hline
+                    \textbf{Nome}        & Prendere le ordinazioni  \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette ai camerieri di prendere ordinazioni ai tavoli, inoltrandole \  \\alla cucina.
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+                \\ \\
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & Waiter\_2                    \\
+                    \hline
+                    \textbf{Nome}        & Gestione delle ordinazioni  \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette ai camerieri di prendere ordinazioni ai tavoli, inoltrandole \ \ \\alla cucina.
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+                \\ \\
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & Waiter\_3                    \\
+                    \hline
+                    \textbf{Nome}        & Evasione degli ordini        \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                            Il sistema permette a un Cameriere di marcare i singoli elementi di un ordine \ \ \  \\come conclusi, aggiornando gli addetti in cucina
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+                \\ \\
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & Waiter\_4                   \\
+                    \hline
+                    \textbf{Nome}        & Sollecitare la cucina        \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette a un Cameriere di sollecitare la cucina nel caso in cui un \ \ \ \  \\ordine sia da troppo tempo in preparazione 
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+            \end{tabular}
+            
+        \subsubsection{Cucina}
+            \begin{tabular}{l}
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & Kitchen\_1                   \\
+                    \hline
+                    \textbf{Nome}        & Marcare gli ordini pronti    \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette alla cucina di marcare gli ordini pronti alla "consegna",\ \ \ \ \ \ \  \\specificando lo chef che l'ha preparato 
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+                \\ \\
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & Kitchen\_2                   \\
+                    \hline
+                    \textbf{Nome}        & Sollecitare i camerieri    \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette alla cucina di notificare i camerieri nel caso in cui un ordine  \\sia pronto alla consegna da troppo tempo 
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+            \end{tabular}
+        
+        \subsubsection{Supervisore}
+            \begin{tabular}{l}
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & Hypervisor\_1                   \\
+                    \hline
+                    \textbf{Nome}        & Avvisare il personale            \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette ad un supervisore ed un amministratore di inviare degli \ \ \ \ \ \  \\avvisi al personale
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+                \\ \\
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & Hypervisor\_2                   \\
+                    \hline
+                    \textbf{Nome}        & Visualizzare stato ordini per tavolo\\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette ad un Supervisore ed un Cameriere di visualizzare gli stati \ \  \\delle ordinazioni per ogni tavolo
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+            \end{tabular}
+            \newpage
+            \begin{tabular}{l}
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & Hypervisor\_3                   \\
+                    \hline
+                    \textbf{Nome}        & Visualizzare ordini in arrivo    \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette ad un Supervisore e alla Cucina di visualizzare l'elenco di \ \ \ \ \  \\ordini in arrivo
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+                \\ \\
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & Hypervisor\_4                   \\
+                    \hline
+                    \textbf{Nome}        & Visualizzare ordini in uscita    \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette ad un Supervisore e alla Cucina di visualizzare l'elenco di \ \ \ \ \  \\ordini pronti all'uscita
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+                \\ \\
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & Hypervisor\_5                   \\
+                    \hline
+                    \textbf{Nome}        & Visualizzare storico ordini    \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette ad un Supervisore e alla Cucina di visualizzare lo storico \ \ \ \ \ \  \\degli ordini
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+            \end{tabular}
+            
+        \subsubsection{Tutti}
+            
+            \begin{tabular}{l}
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & All\_1                   \\
+                    \hline
+                    \textbf{Nome}        & Recupero/Cambio Password  \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette a tutti gli utenti registrati di poter recuperare la password e \  \\di poterla modificare
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+                \\ \\
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & All\_2                   \\
+                    \hline
+                    \textbf{Nome}        & Login                    \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette a tutti gli utenti registrati di poter effettuare il login con \ \ \ \ \ \ \  \\Username e Password all'interno della piattaforma
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+                \\ \\
+                \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & All\_3                   \\
+                    \hline
+                    \textbf{Nome}        & Visualizzare un avviso o sollecitazione\\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema permette a tutti gli utenti registrati pi poter visualizzare gli avvisi e le \ \  \\sollecitazioni ricevuti, marcandoli come visualizzati
+                    \end{tabular}                                           \\ 
+                    \hline
+                \end{tabular}
+            \end{tabular}
+    \newpage
+    \subsection{Requisiti Non Funzionali}
+        \begin{flushleft}
+            {\large Vengono qui elencati i requisiti non funzionali dell'applicativo: }
+        \end{flushleft}
+        \begin{tabular}{l}
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Unfunctional\_1                  \\
+                \hline
+                \textbf{Nome}        & Policy first password            \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                    Il sistema richiede al primo accesso di un dipendente il cambio della password \\provvisoria in una password personale.
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Unfunctional\_2                  \\
+                \hline
+                \textbf{Nome}        & Verifica esistenza della mail            \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                    Al fine di evitare registrazioni con e-mail fittizie, il sistema richiede\\ l'autenticazione della mail mediante codice di verifica per poter procedere con \\il completamento della registrazione
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Unfunctional\_3                  \\
+                \hline
+                \textbf{Nome}        & Password Strength            \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                    Al fine di evitare la creazione di password poco sicure, il sistema impone\ \ \ \ \ \ \ \  \\all'utente di utilizzare una password di almeno 8 caratteri che contenga \\numeri e caratteri speciali.
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                \hline
+                \textbf{ID}          & Unfunctional\_4                      \\
+                \hline
+                \textbf{Nome}        &                                      \\
+                \hline
+                \textbf{Descrizione} & 
+                \begin{tabular}[c]{@{}l@{}}
+                    Una P.IVA appartiene ad un solo amministratore.
+                \end{tabular}                                           \\ 
+                \hline
+            \end{tabular}
+        \end{tabular}
+    \subsection{Requisiti di Dominio}
+        \begin{tabular}{l}
+            \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & Domain\_1                     \\
+                    \hline
+                    \textbf{Nome}        & GDPR                           \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        Il sistema deve essere conforme alla normativa GDPR (Regolamento Generale  \\sulla Protezione dei Dati), per il trattamento dei dati personali e riguardante la\ \ \\privacy dell'utente
+                    \end{tabular}                                           \\ 
+                    \hline
+            \end{tabular}
+            \\ \\
+            \begin{tabular}{ll}
+                    \hline
+                    \textbf{ID}          & Domain\_2                     \\
+                    \hline
+                    \textbf{Nome}        & Norme ISO                           \\
+                    \hline
+                    \textbf{Descrizione} & 
+                    \begin{tabular}[c]{@{}l@{}}
+                        
+                    \end{tabular}                                           \\ 
+                    \hline
+            \end{tabular}
+        \end{tabular}
+    

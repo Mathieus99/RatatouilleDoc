@@ -1,0 +1,95 @@
+\documentclass{article}
+
+\usepackage{style,xcolor}
+
+% Sub-preambles
+% https://github.com/MartinScharrer/standalone
+
+% Encodings
+\usepackage{amsmath,amssymb,gensymb,textcomp}
+
+% Better tables
+% Wide tables go to https://tex.stackexchange.com/q/332902
+\usepackage{array,multicol,multirow,siunitx,tabularx}
+\usepackage{tabularray}
+
+% Better enum
+\usepackage{enumitem}
+
+% Graphics
+\usepackage{caption,float}
+
+% Allow setting >max< width of figure
+% Remove if unneeded
+\usepackage[export]{adjustbox} % 'export' allows adjustbox keys in \includegraphics
+\usepackage{mwe}
+
+% Custom commands
+% Remove if unneeded
+\newcommand*\mean[1]{\bar{#1}}
+
+\ocorso
+\oreporttype{}
+\title{\textit{Ratatouille23}}
+\reportlayout%
+
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+\begin{document}
+
+\coverpage%
+
+\section*{Gruppo INGSW2223\_N\_04}
+\begin{center}
+\Large{
+  \begin{tabular}{llcc}
+    \toprule
+        \textbf{No.} & \textbf{Nome e Cognome} & \textbf{Matricola} \\
+    \midrule
+        1           & Luigi Vessella                & N86003354\\
+        2           & Matteo Marino                 & N86003963\\
+        3           & Biagio Speranza               & N86002964\\
+    \bottomrule
+  \end{tabular}
+ }
+\end{center}
+
+\newpage
+\tableofcontents
+\newpage
+\section{Descrizione del progetto}
+    {\large 
+        Ratatouille23 è un sistema finalizzato al supporto alla gestione e all’operatività di attività di
+        ristorazione. Il sistema consiste in un’applicazione performante e affidabile, attraverso cui gli utenti
+        possono fruire delle funzionalità del sistema in modo intuitivo, rapido e piacevole. 
+        La nostra visione della richiesta prevede lo sviluppo di un'applicazione mobile su sistema operativo Android che offrirà agli utilizzatori i seguenti servizi: 
+    }
+    
+    \begin{itemize}
+        \item \textit{ I proprietari (o amministratori) potranno creare account per i dipendenti}
+        \item \textit{I proprietari saranno in grado di gestire uno o più ristoranti}
+        \item \textit{Si avrà la possibilità di visualizzare e/o modificare il menu}
+        \item \textit{I dipendenti (camerieri) saranno in grado di prendere e inoltrare le ordinazioni in cucina}
+        \item \textit{Gli addetti alla cucina potranno avvisare i camerieri nel momento in cui è pronta un'ordinazione}
+        \item \textit{Tutti potranno visionare lo storico delle ordinazioni con i dettagli}
+        
+    \end{itemize} 
+    
+   {\large Ovviamente, il tipo di funzionalità messo a disposizione dall'applicativo sarà cambiato
+   dinamicamente a seconda di chi si logga. 
+    Gli amministratori e/o supervisori saranno inoltre dotati di tablet con a bordo l'OS di Google Android per
+    una migliore fruizione della loro dashboard.
+    \\
+
+    I dipendenti quali camerieri, operatori di cucina, chef, capisala, saranno dotati di smartphone aziendali sempre con OS Android correttamente configurati per un'ottimale fruizione dell'applicazione.
+    \\\\
+    \textbf{Tutti i dispositivi dovranno essere in grado di accedere a internet, preferibilmente per tutta la durata del servizio.} 
+    }
+    
+\include{capitoli/Modello Funzionale/Requisiti}
+\include{capitoli/Modello Funzionale/UseCaseDiagram}
+\include{capitoli/Modello Funzionale/Mockup}
+\include{capitoli/Modello Funzionale/Tabelle di Cockburn}
+
+\end{document}
