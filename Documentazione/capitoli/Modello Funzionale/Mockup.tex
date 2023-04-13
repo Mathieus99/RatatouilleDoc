@@ -4,10 +4,9 @@
     \end{flushleft}
     \subsubsection{Homepage dell'applicazione}
         \begin{figure}[H]
-            \centering
-            \includegraphics[scale=2.5]{assets/Mockup/Mockup_Homepage.png}
-            \caption{\textbf{M01}: Homepage dell'applicazione}
-            \label{fig:Mockup_Homepage}
+          \centering
+          \includegraphics[scale=2.5]{assets/Mockup/Mockup_Homepage.png}
+          \caption{\textbf{M01}: Homepage dell'applicazione}\label{fig:Mockup_Homepage}
         \end{figure}
         \begin{flushleft}
             \textbf{ID} \ \Large{\textit{\textbf{M01}}}\\
@@ -24,12 +23,12 @@
         \end{center}
         
         \newpage
+
         \subsubsection{Schermata di accesso nel sistema}
             \begin{figure}[H]
                 \centering
                 \includegraphics[scale=2.5]{assets/Mockup/Mockup_Accesso.png}
-                \caption{\textbf{M02}: Schermata di accesso nel sistema}
-                \label{fig:Mockup_Login}
+                \caption{\textbf{M02}: Schermata di accesso nel sistema}\label{fig:Mockup_Login}
             \end{figure}
             \begin{flushleft}
                 \textbf{ID} \ \Large{\textit{\textbf{M02}}}\\
@@ -50,9 +49,8 @@
         \subsubsection{Schermata di registrazione nel sistema}
         \begin{figure}[H]
           \centering
-          \includegraphics[scale=1.5]{assets/Mockup/Mockup_Registrazione.png}
-          \caption{\textbf{M03}: Schermata di registrazione nel sistema}
-          \label{fig:Mockup_Register}
+          \includegraphics[scale=1.5]{assets/Mockup/Mockup_Register.png}
+          \caption{\textbf{M03}: Schermata di registrazione nel sistema}\label{fig:Mockup_Register}
         \end{figure}
 
         \begin{flushleft}
@@ -78,9 +76,8 @@
         \subsubsection{Schermata home per gli admin}
         \begin{figure}[H]
             \centering
-            \includegraphics[scale=2.5]{assets/Mockup/Mockup_AdminDashboard.png}
-            \caption{\textbf{M04}: Schermata home per gli admin}
-            \label{fig:Mockup_AdminDashboard}
+            \includegraphics[scale=2]{assets/Mockup/Mockup_AdminDash.png}
+            \caption{\textbf{M04}: Schermata home per gli admin}\label{fig:Mockup_AdminDashboard}
         \end{figure}
         \begin{flushleft}
             \textbf{ID} \ \Large{\textit{\textbf{M04}}} \\
@@ -93,6 +90,9 @@
                 ScrollView &   I TUOI RISTORANTI    &   Visualizza ed eventualmente permette la modifica dei ristoranti registrati\\
                 Bottone    &   AGGIUNGI RISTORANTE  &   Quando cliccato porta alla schermata \textit{\textbf{M05}} \\
                 Bottone    &   MODIFICA   &   Quando cliccato porta alla schermata \textit{\textbf{M06}} \\
+                Bottone    &   PROFILO    &   Quando cliccato porta alla schermata \textit{\textbf{M0bho}} \\
+                Bottone    &   ESCI       &   Quando cliccato mostra la schermata \textit{\textbf{M0bho}} \\
+                Bottone    &   STATISTICHE &  Quando cliccato porta alla schermata \textit{\textbf{M0bho}} \\
                 \end{tblr}
             \end{center}
         \newpage
@@ -100,9 +100,8 @@
         \subsubsection{Schermata di registrazione di un nuovo ristorante}
         \begin{figure}[H]
             \centering
-            \includegraphics[scale=2]{assets/Mockup/Mockup_AddResturant.png}
-            \caption{\textbf{M05}: Schermata di registrazione di un nuovo ristorante}
-            \label{fig:Mockup_AddResturant}
+            \includegraphics[scale=2]{assets/Mockup/Mockup_SaveResturant.png}
+            \caption{\textbf{M05}: Schermata di registrazione di un nuovo ristorante}\label{fig:Mockup_AddResturant}
         \end{figure}
         \begin{flushleft}
             \textbf{ID} \ \Large{\textit{\textbf{M05}}}
@@ -115,6 +114,7 @@
             Edit Text      &   NOME           & Permette di inserire il nome del nuovo ristorante\\
             Edit Text      &   LOCALITA'      & Permette di inserire la località del nuovo ristorante\\
             Edit Text      &   COPERTI        & Permette di inserire il n° dei coperti del nuovo ristorante\\
+            Edit Text      &   NUMERO DI TELEFONO & Permette di inserire il contatto telefonico del ristorante \\
             Bottone        &   SALVA          & Quando cliccato salva il nuovo ristorante nel database e torna alla schermata \textit{\textbf{M04}} \\
           \end{tblr}
         \end{center}
@@ -122,9 +122,8 @@
         \subsubsection{Schermata di modifica di un ristorante}
         \begin{figure}[H]
             \centering
-            \includegraphics[scale=2.5]{assets/Mockup/Mockup_ResturantManager.png}
-            \caption{\textbf{M06}: Schermata di modifica di un ristorante}
-            \label{fig:Mockup_ResturantManager}
+            \includegraphics[scale=2]{assets/Mockup/Mockup_ResturantDash.png}
+            \caption{\textbf{M06}: Schermata di modifica di un ristorante}\label{fig:Mockup_ResturantManager}
         \end{figure}
         \begin{flushleft}
             \textbf{ID} \ \Large{\textit{\textbf{M06}}}
@@ -136,17 +135,20 @@
             \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
               \textbf{Tipo}  &   \textbf{Nome}  & \textbf{Funzione} \\
               \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
-              Bottone   &   AGGIUNGI CAMERIERE &   Quando cliccato porta alla schermata \textit{\textbf{M07}}\\
-              Bottone   &   AGGIUNGI MENU &   Quando cliccato porta alla schermata \textit{\textbf{M08}}\\
+              Bottone   &   AGGIUNGI DIPENDENTE &   Quando cliccato porta alla schermata \textit{\textbf{M07}}\\
+              Bottone   &   GESTISCI MENU &   Quando cliccato porta alla schermata \textit{\textbf{M08}}\\
+              ScrollView  & IL TUO PERSONALE  & Mostra il personale che lavora nel ristorante \\
+              Bottone   &   CREA AVVISO   &   Quando cliccato mostra la schermata \textit{\textbf{M0bho}} \\  
             \end{tblr}
           \end{center}
+
         \newpage
+
         \subsubsection{Schermata di registrazione di un nuovo dipendente}
         \begin{figure}[H]
             \centering
-            \includegraphics[scale=1.5]{assets/Mockup/Mockup_SaveWaiter.png}
-            \caption{\textbf{M07}: Schermata di registrazione di un nuovo dipendente}
-            \label{fig:Mockup_SaveWaiter}
+            \includegraphics[scale=1.5]{assets/Mockup/Mockup_SaveWorker.png}
+            \caption{\textbf{M07}: Schermata di registrazione di un nuovo dipendente}\label{fig:Mockup_SaveWaiter}
         \end{figure}
         \begin{flushleft}
             \textbf{ID} \ \Large{\textit{\textbf{M07}}}
@@ -158,20 +160,20 @@
             \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
             Edit Text   &   NOME    &   Permette di inserire il nome del nuovo dipendente\\
             Edit Text   &   COGNOME   &   Permette di inserire il cognome del nuovo dipendente\\
-            Edit Text   &   PASSWORD    &   Permette di inserire la password temporanea del nuovo dipendente  \\
             Edit Text   &   EMAIL   & Permette di inserire l'email del nuovo dipendente\\
             Edit Text   &   CODICE FISCALE    &   Permette di inserire il codice fiscale del nuovo dipendente \\
-            Spinner &   {Waiter\\ (default)}    &   Permette di inserire il ruolo del nuovo dipendente \\
+            Spinner &   {cameriere\\ (default)}    &   Permette di inserire il ruolo del nuovo dipendente \\
             Bottone &   REGISTRA    &   Quando cliccato, se tutti i dati sono corretti, riporta alla schermata \textit{\textbf{M04}} registrando il nuovo dipendente \\
           \end{tblr}
         \end{center}
+
         \newpage
+
         \subsubsection{Schermata di gestione del menù}
         \begin{figure}[H]
             \centering
             \includegraphics[scale=2.5]{assets/Mockup/Mockup_MenuManager.png}
-            \caption{\textbf{M08}: Schermata di gestione del menù}
-            \label{fig:Mockup_MenuManager}
+            \caption{\textbf{M08}: Schermata di gestione del menù}\label{fig:Mockup_MenuManager}
         \end{figure}
         \begin{flushleft}
             \textbf{ID} \ \Large{\textit{\textbf{M08}}}
@@ -182,6 +184,261 @@
           \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
             \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
             Bottone   &   AGGIUNGI PRODOTTO    &   Quando cliccato porta alla schermata \textit{\textbf{M0?}}\\
-            Edit Text   &   GENERA MENU   &   Permette di generare il menù e salvarlo sul dispositivo in formato PDF\\
+            Edit Text   &   SCARICA MENU   &   Permette di generare il menù e salvarlo sul dispositivo in formato PDF\\
+            Bottone   &   CREA MENU       &   Quando cliccato permette di creare un menu (se non è gia stato creato)
           \end{tblr}
         \end{center}
+
+        \newpage
+
+        \subsubsection{Schermata home per i supervisori}
+          \begin{figure}[H]
+              \centering
+              \includegraphics[scale=2.5]{assets/Mockup/Mockup_HypervisorDash.png}
+              \caption*{\textbf{M09}: Schermata home dei supervisori}\label{fig:Mockup_HypervisorDash}
+          \end{figure}
+
+          \begin{flushleft}
+              \textbf{ID}   \ \Large{\textit{\textbf{M09}}}
+          \end{flushleft}
+
+          \textbf{Componenti}:
+
+          \begin{center}
+              \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
+                \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
+                Bottone   &   STATO ORDINE    &   Quando cliccato porta alla schermata \textit{\textbf{M0bho}} \\
+                Bottone   &   NOTIFICHE       &   Quando cliccato \\ %Inserire cosa fa
+                Bottone   &   ORDINI IN LAVORAZIONE & \\ %Questo non l'ho capito
+                Bottone   &   ESCI    &   Quando cliccato porta alla schermata \textit{\textbf{M10}} \\
+                %TODO: Vedere la barra sotto come rappresentarla
+              \end{tblr}
+          \end{center}
+
+        \newpage
+
+        \subsubsection{Schermata di conferma di logout}
+          \begin{figure}[H]
+            \centering
+            \includegraphics[scale=2]{assets/Mockup/Mockup_ExitDialog.png}
+            \caption*{\textbf{M10}: Schermata di conferma logout}\label{fig:Mockup_ExitDialog}
+          \end{figure}
+
+          \begin{flushleft}
+            \textbf{ID}   \ \Large{\textit{\textbf{M10}}}
+          \end{flushleft}
+
+          \textbf{Componenti}:
+
+          \begin{center}
+            \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
+              \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
+              Bottone         &   SI      &   Quando cliccato porta alla schermata \textit{\textbf{M02}} \\
+              Bottone         &   NO      &   Quando cliccato resta nella schermata corrente \\
+            \end{tblr}
+          \end{center}
+        
+        \newpage
+
+        \subsubsection{Schermata home per i camerieri}
+          \begin{figure}[H]
+            \centering
+            \includegraphics[scale=2]{assets/Mockup/Mockup_WaiterDash.png}
+            \caption*{\textbf{M11}: Schermata home per i camerieri}\label{fig:Mockup_WaiterDash}
+          \end{figure}
+
+          \begin{flushleft}
+            \textbf{ID}   \ \Large{\textit{\textbf{M11}}}
+          \end{flushleft}
+
+          \textbf{Componenti}:
+          
+          \begin{center}
+            \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
+              \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
+              Bottone     &   NUOVO ORDINE    &   Quando cliccato porta alla schermata \textit{\textbf{M19}} \\
+              Bottone     &   STATO ORDINE    &   Quando cliccato porta alla schermata \textit{\textbf{M0bho}} \\
+              % TODO: Vedere la barra sotto come rappresentarla
+            \end{tblr}
+          \end{center}
+
+        \newpage
+
+        \subsubsection{Schermata home per la cucina}
+  
+            \begin{flushleft}
+              \textbf{ID}   \ \Large{\textit{\textbf{M12}}}
+            \end{flushleft}
+  
+            \textbf{Componenti}:
+            
+            \begin{center}
+              \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
+                \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
+  
+              \end{tblr}
+            \end{center}
+
+            \newpage
+
+            \subsubsection{Schermata di visualizzazione del profilo}
+              \begin{figure}[H]
+                \centering
+                \includegraphics[scale=2.5]{assets/Mockup/Mockup_Profile.png}
+                \caption*{\textbf{M13}: Schermata visualizzazione profilo}\label{fig:Mockup_Profile}
+              \end{figure}
+    
+              \begin{flushleft}
+                \textbf{ID}   \ \Large{\textit{\textbf{M13}}}
+              \end{flushleft}
+    
+              \textbf{Componenti}:
+              
+              \begin{center}
+                \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
+                  \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
+                  Bottone     &   CAMBIA PASSWORD   &   Quando cliccato mostra la schermata \textit{\textbf{M14}}  \\
+                  Bottone     &   CAMBIA EMAIL   &   Quando cliccato mostra la schermata \textit{\textbf{M15}}  \\    
+                \end{tblr}
+              \end{center}
+
+              \newpage
+
+              \subsubsection{Schermata di cambio password per gli admin}
+                \begin{figure}[H]
+                  \centering
+                  \includegraphics[scale=2.5]{assets/Mockup/Mockup_AdminChangePass.png}
+                  \caption*{\textbf{M14}: Schermata cambio password admin}\label{fig:Mockup_AdminChangePass}
+                \end{figure}
+      
+                \begin{flushleft}
+                  \textbf{ID}   \ \Large{\textit{\textbf{M14}}}
+                \end{flushleft}
+      
+                \textbf{Componenti}:
+                
+                \begin{center}
+                  \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
+                    \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
+                    Edit Text     &   NUOVA PASSWORD    &   Permette di inserire la nuova password per l'account dell'admin   \\
+                    Bottone     &   ANNULLA   &   Quando cliccato torna alla schermata \textit{\textbf{M13}} senza effettuare modifiche  \\
+                    Bottone     &   INVIA   &   Quando cliccato torna alla schermata \textit{\textbf{M13}} modificando la password dell'account  \\
+                  \end{tblr}
+                \end{center}
+
+                \newpage
+
+                \subsubsection{Schermata di cambio email per gli admin}
+                  \begin{figure}[H]
+                    \centering
+                    \includegraphics[scale=2.5]{assets/Mockup/Mockup_AdminChangeMail.png}
+                    \caption*{\textbf{M15}: Schermata cambio email admin}\label{fig:Mockup_AdminChangeMail}
+                  \end{figure}
+        
+                  \begin{flushleft}
+                    \textbf{ID}   \ \Large{\textit{\textbf{M15}}}
+                  \end{flushleft}
+        
+                  \textbf{Componenti}:
+                  
+                  \begin{center}
+                    \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
+                      \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
+                      Edit Text   &   NUOVA EMAIL   &   Permette di inserire la nuova email per l'account dell'admin  \\
+                      Bottone     &   ANNULLA   &   Quando cliccato torna alla schermata \textit{\textbf{M13}} senza effettuare modifiche  \\
+                      Bottone     &   INVIA   &   Quando cliccato torna alla schermata \textit{\textbf{M13}} modificando l'email dell'account  \\
+                    \end{tblr}
+                  \end{center}
+
+                \newpage
+
+                \subsubsection{Schermata di cambio password per i dipendenti al primo accesso}
+                    \begin{figure}[H]
+                      \centering
+                      \includegraphics[scale=2]{assets/Mockup/Mockup_WorkerChangePass.png}
+                      \caption*{\textbf{M16}: Schermata cambio password dipendenti}\label{fig:Mockup_WorkerChangePass}
+                    \end{figure}
+          
+                    \begin{flushleft}
+                      \textbf{ID}   \ \Large{\textit{\textbf{M16}}}
+                    \end{flushleft}
+          
+                    \textbf{Componenti}:
+                    
+                    \begin{center}
+                      \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
+                        \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
+                        Edit Text   &   NUOVA PASSWORD   &   Permette di inserire la nuova password per l'account del dipendente  \\
+                        Bottone     &   ANNULLA   &   Quando cliccato torna alla schermata \textit{\textbf{M02}} senza effettuare modifiche  \\
+                        Bottone     &   INVIA   &   Quando cliccato porta alla schermata \textit{\textbf{M09}} se è supervisore, \textit{\textbf{M11}} se è cameriere, \textit{\textbf{M12}} se è un account di cucina, modificando l'email dell'account  \\
+                      \end{tblr}
+                    \end{center}
+
+                  \newpage
+
+                  \subsubsection{Schermata di creazione degli avvisi}
+                      \begin{figure}[H]
+                        \centering
+                        \includegraphics[scale=2.5]{assets/Mockup/Mockup_SaveAdv.png}
+                        \caption*{\textbf{M17}: Schermata creazione avvisi}\label{fig:Mockup_SaveAdv}
+                      \end{figure}
+            
+                      \begin{flushleft}
+                        \textbf{ID}   \ \Large{\textit{\textbf{M17}}}
+                      \end{flushleft}
+            
+                      \textbf{Componenti}:
+
+                      \begin{center}
+                        \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
+                          \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
+                          Edit Text     &   AVVISO    &   Permette di inserire il testo dell'avviso \\
+                          Bottone       &   SEND      &   Quando cliccato torna alla schermata \textit{\textbf{M06}} inviando l'avviso \\
+                        \end{tblr}
+                      \end{center}
+
+                    \newpage
+
+                    \subsubsection{Schermata di aggiunta piatti al menù}
+                        \begin{figure}[H]
+                          \centering
+                          \includegraphics[scale=2]{assets/Mockup/Mockup_AddPlate.png}
+                          \caption*{\textbf{M18}: Schermata aggiunta piatti al menù}\label{fig:Mockup_AddPlate}
+                        \end{figure}
+              
+                        \begin{flushleft}
+                          \textbf{ID}   \ \Large{\textit{\textbf{M18}}}
+                        \end{flushleft}
+              
+                        \textbf{Componenti}:
+                        
+                        \begin{center}
+                          \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
+                            \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
+              
+                          \end{tblr}
+                        \end{center}
+
+                      \newpage
+
+                    \subsubsection{Schermata di aggiunta ordini}
+                          \begin{figure}[H]
+                            \centering
+                            \includegraphics[scale=2]{assets/Mockup/Mockup_AddOrder.png}
+                            \caption*{\textbf{M19}: Schermata aggiunta ordini}\label{fig:Mockup_WaiterDash}
+                          \end{figure}
+                
+                          \begin{flushleft}
+                            \textbf{ID}   \ \Large{\textit{\textbf{M19}}}
+                          \end{flushleft}
+                
+                          \textbf{Componenti}:
+                          
+                          \begin{center}
+                            \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
+                              \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
+                              ScrollView      &   PIATTI    &   Visualizza la lista dei piatti del menù del ristorante, dove ogni piatto si può cliccare per aggiungerlo all'ordine \\
+                              Bottone         &   SALVA     &   Quando cliccato porta alla schermata \textit{textbf{M11}} inviando l'ordine \\
+                              Bottone         &   INDIETRO  &   Quando cliccato porta alla schermata \textit{textbf{M11}} senza effettuare nessuna azione \\
+                            \end{tblr}
+                          \end{center}
