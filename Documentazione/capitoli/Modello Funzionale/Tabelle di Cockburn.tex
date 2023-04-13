@@ -4,7 +4,7 @@
     \end{flushleft}
 
     \begin{center}
-      \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth,  rowhead=1}
+      \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1}={marroneApp!60},colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth,  rowhead=1}
         \textbf{Use Case \#1} & \SetCell[c=3]{c} \textbf{Aggiunta ristorante} \\
         \textbf{Goal in Context} & \SetCell[c=3]{l}{Un admin (proprietario di uno o più ristoranti)\\ vuole aggiungere uno di questi nell' app Ratatuille.}\\
 
@@ -17,7 +17,7 @@
         \textbf{Primary Actor}  & \SetCell[c=3]{c}{Amministratore}\\
         \textbf{Trigger}  & \SetCell[c=3]{c}{Preme il pulsante "Aggiungi"}\\
 
-        \SetCell[r=4]{c}\textbf{Description}  & Step & UserAction & System\\
+        \SetCell[r=5]{c}\textbf{Description}  & Step & UserAction & System\\
                                               & 1    & {L'amministratore preme sul tasto \textit{"AGGIUNGI RISTORANTE"}\\ sulla schermata \textbf{\textit{M04}}} & \\
                                               & 2    &       & {Mostra la schermata \textbf{\textit{M06}}}\\
                                               & 3    &  {Compila i campi necessari per la registrazione del proprio ristorante e preme sul tasto "SALVA" per aggiungere il Ristorante}     & \\
@@ -35,27 +35,27 @@
 
         \SetCell[r=2]{c}{\textbf{Extension \#4}\\ L'amministratore ha aggiunto un nome troppo corto}
                                                   & Step & UserAction & System\\
-                                                  & 4d   &  & {Mostra il messaggio di errore di fianco al campo "Nome" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{3} dello scenario principale} \\
+                                                  & 4d   &  & {Mostra il messaggio di errore di fianco al campo "Nome" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{2} dello scenario principale} \\
 
         \SetCell[r=2]{c}{\textbf{Extension \#5}\\ L'amministratore ha aggiunto un numero di coperti non valido}
                                                   & Step & UserAction & System\\
-                                                  & 4e   &  & {Mostra il messaggio di errore di fianco al campo "Numero di coperti" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{3} dello scenario principale} \\
+                                                  & 4e   &  & {Mostra il messaggio di errore di fianco al campo "Numero di coperti" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{2} dello scenario principale} \\
 
         \SetCell[r=2]{c}{\textbf{Extension \#6}\\ L'amministratore ha aggiunto un indirizzo troppo corto}
                                                   & Step & UserAction & System\\
-                                                  & 4f   &  & {Mostra il messaggio di errore di fianco al campo "Indirizzo" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{3} dello scenario principale} \\
+                                                  & 4f   &  & {Mostra il messaggio di errore di fianco al campo "Indirizzo" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{2} dello scenario principale} \\
 
         \SetCell[r=2]{c}{\textbf{Extension \#7}\\ L'amministratore ha aggiunto un numero di telefono non valido} 
                                                   & Step & UserAction & System\\*
-                                                  & 4g   &  & {Mostra il messaggio di errore di fianco al campo "Numero di telefono" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{3} dello scenario principale} \\
+                                                  & 4g   &  & {Mostra il messaggio di errore di fianco al campo "Numero di telefono" della schermata \textbf{\textit{{M0boh}}} restando allo step \textbf{2} dello scenario principale} \\
 
         %%% Subvariations
-        \SetCell[r=3]{c}{\textbf{Subvariation \#1} \\ L' amministratore torna indietro completando solo parzialmente i campi}  & Step & UserAction & System\\
+        \SetCell[r=4]{c}{\textbf{Subvariation \#1} \\ L' amministratore torna indietro completando solo parzialmente i campi}  & Step & UserAction & System\\
                                                                                                                              & 1 & & Mostra la schermata \textbf{\textit{M0boh}}\\
                                                                                                                              & 2 & {Preme su "SI"} & \\
                                                                                                                              & 3 & & Torna alla schermata \textbf{\textit{M04}}\\
 
-        \SetCell[r=3]{c}{\textbf{Subvariation \#2} \\ L' amministratore inizialmente vuole tornare indietro completando solo parzialmente i campi ma cambia idea}
+        \SetCell[r=4]{c}{\textbf{Subvariation \#2} \\ L' amministratore inizialmente vuole tornare indietro completando solo parzialmente i campi ma cambia idea}
                                                         & Step & UserAction & System\\
                                                         & 1 & & Mostra la schermata \textbf{\textit{M0boh}}\\
                                                         & 2 & {Preme su "NO"} & \\
@@ -64,14 +64,11 @@
         %\textbf{Notes}  & \SetCell[c=3]{c}{\textcolor{red}{TODO}}\\
       \end{longtblr}
       \end{center}
-         
-         
 
-        % BIAGIO: tornato, Valentino sei un santo
         \newpage
         
         \begin{center}
-        \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth}
+        \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1}={marroneApp!60}, colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth}
           \textbf{Use Case \#2} & \SetCell[c=3]{c} \textbf{Aggiunta piatto al menù} \\
           \textbf{Goal in Context} & \SetCell[c=3]{l}{Un admin (proprietario di uno o più ristoranti) vuole aggiungere un piatto \\in un menu di un suo ristorante}\\
         
