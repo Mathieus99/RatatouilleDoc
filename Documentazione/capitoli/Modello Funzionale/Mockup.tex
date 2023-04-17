@@ -147,7 +147,7 @@
         \subsubsection{Schermata di registrazione di un nuovo dipendente}
         \begin{figure}[H]
             \centering
-            \includegraphics[scale=1.5]{assets/Mockup/Mockup_SaveWorker.png}
+            \includegraphics[scale=1.8]{assets/Mockup/Mockup_SaveWorker.png}
             \caption{\textbf{M07}: Schermata di registrazione di un nuovo dipendente}\label{fig:Mockup_SaveWaiter}
         \end{figure}
         \begin{flushleft}
@@ -413,10 +413,19 @@
                         \textbf{Componenti}:
                         
                         \begin{center}
-                          \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
+                          \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth, rowhead=1}
                             \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
-              
-                          \end{tblr}
+                            EditText        &   NOME PRODOTTO   &   Permette di inserire il titolo del prodotto da inserire \\
+                            EditText        &   DESCRIZIONE     &   Permette di inserire la descrizione del prodotto da Inserire  \\
+                            EditText        &   ALLERGENI       &   Permette di inserire gli allergeni contenuti nel prodotto \\
+                            EditText        &   PREZZO          &   Permette di inserire il prezzo del prodotto \\
+                            Spinner         &   TIPO            &   Permette di inserire il tipo di portata (antipasto, primo, ...) \\
+                            Spinner         &   TIPO DI ALIMENTO &  Permette di inserire il tipo di alimento (carne, pesce, ...)  \\
+                            Bottone         &   CERCA           &   Quando cliccato, ricerca il prodotto scritto nel database di OpenFoodFacts  \\
+                            Bottone         &   OK              &   Quando cliccato, ritorna alla schermata \textit{\textbf{M}} salvando nel menu il prodotto \\
+                            Bottone         &   ANNULLA         &   Quando cliccate, ritorna alla schermata \textit{\textbf{M}} senza salvare il prodotto \\  
+                            Selettore       &   PRECONFEZIONATO &   Se selezionato, indica che l'oggetto è di tipo preconfezionato(bibita, ...) \\
+                          \end{longtblr}
                         \end{center}
 
                       \newpage

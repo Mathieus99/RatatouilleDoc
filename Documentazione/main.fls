@@ -1319,13 +1319,6 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT assets/Logo1.png
@@ -1615,6 +1608,10 @@ INPUT ./assets/Mockup/Mockup_AddPlate.png
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT assets/Logo1.png
+INPUT ./assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT assets/Logo1.png

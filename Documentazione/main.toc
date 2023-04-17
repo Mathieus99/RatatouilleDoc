@@ -10,25 +10,25 @@
 \contentsline {subsubsection}{\numberline {2.1.5}Tutti}{9}{subsubsection.2.1.5}%
 \contentsline {subsection}{\numberline {2.2}Requisiti Non Funzionali}{10}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Requisiti di Dominio}{10}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Modellazione dei casi d'uso}{12}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Mock-up dell'applicazione}{18}{subsection.2.5}%
-\contentsline {subsubsection}{\numberline {2.5.1}Homepage dell'applicazione}{18}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}Schermata di accesso nel sistema}{19}{subsubsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.3}Schermata di registrazione nel sistema}{20}{subsubsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.4}Schermata home per gli admin}{21}{subsubsection.2.5.4}%
-\contentsline {subsubsection}{\numberline {2.5.5}Schermata di registrazione di un nuovo ristorante}{22}{subsubsection.2.5.5}%
-\contentsline {subsubsection}{\numberline {2.5.6}Schermata di modifica di un ristorante}{23}{subsubsection.2.5.6}%
-\contentsline {subsubsection}{\numberline {2.5.7}Schermata di registrazione di un nuovo dipendente}{24}{subsubsection.2.5.7}%
-\contentsline {subsubsection}{\numberline {2.5.8}Schermata di gestione del menù}{25}{subsubsection.2.5.8}%
-\contentsline {subsubsection}{\numberline {2.5.9}Schermata home per i supervisori}{26}{subsubsection.2.5.9}%
-\contentsline {subsubsection}{\numberline {2.5.10}Schermata di conferma di logout}{27}{subsubsection.2.5.10}%
-\contentsline {subsubsection}{\numberline {2.5.11}Schermata home per i camerieri}{28}{subsubsection.2.5.11}%
-\contentsline {subsubsection}{\numberline {2.5.12}Schermata home per la cucina}{29}{subsubsection.2.5.12}%
-\contentsline {subsubsection}{\numberline {2.5.13}Schermata di visualizzazione del profilo}{30}{subsubsection.2.5.13}%
-\contentsline {subsubsection}{\numberline {2.5.14}Schermata di cambio password per gli admin}{31}{subsubsection.2.5.14}%
-\contentsline {subsubsection}{\numberline {2.5.15}Schermata di cambio email per gli admin}{32}{subsubsection.2.5.15}%
-\contentsline {subsubsection}{\numberline {2.5.16}Schermata di cambio password per i dipendenti al primo accesso}{33}{subsubsection.2.5.16}%
-\contentsline {subsubsection}{\numberline {2.5.17}Schermata di creazione degli avvisi}{34}{subsubsection.2.5.17}%
-\contentsline {subsubsection}{\numberline {2.5.18}Schermata di aggiunta piatti al menù}{35}{subsubsection.2.5.18}%
+\contentsline {subsection}{\numberline {2.4}Modellazione dei casi d'uso}{11}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Mock-up dell'applicazione}{17}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Homepage dell'applicazione}{17}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Schermata di accesso nel sistema}{18}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Schermata di registrazione nel sistema}{19}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Schermata home per gli admin}{20}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.5.5}Schermata di registrazione di un nuovo ristorante}{21}{subsubsection.2.5.5}%
+\contentsline {subsubsection}{\numberline {2.5.6}Schermata di modifica di un ristorante}{22}{subsubsection.2.5.6}%
+\contentsline {subsubsection}{\numberline {2.5.7}Schermata di registrazione di un nuovo dipendente}{23}{subsubsection.2.5.7}%
+\contentsline {subsubsection}{\numberline {2.5.8}Schermata di gestione del menù}{24}{subsubsection.2.5.8}%
+\contentsline {subsubsection}{\numberline {2.5.9}Schermata home per i supervisori}{25}{subsubsection.2.5.9}%
+\contentsline {subsubsection}{\numberline {2.5.10}Schermata di conferma di logout}{26}{subsubsection.2.5.10}%
+\contentsline {subsubsection}{\numberline {2.5.11}Schermata home per i camerieri}{27}{subsubsection.2.5.11}%
+\contentsline {subsubsection}{\numberline {2.5.12}Schermata home per la cucina}{28}{subsubsection.2.5.12}%
+\contentsline {subsubsection}{\numberline {2.5.13}Schermata di visualizzazione del profilo}{29}{subsubsection.2.5.13}%
+\contentsline {subsubsection}{\numberline {2.5.14}Schermata di cambio password per gli admin}{30}{subsubsection.2.5.14}%
+\contentsline {subsubsection}{\numberline {2.5.15}Schermata di cambio email per gli admin}{31}{subsubsection.2.5.15}%
+\contentsline {subsubsection}{\numberline {2.5.16}Schermata di cambio password per i dipendenti al primo accesso}{32}{subsubsection.2.5.16}%
+\contentsline {subsubsection}{\numberline {2.5.17}Schermata di creazione degli avvisi}{33}{subsubsection.2.5.17}%
+\contentsline {subsubsection}{\numberline {2.5.18}Schermata di aggiunta piatti al menù}{34}{subsubsection.2.5.18}%
 \contentsline {subsubsection}{\numberline {2.5.19}Schermata di aggiunta ordini}{36}{subsubsection.2.5.19}%
 \contentsline {subsection}{\numberline {2.6}Modellazione dei casi d'uso}{37}{subsection.2.6}%
