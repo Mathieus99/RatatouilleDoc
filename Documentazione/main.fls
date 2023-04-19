@@ -1430,11 +1430,11 @@ INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
 INPUT capitoli/Documento dei requisiti software/Mockup.tex
 INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
 INPUT capitoli/Documento dei requisiti software/Mockup.tex
-INPUT ./assets/Mockup/Mockup_Homepage.png
-INPUT ./assets/Mockup/Mockup_Homepage.png
-INPUT assets/Mockup/Mockup_Homepage.png
-INPUT ./assets/Mockup/Mockup_Homepage.png
-INPUT ./assets/Mockup/Mockup_Homepage.png
+INPUT ./assets/Mockup/Mockup_HomePage.png
+INPUT ./assets/Mockup/Mockup_HomePage.png
+INPUT assets/Mockup/Mockup_HomePage.png
+INPUT ./assets/Mockup/Mockup_HomePage.png
+INPUT ./assets/Mockup/Mockup_HomePage.png
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnti12.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnbxti10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm

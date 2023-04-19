@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.12)  19 APR 2023 11:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.12)  19 APR 2023 22:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1389,11 +1389,11 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 89.
 \openout2 = `"capitoli/Documento dei requisiti software/Mockup.aux"'.
 
  (./capitoli/Documento dei requisiti software/Mockup.tex
-<assets/Mockup/Mockup_Homepage.png, id=309, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_Homepage.png, id=309, 409.53pt x 730.73pt>
 File: assets/Mockup/Mockup_Homepage.png Graphic file (type png)
 <use assets/Mockup/Mockup_Homepage.png>
 Package pdftex.def Info: assets/Mockup/Mockup_Homepage.png  used on input line 8.
-(pdftex.def)             Requested size: 281.25003pt x 368.57608pt.
+(pdftex.def)             Requested size: 204.7645pt x 365.3641pt.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1410,12 +1410,12 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 25.
 
 
 
- <./assets/Mockup/Mockup_Homepage.png>]
-<assets/Mockup/Mockup_Accesso.png, id=317, 112.5003pt x 147.4308pt>
+ <./assets/Mockup/Mockup_HomePage.png>]
+<assets/Mockup/Mockup_Accesso.png, id=317, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_Accesso.png Graphic file (type png)
 <use assets/Mockup/Mockup_Accesso.png>
 Package pdftex.def Info: assets/Mockup/Mockup_Accesso.png  used on input line 30.
-(pdftex.def)             Requested size: 281.25003pt x 368.57608pt.
+(pdftex.def)             Requested size: 200.7495pt x 361.3491pt.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1429,11 +1429,11 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 48.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [22 <./assets/Mockup/Mockup_Accesso.png>]
-<assets/Mockup/Mockup_Register.png, id=325, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_Register.png, id=325, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_Register.png Graphic file (type png)
 <use assets/Mockup/Mockup_Register.png>
 Package pdftex.def Info: assets/Mockup/Mockup_Register.png  used on input line 52.
-(pdftex.def)             Requested size: 168.75002pt x 221.14565pt.
+(pdftex.def)             Requested size: 100.37474pt x 180.67455pt.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1447,11 +1447,11 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 75.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [23 <./assets/Mockup/Mockup_Register.png>]
-<assets/Mockup/Mockup_AdminDash.png, id=334, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_AdminDash.png, id=335, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_AdminDash.png Graphic file (type png)
 <use assets/Mockup/Mockup_AdminDash.png>
 Package pdftex.def Info: assets/Mockup/Mockup_AdminDash.png  used on input line 79.
-(pdftex.def)             Requested size: 225.00003pt x 294.86087pt.
+(pdftex.def)             Requested size: 140.5271pt x 252.94878pt.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1465,11 +1465,11 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 98.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [24 <./assets/Mockup/Mockup_AdminDash.png>]
-<assets/Mockup/Mockup_SaveResturant.png, id=342, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_SaveResturant.png, id=344, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_SaveResturant.png Graphic file (type png)
 <use assets/Mockup/Mockup_SaveResturant.png>
 Package pdftex.def Info: assets/Mockup/Mockup_SaveResturant.png  used on input line 103.
-(pdftex.def)             Requested size: 225.00003pt x 294.86087pt.
+(pdftex.def)             Requested size: 140.5271pt x 252.94878pt.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1483,11 +1483,11 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 121.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [25 <./assets/Mockup/Mockup_SaveResturant.png>]
-<assets/Mockup/Mockup_ResturantDash.png, id=351, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_ResturantDash.png, id=353, 112.5003pt x 147.4308pt>
 File: assets/Mockup/Mockup_ResturantDash.png Graphic file (type png)
 <use assets/Mockup/Mockup_ResturantDash.png>
 Package pdftex.def Info: assets/Mockup/Mockup_ResturantDash.png  used on input line 125.
-(pdftex.def)             Requested size: 225.00003pt x 294.86087pt.
+(pdftex.def)             Requested size: 56.25pt x 73.71521pt.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1501,11 +1501,11 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 145.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [26 <./assets/Mockup/Mockup_ResturantDash.png>]
-<assets/Mockup/Mockup_SaveWorker.png, id=359, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_SaveWorker.png, id=361, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_SaveWorker.png Graphic file (type png)
 <use assets/Mockup/Mockup_SaveWorker.png>
 Package pdftex.def Info: assets/Mockup/Mockup_SaveWorker.png  used on input line 150.
-(pdftex.def)             Requested size: 202.50037pt x 265.37523pt.
+(pdftex.def)             Requested size: 140.5271pt x 252.94878pt.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1519,11 +1519,11 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 170.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [27 <./assets/Mockup/Mockup_SaveWorker.png>]
-<assets/Mockup/Mockup_MenuManager.png, id=367, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_MenuManager.png, id=369, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_MenuManager.png Graphic file (type png)
 <use assets/Mockup/Mockup_MenuManager.png>
 Package pdftex.def Info: assets/Mockup/Mockup_MenuManager.png  used on input line 175.
-(pdftex.def)             Requested size: 281.25003pt x 368.57608pt.
+(pdftex.def)             Requested size: 200.7495pt x 361.3491pt.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1537,7 +1537,7 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 192.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [28 <./assets/Mockup/Mockup_MenuManager.png>]
-<assets/Mockup/Mockup_HypervisorDash.png, id=375, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_HypervisorDash.png, id=377, 112.5003pt x 147.4308pt>
 File: assets/Mockup/Mockup_HypervisorDash.png Graphic file (type png)
 <use assets/Mockup/Mockup_HypervisorDash.png>
 Package pdftex.def Info: assets/Mockup/Mockup_HypervisorDash.png  used on input line 197.
@@ -1555,7 +1555,7 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 218.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [29 <./assets/Mockup/Mockup_HypervisorDash.png>]
-<assets/Mockup/Mockup_ExitDialog.png, id=383, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_ExitDialog.png, id=385, 112.5003pt x 147.4308pt>
 File: assets/Mockup/Mockup_ExitDialog.png Graphic file (type png)
 <use assets/Mockup/Mockup_ExitDialog.png>
 Package pdftex.def Info: assets/Mockup/Mockup_ExitDialog.png  used on input line 223.
@@ -1573,7 +1573,7 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 241.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [30 <./assets/Mockup/Mockup_ExitDialog.png>]
-<assets/Mockup/Mockup_WaiterDash.png, id=391, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_WaiterDash.png, id=393, 112.5003pt x 147.4308pt>
 File: assets/Mockup/Mockup_WaiterDash.png Graphic file (type png)
 <use assets/Mockup/Mockup_WaiterDash.png>
 Package pdftex.def Info: assets/Mockup/Mockup_WaiterDash.png  used on input line 246.
@@ -1604,7 +1604,7 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 282.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [32]
-<assets/Mockup/Mockup_Profile.png, id=405, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_Profile.png, id=407, 112.5003pt x 147.4308pt>
 File: assets/Mockup/Mockup_Profile.png Graphic file (type png)
 <use assets/Mockup/Mockup_Profile.png>
 Package pdftex.def Info: assets/Mockup/Mockup_Profile.png  used on input line 287.
@@ -1622,7 +1622,7 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 305.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [33 <./assets/Mockup/Mockup_Profile.png>]
-<assets/Mockup/Mockup_AdminChangePass.png, id=413, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_AdminChangePass.png, id=415, 112.5003pt x 147.4308pt>
 File: assets/Mockup/Mockup_AdminChangePass.png Graphic file (type png)
 <use assets/Mockup/Mockup_AdminChangePass.png>
 Package pdftex.def Info: assets/Mockup/Mockup_AdminChangePass.png  used on input line 310.
@@ -1640,7 +1640,7 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 329.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [34 <./assets/Mockup/Mockup_AdminChangePass.png>]
-<assets/Mockup/Mockup_AdminChangeMail.png, id=421, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_AdminChangeMail.png, id=423, 112.5003pt x 147.4308pt>
 File: assets/Mockup/Mockup_AdminChangeMail.png Graphic file (type png)
 <use assets/Mockup/Mockup_AdminChangeMail.png>
 Package pdftex.def Info: assets/Mockup/Mockup_AdminChangeMail.png  used on input line 334.
@@ -1658,7 +1658,7 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 353.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [35 <./assets/Mockup/Mockup_AdminChangeMail.png>]
-<assets/Mockup/Mockup_WorkerChangePass.png, id=429, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_WorkerChangePass.png, id=431, 112.5003pt x 147.4308pt>
 File: assets/Mockup/Mockup_WorkerChangePass.png Graphic file (type png)
 <use assets/Mockup/Mockup_WorkerChangePass.png>
 Package pdftex.def Info: assets/Mockup/Mockup_WorkerChangePass.png  used on input line 358.
@@ -1676,7 +1676,7 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 377.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [36 <./assets/Mockup/Mockup_WorkerChangePass.png>]
-<assets/Mockup/Mockup_SaveAdv.png, id=437, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_SaveAdv.png, id=440, 112.5003pt x 147.4308pt>
 File: assets/Mockup/Mockup_SaveAdv.png Graphic file (type png)
 <use assets/Mockup/Mockup_SaveAdv.png>
 Package pdftex.def Info: assets/Mockup/Mockup_SaveAdv.png  used on input line 382.
@@ -1694,7 +1694,7 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 400.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [37 <./assets/Mockup/Mockup_SaveAdv.png>]
-<assets/Mockup/Mockup_AddPlate.png, id=447, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_AddPlate.png, id=449, 112.5003pt x 147.4308pt>
 File: assets/Mockup/Mockup_AddPlate.png Graphic file (type png)
 <use assets/Mockup/Mockup_AddPlate.png>
 Package pdftex.def Info: assets/Mockup/Mockup_AddPlate.png  used on input line 405.
@@ -1717,7 +1717,7 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 431.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [39]
-<assets/Mockup/Mockup_AddOrder.png, id=461, 112.5003pt x 147.4308pt>
+<assets/Mockup/Mockup_AddOrder.png, id=463, 112.5003pt x 147.4308pt>
 File: assets/Mockup/Mockup_AddOrder.png Graphic file (type png)
 <use assets/Mockup/Mockup_AddOrder.png>
 Package pdftex.def Info: assets/Mockup/Mockup_AddOrder.png  used on input line 436.
@@ -1745,18 +1745,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B950D3EC87F4E5AF31B13D615378AAEE;7145.
  ) 
 Here is how much of TeX's memory you used:
- 24053 strings out of 476017
- 488927 string characters out of 5793766
+ 24055 strings out of 476017
+ 488941 string characters out of 5793766
  1910660 words of memory out of 5000000
  44019 multiletter control sequences out of 15000+600000
  595676 words of font info for 244 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,24n,116p,566b,1515s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnbxti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vntt8.pfb>
-Output written on main.pdf (40 pages, 2032392 bytes).
+Output written on main.pdf (40 pages, 1840753 bytes).
 PDF statistics:
- 539 PDF objects out of 1000 (max. 8388607)
- 422 compressed objects within 5 object streams
- 103 named destinations out of 1000 (max. 500000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 424 compressed objects within 5 object streams
+ 105 named destinations out of 1000 (max. 500000)
  390 words of extra memory for PDF output out of 10000 (max. 10000000)
 
