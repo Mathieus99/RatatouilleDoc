@@ -18,7 +18,7 @@
           \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
             \textbf{Tipo}  &   \textbf{Nome} & \textbf{Funzione} \\
             Bottone        &   ACCEDI        & Quando cliccato porta alla schermata \textit{\textbf{M02}} \\
-            Bottone        &    REGISTRATI   & Quando cliccato porta alla schermata \textit{\textbf{M03}} \\
+            Bottone        &   REGISTRATI   & Quando cliccato porta alla schermata \textit{\textbf{M03}}  \\
           \end{tblr}
         \end{center}
         
@@ -40,8 +40,8 @@
               \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
                 \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
                 Edit Text       &   EMAIL &   Permette l'inserimento dell'email dell'utente \\
-                Edit Text & PASSWORD  &  Permette l'inserimento della password dell'utente  \\
-                Bottone &   ENTRA   & Quando cliccato porta alla schermata \textit{\textbf{M04}} se admin, \textit{\textbf{M0?}} se dipendente \\
+                Edit Text       &   PASSWORD  &  Permette l'inserimento della password dell'utente  \\
+                Bottone         &   ENTRA   & Quando cliccato porta alla schermata \textit{\textbf{M04}} se admin, \textit{\textbf{M09}} se supervisore, \textit{\textbf{M11}} se cameriere,   \\
               \end{tblr}
             \end{center}
 
@@ -90,8 +90,8 @@
                 ScrollView &   I TUOI RISTORANTI    &   Visualizza ed eventualmente permette la modifica dei ristoranti registrati\\
                 Bottone    &   AGGIUNGI RISTORANTE  &   Quando cliccato porta alla schermata \textit{\textbf{M05}} \\
                 Bottone    &   MODIFICA   &   Quando cliccato porta alla schermata \textit{\textbf{M06}} \\
-                Bottone    &   PROFILO    &   Quando cliccato porta alla schermata \textit{\textbf{M0bho}} \\
-                Bottone    &   ESCI       &   Quando cliccato mostra la schermata \textit{\textbf{M0bho}} \\
+                Bottone    &   PROFILO    &   Quando cliccato porta alla schermata \textit{\textbf{M13}} \\
+                Bottone    &   ESCI       &   Quando cliccato mostra la schermata \textit{\textbf{M10}} \\
                 Bottone    &   STATISTICHE &  Quando cliccato porta alla schermata \textit{\textbf{M0bho}} \\
                 \end{tblr}
             \end{center}
@@ -138,7 +138,7 @@
               Bottone   &   AGGIUNGI DIPENDENTE &   Quando cliccato porta alla schermata \textit{\textbf{M07}}\\
               Bottone   &   GESTISCI MENU &   Quando cliccato porta alla schermata \textit{\textbf{M08}}\\
               ScrollView  & IL TUO PERSONALE  & Mostra il personale che lavora nel ristorante \\
-              Bottone   &   CREA AVVISO   &   Quando cliccato mostra la schermata \textit{\textbf{M0bho}} \\  
+              Bottone   &   CREA AVVISO   &   Quando cliccato mostra la schermata \textit{\textbf{M17}} \\  
             \end{tblr}
           \end{center}
 
@@ -183,7 +183,7 @@
         \begin{center}
           \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
             \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
-            Bottone   &   AGGIUNGI PRODOTTO    &   Quando cliccato porta alla schermata \textit{\textbf{M0?}}\\
+            Bottone   &   AGGIUNGI PRODOTTO    &   Quando cliccato porta alla schermata \textit{\textbf{M18}}\\
             Edit Text   &   SCARICA MENU   &   Permette di generare il menù e salvarlo sul dispositivo in formato PDF\\
             Bottone   &   CREA MENU       &   Quando cliccato permette di creare un menu (se non è gia stato creato)
           \end{tblr}
@@ -422,8 +422,8 @@
                             Spinner         &   TIPO            &   Permette di inserire il tipo di portata (antipasto, primo, ...) \\
                             Spinner         &   TIPO DI ALIMENTO &  Permette di inserire il tipo di alimento (carne, pesce, ...)  \\
                             Bottone         &   CERCA           &   Quando cliccato, ricerca il prodotto scritto nel database di OpenFoodFacts  \\
-                            Bottone         &   OK              &   Quando cliccato, ritorna alla schermata \textit{\textbf{M}} salvando nel menu il prodotto \\
-                            Bottone         &   ANNULLA         &   Quando cliccate, ritorna alla schermata \textit{\textbf{M}} senza salvare il prodotto \\  
+                            Bottone         &   OK              &   Quando cliccato, ritorna alla schermata \textit{\textbf{M08}} salvando nel menu il prodotto \\
+                            Bottone         &   ANNULLA         &   Quando cliccate, ritorna alla schermata \textit{\textbf{M08}} senza salvare il prodotto \\  
                             Selettore       &   PRECONFEZIONATO &   Se selezionato, indica che l'oggetto è di tipo preconfezionato(bibita, ...) \\
                           \end{longtblr}
                         \end{center}

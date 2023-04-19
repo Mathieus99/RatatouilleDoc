@@ -1041,18 +1041,18 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
 INPUT ./main.aux
 INPUT main.aux
 INPUT main.aux
-INPUT ./capitoli/Modello Funzionale/Requisiti.aux
-INPUT capitoli/Modello Funzionale/Requisiti.aux
-INPUT capitoli/Modello Funzionale/Requisiti.aux
-INPUT ./capitoli/Modello Funzionale/UseCaseDiagram.aux
-INPUT capitoli/Modello Funzionale/UseCaseDiagram.aux
-INPUT capitoli/Modello Funzionale/UseCaseDiagram.aux
-INPUT ./capitoli/Modello Funzionale/Mockup.aux
-INPUT capitoli/Modello Funzionale/Mockup.aux
-INPUT capitoli/Modello Funzionale/Mockup.aux
-INPUT ./capitoli/Modello Funzionale/Tabelle di Cockburn.aux
-INPUT capitoli/Modello Funzionale/Tabelle di Cockburn.aux
-INPUT capitoli/Modello Funzionale/Tabelle di Cockburn.aux
+INPUT ./capitoli/Documento dei requisiti software/Requisiti.aux
+INPUT capitoli/Documento dei requisiti software/Requisiti.aux
+INPUT capitoli/Documento dei requisiti software/Requisiti.aux
+INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.aux
+INPUT capitoli/Documento dei requisiti software/UseCaseDiagram.aux
+INPUT capitoli/Documento dei requisiti software/UseCaseDiagram.aux
+INPUT ./capitoli/Documento dei requisiti software/Tabelle di Cockburn.aux
+INPUT capitoli/Documento dei requisiti software/Tabelle di Cockburn.aux
+INPUT capitoli/Documento dei requisiti software/Tabelle di Cockburn.aux
+INPUT ./capitoli/Documento dei requisiti software/Mockup.aux
+INPUT capitoli/Documento dei requisiti software/Mockup.aux
+INPUT capitoli/Documento dei requisiti software/Mockup.aux
 OUTPUT main.aux
 INPUT c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1189,42 +1189,23 @@ INPUT ./assets/Logo1.png
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnr12.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnti10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnbx12.tfm
-INPUT ./capitoli/Modello Funzionale/Requisiti.tex
-INPUT ./capitoli/Modello Funzionale/Requisiti.tex
-INPUT ./capitoli/Modello Funzionale/Requisiti.tex
+INPUT ./capitoli/Documento dei requisiti software/Requisiti.tex
+INPUT ./capitoli/Documento dei requisiti software/Requisiti.tex
+INPUT ./capitoli/Documento dei requisiti software/Requisiti.tex
 INPUT ./assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-OUTPUT capitoli/Modello Funzionale/Requisiti.aux
+OUTPUT capitoli/Documento dei requisiti software/Requisiti.aux
 INPUT ./assets/Logo1.png
-INPUT ./capitoli/Modello Funzionale/Requisiti.tex
-INPUT capitoli/Modello Funzionale/Requisiti.tex
-INPUT ./capitoli/Modello Funzionale/Requisiti.tex
-INPUT capitoli/Modello Funzionale/Requisiti.tex
+INPUT ./capitoli/Documento dei requisiti software/Requisiti.tex
+INPUT capitoli/Documento dei requisiti software/Requisiti.tex
+INPUT ./capitoli/Documento dei requisiti software/Requisiti.tex
+INPUT capitoli/Documento dei requisiti software/Requisiti.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
@@ -1244,9 +1225,6 @@ INPUT ./assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT assets/Logo1.png
 INPUT ./assets/Logo1.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
@@ -1300,6 +1278,28 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT ./assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT assets/Logo1.png
@@ -1323,16 +1323,16 @@ INPUT ./assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT assets/Logo1.png
 INPUT ./assets/Logo1.png
-INPUT ./capitoli/Modello Funzionale/UseCaseDiagram.tex
-INPUT ./capitoli/Modello Funzionale/UseCaseDiagram.tex
-INPUT ./capitoli/Modello Funzionale/UseCaseDiagram.tex
-OUTPUT capitoli/Modello Funzionale/UseCaseDiagram.aux
-INPUT ./capitoli/Modello Funzionale/UseCaseDiagram.tex
-INPUT ./capitoli/Modello Funzionale/UseCaseDiagram.tex
-INPUT ./capitoli/Modello Funzionale/UseCaseDiagram.tex
-INPUT capitoli/Modello Funzionale/UseCaseDiagram.tex
-INPUT ./capitoli/Modello Funzionale/UseCaseDiagram.tex
-INPUT capitoli/Modello Funzionale/UseCaseDiagram.tex
+INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
+INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
+INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
+OUTPUT capitoli/Documento dei requisiti software/UseCaseDiagram.aux
+INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
+INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
+INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
+INPUT capitoli/Documento dei requisiti software/UseCaseDiagram.tex
+INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
+INPUT capitoli/Documento dei requisiti software/UseCaseDiagram.tex
 INPUT ./assets/diagrammi/Use-Case/Use-Case Generale.png
 INPUT ./assets/diagrammi/Use-Case/Use-Case Generale.png
 INPUT assets/diagrammi/Use-Case/Use-Case Generale.png
@@ -1387,16 +1387,49 @@ INPUT ./assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT assets/Logo1.png
 INPUT ./assets/Logo1.png
-INPUT ./capitoli/Modello Funzionale/Mockup.tex
-INPUT ./capitoli/Modello Funzionale/Mockup.tex
-INPUT ./capitoli/Modello Funzionale/Mockup.tex
-OUTPUT capitoli/Modello Funzionale/Mockup.aux
-INPUT ./capitoli/Modello Funzionale/Mockup.tex
-INPUT ./capitoli/Modello Funzionale/Mockup.tex
-INPUT ./capitoli/Modello Funzionale/Mockup.tex
-INPUT capitoli/Modello Funzionale/Mockup.tex
-INPUT ./capitoli/Modello Funzionale/Mockup.tex
-INPUT capitoli/Modello Funzionale/Mockup.tex
+INPUT ./capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
+INPUT ./capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
+INPUT ./capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
+OUTPUT capitoli/Documento dei requisiti software/Tabelle di Cockburn.aux
+INPUT ./capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
+INPUT ./capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
+INPUT ./capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
+INPUT capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
+INPUT ./capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
+INPUT capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnbxti10.tfm
+INPUT ./assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
+INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
+INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
+OUTPUT capitoli/Documento dei requisiti software/Mockup.aux
+INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
+INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
+INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
+INPUT capitoli/Documento dei requisiti software/Mockup.tex
+INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
+INPUT capitoli/Documento dei requisiti software/Mockup.tex
 INPUT ./assets/Mockup/Mockup_Homepage.png
 INPUT ./assets/Mockup/Mockup_Homepage.png
 INPUT assets/Mockup/Mockup_Homepage.png
@@ -1407,7 +1440,6 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnbxti10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnbxti10.tfm
 INPUT ./assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT assets/Logo1.png
@@ -1628,51 +1660,19 @@ INPUT ./assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT assets/Logo1.png
 INPUT ./assets/Logo1.png
-INPUT ./capitoli/Modello Funzionale/Tabelle di Cockburn.tex
-INPUT ./capitoli/Modello Funzionale/Tabelle di Cockburn.tex
-INPUT ./capitoli/Modello Funzionale/Tabelle di Cockburn.tex
-OUTPUT capitoli/Modello Funzionale/Tabelle di Cockburn.aux
-INPUT ./capitoli/Modello Funzionale/Tabelle di Cockburn.tex
-INPUT ./capitoli/Modello Funzionale/Tabelle di Cockburn.tex
-INPUT ./capitoli/Modello Funzionale/Tabelle di Cockburn.tex
-INPUT capitoli/Modello Funzionale/Tabelle di Cockburn.tex
-INPUT ./capitoli/Modello Funzionale/Tabelle di Cockburn.tex
-INPUT capitoli/Modello Funzionale/Tabelle di Cockburn.tex
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
 INPUT main.aux
-INPUT ./capitoli/Modello Funzionale/Requisiti.aux
-INPUT capitoli/Modello Funzionale/Requisiti.aux
-INPUT capitoli/Modello Funzionale/Requisiti.aux
-INPUT ./capitoli/Modello Funzionale/UseCaseDiagram.aux
-INPUT capitoli/Modello Funzionale/UseCaseDiagram.aux
-INPUT capitoli/Modello Funzionale/UseCaseDiagram.aux
-INPUT ./capitoli/Modello Funzionale/Mockup.aux
-INPUT capitoli/Modello Funzionale/Mockup.aux
-INPUT capitoli/Modello Funzionale/Mockup.aux
-INPUT ./capitoli/Modello Funzionale/Tabelle di Cockburn.aux
-INPUT capitoli/Modello Funzionale/Tabelle di Cockburn.aux
-INPUT capitoli/Modello Funzionale/Tabelle di Cockburn.aux
+INPUT ./capitoli/Documento dei requisiti software/Requisiti.aux
+INPUT capitoli/Documento dei requisiti software/Requisiti.aux
+INPUT capitoli/Documento dei requisiti software/Requisiti.aux
+INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.aux
+INPUT capitoli/Documento dei requisiti software/UseCaseDiagram.aux
+INPUT capitoli/Documento dei requisiti software/UseCaseDiagram.aux
+INPUT ./capitoli/Documento dei requisiti software/Tabelle di Cockburn.aux
+INPUT capitoli/Documento dei requisiti software/Tabelle di Cockburn.aux
+INPUT capitoli/Documento dei requisiti software/Tabelle di Cockburn.aux
+INPUT ./capitoli/Documento dei requisiti software/Mockup.aux
+INPUT capitoli/Documento dei requisiti software/Mockup.aux
+INPUT capitoli/Documento dei requisiti software/Mockup.aux
 INPUT ./main.out
 INPUT ./main.out
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
