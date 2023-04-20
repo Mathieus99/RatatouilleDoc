@@ -10,7 +10,7 @@ M08	Menu Manager
 M09	Supervisore Dash
 M10	Exit Dialog
 M11	Cameriere Dash
-M12	Addetto Cucina Dash
+M12	Order Status
 M13	Profile
 M14	Admin Change Password
 M15	Admin Change Mail
@@ -18,8 +18,8 @@ M16	Worker Change Pass
 M17	Save Adv
 M18	Add Plate
 M19	Add Order
-M20
-M21
+M20 Statistics
+M21 Notifications
 
 
 

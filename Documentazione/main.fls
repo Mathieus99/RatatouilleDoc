@@ -1333,6 +1333,7 @@ INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
 INPUT capitoli/Documento dei requisiti software/UseCaseDiagram.tex
 INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
 INPUT capitoli/Documento dei requisiti software/UseCaseDiagram.tex
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnbxti10.tfm
 INPUT ./assets/diagrammi/Use-Case/Use-Case Generale.png
 INPUT ./assets/diagrammi/Use-Case/Use-Case Generale.png
 INPUT assets/diagrammi/Use-Case/Use-Case Generale.png
@@ -1400,7 +1401,6 @@ INPUT capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnbxti10.tfm
 INPUT ./assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT assets/Logo1.png
@@ -1565,6 +1565,11 @@ INPUT ./assets/Logo1.png
 INPUT ./assets/Logo1.png
 INPUT assets/Logo1.png
 INPUT ./assets/Logo1.png
+INPUT ./assets/Mockup/Mockup_OrderStatus.png
+INPUT ./assets/Mockup/Mockup_OrderStatus.png
+INPUT assets/Mockup/Mockup_OrderStatus.png
+INPUT ./assets/Mockup/Mockup_OrderStatus.png
+INPUT ./assets/Mockup/Mockup_OrderStatus.png
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
@@ -1653,6 +1658,30 @@ INPUT ./assets/Mockup/Mockup_AddOrder.png
 INPUT assets/Mockup/Mockup_AddOrder.png
 INPUT ./assets/Mockup/Mockup_AddOrder.png
 INPUT ./assets/Mockup/Mockup_AddOrder.png
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT ./assets/Mockup/Mockup_Statistics.png
+INPUT ./assets/Mockup/Mockup_Statistics.png
+INPUT assets/Mockup/Mockup_Statistics.png
+INPUT ./assets/Mockup/Mockup_Statistics.png
+INPUT ./assets/Mockup/Mockup_Statistics.png
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT assets/Logo1.png
+INPUT ./assets/Logo1.png
+INPUT ./assets/Mockup/Mockup_Notifications.png
+INPUT ./assets/Mockup/Mockup_Notifications.png
+INPUT assets/Mockup/Mockup_Notifications.png
+INPUT ./assets/Mockup/Mockup_Notifications.png
+INPUT ./assets/Mockup/Mockup_Notifications.png
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm

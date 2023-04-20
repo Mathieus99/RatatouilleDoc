@@ -25,7 +25,7 @@
 \contentsline {subsubsection}{\numberline {2.5.9}Schermata home per i supervisori}{29}{subsubsection.2.5.9}%
 \contentsline {subsubsection}{\numberline {2.5.10}Schermata di conferma di logout}{30}{subsubsection.2.5.10}%
 \contentsline {subsubsection}{\numberline {2.5.11}Schermata home per i camerieri}{31}{subsubsection.2.5.11}%
-\contentsline {subsubsection}{\numberline {2.5.12}Schermata home per la cucina}{32}{subsubsection.2.5.12}%
+\contentsline {subsubsection}{\numberline {2.5.12}Schermata di visualizzazione dello stato degli ordini}{32}{subsubsection.2.5.12}%
 \contentsline {subsubsection}{\numberline {2.5.13}Schermata di visualizzazione del profilo}{33}{subsubsection.2.5.13}%
 \contentsline {subsubsection}{\numberline {2.5.14}Schermata di cambio password per gli admin}{34}{subsubsection.2.5.14}%
 \contentsline {subsubsection}{\numberline {2.5.15}Schermata di cambio email per gli admin}{35}{subsubsection.2.5.15}%
@@ -33,3 +33,5 @@
 \contentsline {subsubsection}{\numberline {2.5.17}Schermata di creazione degli avvisi}{37}{subsubsection.2.5.17}%
 \contentsline {subsubsection}{\numberline {2.5.18}Schermata di aggiunta piatti al menù}{38}{subsubsection.2.5.18}%
 \contentsline {subsubsection}{\numberline {2.5.19}Schermata di aggiunta ordini}{40}{subsubsection.2.5.19}%
+\contentsline {subsubsection}{\numberline {2.5.20}Schermata di visualizzazione delle statistiche}{41}{subsubsection.2.5.20}%
+\contentsline {subsubsection}{\numberline {2.5.21}Schermata di visualizzazione delle notifiche}{42}{subsubsection.2.5.21}%

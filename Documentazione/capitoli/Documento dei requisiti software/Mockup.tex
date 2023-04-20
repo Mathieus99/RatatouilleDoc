@@ -41,7 +41,7 @@
                 \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
                 Edit Text       &   EMAIL &   Permette l'inserimento dell'email dell'utente \\
                 Edit Text       &   PASSWORD  &  Permette l'inserimento della password dell'utente  \\
-                Bottone         &   ENTRA   & Quando cliccato porta alla schermata \textit{\textbf{M04}} se admin, \textit{\textbf{M09}} se supervisore, \textit{\textbf{M11}} se cameriere,   \\
+                Bottone         &   ENTRA   & Quando cliccato porta alla schermata \textit{\textbf{M04}} se admin, \textit{\textbf{M09}} se supervisore, \textit{\textbf{M11}} se cameriere, \textit{\textbf{M12}} se account della cucina \\
               \end{tblr}
             \end{center}
 
@@ -92,7 +92,7 @@
                 Bottone    &   MODIFICA   &   Quando cliccato porta alla schermata \textit{\textbf{M06}} \\
                 Bottone    &   PROFILO    &   Quando cliccato porta alla schermata \textit{\textbf{M13}} \\
                 Bottone    &   ESCI       &   Quando cliccato mostra la schermata \textit{\textbf{M10}} \\
-                Bottone    &   STATISTICHE &  Quando cliccato porta alla schermata \textit{\textbf{M0bho}} \\
+                Bottone    &   STATISTICHE &  Quando cliccato porta alla schermata \textit{\textbf{M20}} \\
                 \end{longtblr}
             \end{center}
         \newpage
@@ -122,7 +122,7 @@
         \subsubsection{Schermata di modifica di un ristorante}
         \begin{figure}[H]
             \centering
-            \includegraphics[scale=0.5]{assets/Mockup/Mockup_ResturantDash.png}
+            \includegraphics[scale=0.4]{assets/Mockup/Mockup_ResturantDash.png}
             \caption{\textbf{M06}: Schermata di modifica di un ristorante}\label{fig:Mockup_ResturantManager}
         \end{figure}
         \begin{flushleft}
@@ -134,10 +134,9 @@
           \begin{center}
             \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
               \textbf{Tipo}  &   \textbf{Nome}  & \textbf{Funzione} \\
-              \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
               Bottone   &   AGGIUNGI DIPENDENTE &   Quando cliccato porta alla schermata \textit{\textbf{M07}}\\
               Bottone   &   GESTISCI MENU &   Quando cliccato porta alla schermata \textit{\textbf{M08}}\\
-              ScrollView  & IL TUO PERSONALE  & Mostra il personale che lavora nel ristorante \\
+              ScrollView  & IL TUO PERSONALE  & Mostra il personale che lavora nel ristorante, dove se si tiene premuto il bottone \textit{Elimina} viene eliminato l'account del dipendente scelto dal ristorante \\
               Bottone   &   CREA AVVISO   &   Quando cliccato mostra la schermata \textit{\textbf{M17}} \\  
             \end{tblr}
           \end{center}
@@ -172,7 +171,7 @@
         \subsubsection{Schermata di gestione del menù}
         \begin{figure}[H]
             \centering
-            \includegraphics[scale=0.5]{assets/Mockup/Mockup_MenuManager.png}
+            \includegraphics[scale=0.35]{assets/Mockup/Mockup_MenuManager.png}
             \caption{\textbf{M08}: Schermata di gestione del menù}\label{fig:Mockup_MenuManager}
         \end{figure}
         \begin{flushleft}
@@ -185,7 +184,8 @@
             \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
             Bottone   &   AGGIUNGI PRODOTTO    &   Quando cliccato porta alla schermata \textit{\textbf{M18}}\\
             Edit Text   &   SCARICA MENU   &   Permette di generare il menù e salvarlo sul dispositivo in formato PDF\\
-            Bottone   &   CREA MENU       &   Quando cliccato permette di creare un menu (se non è gia stato creato)
+            Bottone   &   CREA MENU       &   Quando cliccato permette di creare un menu (se non è gia stato creato) \\
+            Bottone   &   CANCELLA MENU   &   Permette di cancellare il menu del ristorante (se esistente) \\
           \end{tblr}
         \end{center}
 
@@ -194,7 +194,7 @@
         \subsubsection{Schermata home per i supervisori}
           \begin{figure}[H]
               \centering
-              \includegraphics[scale=2.5]{assets/Mockup/Mockup_HypervisorDash.png}
+              \includegraphics[scale=0.35]{assets/Mockup/Mockup_HypervisorDash.png}
               \caption*{\textbf{M09}: Schermata home dei supervisori}\label{fig:Mockup_HypervisorDash}
           \end{figure}
 
@@ -207,11 +207,11 @@
           \begin{center}
               \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
                 \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
-                Bottone   &   STATO ORDINE    &   Quando cliccato porta alla schermata \textit{\textbf{M0bho}} \\
-                Bottone   &   NOTIFICHE       &   Quando cliccato \\ %Inserire cosa fa
-                Bottone   &   ORDINI IN LAVORAZIONE & \\ %Questo non l'ho capito
-                Bottone   &   ESCI    &   Quando cliccato porta alla schermata \textit{\textbf{M10}} \\
-                %TODO: Vedere la barra sotto come rappresentarla
+                Bottone   &   PROFILO               &   Quando cliccato porta alla schermata \textit{\textbf{M13}}  \\
+                Bottone   &   NUOVO AVVISO          &   Quando cliccato porta alla schermata \textit{\textbf{M21}}  \\ 
+                Bottone   &   PENDING ORDERS        &   Quando cliccato porta alla schermata \textit{\textbf{M12}}  \\ 
+                Bottone   &   ESCI                  &   Quando cliccato porta alla schermata \textit{\textbf{M10}}  \\
+                Bottom Navigation Bar & BARRA NAVIGAZIONE   &   Permette di visualizzare le notifiche cliccando su \textit{Notifiche} che porterà alla schermata \textit{\textbf{M21}} e di tornare indietro cliccando su \textit{Indietro} \\
               \end{tblr}
           \end{center}
 
@@ -220,7 +220,7 @@
         \subsubsection{Schermata di conferma di logout}
           \begin{figure}[H]
             \centering
-            \includegraphics[scale=2]{assets/Mockup/Mockup_ExitDialog.png}
+            \includegraphics[scale=0.5]{assets/Mockup/Mockup_ExitDialog.png}
             \caption*{\textbf{M10}: Schermata di conferma logout}\label{fig:Mockup_ExitDialog}
           \end{figure}
 
@@ -243,7 +243,7 @@
         \subsubsection{Schermata home per i camerieri}
           \begin{figure}[H]
             \centering
-            \includegraphics[scale=2]{assets/Mockup/Mockup_WaiterDash.png}
+            \includegraphics[scale=0.5]{assets/Mockup/Mockup_WaiterDash.png}
             \caption*{\textbf{M11}: Schermata home per i camerieri}\label{fig:Mockup_WaiterDash}
           \end{figure}
 
@@ -257,15 +257,21 @@
             \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
               \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
               Bottone     &   NUOVO ORDINE    &   Quando cliccato porta alla schermata \textit{\textbf{M19}} \\
-              Bottone     &   STATO ORDINE    &   Quando cliccato porta alla schermata \textit{\textbf{M0bho}} \\
-              % TODO: Vedere la barra sotto come rappresentarla
+              Bottone     &   STATO ORDINE    &   Quando cliccato porta alla schermata \textit{\textbf{M12}} \\
+              Bottom Navigation Bar & BARRA NAVIGAZIONE   &   Permette di visualizzare le notifiche cliccando su \textit{Notifiche} che porterà alla schermata \textit{\textbf{M21}} e di tornare indietro cliccando su \textit{Indietro} \\
             \end{tblr}
           \end{center}
 
         \newpage
 
-        \subsubsection{Schermata home per la cucina}
-  
+        \subsubsection{Schermata di visualizzazione dello stato degli ordini}
+
+          \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.5]{assets/Mockup/Mockup_OrderStatus.png}
+            \caption*{\textbf{M12}: Schermata home per i camerieri}\label{fig:Mockup_WaiterDash}
+          \end{figure}
+
             \begin{flushleft}
               \textbf{ID}   \ \Large{\textit{\textbf{M12}}}
             \end{flushleft}
@@ -275,7 +281,8 @@
             \begin{center}
               \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
                 \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
-  
+                RecyclerView     &  ORDINI    &   Permette di visualizzare la lista degli ordini, dove per i camerieri vi è la possibilità di sollecitare la cucina su un ordine e per la cucina di evaderlo eliminandolo  \\
+                Bottom Navigation Bar & BARRA NAVIGAZIONE   &   Permette di visualizzare le notifiche cliccando su \textit{Notifiche} che porterà alla schermata \textit{\textbf{M21}} e di tornare indietro cliccando su \textit{Indietro} \\ 
               \end{tblr}
             \end{center}
 
@@ -284,7 +291,7 @@
             \subsubsection{Schermata di visualizzazione del profilo}
               \begin{figure}[H]
                 \centering
-                \includegraphics[scale=2.5]{assets/Mockup/Mockup_Profile.png}
+                \includegraphics[scale=0.5]{assets/Mockup/Mockup_Profile.png}
                 \caption*{\textbf{M13}: Schermata visualizzazione profilo}\label{fig:Mockup_Profile}
               \end{figure}
     
@@ -307,7 +314,7 @@
               \subsubsection{Schermata di cambio password per gli admin}
                 \begin{figure}[H]
                   \centering
-                  \includegraphics[scale=2.5]{assets/Mockup/Mockup_AdminChangePass.png}
+                  \includegraphics[scale=0.5]{assets/Mockup/Mockup_AdminChangePass.png}
                   \caption*{\textbf{M14}: Schermata cambio password admin}\label{fig:Mockup_AdminChangePass}
                 \end{figure}
       
@@ -322,7 +329,7 @@
                     \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
                     Edit Text     &   NUOVA PASSWORD    &   Permette di inserire la nuova password per l'account dell'admin   \\
                     Bottone     &   ANNULLA   &   Quando cliccato torna alla schermata \textit{\textbf{M13}} senza effettuare modifiche  \\
-                    Bottone     &   INVIA   &   Quando cliccato torna alla schermata \textit{\textbf{M13}} modificando la password dell'account  \\
+                    Bottone     &   SALVA   &   Quando cliccato torna alla schermata \textit{\textbf{M13}} modificando la password dell'account  \\
                   \end{tblr}
                 \end{center}
 
@@ -331,7 +338,7 @@
                 \subsubsection{Schermata di cambio email per gli admin}
                   \begin{figure}[H]
                     \centering
-                    \includegraphics[scale=2.5]{assets/Mockup/Mockup_AdminChangeMail.png}
+                    \includegraphics[scale=0.5]{assets/Mockup/Mockup_AdminChangeMail.png}
                     \caption*{\textbf{M15}: Schermata cambio email admin}\label{fig:Mockup_AdminChangeMail}
                   \end{figure}
         
@@ -346,7 +353,7 @@
                       \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
                       Edit Text   &   NUOVA EMAIL   &   Permette di inserire la nuova email per l'account dell'admin  \\
                       Bottone     &   ANNULLA   &   Quando cliccato torna alla schermata \textit{\textbf{M13}} senza effettuare modifiche  \\
-                      Bottone     &   INVIA   &   Quando cliccato torna alla schermata \textit{\textbf{M13}} modificando l'email dell'account  \\
+                      Bottone     &   SALVA   &   Quando cliccato torna alla schermata \textit{\textbf{M13}} modificando l'email dell'account  \\
                     \end{tblr}
                   \end{center}
 
@@ -355,7 +362,7 @@
                 \subsubsection{Schermata di cambio password per i dipendenti al primo accesso}
                     \begin{figure}[H]
                       \centering
-                      \includegraphics[scale=2]{assets/Mockup/Mockup_WorkerChangePass.png}
+                      \includegraphics[scale=0.35]{assets/Mockup/Mockup_WorkerChangePass.png}
                       \caption*{\textbf{M16}: Schermata cambio password dipendenti}\label{fig:Mockup_WorkerChangePass}
                     \end{figure}
           
@@ -370,7 +377,7 @@
                         \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
                         Edit Text   &   NUOVA PASSWORD   &   Permette di inserire la nuova password per l'account del dipendente  \\
                         Bottone     &   ANNULLA   &   Quando cliccato torna alla schermata \textit{\textbf{M02}} senza effettuare modifiche  \\
-                        Bottone     &   INVIA   &   Quando cliccato porta alla schermata \textit{\textbf{M09}} se è supervisore, \textit{\textbf{M11}} se è cameriere, \textit{\textbf{M12}} se è un account di cucina, modificando l'email dell'account  \\
+                        Bottone     &   SALVA   &   Quando cliccato porta alla schermata \textit{\textbf{M09}} se è supervisore, \textit{\textbf{M11}} se è cameriere, \textit{\textbf{M12}} se è un account di cucina, modificando l'email dell'account  \\
                       \end{tblr}
                     \end{center}
 
@@ -379,7 +386,7 @@
                   \subsubsection{Schermata di creazione degli avvisi}
                       \begin{figure}[H]
                         \centering
-                        \includegraphics[scale=2.5]{assets/Mockup/Mockup_SaveAdv.png}
+                        \includegraphics[scale=0.5]{assets/Mockup/Mockup_SaveAdv.png}
                         \caption*{\textbf{M17}: Schermata creazione avvisi}\label{fig:Mockup_SaveAdv}
                       \end{figure}
             
@@ -393,7 +400,7 @@
                         \begin{tblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth}
                           \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
                           Edit Text     &   AVVISO    &   Permette di inserire il testo dell'avviso \\
-                          Bottone       &   SEND      &   Quando cliccato torna alla schermata \textit{\textbf{M06}} inviando l'avviso \\
+                          Bottone       &   INVIA      &   Quando cliccato torna alla schermata \textit{\textbf{M06}} inviando l'avviso \\
                         \end{tblr}
                       \end{center}
 
@@ -402,7 +409,7 @@
                     \subsubsection{Schermata di aggiunta piatti al menù}
                         \begin{figure}[H]
                           \centering
-                          \includegraphics[scale=2]{assets/Mockup/Mockup_AddPlate.png}
+                          \includegraphics[scale=0.5]{assets/Mockup/Mockup_AddPlate.png}
                           \caption*{\textbf{M18}: Schermata aggiunta piatti al menù}\label{fig:Mockup_AddPlate}
                         \end{figure}
               
@@ -433,7 +440,7 @@
                     \subsubsection{Schermata di aggiunta ordini}
                           \begin{figure}[H]
                             \centering
-                            \includegraphics[scale=2]{assets/Mockup/Mockup_AddOrder.png}
+                            \includegraphics[scale=0.4]{assets/Mockup/Mockup_AddOrder.png}
                             \caption*{\textbf{M19}: Schermata aggiunta ordini}\label{fig:Mockup_WaiterDash}
                           \end{figure}
                 
@@ -451,3 +458,52 @@
                               Bottone         &   INDIETRO  &   Quando cliccato porta alla schermata \textit{\textbf{M11}} senza effettuare nessuna azione \\
                             \end{tblr}
                           \end{center}
+                    
+                    \newpage
+
+                    \subsubsection{Schermata di visualizzazione delle statistiche}
+                      \begin{figure}[H]
+                        \centering
+                        \includegraphics[scale=0.5]{assets/Mockup/Mockup_Statistics.png}
+                        \caption*{\textbf{M20}: Schermata visualizzazione statistiche}\label{fig:Mockup_Statistics}
+                      \end{figure}
+
+                      \begin{flushleft}
+                        \textbf{ID}   \ \Large{\textit{\textbf{M20}}}
+                      \end{flushleft}
+
+                      \textbf{Componenti}:
+
+                      \begin{center}
+                        \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth, rowhead=1}
+                          \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
+                          Spinner         &   RISTORANTE             &   Permette di selezionare il ristorante di cui si vogliono visualizzazione le statistiche \\
+                          ScrollView      &   GRAFICI STATISTICHE    &   Permette di visualizzare i grafici relativi alle statistiche di \textit{Ristorante} \\
+                        \end{longtblr}
+                      \end{center}
+                    
+                    \newpage
+
+                    \subsubsection{Schermata di visualizzazione delle notifiche}
+                      \begin{figure}[H]
+                        \centering
+                        \includegraphics[scale=0.4]{assets/Mockup/Mockup_Notifications.png}
+                        \caption*{\textbf{M21}: Schermata visualizzazione notifiche}\label{fig:Mockup_Notifications}
+                      \end{figure}
+
+                      \begin{flushleft}
+                        \textbf{ID}   \ \Large{\textit{\textbf{M21}}}
+                      \end{flushleft}
+
+                      \textbf{Componenti}:
+
+                      \begin{center}
+                        \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1} = {marroneApp!60}, colspec = {X[c]X[c]X[c]}, width = \textwidth, rowhead=1}
+                          \textbf{Tipo}   &   \textbf{Nome}   &   \textbf{Funzione} \\
+                          ScrollView      &   NOTIFICHE    &   Permette di visualizzare le varie notifiche ricevute dal proprio ristorante, inviate dall'admin o dal supervisore, contenenti: 
+                                                               \textit{Nome}, 
+                                                               \textit{Data e ora},
+                                                               \textit{Messaggio}, 
+                                                               che tramite swipe verso sinistra vengono segnati come letti ed eliminati dalla schermata \\
+                        \end{longtblr}
+                      \end{center}
