@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.20)  21 APR 2023 11:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.12)  21 APR 2023 13:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/vesse/Desktop/RatatouilleDoc/Documentazione/main.tex
-(c:/Users/vesse/Desktop/RatatouilleDoc/Documentazione/main.tex
+**"x:/Matteo/Drive/Università/Ingegneria del Software/Progetto/Documentazione/RatatouilleDoc-1/Documentazione/main.tex"
+(x:/Matteo/Drive/Università/Ingegneria del Software/Progetto/Documentazione/RatatouilleDoc-1/Documentazione/main.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-03-30> (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+L3 programming layer <2023-03-30> (c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(c:/texlive/2023/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -22,19 +22,19 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (style.sty
+) (./style.sty
 Package: style 
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/vntex\vntex.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/vntex/vntex.sty
 Package: vntex 2009/07/12 v1.1 support for Vietnamese
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.def
+ (c:/texlive/2023/texmf-dist/tex/latex/vntex/t5enc.def
 File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
 Now handling font encoding T5 ...
 ... processing UTF-8 mapping file for font encoding T5
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.dfu
+ (c:/texlive/2023/texmf-dist/tex/latex/vntex/t5enc.dfu
 File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
@@ -189,47 +189,41 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+2423 (decimal 9251)
 ))
 LaTeX Font Info:    Trying to load font information for T5+cmr on input line 112.
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/vntex/t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/vntex\vncaps.tex
+) (c:/texlive/2023/texmf-dist/tex/latex/vntex/vncaps.tex
 File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
-)) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+)) (c:/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2023/03/28 3.87 The Babel package
 \babel@savecnt=\count193
 \U@D=\dimen141
-\l@unhyphenated=\language79
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\l@unhyphenated=\language87
+ (c:/texlive/2023/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count194
-
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.ldf
+ (c:/texlive/2023/texmf-dist/tex/generic/babel-italian/italian.ldf
 Language: italian 2022/03/27 v.1.4.07 Italian support for the babel system
 \it@lettering=\count195
 \it@doublequoteactive=\count196
 \it@ISOcompliance=\count197
-)) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/it\babel-italian.tex
+)) (c:/texlive/2023/texmf-dist/tex/generic/babel/locale/it/babel-italian.tex
 Package babel Info: Importing font and identification data for italian
 (babel)             from babel-it.ini. Reported on input line 11.
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count198
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+) (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count199
@@ -244,28 +238,28 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen148
 \Gm@layoutvoffset=\dimen149
 \Gm@dimlist=\toks19
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/anyfontsize\anyfontsize.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
 Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen152
 \lightrulewidth=\dimen153
@@ -284,7 +278,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count270
 \@lastruleclass=\count271
 \@thisrulewidth=\dimen164
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip50
 \f@nch@O@elh=\skip51
@@ -295,44 +289,44 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip56
 \f@nch@O@olf=\skip57
 \f@nch@O@orf=\skip58
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
-Package: lastpage 2023/04/12 v2.0b lastpage: 2.09 or 2e? (HMM)
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
-Package: lastpage2e 2023/04/12 v2.0b Decide which 2e lastpage version to use (HMM)
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern.sty
-Package: lastpagemodern 2023-04-12 v2.0b Refers to last page's name (HMM; JPG)
+) (c:/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2023/03/07 v2.0a lastpage: 2.09 or 2e? (HMM)
+ (c:/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+Package: lastpage2e 2023/03/07 v2.0a Decide which 2e lastpage version to use (HMM)
+ (c:/texlive/2023/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
+Package: lastpagemodern 2023-03-07 v2.0a Refers to last page's name (HMM; JPG)
 ) 
-)) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (c:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+) (c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (c:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (c:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (c:/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+) (c:/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count272
@@ -340,17 +334,17 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \@linkdim=\dimen165
 \Hy@linkcounter=\count273
 \Hy@pagecounter=\count274
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (c:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+) (c:/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count275
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -363,15 +357,15 @@ Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
 \c@Hy@tempcnt=\count276
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen166
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (c:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+ (c:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count277
@@ -384,7 +378,7 @@ Package hyperref Info: backreferencing OFF on input line 6057.
 Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -393,33 +387,33 @@ package with kernel methods
 \c@Hfootnote=\count280
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count281
 \c@bookmark@seq@number=\count282
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip59
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/tabto-ltx\tabto.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/tabto-ltx/tabto.sty
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 \CurrentLineWidth=\dimen169
 \TabPrevPos=\dimen170
-)) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -429,21 +423,21 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip60
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen171
-)) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen172
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count283
@@ -493,20 +487,20 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/gensymb\gensymb.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/gensymb/gensymb.sty
 Package: gensymb 2022/10/17 v1.0.2 (KJH)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen180
 \ar@mcellbox=\box53
@@ -515,7 +509,7 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip63
 \backup@length=\skip64
 \ar@cellbox=\box54
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \c@tracingmulticols=\count295
 \mult@box=\box55
@@ -583,19 +577,19 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \mult@nat@firstbox=\box98
 \colbreak@box=\box99
 \mc@col@check@num=\count304
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip67
 \multirow@cntb=\count305
 \multirow@dima=\skip68
 \bigstrutjot=\dimen191
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
-Package: siunitx 2023-04-13 v3.2.5 A comprehensive (SI) units package
+) (c:/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2023-04-04 v3.2.4 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen192
 \l__siunitx_angle_marker_box=\box100
 \l__siunitx_angle_unit_box=\box101
 \l__siunitx_compound_count_int=\count306
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )
 \l__siunitx_number_exponent_fixed_int=\count307
@@ -620,7 +614,7 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages 
 \l__siunitx_unit_tmp_int=\count316
 \l__siunitx_unit_position_int=\count317
 \l__siunitx_unit_total_int=\count318
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@col@width=\dimen197
 \TX@old@table=\dimen198
@@ -629,9 +623,9 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@delta=\dimen257
 \TX@cols=\count319
 \TX@ftn=\toks26
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.sty (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/tabularray/tabularray.sty (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-03-30 L3 programming layer (loader) 
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+ (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count320
 \l__pdf_internal_box=\box108
@@ -726,7 +720,7 @@ Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
 \l__tblr_cell_wd_dim=\dimen298
 \l__tblr_cell_ht_dim=\dimen299
 \l__tblr_diag_box=\box132
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip69
 \enit@outerparindent=\dimen300
@@ -734,9 +728,9 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box133
 \enit@count@id=\count344
 \enitdp@description=\count345
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@tempdima=\dimen301
 \captionmargin=\dimen302
@@ -751,28 +745,28 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count346
 \c@continuedfloat=\count347
 Package caption Info: hyperref package is loaded.
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count348
 \float@exts=\toks28
 \float@box=\box134
 \@float@everytoks=\toks29
 \@floatcapt=\box135
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+ (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks30
 \XKV@tempa@toks=\toks31
 )
 \XKV@depth=\count349
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box136
 )
@@ -781,7 +775,7 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@urx=\dimen311
 \tc@ury=\dimen312
 Package trimclip Info: Using driver 'tc-pdftex.def'.
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+ (c:/texlive/2023/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen313
@@ -792,27 +786,27 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 \adjbox@pheight=\dimen318
 \adjbox@pdepth=\dimen319
 \adjbox@ptotalheight=\dimen320
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count350
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box137
 \sift@deathcycles=\count351
 \@vwid@loff=\dimen321
 \@vwid@roff=\dimen322
-)) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/mwe\mwe.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/mwe/mwe.sty
 Package: mwe 2018/03/30 v0.5 Package to support minimal working examples (MWE)
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
+ (c:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.sty (c:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count352
 \l__lipsum_a_int=\count353
 \l__lipsum_b_int=\count354
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (c:/texlive/2023/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count355
@@ -835,7 +829,7 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangrammax=\count372
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 34.
- (main.aux (capitoli/Premessa/Premessa.aux) (capitoli/Documento dei requisiti software/Requisiti.aux) (capitoli/Documento dei requisiti software/UseCaseDiagram.aux) (capitoli/Documento dei requisiti software/Tabelle di Cockburn.aux) (capitoli/Documento dei requisiti software/Mockup.aux
+ (./main.aux (./capitoli/Premessa/Premessa.aux) (./capitoli/Documento dei requisiti software/Requisiti.aux) (./capitoli/Documento dei requisiti software/UseCaseDiagram.aux) (./capitoli/Documento dei requisiti software/Tabelle di Cockburn.aux) (./capitoli/Documento dei requisiti software/Mockup.aux
 
 LaTeX Warning: Label `fig:Mockup_Homepage' multiply defined.
 
@@ -845,7 +839,7 @@ LaTeX Warning: Label `fig:Mockup_WaiterDash' multiply defined.
 
 LaTeX Warning: Label `fig:Mockup_WaiterDash' multiply defined.
 
-) (capitoli/Documento dei requisiti software/Target Utenti.aux))
+))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -903,7 +897,7 @@ LaTeX Font Info:    ... okay on input line 39.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count373
 \scratchdimen=\dimen323
@@ -916,14 +910,14 @@ LaTeX Font Info:    ... okay on input line 39.
 \MPnumerator=\count377
 \makeMPintoPDFobject=\count378
 \everyMPtoPDFconversion=\toks33
-) (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+ (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring ON on input line 39.
- (main.out) (main.out)
+ (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -938,29 +932,29 @@ LaTeX Info: Redefining \ohm on input line 39.
 Package gensymb Info: Using \textohm for \ohm on input line 39.
 Package gensymb Info: Using \textmu for \micro on input line 39.
 Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 39.
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/ninecolors/ninecolors.sty
 Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2023-01-16 L3 Experimental document command parser
+ (c:/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-02-02 L3 Experimental document command parser
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<assets/Logo1.png, id=151, 497.86pt x 455.7025pt>
+<assets/Logo1.png, id=152, 497.86pt x 455.7025pt>
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 41.
 (pdftex.def)             Requested size: 290.22107pt x 265.64964pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/vesse/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./assets/Logo1.png>]
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./assets/Logo1.png>]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -974,14 +968,14 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 53.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 53.
- (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmtt.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/vntex/t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T5/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T5/cmtt/m/n' tried instead on input line 53.
  [2
 
-] (main.toc)
+] (./main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -994,11 +988,11 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 87.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [4]
+ [4{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 \openout2 = `capitoli/Premessa/Premessa.aux'.
 
- (capitoli/Premessa/Premessa.tex
-<assets/immagini varie/D.Norman grafico.png, id=223, 431.81325pt x 242.70676pt>
+ (./capitoli/Premessa/Premessa.tex
+<assets/immagini varie/D.Norman grafico.png, id=225, 431.81325pt x 242.70676pt>
 File: assets/immagini varie/D.Norman grafico.png Graphic file (type png)
 <use assets/immagini varie/D.Norman grafico.png>
 Package pdftex.def Info: assets/immagini varie/D.Norman grafico.png  used on input line 4.
@@ -1013,23 +1007,7 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 87.
  <./assets/immagini varie/D.Norman grafico.png>]
 \openout2 = `"capitoli/Documento dei requisiti software/Requisiti.aux"'.
 
- (capitoli/Documento dei requisiti software/Requisiti.tex
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
+ (./capitoli/Documento dei requisiti software/Requisiti.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1064,7 +1042,7 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 87.
 > Step: build the whole table.
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 66.
+Package pdftex.def Info: assets/Logo1.png  used on input line 62.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [6
 
@@ -1113,7 +1091,7 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 66.
 > Step: build the whole table.
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 111.
+Package pdftex.def Info: assets/Logo1.png  used on input line 107.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [7]
 > Step: init table outer spec.
@@ -1156,17 +1134,9 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 111.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 166.
+Package pdftex.def Info: assets/Logo1.png  used on input line 154.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [8]
 > Step: init table outer spec.
@@ -1219,7 +1189,7 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 166.
 > Step: build the whole table.
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 228.
+Package pdftex.def Info: assets/Logo1.png  used on input line 215.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [9]
 > Step: init table outer spec.
@@ -1254,11 +1224,40 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 228.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 270.
+Package pdftex.def Info: assets/Logo1.png  used on input line 275.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [10]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 284.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [11]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1304,16 +1303,16 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 88.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [11]
+ [12]
 \openout2 = `"capitoli/Documento dei requisiti software/UseCaseDiagram.aux"'.
 
- (capitoli/Documento dei requisiti software/UseCaseDiagram.tex
-<assets/diagrammi/Use-Case/Use-Case Generale.png, id=261, 1214.5375pt x 1293.83376pt>
+ (./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
+<assets/diagrammi/Use-Case/Use-Case Generale.png, id=268, 1214.5375pt x 1293.83376pt>
 File: assets/diagrammi/Use-Case/Use-Case Generale.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Use-Case Generale.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Use-Case Generale.png  used on input line 15.
 (pdftex.def)             Requested size: 386.95897pt x 412.21896pt.
-<assets/diagrammi/Use-Case/Modifica Profilo.png, id=262, 622.325pt x 461.725pt>
+<assets/diagrammi/Use-Case/Modifica Profilo.png, id=269, 622.325pt x 461.725pt>
 File: assets/diagrammi/Use-Case/Modifica Profilo.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Modifica Profilo.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Modifica Profilo.png  used on input line 22.
@@ -1322,12 +1321,12 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 26.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [12
+ [13
 
 
 
  <./assets/diagrammi/Use-Case/Use-Case Generale.png>]
-<assets/diagrammi/Use-Case/Gestione ristoranti.png, id=270, 982.67125pt x 923.45pt>
+<assets/diagrammi/Use-Case/Gestione ristoranti.png, id=278, 982.67125pt x 923.45pt>
 File: assets/diagrammi/Use-Case/Gestione ristoranti.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Gestione ristoranti.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Gestione ristoranti.png  used on input line 29.
@@ -1336,8 +1335,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 33.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [13 <./assets/diagrammi/Use-Case/Modifica Profilo.png>]
-<assets/diagrammi/Use-Case/Gestione piatti.png, id=279, 879.285pt x 698.61pt>
+ [14 <./assets/diagrammi/Use-Case/Modifica Profilo.png>]
+<assets/diagrammi/Use-Case/Gestione piatti.png, id=286, 879.285pt x 698.61pt>
 File: assets/diagrammi/Use-Case/Gestione piatti.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Gestione piatti.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Gestione piatti.png  used on input line 36.
@@ -1346,8 +1345,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 40.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [14 <./assets/diagrammi/Use-Case/Gestione ristoranti.png>]
-<assets/diagrammi/Use-Case/Gestione ordini.png, id=287, 923.45pt x 944.52875pt>
+ [15 <./assets/diagrammi/Use-Case/Gestione ristoranti.png>]
+<assets/diagrammi/Use-Case/Gestione ordini.png, id=294, 923.45pt x 944.52875pt>
 File: assets/diagrammi/Use-Case/Gestione ordini.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Gestione ordini.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Gestione ordini.png  used on input line 43.
@@ -1356,8 +1355,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 47.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [15 <./assets/diagrammi/Use-Case/Gestione piatti.png>]
-<assets/diagrammi/Use-Case/Gestione dipendenti.png, id=295, 602.25pt x 623.32875pt>
+ [16 <./assets/diagrammi/Use-Case/Gestione piatti.png>]
+<assets/diagrammi/Use-Case/Gestione dipendenti.png, id=302, 602.25pt x 623.32875pt>
 File: assets/diagrammi/Use-Case/Gestione dipendenti.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Gestione dipendenti.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Gestione dipendenti.png  used on input line 50.
@@ -1366,8 +1365,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 54.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [16 <./assets/diagrammi/Use-Case/Gestione ordini.png>]
-<assets/diagrammi/Use-Case/Gestione avvisi.png, id=303, 702.625pt x 782.925pt>
+ [17 <./assets/diagrammi/Use-Case/Gestione ordini.png>]
+<assets/diagrammi/Use-Case/Gestione avvisi.png, id=311, 702.625pt x 782.925pt>
 File: assets/diagrammi/Use-Case/Gestione avvisi.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Gestione avvisi.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Gestione avvisi.png  used on input line 57.
@@ -1376,15 +1375,15 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 61.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [17 <./assets/diagrammi/Use-Case/Gestione dipendenti.png>]
+ [18 <./assets/diagrammi/Use-Case/Gestione dipendenti.png>]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 61.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [18 <./assets/diagrammi/Use-Case/Gestione avvisi.png>])
+ [19 <./assets/diagrammi/Use-Case/Gestione avvisi.png>])
 \openout2 = `"capitoli/Documento dei requisiti software/Tabelle di Cockburn.aux"'.
 
- (capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
+ (./capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1397,7 +1396,7 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 65.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [19
+ [20
 
 
 
@@ -1406,12 +1405,12 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 65.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [20]
+ [21]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 68.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [21]
+ [22]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1425,11 +1424,11 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 90.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [22]
+ [23]
 \openout2 = `"capitoli/Documento dei requisiti software/Mockup.aux"'.
 
- (capitoli/Documento dei requisiti software/Mockup.tex
-<assets/Mockup/Mockup_Homepage.png, id=341, 409.53pt x 730.73pt>
+ (./capitoli/Documento dei requisiti software/Mockup.tex
+<assets/Mockup/Mockup_Homepage.png, id=349, 409.53pt x 730.73pt>
 File: assets/Mockup/Mockup_Homepage.png Graphic file (type png)
 <use assets/Mockup/Mockup_Homepage.png>
 Package pdftex.def Info: assets/Mockup/Mockup_Homepage.png  used on input line 8.
@@ -1446,12 +1445,12 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 25.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [23
+ [24
 
 
 
- <./assets/Mockup/Mockup_Homepage.png>]
-<assets/Mockup/Mockup_Accesso.png, id=349, 401.5pt x 722.7pt>
+ <./assets/Mockup/Mockup_HomePage.png>]
+<assets/Mockup/Mockup_Accesso.png, id=357, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_Accesso.png Graphic file (type png)
 <use assets/Mockup/Mockup_Accesso.png>
 Package pdftex.def Info: assets/Mockup/Mockup_Accesso.png  used on input line 30.
@@ -1468,8 +1467,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 48.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [24 <./assets/Mockup/Mockup_Accesso.png>]
-<assets/Mockup/Mockup_Register.png, id=357, 401.5pt x 722.7pt>
+ [25 <./assets/Mockup/Mockup_Accesso.png>]
+<assets/Mockup/Mockup_Register.png, id=366, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_Register.png Graphic file (type png)
 <use assets/Mockup/Mockup_Register.png>
 Package pdftex.def Info: assets/Mockup/Mockup_Register.png  used on input line 52.
@@ -1486,8 +1485,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 75.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [25 <./assets/Mockup/Mockup_Register.png>]
-<assets/Mockup/Mockup_AdminDash.png, id=368, 401.5pt x 722.7pt>
+ [26 <./assets/Mockup/Mockup_Register.png>]
+<assets/Mockup/Mockup_AdminDash.png, id=376, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_AdminDash.png Graphic file (type png)
 <use assets/Mockup/Mockup_AdminDash.png>
 Package pdftex.def Info: assets/Mockup/Mockup_AdminDash.png  used on input line 79.
@@ -1504,8 +1503,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 98.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [26 <./assets/Mockup/Mockup_AdminDash.png>]
-<assets/Mockup/Mockup_SaveResturant.png, id=377, 401.5pt x 722.7pt>
+ [27 <./assets/Mockup/Mockup_AdminDash.png>]
+<assets/Mockup/Mockup_SaveResturant.png, id=385, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_SaveResturant.png Graphic file (type png)
 <use assets/Mockup/Mockup_SaveResturant.png>
 Package pdftex.def Info: assets/Mockup/Mockup_SaveResturant.png  used on input line 103.
@@ -1522,8 +1521,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 121.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [27 <./assets/Mockup/Mockup_SaveResturant.png>]
-<assets/Mockup/Mockup_ResturantDash.png, id=385, 401.5pt x 722.7pt>
+ [28 <./assets/Mockup/Mockup_SaveResturant.png>]
+<assets/Mockup/Mockup_ResturantDash.png, id=393, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_ResturantDash.png Graphic file (type png)
 <use assets/Mockup/Mockup_ResturantDash.png>
 Package pdftex.def Info: assets/Mockup/Mockup_ResturantDash.png  used on input line 125.
@@ -1540,8 +1539,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 144.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [28 <./assets/Mockup/Mockup_ResturantDash.png>]
-<assets/Mockup/Mockup_SaveWorker.png, id=393, 401.5pt x 722.7pt>
+ [29 <./assets/Mockup/Mockup_ResturantDash.png>]
+<assets/Mockup/Mockup_SaveWorker.png, id=401, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_SaveWorker.png Graphic file (type png)
 <use assets/Mockup/Mockup_SaveWorker.png>
 Package pdftex.def Info: assets/Mockup/Mockup_SaveWorker.png  used on input line 149.
@@ -1558,8 +1557,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 169.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [29 <./assets/Mockup/Mockup_SaveWorker.png>]
-<assets/Mockup/Mockup_MenuManager.png, id=401, 401.5pt x 722.7pt>
+ [30 <./assets/Mockup/Mockup_SaveWorker.png>]
+<assets/Mockup/Mockup_MenuManager.png, id=409, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_MenuManager.png Graphic file (type png)
 <use assets/Mockup/Mockup_MenuManager.png>
 Package pdftex.def Info: assets/Mockup/Mockup_MenuManager.png  used on input line 174.
@@ -1576,8 +1575,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 192.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [30 <./assets/Mockup/Mockup_MenuManager.png>]
-<assets/Mockup/Mockup_HypervisorDash.png, id=409, 401.5pt x 722.7pt>
+ [31 <./assets/Mockup/Mockup_MenuManager.png>]
+<assets/Mockup/Mockup_HypervisorDash.png, id=418, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_HypervisorDash.png Graphic file (type png)
 <use assets/Mockup/Mockup_HypervisorDash.png>
 Package pdftex.def Info: assets/Mockup/Mockup_HypervisorDash.png  used on input line 197.
@@ -1594,8 +1593,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 218.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [31 <./assets/Mockup/Mockup_HypervisorDash.png>]
-<assets/Mockup/Mockup_ExitDialog.png, id=418, 401.5pt x 722.7pt>
+ [32 <./assets/Mockup/Mockup_HypervisorDash.png>]
+<assets/Mockup/Mockup_ExitDialog.png, id=426, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_ExitDialog.png Graphic file (type png)
 <use assets/Mockup/Mockup_ExitDialog.png>
 Package pdftex.def Info: assets/Mockup/Mockup_ExitDialog.png  used on input line 223.
@@ -1612,8 +1611,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 241.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [32 <./assets/Mockup/Mockup_ExitDialog.png>]
-<assets/Mockup/Mockup_WaiterDash.png, id=426, 401.5pt x 722.7pt>
+ [33 <./assets/Mockup/Mockup_ExitDialog.png>]
+<assets/Mockup/Mockup_WaiterDash.png, id=434, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_WaiterDash.png Graphic file (type png)
 <use assets/Mockup/Mockup_WaiterDash.png>
 Package pdftex.def Info: assets/Mockup/Mockup_WaiterDash.png  used on input line 246.
@@ -1630,8 +1629,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 265.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [33 <./assets/Mockup/Mockup_WaiterDash.png>]
-<assets/Mockup/Mockup_OrderStatus.png, id=434, 401.5pt x 722.7pt>
+ [34 <./assets/Mockup/Mockup_WaiterDash.png>]
+<assets/Mockup/Mockup_OrderStatus.png, id=443, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_OrderStatus.png Graphic file (type png)
 <use assets/Mockup/Mockup_OrderStatus.png>
 Package pdftex.def Info: assets/Mockup/Mockup_OrderStatus.png  used on input line 271.
@@ -1648,8 +1647,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 289.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [34 <./assets/Mockup/Mockup_OrderStatus.png>]
-<assets/Mockup/Mockup_Profile.png, id=442, 401.5pt x 722.7pt>
+ [35 <./assets/Mockup/Mockup_OrderStatus.png>]
+<assets/Mockup/Mockup_Profile.png, id=451, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_Profile.png Graphic file (type png)
 <use assets/Mockup/Mockup_Profile.png>
 Package pdftex.def Info: assets/Mockup/Mockup_Profile.png  used on input line 294.
@@ -1666,8 +1665,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 312.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [35 <./assets/Mockup/Mockup_Profile.png>]
-<assets/Mockup/Mockup_AdminChangePass.png, id=450, 401.5pt x 722.7pt>
+ [36 <./assets/Mockup/Mockup_Profile.png>]
+<assets/Mockup/Mockup_AdminChangePass.png, id=459, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_AdminChangePass.png Graphic file (type png)
 <use assets/Mockup/Mockup_AdminChangePass.png>
 Package pdftex.def Info: assets/Mockup/Mockup_AdminChangePass.png  used on input line 317.
@@ -1684,8 +1683,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 336.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [36 <./assets/Mockup/Mockup_AdminChangePass.png>]
-<assets/Mockup/Mockup_AdminChangeMail.png, id=458, 401.5pt x 722.7pt>
+ [37 <./assets/Mockup/Mockup_AdminChangePass.png>]
+<assets/Mockup/Mockup_AdminChangeMail.png, id=468, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_AdminChangeMail.png Graphic file (type png)
 <use assets/Mockup/Mockup_AdminChangeMail.png>
 Package pdftex.def Info: assets/Mockup/Mockup_AdminChangeMail.png  used on input line 341.
@@ -1702,8 +1701,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 360.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [37 <./assets/Mockup/Mockup_AdminChangeMail.png>]
-<assets/Mockup/Mockup_WorkerChangePass.png, id=467, 409.53pt x 730.73pt>
+ [38 <./assets/Mockup/Mockup_AdminChangeMail.png>]
+<assets/Mockup/Mockup_WorkerChangePass.png, id=476, 409.53pt x 730.73pt>
 File: assets/Mockup/Mockup_WorkerChangePass.png Graphic file (type png)
 <use assets/Mockup/Mockup_WorkerChangePass.png>
 Package pdftex.def Info: assets/Mockup/Mockup_WorkerChangePass.png  used on input line 365.
@@ -1720,8 +1719,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 384.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [38 <./assets/Mockup/Mockup_WorkerChangePass.png>]
-<assets/Mockup/Mockup_SaveAdv.png, id=475, 401.5pt x 722.7pt>
+ [39 <./assets/Mockup/Mockup_WorkerChangePass.png>]
+<assets/Mockup/Mockup_SaveAdv.png, id=484, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_SaveAdv.png Graphic file (type png)
 <use assets/Mockup/Mockup_SaveAdv.png>
 Package pdftex.def Info: assets/Mockup/Mockup_SaveAdv.png  used on input line 389.
@@ -1738,8 +1737,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 407.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [39 <./assets/Mockup/Mockup_SaveAdv.png>]
-<assets/Mockup/Mockup_AddPlate.png, id=483, 401.5pt x 722.7pt>
+ [40 <./assets/Mockup/Mockup_SaveAdv.png>]
+<assets/Mockup/Mockup_AddPlate.png, id=492, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_AddPlate.png Graphic file (type png)
 <use assets/Mockup/Mockup_AddPlate.png>
 Package pdftex.def Info: assets/Mockup/Mockup_AddPlate.png  used on input line 412.
@@ -1756,13 +1755,13 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 435.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [40 <./assets/Mockup/Mockup_AddPlate.png>]
+ [41 <./assets/Mockup/Mockup_AddPlate.png>]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 438.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [41]
-<assets/Mockup/Mockup_AddOrder.png, id=497, 401.5pt x 722.7pt>
+ [42]
+<assets/Mockup/Mockup_AddOrder.png, id=506, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_AddOrder.png Graphic file (type png)
 <use assets/Mockup/Mockup_AddOrder.png>
 Package pdftex.def Info: assets/Mockup/Mockup_AddOrder.png  used on input line 443.
@@ -1779,8 +1778,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 462.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [42 <./assets/Mockup/Mockup_AddOrder.png>]
-<assets/Mockup/Mockup_Statistics.png, id=505, 401.5pt x 722.7pt>
+ [43 <./assets/Mockup/Mockup_AddOrder.png>]
+<assets/Mockup/Mockup_Statistics.png, id=515, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_Statistics.png Graphic file (type png)
 <use assets/Mockup/Mockup_Statistics.png>
 Package pdftex.def Info: assets/Mockup/Mockup_Statistics.png  used on input line 467.
@@ -1797,8 +1796,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 485.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [43 <./assets/Mockup/Mockup_Statistics.png>]
-<assets/Mockup/Mockup_Notifications.png, id=515, 401.5pt x 722.7pt>
+ [44 <./assets/Mockup/Mockup_Statistics.png>]
+<assets/Mockup/Mockup_Notifications.png, id=524, 401.5pt x 722.7pt>
 File: assets/Mockup/Mockup_Notifications.png Graphic file (type png)
 <use assets/Mockup/Mockup_Notifications.png>
 Package pdftex.def Info: assets/Mockup/Mockup_Notifications.png  used on input line 490.
@@ -1816,39 +1815,28 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 91.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [44 <./assets/Mockup/Mockup_Notifications.png>]
-\openout2 = `"capitoli/Documento dei requisiti software/Target Utenti.aux"'.
-
- (capitoli/Documento dei requisiti software/Target Utenti.tex)
-File: assets/Logo1.png Graphic file (type png)
-<use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 92.
-(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [45
-
-
-
-] 
+ [45 <./assets/Mockup/Mockup_Notifications.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(main.aux (capitoli/Premessa/Premessa.aux) (capitoli/Documento dei requisiti software/Requisiti.aux) (capitoli/Documento dei requisiti software/UseCaseDiagram.aux) (capitoli/Documento dei requisiti software/Tabelle di Cockburn.aux) (capitoli/Documento dei requisiti software/Mockup.aux) (capitoli/Documento dei requisiti software/Target Utenti.aux))
+(./main.aux (./capitoli/Premessa/Premessa.aux) (./capitoli/Documento dei requisiti software/Requisiti.aux) (./capitoli/Documento dei requisiti software/UseCaseDiagram.aux) (./capitoli/Documento dei requisiti software/Tabelle di Cockburn.aux) (./capitoli/Documento dei requisiti software/Mockup.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F8ABD2A14B012307BE91AE101D6283FD;8286.
+(rerunfilecheck)             Checksum: D839DC1596BD62566ACF59BEB1EB2959;8286.
  ) 
 Here is how much of TeX's memory you used:
- 24195 strings out of 476326
- 501021 string characters out of 5787722
+ 24148 strings out of 476017
+ 492103 string characters out of 5793766
  1910660 words of memory out of 5000000
- 44091 multiletter control sequences out of 15000+600000
+ 44082 multiletter control sequences out of 15000+600000
  597923 words of font info for 250 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,24n,116p,509b,1515s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\vesse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt8.pfb>
-Output written on main.pdf (45 pages, 1719922 bytes).
+ 90i,24n,116p,566b,1515s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnbxti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vntt8.pfb>
+Output written on main.pdf (45 pages, 1661711 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
+ 607 PDF objects out of 1000 (max. 8388607)
+ 476 compressed objects within 5 object streams
  121 named destinations out of 1000 (max. 500000)
  447 words of extra memory for PDF output out of 10000 (max. 10000000)
 
