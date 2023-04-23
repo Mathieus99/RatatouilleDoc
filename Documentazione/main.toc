@@ -1,0 +1,40 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Descrizione del progetto}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Premessa e presentazione}{5}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Documento dei requisiti software}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Individuazione target d'utenti}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Requisiti Funzionali}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Admin}{6}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Cameriere}{9}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Cucina}{9}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Supervisore}{10}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}Tutti}{10}{subsubsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.3}Requisiti Non Funzionali}{12}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Requisiti di Dominio}{12}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Modellazione dei casi d'uso}{13}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Use-Case Diagram}{13}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Tabelle di Cockburn}{20}{subsubsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.6}Mock-up dell'applicazione}{24}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Homepage dell'applicazione}{24}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Schermata di accesso nel sistema}{26}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Schermata di registrazione nel sistema}{27}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.4}Schermata home per gli admin}{28}{subsubsection.2.6.4}%
+\contentsline {subsubsection}{\numberline {2.6.5}Schermata di registrazione di un nuovo ristorante}{29}{subsubsection.2.6.5}%
+\contentsline {subsubsection}{\numberline {2.6.6}Schermata di modifica di un ristorante}{30}{subsubsection.2.6.6}%
+\contentsline {subsubsection}{\numberline {2.6.7}Schermata di registrazione di un nuovo dipendente}{31}{subsubsection.2.6.7}%
+\contentsline {subsubsection}{\numberline {2.6.8}Schermata di gestione del menù}{32}{subsubsection.2.6.8}%
+\contentsline {subsubsection}{\numberline {2.6.9}Schermata home per i supervisori}{33}{subsubsection.2.6.9}%
+\contentsline {subsubsection}{\numberline {2.6.10}Schermata di conferma di logout}{34}{subsubsection.2.6.10}%
+\contentsline {subsubsection}{\numberline {2.6.11}Schermata home per i camerieri}{35}{subsubsection.2.6.11}%
+\contentsline {subsubsection}{\numberline {2.6.12}Schermata di visualizzazione dello stato degli ordini}{36}{subsubsection.2.6.12}%
+\contentsline {subsubsection}{\numberline {2.6.13}Schermata di visualizzazione del profilo}{37}{subsubsection.2.6.13}%
+\contentsline {subsubsection}{\numberline {2.6.14}Schermata di cambio password per gli admin}{38}{subsubsection.2.6.14}%
+\contentsline {subsubsection}{\numberline {2.6.15}Schermata di cambio email per gli admin}{39}{subsubsection.2.6.15}%
+\contentsline {subsubsection}{\numberline {2.6.16}Schermata di cambio password per i dipendenti al primo accesso}{40}{subsubsection.2.6.16}%
+\contentsline {subsubsection}{\numberline {2.6.17}Schermata di creazione degli avvisi}{41}{subsubsection.2.6.17}%
+\contentsline {subsubsection}{\numberline {2.6.18}Schermata di aggiunta piatti al menù}{42}{subsubsection.2.6.18}%
+\contentsline {subsubsection}{\numberline {2.6.19}Schermata di aggiunta ordini}{44}{subsubsection.2.6.19}%
+\contentsline {subsubsection}{\numberline {2.6.20}Schermata di visualizzazione delle statistiche}{45}{subsubsection.2.6.20}%
+\contentsline {subsubsection}{\numberline {2.6.21}Schermata di visualizzazione delle notifiche}{46}{subsubsection.2.6.21}%
+\contentsline {subsection}{\numberline {2.7}Valutazione dell'usabilità}{47}{subsection.2.7}%
