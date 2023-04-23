@@ -72,6 +72,62 @@
             \textbf{Use Case \#2} & \SetCell[c=3]{c} \textbf{Aggiunta piatto al menù} \\
             \textbf{Goal in Context} & \SetCell[c=3]{l}{Un admin (proprietario di uno o più ristoranti) vuole aggiungere un piatto \\in un menu di un suo ristorante}\\
           
+<<<<<<< HEAD:Documentazione/capitoli/Modello Funzionale/Tabelle di Cockburn.tex
+          \SetCell[r=4]{c}\textbf{Description}  & Step & UserAction & System\\
+                                        & 1 & {L'amministratore preme sul tasto \textit{"AGGIUNGI RISTORANTE"}\\ sulla schermata \textbf{\textit{M04}}} & \\
+                                        & 2 &  TODO & System\\
+                                        & 3 &       & TODO\\
+        
+          \SetCell[r=2]{c}\textbf{Extension}  & Step & UserAction & System\\
+                                              & Step & UserAction & System\\
+        
+          \SetCell[r=2]{c}\textbf{Subvariation}  & Step & UserAction & System\\
+                                                 & Step & UserAction & System\\
+        
+          %\textbf{Notes}  & \SetCell[c=3]{c}{\textcolor{red}{TODO}}\\
+        \end{longtblr}
+        \end{center}
+
+        \newpage
+        
+        \begin{center}
+        \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1}={marroneApp!60}, colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth}
+          \textbf{Use Case \#3} & \SetCell[c=3]{c} \textbf{Prendere un ordine} \\
+          \textbf{Goal in Context} & \SetCell[c=3]{l}{Un cameriere vuole prendere l'ordinazione di un tavolo}\\
+        
+          \textbf{Precodition} & \SetCell[c=3]{l}{Il cameriere deve essere registrato e loggato nell'app}\\
+        
+          \textbf{Success End Condition} & \SetCell[c=3]{l}{Il cameriere prende correttamente un'ordinazione}\\
+        
+          \textbf{Failed End Condition}  & \SetCell[c=3]{l}{Il cameriere non prende l'ordinazione}\\
+        
+          \textbf{Primary Actor}  & \SetCell[c=3]{c}{Cameriere}\\
+          \textbf{Trigger}  & \SetCell[c=3]{c}{Preme il pulsante "NUOVO ORDINE"}\\
+          
+          \SetCell[r=4]{c}\textbf{Description}  & Step & UserAction & System\\
+                                        & 1 & {Il cameriere preme il pulsante \textit{"NUOVO ORDINE"}\\ sulla schermata \textbf{\textit{M0boh_1}}} & \\
+                                        & 2 &  & {Mostra la schermata \textbf{\textit{M0boh_2}} con i vari piatti del menu} \\
+                                        & 3 & {Il cameriere seleziona il numero del tavolo, inserisce le portate all'interno dell'ordine e preme il pulsante \textit{"SALVA"}} & \\
+                                        & 4 &  & {Torna alla schermata \textbf{\textit{M0boh_2}}} \\
+	   %% Extensions
+	  \SetCell[r=2]{c}{\textbf{Extension \#\ 1}\\ Il cameriere non fa nulla e torna indietro} & Step & UserAction & System\\
+                                                                                                    & 4a   &  & Torna alla schermata \textbf{\textit{M04}}\\
+        
+        %%% Subvariations
+        \SetCell[r=4]{c}{\textbf{Subvariation \#1} \\ Il cameriere torna indietro dopo aver aggiunto \\ dei piatti all'ordine senza salvare}  & Step & UserAction & System\\
+                                                                                                                             & 1 & & Mostra la schermata \textbf{\textit{M0boh_3}}\\
+                                                                                                                             & 2 & {Preme su "SI"} & \\
+                                                                                                                             & 3 & & {Torna alla schermata \textbf{\textit{M0boh_1}}}\\
+        %%% Subvariations
+        \SetCell[r=4]{c}{\textbf{Subvariation \#2} \\ Il cameriere inizialmente vuole tornare \\ indietro dopo aver aggiunto dei piatti all'ordine \\ senza salvare, ma cambia idea}  & Step & UserAction & System\\
+                                                                                                                             & 1 & & Mostra la schermata \textbf{\textit{M0boh_3}}\\
+                                                                                                                             & 2 & {Preme su "NO"} & \\
+                                                                                                                             & 3 & & {Torna alla schermata \textbf{\textit{M0boh_2}} al punto 2 \\ dello scenario principale}\\
+        
+          %\textbf{Notes}  & \SetCell[c=3]{c}{\textcolor{red}{TODO}}\\
+        \end{longtblr}
+        \end{center}
+=======
             \textbf{Precodition} & \SetCell[c=3]{l}{Il proprietario deve essere registrato e loggato nell'app come amministratore, \\deve aver aggiunto almeno un ristorane e deve averne creato un menu}\\
           
             \textbf{Success End Condition} & \SetCell[c=3]{l}{Il proprietario aggiunte correttamente un piatto al suo menu}\\
@@ -95,3 +151,4 @@
             %\textbf{Notes}  & \SetCell[c=3]{c}{\textcolor{red}{TODO}}\\
           \end{longtblr}
       \end{center}
+>>>>>>> a04fd216c647223b2cf09c0c4aeb42192f2ab31f:Documentazione/capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
