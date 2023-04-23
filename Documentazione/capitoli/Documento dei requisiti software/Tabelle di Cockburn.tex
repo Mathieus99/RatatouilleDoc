@@ -61,41 +61,31 @@
                                                         & 2 & {Preme su "NO"} & \\
                                                         & 3 & & Torna alla schermata \textbf{\textit{M06}} alo step \textbf{2} dello scenario principale\\
 
-        %\textbf{Notes}  & \SetCell[c=3]{c}{\textcolor{red}{TODO}}\\
       \end{longtblr}
     \end{center}
 
     \newpage
         
-    \begin{center}
-          \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1}={marroneApp!60}, colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth}
-            \textbf{Use Case \#2} & \SetCell[c=3]{c} \textbf{Aggiunta piatto al menù} \\
-            \textbf{Goal in Context} & \SetCell[c=3]{l}{Un admin (proprietario di uno o più ristoranti) vuole aggiungere un piatto \\in un menu di un suo ristorante}\\
-          
-<<<<<<< HEAD:Documentazione/capitoli/Modello Funzionale/Tabelle di Cockburn.tex
-          \SetCell[r=4]{c}\textbf{Description}  & Step & UserAction & System\\
-                                        & 1 & {L'amministratore preme sul tasto \textit{"AGGIUNGI RISTORANTE"}\\ sulla schermata \textbf{\textit{M04}}} & \\
-                                        & 2 &  TODO & System\\
-                                        & 3 &       & TODO\\
-        
-          \SetCell[r=2]{c}\textbf{Extension}  & Step & UserAction & System\\
-                                              & Step & UserAction & System\\
-        
-          \SetCell[r=2]{c}\textbf{Subvariation}  & Step & UserAction & System\\
-                                                 & Step & UserAction & System\\
-        
-          %\textbf{Notes}  & \SetCell[c=3]{c}{\textcolor{red}{TODO}}\\
-        \end{longtblr}
-        \end{center}
 
-        \newpage
+
+
+
+
+
+
+
+
+
+
+
+
         
         \begin{center}
         \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1}={marroneApp!60}, colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth}
-          \textbf{Use Case \#3} & \SetCell[c=3]{c} \textbf{Prendere un ordine} \\
+          \textbf{Use Case \#2} & \SetCell[c=3]{c} \textbf{Prendere un ordine} \\
           \textbf{Goal in Context} & \SetCell[c=3]{l}{Un cameriere vuole prendere l'ordinazione di un tavolo}\\
         
-          \textbf{Precodition} & \SetCell[c=3]{l}{Il cameriere deve essere registrato e loggato nell'app}\\
+          \textbf{Precodition} & \SetCell[c=3]{l}{Il cameriere deve essere registrato e loggato nell'app \\ e il ristorante deve avere un menu con dei piatti al suo interno}\\
         
           \textbf{Success End Condition} & \SetCell[c=3]{l}{Il cameriere prende correttamente un'ordinazione}\\
         
@@ -104,7 +94,7 @@
           \textbf{Primary Actor}  & \SetCell[c=3]{c}{Cameriere}\\
           \textbf{Trigger}  & \SetCell[c=3]{c}{Preme il pulsante "NUOVO ORDINE"}\\
           
-          \SetCell[r=4]{c}\textbf{Description}  & Step & UserAction & System\\
+          \SetCell[r=5]{c}\textbf{Description}  & Step & UserAction & System\\
                                         & 1 & {Il cameriere preme il pulsante \textit{"NUOVO ORDINE"}\\ sulla schermata \textbf{\textit{M0boh_1}}} & \\
                                         & 2 &  & {Mostra la schermata \textbf{\textit{M0boh_2}} con i vari piatti del menu} \\
                                         & 3 & {Il cameriere seleziona il numero del tavolo, inserisce le portate all'interno dell'ordine e preme il pulsante \textit{"SALVA"}} & \\
@@ -124,31 +114,99 @@
                                                                                                                              & 2 & {Preme su "NO"} & \\
                                                                                                                              & 3 & & {Torna alla schermata \textbf{\textit{M0boh_2}} al punto 2 \\ dello scenario principale}\\
         
-          %\textbf{Notes}  & \SetCell[c=3]{c}{\textcolor{red}{TODO}}\\
         \end{longtblr}
         \end{center}
-=======
+
+        \newpage
+
+
+
+
+
+
+
+
+
+
+
+
+      
+        
+        \begin{center}
+        \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1}={marroneApp!60}, colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth}
+          \textbf{Use Case \#3} & \SetCell[c=3]{c} \textbf{Aggiungi piatto al menu} \\
+          \textbf{Goal in Context} & \SetCell[c=3]{l}{Un amministratore vuole aggiungere un piatto al proprio menu}\\
             \textbf{Precodition} & \SetCell[c=3]{l}{Il proprietario deve essere registrato e loggato nell'app come amministratore, \\deve aver aggiunto almeno un ristorane e deve averne creato un menu}\\
           
-            \textbf{Success End Condition} & \SetCell[c=3]{l}{Il proprietario aggiunte correttamente un piatto al suo menu}\\
+            \textbf{Success End Condition} & \SetCell[c=3]{l}{L'amministratore aggiunge correttamente un piatto al suo menu}\\
           
-            \textbf{Failed End Condition}  & \SetCell[c=3]{l}{Il proprietario non riesce ad aggiungere un piatto al suo ristorante}\\
+            \textbf{Failed End Condition}  & \SetCell[c=3]{l}{L'amministratore non riesce ad aggiungere un piatto al suo ristorante}\\
           
             \textbf{Primary Actor}  & \SetCell[c=3]{c}{Amministratore}\\
-            \textbf{Trigger}  & \SetCell[c=3]{c}{Preme il pulsante "Accetta"}\\
+            \textbf{Trigger}  & \SetCell[c=3]{c}{Preme il pulsante \textit{"Aggiungi prodotto"}}\\
             
-            \SetCell[r=4]{c}\textbf{Description}  & Step & UserAction & System\\
-                                          & 1 & {L'amministratore preme sul tasto \textit{"AGGIUNGI RISTORANTE"}\\ sulla schermata \textbf{\textit{M04}}} & \\
-                                          & 2 &  TODO & System\\
-                                          & 3 &       & TODO\\
+            \SetCell[r=5]{c}\textbf{Description}  & Step & UserAction & System\\
+                                          & 1 & {L'amministratore preme sul pulsante \textit{"Aggiungi prodotto"}\\ sulla schermata \textbf{\textit{M0boh_1}}} & \\
+                                          & 2 &  & {Mostra la schermata \textbf{\textit{M0boh_2}}}\\
+                                          & 3 & {L'amministratore compila il campi del piatto e \\ preme sul pulsante pulsante \textit{"Ok"}}      & \\
+                                          & 4 &  & {Torna alla schermata \textbf{\textit{M0boh_1}}}   \\
           
-            \SetCell[r=2]{c}\textbf{Extension}  & Step & UserAction & System\\
-                                                & Step & UserAction & System\\
+            \SetCell[r=2]{c}{\textbf{Extension \#\ 1}\\ L'amministratore non fa nulla e torna indietro}  & Step & UserAction & System\\
+                                                         & 4a  &  & Torna alla schermata \textbf{\textit{M0boh_1}}\\
+
+            \SetCell[r=2]{c}{\textbf{Extension \#\ 2}\\ L'amministratore compila solo parzialmente\\ i campi e preme sul pulsante \textit{"Ok"}}  & Step & UserAction & System\\
+                                                         & 4a  &  & Mostra l'errore nella schermata \textbf{\textit{M0boh_2err}}\\
           
-            \SetCell[r=2]{c}\textbf{Subvariation}  & Step & UserAction & System\\
-                                                  & Step & UserAction & System\\
-          
+            \SetCell[r=6]{c}{\textbf{Subvariation \#\ 1}\\ L'amministratore vuole aggiungere un prodotto\\ preconfezionato al proprio menu}  & Step & UserAction & System\\
+                                                  & 1 &  & {Mostra la schermata \textbf{\textit{M0boh_2pre}}} \\
+                                                  & 2 & {L'amministratore scrive il nome (completo o parziale)\\ di un prodotto e preme il pulsante \textit{"Cerca"} } &  \\
+                                                  & 3 &  & {Mostra i prodotti corrispondenti alla ricerca} \\
+                                                  & 4 & {L'amministratore seleziona il prodotto desiderato\\ e preme il pulsante \textit{"Ok"}} &  \\
+                                                  & 5 &  & {Torna alla schermata \textbf{\textit{M0boh_1}}}   \\
             %\textbf{Notes}  & \SetCell[c=3]{c}{\textcolor{red}{TODO}}\\
           \end{longtblr}
       \end{center}
->>>>>>> a04fd216c647223b2cf09c0c4aeb42192f2ab31f:Documentazione/capitoli/Documento dei requisiti software/Tabelle di Cockburn.tex
+
+      \newpage
+
+
+
+
+
+      
+
+
+
+
+
+      
+        
+        \begin{center}
+        \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1}={marroneApp!60}, colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth}
+          \textbf{Use Case \#4} & \SetCell[c=3]{c} \textbf{Visualizza avvisi} \\
+          \textbf{Goal in Context} & \SetCell[c=3]{l}{Un Dipedente vuole visualizzare un avviso}\\
+            \textbf{Precodition} & \SetCell[c=3]{l}{Il Dipendente deve essere registrato e loggato nell'app}\\
+          
+            \textbf{Success End Condition} & \SetCell[c=3]{l}{Il Dipendente visualizza gli avvisi}\\
+          
+            \textbf{Failed End Condition}  & \SetCell[c=3]{l}{Il Dipendente non riesce a visualizzare i propri avvisi}\\
+          
+            \textbf{Primary Actor}  & \SetCell[c=3]{c}{Dipendente}\\
+            \textbf{Trigger}  & \SetCell[c=3]{c}{Preme il pulsante \textit{"Avvisi"} nella propria Dashboard}\\
+            
+            \SetCell[r=3]{c}\textbf{Description}  & Step & UserAction & System\\
+                                          & 1 & {Il Dipendente preme sul pulsante \textit{"Avvisi"}\\ sulla schermata \textbf{\textit{M0boh_waiter}} o \textbf{\textit{M0boh_sup}} \\ o \textbf{\textit{M0boh_cucina}}} & \\
+                                          & 2 &  & {Mostra la schermata \textbf{\textit{M0boh_2}}}\\
+          
+            \SetCell[r=2]{c}{\textbf{Extension \#\ 1}\\ Non ci sono avvisi da mostrare}  & Step & UserAction & System\\
+                                                         & 2a  &  & {Mostra la schermata \textbf{\textit{M0boh_2err}}}\\
+
+          
+            \SetCell[r=3]{c}{\textbf{Subvariation \#\ 1}\\ Il Dipendente vuole marcare un avviso come visualizzato}  & Step & UserAction & System\\
+                                                  & 1 & {Il Dipendente scorre col dito sull'avviso}  &  \\
+                                                  & 2 &  & {Aggiorna la schermata \textbf{\textit{M0boh_2}} eliminando l'avviso}\\
+
+            %\textbf{Notes}  & \SetCell[c=3]{c}{\textcolor{red}{TODO}}\\
+          \end{longtblr}
+      \end{center}
+
