@@ -1,0 +1,50 @@
+@startuml
+class Menu << entity>> {
+ nome: String
+ localita: String
+ numeroCoperti: int
+ numeroTelefono: String
+ getter()
+ setter()
+}
+
+ 
+class Piatto<< entity >> {
+ Nome: String
+ Descrizione: String
+ Allergeni: String
+ tipo: enum
+ tipoPiatto: enum
+ getter()
+ setter()
+} 
+
+class MenuController << controller >> {
+ inserisciPiatto()
+ visualizzaPiatti()
+ generaMenuPdf()
+ cercaSuOpenFood()
+}
+
+class AggiungiPiattoForm << boundary >> {
+ Nome: EditText
+ Descrizione: EditText
+ Allergeni: EditText
+ tipo: Spinner
+ tipoPiatto: Spinner
+ SaveButton: Button
+ SearchButton: Button
+ Preconfezionato: Switch
+} 
+
+class ListaPiatti << boundary >> {
+ numeroRistoranti: int
+ getListFromMenu()
+ viewList()
+} 
+
+Menu "1" --- "1" MenuController 
+Menu "1" --- "0...*" Piatto
+MenuController -- ListaPiatti
+MenuController -- AggiungiPiattoForm
+@enduml

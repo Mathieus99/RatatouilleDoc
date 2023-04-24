@@ -1,0 +1,63 @@
+@startuml
+class FormLogin <<boundary>> #776155-9E9E9E {
+ Email EditText
+ Password PasswordEditText
+}
+
+class AdminDashboard <<boundary>> #776155-9E9E9E {
+
+}
+
+class SupervisoreDashboard <<boundary>> #776155-9E9E9E {
+
+}
+
+class AddettoCucinaDashboard <<boundary>> #776155-9E9E9E {
+
+}
+
+class CameriereDashboard <<boundary>> #776155-9E9E9E {
+
+}
+
+ 
+class Lavoratore <<entity>> #C6AD77-9E9E9E {
+   nome: String
+   cognome: String
+   codice_fiscale: String
+   email: String
+   password: String
+} 
+
+class CredenzialiController  <<controller>> #FFB74D-9E9E9E  {
+ controllaCredenziali()
+ hashPassword()
+ controllaRuolo()
+ isPrimoAccesso()
+ setNewPassword()
+ istanziaLavoratore()
+}
+
+class LoginController <<controller>> #FFB74D-9E9E9E  {
+ getLavoratore()
+ istanziaAdmin()
+ istanziaCameriere()
+ istanziaaSupervisore()
+ istanziaAddettoCucina()
+ switchToHome()
+}
+
+
+class FormCambioPassword  <<boundary>> #776155-9E9E9E {
+   NewPassoword PasswordEditText
+}
+
+CredenzialiController  -down-- Lavoratore
+CredenzialiController -up- FormLogin
+CredenzialiController -up- FormCambioPassword
+CredenzialiController -right-- LoginController
+LoginController -up- AdminDashboard
+LoginController -up- SupervisoreDashboard
+LoginController -up- AddettoCucinaDashboard
+LoginController -up- CameriereDashboard
+@enduml

@@ -1,0 +1,55 @@
+@startuml
+class Ristorante << entity>> {
+ nome: String
+ localita: String
+ numeroCoperti: int
+ numeroTelefono: String
+ getter()
+ setter()
+}
+
+ 
+class Dipendente<< entity >> {
+   nome: string
+   cognome: string
+   codice fiscale: string
+   email: string
+   password: string
+   ruolo: enum
+   getter()
+   setter()
+} 
+
+class RistoranteDashboardController << controller >> {
+ inserisciDipendente()
+ eliminaDipendente()
+ inserisciMenu()
+ eliminaMenu()
+ 
+}
+
+class AggiungiDipendenteForm << boundary >> {
+ Nome: EditText
+ Cognome: EditText
+ Email: EditText
+ Codice Fiscale: EditText
+ ruolo: Spinner
+ Password: EditText (fixed)
+ SaveButton: Button
+ GoBackButton: Button
+ BackDialog: CustomDialog
+} 
+
+class ListaDipendenti << boundary >> {
+ numeroRistoranti: int
+ getListFromRistorante()
+ viewList()
+} 
+
+
+
+Ristorante "1" --- "1" RistoranteDashboardController
+Ristorante "1" --- "0...*" Dipendente
+RistoranteDashboardController --- ListaDipendenti
+RistoranteDashboardController --- AggiungiDipendenteForm
+@enduml

@@ -1,0 +1,86 @@
+@startuml
+class Supervisore <<entity>> {
+ Nome: String
+ Cognome: String
+ CodiceFiscale: String
+ email:String
+ hashedPassword:String
+ ruolo: String
+ getters()
+ setters()
+}
+
+class Admin<<entity>> {
+ Nome: String
+ Cognome: String
+ CodiceFiscale: String
+ email:String
+ hashedPassword:String
+ ruolo: String
+ getters()
+ setters()
+}
+
+
+class Cameriere << entity >> {
+ Nome: String
+ Cognome: String
+ CodiceFiscale: String
+ email:String
+ hashedPassword:String
+ ruolo: String
+ getters()
+ setters()
+} 
+
+class Avviso << entity >> {
+emessoDa: String
+descrizione: String
+oraEmissione: LocalTime
+dataEmissione: LocalTime
+lettoDa: String
+getters()
+setters()
+}
+
+
+
+class AddettoCucina<< entity >> {
+ Nome: String
+ Cognome: String
+ CodiceFiscale: String
+ email:String
+ hashedPassword:String
+ ruolo: String
+ getter()
+ setter()
+} 
+
+
+class AvvisiController << controller >> {
+ mostraNotifica()
+ cercaNuoviAvvisi()
+ salvaAvviso()
+ getAvvisi()
+}
+
+
+class DialogCreaAvviso << boundary >> {
+ testoAvviso: String
+ saveButton: Button
+}
+
+
+class NotificationLayout<< boundary >> {
+displayAvvisi()
+}
+
+
+AvvisiController -- Cameriere
+AvvisiController -- Admin
+AvvisiController -up- Supervisore
+AvvisiController -up- Avviso
+AvvisiController -up- AddettoCucina
+AvvisiController -left- NotificationLayout
+AvvisiController -right- DialogCreaAvviso
+@enduml

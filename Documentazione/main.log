@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.12)  24 APR 2023 15:36
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.23)  24 APR 2023 09:45
+>>>>>>> 797c0e2deec225fc51f7a7e1504bf1d7fb9e627b
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1898,3 +1902,560 @@ PDF statistics:
  131 named destinations out of 1000 (max. 500000)
  465 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+<<<<<<< HEAD
+=======
+
+LaTeX Warning: Reference `LastPage' on page 27 undefined on input line 93.
+
+[27]
+\openout2 = `"capitoli/Documento dei requisiti software/Mockup.aux"'.
+
+ (capitoli/Documento dei requisiti software/Mockup.tex
+<assets/immagini varie/interfaccia utente.png, id=178, 368.577pt x 95.75775pt>
+File: assets/immagini varie/interfaccia utente.png Graphic file (type png)
+<use assets/immagini varie/interfaccia utente.png>
+Package pdftex.def Info: assets/immagini varie/interfaccia utente.png  used on input line 12.
+(pdftex.def)             Requested size: 184.28804pt x 47.87875pt.
+<assets/Mockup/Mockup_Homepage.png, id=179, 409.53pt x 730.73pt>
+File: assets/Mockup/Mockup_Homepage.png Graphic file (type png)
+<use assets/Mockup/Mockup_Homepage.png>
+Package pdftex.def Info: assets/Mockup/Mockup_Homepage.png  used on input line 21.
+(pdftex.def)             Requested size: 204.7645pt x 365.3641pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 36.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 28 undefined on input line 36.
+
+[28
+
+
+
+ <./assets/immagini varie/interfaccia utente.png> <./assets/Mockup/Mockup_Homepage.png>]
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 38.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 29 undefined on input line 38.
+
+[29]
+<assets/Mockup/Mockup_Accesso.png, id=193, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_Accesso.png Graphic file (type png)
+<use assets/Mockup/Mockup_Accesso.png>
+Package pdftex.def Info: assets/Mockup/Mockup_Accesso.png  used on input line 43.
+(pdftex.def)             Requested size: 200.7495pt x 361.3491pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 61.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 30 undefined on input line 61.
+
+[30 <./assets/Mockup/Mockup_Accesso.png>]
+<assets/Mockup/Mockup_Register.png, id=201, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_Register.png Graphic file (type png)
+<use assets/Mockup/Mockup_Register.png>
+Package pdftex.def Info: assets/Mockup/Mockup_Register.png  used on input line 65.
+(pdftex.def)             Requested size: 100.37474pt x 180.67455pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 88.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 31 undefined on input line 88.
+
+[31 <./assets/Mockup/Mockup_Register.png>]
+<assets/Mockup/Mockup_AdminDash.png, id=212, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_AdminDash.png Graphic file (type png)
+<use assets/Mockup/Mockup_AdminDash.png>
+Package pdftex.def Info: assets/Mockup/Mockup_AdminDash.png  used on input line 92.
+(pdftex.def)             Requested size: 140.5271pt x 252.94878pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 111.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 32 undefined on input line 111.
+
+[32 <./assets/Mockup/Mockup_AdminDash.png>]
+<assets/Mockup/Mockup_SaveResturant.png, id=221, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_SaveResturant.png Graphic file (type png)
+<use assets/Mockup/Mockup_SaveResturant.png>
+Package pdftex.def Info: assets/Mockup/Mockup_SaveResturant.png  used on input line 116.
+(pdftex.def)             Requested size: 140.5271pt x 252.94878pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 134.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 33 undefined on input line 134.
+
+[33 <./assets/Mockup/Mockup_SaveResturant.png>]
+<assets/Mockup/Mockup_ResturantDash.png, id=229, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_ResturantDash.png Graphic file (type png)
+<use assets/Mockup/Mockup_ResturantDash.png>
+Package pdftex.def Info: assets/Mockup/Mockup_ResturantDash.png  used on input line 138.
+(pdftex.def)             Requested size: 160.59715pt x 289.07487pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 157.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 34 undefined on input line 157.
+
+[34 <./assets/Mockup/Mockup_ResturantDash.png>]
+<assets/Mockup/Mockup_SaveWorker.png, id=237, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_SaveWorker.png Graphic file (type png)
+<use assets/Mockup/Mockup_SaveWorker.png>
+Package pdftex.def Info: assets/Mockup/Mockup_SaveWorker.png  used on input line 162.
+(pdftex.def)             Requested size: 140.5271pt x 252.94878pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 182.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 35 undefined on input line 182.
+
+[35 <./assets/Mockup/Mockup_SaveWorker.png>]
+<assets/Mockup/Mockup_MenuManager.png, id=245, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_MenuManager.png Graphic file (type png)
+<use assets/Mockup/Mockup_MenuManager.png>
+Package pdftex.def Info: assets/Mockup/Mockup_MenuManager.png  used on input line 187.
+(pdftex.def)             Requested size: 140.5271pt x 252.94878pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 205.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 36 undefined on input line 205.
+
+[36 <./assets/Mockup/Mockup_MenuManager.png>]
+<assets/Mockup/Mockup_HypervisorDash.png, id=253, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_HypervisorDash.png Graphic file (type png)
+<use assets/Mockup/Mockup_HypervisorDash.png>
+Package pdftex.def Info: assets/Mockup/Mockup_HypervisorDash.png  used on input line 210.
+(pdftex.def)             Requested size: 140.5271pt x 252.94878pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 231.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 37 undefined on input line 231.
+
+[37 <./assets/Mockup/Mockup_HypervisorDash.png>]
+<assets/Mockup/Mockup_ExitDialog.png, id=262, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_ExitDialog.png Graphic file (type png)
+<use assets/Mockup/Mockup_ExitDialog.png>
+Package pdftex.def Info: assets/Mockup/Mockup_ExitDialog.png  used on input line 236.
+(pdftex.def)             Requested size: 200.7495pt x 361.3491pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 254.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 38 undefined on input line 254.
+
+[38 <./assets/Mockup/Mockup_ExitDialog.png>]
+<assets/Mockup/Mockup_WaiterDash.png, id=270, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_WaiterDash.png Graphic file (type png)
+<use assets/Mockup/Mockup_WaiterDash.png>
+Package pdftex.def Info: assets/Mockup/Mockup_WaiterDash.png  used on input line 259.
+(pdftex.def)             Requested size: 200.7495pt x 361.3491pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 278.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 39 undefined on input line 278.
+
+[39 <./assets/Mockup/Mockup_WaiterDash.png>]
+<assets/Mockup/Mockup_OrderStatus.png, id=278, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_OrderStatus.png Graphic file (type png)
+<use assets/Mockup/Mockup_OrderStatus.png>
+Package pdftex.def Info: assets/Mockup/Mockup_OrderStatus.png  used on input line 284.
+(pdftex.def)             Requested size: 200.7495pt x 361.3491pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 302.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 40 undefined on input line 302.
+
+[40 <./assets/Mockup/Mockup_OrderStatus.png>]
+<assets/Mockup/Mockup_Profile.png, id=286, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_Profile.png Graphic file (type png)
+<use assets/Mockup/Mockup_Profile.png>
+Package pdftex.def Info: assets/Mockup/Mockup_Profile.png  used on input line 307.
+(pdftex.def)             Requested size: 200.7495pt x 361.3491pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 325.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 41 undefined on input line 325.
+
+[41 <./assets/Mockup/Mockup_Profile.png>]
+<assets/Mockup/Mockup_AdminChangePass.png, id=294, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_AdminChangePass.png Graphic file (type png)
+<use assets/Mockup/Mockup_AdminChangePass.png>
+Package pdftex.def Info: assets/Mockup/Mockup_AdminChangePass.png  used on input line 330.
+(pdftex.def)             Requested size: 200.7495pt x 361.3491pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 349.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 42 undefined on input line 349.
+
+[42 <./assets/Mockup/Mockup_AdminChangePass.png>]
+<assets/Mockup/Mockup_AdminChangeMail.png, id=302, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_AdminChangeMail.png Graphic file (type png)
+<use assets/Mockup/Mockup_AdminChangeMail.png>
+Package pdftex.def Info: assets/Mockup/Mockup_AdminChangeMail.png  used on input line 354.
+(pdftex.def)             Requested size: 200.7495pt x 361.3491pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 373.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 43 undefined on input line 373.
+
+[43 <./assets/Mockup/Mockup_AdminChangeMail.png>]
+<assets/Mockup/Mockup_WorkerChangePass.png, id=311, 409.53pt x 730.73pt>
+File: assets/Mockup/Mockup_WorkerChangePass.png Graphic file (type png)
+<use assets/Mockup/Mockup_WorkerChangePass.png>
+Package pdftex.def Info: assets/Mockup/Mockup_WorkerChangePass.png  used on input line 378.
+(pdftex.def)             Requested size: 143.33765pt x 255.75932pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 397.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 44 undefined on input line 397.
+
+[44 <./assets/Mockup/Mockup_WorkerChangePass.png>]
+<assets/Mockup/Mockup_SaveAdv.png, id=319, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_SaveAdv.png Graphic file (type png)
+<use assets/Mockup/Mockup_SaveAdv.png>
+Package pdftex.def Info: assets/Mockup/Mockup_SaveAdv.png  used on input line 402.
+(pdftex.def)             Requested size: 200.7495pt x 361.3491pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 420.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 45 undefined on input line 420.
+
+[45 <./assets/Mockup/Mockup_SaveAdv.png>]
+<assets/Mockup/Mockup_AddPlate.png, id=327, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_AddPlate.png Graphic file (type png)
+<use assets/Mockup/Mockup_AddPlate.png>
+Package pdftex.def Info: assets/Mockup/Mockup_AddPlate.png  used on input line 425.
+(pdftex.def)             Requested size: 200.7495pt x 361.3491pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 448.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 46 undefined on input line 448.
+
+[46 <./assets/Mockup/Mockup_AddPlate.png>]
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 451.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 47 undefined on input line 451.
+
+[47]
+<assets/Mockup/Mockup_AddOrder.png, id=340, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_AddOrder.png Graphic file (type png)
+<use assets/Mockup/Mockup_AddOrder.png>
+Package pdftex.def Info: assets/Mockup/Mockup_AddOrder.png  used on input line 456.
+(pdftex.def)             Requested size: 160.59715pt x 289.07487pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 475.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 48 undefined on input line 475.
+
+[48 <./assets/Mockup/Mockup_AddOrder.png>]
+<assets/Mockup/Mockup_Statistics.png, id=348, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_Statistics.png Graphic file (type png)
+<use assets/Mockup/Mockup_Statistics.png>
+Package pdftex.def Info: assets/Mockup/Mockup_Statistics.png  used on input line 480.
+(pdftex.def)             Requested size: 200.7495pt x 361.3491pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 498.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 49 undefined on input line 498.
+
+[49 <./assets/Mockup/Mockup_Statistics.png>]
+<assets/Mockup/Mockup_Notifications.png, id=358, 401.5pt x 722.7pt>
+File: assets/Mockup/Mockup_Notifications.png Graphic file (type png)
+<use assets/Mockup/Mockup_Notifications.png>
+Package pdftex.def Info: assets/Mockup/Mockup_Notifications.png  used on input line 503.
+(pdftex.def)             Requested size: 160.59715pt x 289.07487pt.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+)
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 94.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 50 undefined on input line 94.
+
+[50 <./assets/Mockup/Mockup_Notifications.png>]
+\openout2 = `"capitoli/Valutazione usabilità/Usabilità a priori.aux"'.
+
+ (capitoli/Valutazione usabilità/Usabilità a priori.tex
+<assets/immagini varie/grafico usabilita.png, id=367, 602.25pt x 391.4625pt>
+File: assets/immagini varie/grafico usabilita.png Graphic file (type png)
+<use assets/immagini varie/grafico usabilita.png>
+Package pdftex.def Info: assets/immagini varie/grafico usabilita.png  used on input line 17.
+(pdftex.def)             Requested size: 361.35278pt x 234.8793pt.
+)
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 95.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 51 undefined on input line 95.
+
+[51
+
+
+
+ <./assets/immagini varie/grafico usabilita.png>] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(main.aux (capitoli/Premessa/Premessa.aux) (capitoli/Documento dei requisiti software/Requisiti.aux) (capitoli/Documento dei requisiti software/UseCaseDiagram.aux) (capitoli/Documento dei requisiti software/Tabelle di Cockburn.aux) (capitoli/Documento dei requisiti software/Mockup.aux) (capitoli/Valutazione usabilità/Usabilità a priori.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  316E147D0DD5B24F21C8B1FA8D9A47DC;8480.
+
+Package lastpage Warning: Rerun to get the references right on input line 96.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 24176 strings out of 476331
+ 499947 string characters out of 5787765
+ 1930660 words of memory out of 5000000
+ 44075 multiletter control sequences out of 15000+600000
+ 605233 words of font info for 259 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 90i,24n,116p,464b,1515s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\vesse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx7.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt8.pfb>
+Output written on main.pdf (51 pages, 1789355 bytes).
+PDF statistics:
+ 472 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+>>>>>>> 797c0e2deec225fc51f7a7e1504bf1d7fb9e627b
