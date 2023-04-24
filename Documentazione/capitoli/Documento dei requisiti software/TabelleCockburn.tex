@@ -1,0 +1,196 @@
+\subsubsection{Tabelle di Cockburn} %sezione 2.7
+    \begin{flushleft}
+        Vengono qui riportate le tabelle di cockburn dei casi d'uso  \emph{\textbf{Aggiungi ristorante}},  
+        \emph{\textbf{Aggiungi piatto}},  \emph{\textbf{Prendi ordinazione}},  \emph{\textbf{Visualizza avvisi}}.
+    \end{flushleft}
+
+    \begin{center}
+      \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1}={marroneApp!60},colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth,  rowhead=1}
+
+            \textbf{Use Case \#1} & \SetCell[c=3]{c} \textbf{Aggiunta ristorante} \\
+
+            \textbf{Goal in Context} & \SetCell[c=3]{l}{Un admin (proprietario di uno o più ristoranti)\\ vuole aggiungere uno di questi nell'app Ratatuille.}\\
+
+            \textbf{Precodition} & \SetCell[c=3]{l}{Il proprietario deve essere registrato e loggato nell'app come amministratore}\\
+
+            \textbf{Success End Condition} & \SetCell[c=3]{l}{Il proprietario aggiunge correttamente il ristorante}\\
+
+            \textbf{Failed End Condition}  & \SetCell[c=3]{l}{Il proprietario non riesce ad aggiungere il ristorante}\\
+
+            \textbf{Primary Actor}  & \SetCell[c=3]{c}{Amministratore}\\
+
+            \textbf{Trigger}  & \SetCell[c=3]{c}{Preme il pulsante \emph{Aggiungi}}\\
+
+            \SetCell[r=5]{c}\textbf{Description}  & {Step} & {UserAction} & {System}\\
+                                                  & {1}    & {L'amministratore preme sul tasto  \emph{"AGGIUNGI RISTORANTE"}\\ sulla schermata \textbf{\emph{M04}}} & \\
+                                                  & {2}    &       & {Mostra la schermata \textbf{ \emph{M05}}}\\
+                                                  & {3}    &  {Compila i campi necessari per la registrazione del proprio ristorante e preme sul tasto "SALVA" per aggiungere il Ristorante}     & \\
+                                                  & {4}    &       & {Ricarica la schermata \textbf{ \emph{M04}} aggiungendo nella lista dei ristoranti l'ultimo appena inserito} \\
+            %%% Extensions
+            \SetCell[r=2]{c}{\textbf{Extension \#\ 1}\\ L'amministratore non fa nulla e torna indietro}
+                                                        & {Step} & {UserAction} & {System}\\
+                                                        & {4a}   &  & {Torna alla schermata \textbf{ \emph{M04}}}\\
+
+            \SetCell[r=2]{c}{\textbf{Extension \#2} \\ L'amministratore ha aggiunto un ristorante già presenta nella propria lista di ristoranti} & {Step} & {UserAction} & {System}\\*
+                                                        & {4b}   &  & {Mostra uno dei messaggi di errore della schermata \textbf{ \emph{{M0boh}}} restando allo step \textbf{2} dello scenario principale}\\
+
+            \SetCell[r=2]{c}{\textbf{Extension \#3}\\ L'amministratore ha lasciato uno o più campi vuoti}
+                                                    & {Step} & {UserAction} & {System}  \\
+                                                    & {4c}   &  & {Mostra uno o più dei messaggi di errore della schermata \textbf{ \emph{{M05}}} restando allo step \textbf{2} dello scenario principale}  \\
+
+            \SetCell[r=2]{c}{\textbf{Extension \#4}\\ L'amministratore ha aggiunto un nome troppo corto}
+                                                    & {Step} & {UserAction} & {System}\\
+                                                    & {4d}   &  & {Mostra il messaggio di errore di fianco al campo  "Nome" della schermata \textbf{ \emph{{M05}}} restando allo step \textbf{2} dello scenario principale} \\
+
+            \SetCell[r=2]{c}{\textbf{Extension \#5}\\ L'amministratore ha aggiunto un numero di coperti non valido}
+                                                    & {Step} & {UserAction} & {System}\\
+                                                    & {4e}   &  & {Mostra il messaggio di errore di fianco al campo  "Numero di coperti" della schermata \textbf{ \emph{{M05}}} restando allo step \textbf{2} dello scenario principale} \\
+
+            \SetCell[r=2]{c}{\textbf{Extension \#6}\\ L'amministratore ha aggiunto un indirizzo troppo corto}
+                                                    & {Step} & {UserAction} & {System}\\*
+                                                    & {4f}   &  & {Mostra il messaggio di errore di fianco al campo  "Indirizzo" della schermata \textbf{ \emph{{M05}}} restando allo step \textbf{2} dello scenario principale} \\
+
+            \SetCell[r=2]{c}{\textbf{Extension \#7} \\ L'amministratore ha aggiunto un numero di telefono non valido} & {Step} & {UserAction} & {System}  \\*
+                                                    & {4g}   &  & {Mostra il messaggio di errore di fianco al campo "Numero di telefono" della schermata \textbf{ \emph{{M05}}} restando allo step \textbf{2} dello scenario principale} \\
+
+            %%% Subvariations
+            \SetCell[r=4]{c}{\textbf{Subvariation \#1} \\ L'amministratore torna indietro completando solo parzialmente i campi} 
+                                                        & {Step} & {UserAction} & {System}\\
+                                                        & {1} & & {Mostra la schermata \textbf{ \emph{M0boh}}}\\
+                                                        & {2} & {Preme su  "SI" } & \\
+                                                        & {3} & & {Torna alla schermata \textbf{ \emph{M04}}}\\
+
+            \SetCell[r=4]{c}{\textbf{Subvariation \#2} \\ L'amministratore inizialmente vuole tornare indietro completando solo parzialmente i campi ma cambia idea}
+                                                            & {Step} & {UserAction} & {System}\\
+                                                            & {1} & & {Mostra la schermata \textbf{ \emph{M0boh}}}\\
+                                                            & {2} & {Preme su  "NO" } & \\
+                                                            & {3} & & {Torna alla schermata \textbf{ \emph{M05}} allo step \textbf{2} dello scenario principale}\\
+      \end{longtblr}
+    \end{center}
+
+    \newpage
+
+    \begin{center}
+      \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1}={marroneApp!60},colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth,  rowhead=1}
+
+            \textbf{Use Case \#2} & \SetCell[c=3]{c} \textbf{Prendere un ordine} \\
+
+            \textbf{Goal in Context} & \SetCell[c=3]{l}{Un cameriere vuole prendere l'ordinazione di un tavolo}\\
+
+            \textbf{Precodition} & \SetCell[c=3]{l}{Il cameriere deve essere registrato e loggato nell'app \\ e il ristorante deve avere un menu con dei piatti al suo interno}\\
+
+            \textbf{Success End Condition} & \SetCell[c=3]{l}{Il cameriere prendere correttamente un'ordinazione}\\
+
+            \textbf{Failed End Condition}  & \SetCell[c=3]{l}{Il cameriere non prende l'ordinazione}\\
+
+            \textbf{Primary Actor}  & \SetCell[c=3]{c}{Cameriere}\\
+
+            \textbf{Trigger}  & \SetCell[c=3]{c}{Preme il pulsante \emph{NUOVO ORDINE}}\\
+
+            \SetCell[r=5]{c}\textbf{Description}  & {Step} & {UserAction} & {System}\\
+                                                  & {1}    & {Il cameriere preme sul pulsante  \emph{"NUOVO ORDINE"}\\ sulla schermata \textbf{\emph{M11}}} & \\
+                                                  & {2}    &       & {Mostra la schermata \textbf{ \emph{M19}} con i vari piatti del menu}\\
+                                                  & {3}    &  {Il cameriere seleziona il numero del tavolo, inserisce le portate all'interno dell'ordine e preme il pulsante "\emph{SALVA}"}     & \\
+                                                  & {4}    &       & {Torna alla schermata \textbf{ \emph{M11}}} \\
+            %%% Extensions
+            \SetCell[r=2]{c}{\textbf{Extension \#\ 1}\\ Il cameriere non fa nulla e torna indietro}
+                                                        & {Step} & {UserAction} & {System}\\
+                                                        & {4a}   &  & {Torna alla schermata \textbf{ \emph{M11}}}\\
+
+            %%% Subvariations
+            \SetCell[r=4]{c}{\textbf{Subvariation \#1} \\ Il cameriere torna indietro dopo aver aggiunto \\ dei piatti all'ordine senza salvare} 
+                                                        & {Step} & {UserAction} & {System}\\
+                                                        & {1} &     & {Mostra la schermata \textbf{ \emph{M0boh}}}\\
+                                                        & {2} & {Preme su  "SI" } & \\
+                                                        & {3} &     & {Torna alla schermata \textbf{ \emph{M11}}}\\
+
+            \SetCell[r=4]{c}{\textbf{Subvariation \#2} \\ L'amministratore inizialmente vuole tornare indietro completando solo parzialmente i campi ma cambia idea}
+                                                            & {Step} & {UserAction} & {System}\\*
+                                                            & {1} & & {Mostra la schermata \textbf{ \emph{M0boh}}}\\
+                                                            & {2} & {Preme su  "NO" } & \\
+                                                            & {3} & & {Torna alla schermata \textbf{ \emph{M11}}}\\
+      \end{longtblr}
+    \end{center}
+
+    \begin{center}
+      \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1}={marroneApp!60},colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth,  rowhead=1}
+
+            \textbf{Use Case \#3} & \SetCell[c=3]{c} \textbf{Aggiungi piatto al menu} \\
+
+            \textbf{Goal in Context} & \SetCell[c=3]{l}{Un amministratore vuole aggiungere un piatto al proprio menu}\\
+
+            \textbf{Precodition} & \SetCell[c=3]{l}{Il proprietario deve essere registrato e loggato nell'app come amministratore, \\ deve aver aggiunto almeno un ristorante e deve averne creato un menu}\\
+
+            \textbf{Success End Condition} & \SetCell[c=3]{l}{L'amministratore aggiunge correttamente un piatto al suo menu}\\
+
+            \textbf{Failed End Condition}  & \SetCell[c=3]{l}{L'amministratore non riesce ad aggiungere un piatto al suo ristorante}\\
+
+            \textbf{Primary Actor}  & \SetCell[c=3]{c}{Amministratore}\\
+
+            \textbf{Trigger}  & \SetCell[c=3]{c}{Preme il pulsante \emph{Aggiungi prodotto}}\\
+
+            \SetCell[r=5]{c}\textbf{Description}  & {Step} & {UserAction} & {System}\\
+                                                  & {1}    & {L'amministratore preme sul pulsante \emph{Aggiungi prodotto}\\ sulla schermata \textbf{ \emph{M08}}} & \\
+                                                  & {2}    &       & {Mostra la schermata \textbf{\emph{M18}}}\\
+                                                  & {3}    &  {L'amministratore compila il campi del piatto e preme sul pulsante pulsante \emph{OK}}     & \\
+                                                  & {4}    &       & {Torna alla schermata \textbf{ \emph{M08}}} \\
+            %%% Extensions
+            \SetCell[r=2]{c}{\textbf{Extension \#\ 1}\\ L'amministratore non fa nulla e torna indietro}
+                                                        & {Step} & {UserAction} & {System}\\
+                                                        & {4a}   &  & {Torna alla schermata \textbf{ \emph{M08}}}\\
+
+            \SetCell[r=2]{c}{\textbf{Extension \#\ 2}\\ L'amministratore compila solo parzialmente \\ i campi e preme sul pulsante \emph{OK}}
+                                                        & {Step} & {UserAction} & {System}\\
+                                                        & {4a}   &  & {Mostra l'errore nella schermata \textbf{\emph{M0boh}}}\\
+
+            %%% Subvariations
+            \SetCell[r=6]{c}{\textbf{Subvariation \#1} \\ L'amministratore vuole aggiungere un prodotto \\ preconfezionato al proprio menu} 
+                                                        & {Step} & {UserAction} & {System}\\
+                                                        & {1} &     & {Mostra la schermata \textbf{ \emph{M18}}}\\
+                                                        & {2} & {L'amministratore scrive il nome (completo o parziale)\\di un prodotto e preme il pulsante \emph{Cerca}} & \\
+                                                        & {3} &     & {Mostra i prodotti corrispondenti alla ricerca}\\
+                                                        & {4} & {L'amministratore seleziona il prodotto desiderato e preme il pulsante \emph{OK}}   & \\
+                                                        & {5} &     & {Torna alla schermata \textbf{\emph{M08}}}
+
+      \end{longtblr}
+    \end{center}
+
+    \newpage
+
+    \begin{center}
+      \begin{longtblr}{hlines = {0.9pt}, vlines = {0.9pt}, row{1}={marroneApp!60},colspec = {X[c]X[c]X[c]X[c]}, width = \textwidth,  rowhead=1}
+
+            \textbf{Use Case \#4} & \SetCell[c=3]{c} \textbf{Visualizza avvisi} \\
+
+            \textbf{Goal in Context} & \SetCell[c=3]{l}{Un dipendente vuole visualizzare un avviso}\\
+
+            \textbf{Precodition} & \SetCell[c=3]{l}{Il dipendente deve essere registrato e loggato nell'app}\\
+
+            \textbf{Success End Condition} & \SetCell[c=3]{l}{Il dipendente visualizza gli avvisi}\\
+
+            \textbf{Failed End Condition}  & \SetCell[c=3]{l}{Il dipendente non riesce a visualizzare i propri avvisi}\\
+
+            \textbf{Primary Actor}  & \SetCell[c=3]{c}{Dipendente}\\
+
+            \textbf{Trigger}  & \SetCell[c=3]{c}{Preme il pulsante \emph{Avvisi} nella propria Dashboard}\\
+
+            \SetCell[r=3]{c}\textbf{Description}  
+                                                  & {Step} & {UserAction} & {System}\\
+                                                  & {1}    & {Il Dipendente preme sul pulsante \emph{Avvisi} sulla schermata \textbf{\emph{M11}} o \textbf{\emph{M09}} o \textbf{\emph{M12}}} & \\
+                                                  & {2}    &       & {Mostra la schermata \textbf{\emph{M21}}}  \\
+
+            %%% Extensions
+            \SetCell[r=2]{c}{\textbf{Extension \#\ 1}\\ Non ci sono avvisi da mostrare}
+                                                        & {Step} & {UserAction} & {System}\\
+                                                        & {4a}   &  & {Mostra la schermata \textbf{\emph{M21}}}\\
+
+            %%% Subvariations
+            \SetCell[r=3]{c}{\textbf{Subvariation \#1} \\ Il Dipendente vuole marcare un avviso come visualizzato} 
+                                                        & {Step} & {UserAction} & {System}\\
+                                                        & {1} & {Il Dipendente scorre col dito sull'avviso}   & \\
+                                                        & {2} &       & {Aggiorna la schermata \textbf{\emph{M21}} eliminando l'avviso} \\
+
+      \end{longtblr}
+    \end{center}
+
+    \newpage
