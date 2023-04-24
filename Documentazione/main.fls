@@ -1198,6 +1198,10 @@ INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vntt8.tfm
 INPUT .\main.toc
 INPUT main.toc
 INPUT main.toc
+INPUT .\assets\Logo1.png
+INPUT .\assets\Logo1.png
+INPUT assets\Logo1.png
+INPUT .\assets\Logo1.png
 OUTPUT main.toc
 INPUT .\assets\Logo1.png
 INPUT .\assets\Logo1.png
