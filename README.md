@@ -1,2 +1,2 @@
 # RatatouilleDoc
-Documentazione del Progetto INGSW 22/23 "Ratatouille"
+Documentazione del Progetto INGSW 22/23  "Ratatouille "
