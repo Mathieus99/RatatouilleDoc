@@ -1,0 +1,32 @@
+@startuml
+
+actor Cameriere
+boundary CameriereDashboardMockup
+boundary ListaPiatti
+control CameriereController
+control OrdineController
+
+activate Cameriere
+Cameriere->CameriereDashboardMockup: preme su prendi ordine
+activate CameriereDashboardMockup
+
+CameriereDashboardMockup->CameriereController:mostraListaPiatti()
+activate CameriereController
+
+CameriereController->ListaPiatti:show()
+activate ListaPiatti
+
+
+loop preme su "inoltra ordine"
+   Cameriere->ListaPiatti: preme sul piatto che desidera ordinare
+   ListaPiatti->OrdineController: aggiungiPortata()
+   activate OrdineController
+   OrdineController->ListaPiatti:aggiornaLista()
+end
+deactivate ListaPiatti
+
+deactivate CameriereDashboardMockup
+
+
+
+@enduml

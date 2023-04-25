@@ -17,12 +17,13 @@ ControllerRistorante -> MenuDialog: show()
 deactivate ControllerRistorante
 activate MenuDialog
 
-MenuDialog->ControllerMenu: "preme su crea menu"
+MenuDialog->ControllerMenu: "preme su crea menu e inserisce i campi"
 activate ControllerMenu
-
-create entity menu
-ControllerMenu -> menu
-ControllerMenu->MenuDialog: mostraNuovoMenu()
+alt campiCorretti() && !menuEsisteGia()
+    create entity menu
+    ControllerMenu -> menu
+    ControllerMenu->MenuDialog: mostraNuovoMenu()
+end
 
 MenuDialog->ControllerMenu: salva
 ControllerMenu->MenuDialog: saveMenu()
