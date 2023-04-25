@@ -20,6 +20,8 @@ activate MenuDialog
 MenuDialog->ControllerMenu: "preme su crea menu"
 activate ControllerMenu
 
+create entity menu
+ControllerMenu -> menu
 ControllerMenu->MenuDialog: mostraNuovoMenu()
 
 MenuDialog->ControllerMenu: salva
