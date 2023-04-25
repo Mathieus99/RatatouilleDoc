@@ -1062,6 +1062,12 @@ INPUT capitoli\Documento dei requisiti software\TabelleCockburn.aux
 INPUT .\capitoli\Documento dei requisiti software\Mockup.aux
 INPUT capitoli\Documento dei requisiti software\Mockup.aux
 INPUT capitoli\Documento dei requisiti software\Mockup.aux
+INPUT .\capitoli\Valutazione usabilità\Usabilità a priori.aux
+INPUT capitoli\Valutazione usabilità\Usabilità a priori.aux
+INPUT capitoli\Valutazione usabilità\Usabilità a priori.aux
+INPUT .\capitoli\Glossario\Glossario.aux
+INPUT capitoli\Glossario\Glossario.aux
+INPUT capitoli\Glossario\Glossario.aux
 INPUT .\capitoli\Documento dei requisiti software\Classi di analisi.aux
 INPUT capitoli\Documento dei requisiti software\Classi di analisi.aux
 INPUT capitoli\Documento dei requisiti software\Classi di analisi.aux
@@ -1810,6 +1816,39 @@ INPUT .\assets\Logo1.png
 INPUT .\assets\Logo1.png
 INPUT assets\Logo1.png
 INPUT .\assets\Logo1.png
+INPUT .\capitoli\Valutazione usabilità\Usabilità a priori.tex
+OUTPUT capitoli\Valutazione usabilità\Usabilità a priori.aux
+INPUT .\capitoli\Valutazione usabilità\Usabilità a priori.tex
+INPUT .\capitoli\Valutazione usabilità\Usabilità a priori.tex
+INPUT .\capitoli\Valutazione usabilità\Usabilità a priori.tex
+INPUT .\capitoli\Valutazione usabilità\Usabilità a priori.tex
+INPUT capitoli\Valutazione usabilità\Usabilità a priori.tex
+INPUT .\capitoli\Valutazione usabilità\Usabilità a priori.tex
+INPUT capitoli\Valutazione usabilità\Usabilità a priori.tex
+INPUT .\assets\immagini varie\grafico usabilita.png
+INPUT .\assets\immagini varie\grafico usabilita.png
+INPUT assets\immagini varie\grafico usabilita.png
+INPUT .\assets\immagini varie\grafico usabilita.png
+INPUT .\assets\immagini varie\grafico usabilita.png
+INPUT .\assets\immagini varie\grafico usabilita.png
+INPUT .\assets\immagini varie\grafico usabilita.png
+INPUT .\assets\Logo1.png
+INPUT .\assets\Logo1.png
+INPUT assets\Logo1.png
+INPUT .\assets\Logo1.png
+INPUT .\capitoli\Glossario\Glossario.tex
+OUTPUT capitoli\Glossario\Glossario.aux
+INPUT .\capitoli\Glossario\Glossario.tex
+INPUT .\capitoli\Glossario\Glossario.tex
+INPUT .\capitoli\Glossario\Glossario.tex
+INPUT .\capitoli\Glossario\Glossario.tex
+INPUT capitoli\Glossario\Glossario.tex
+INPUT .\capitoli\Glossario\Glossario.tex
+INPUT capitoli\Glossario\Glossario.tex
+INPUT .\assets\Logo1.png
+INPUT .\assets\Logo1.png
+INPUT assets\Logo1.png
+INPUT .\assets\Logo1.png
 INPUT .\capitoli\Documento dei requisiti software\Classi di analisi.tex
 OUTPUT capitoli\Documento dei requisiti software\Classi di analisi.aux
 INPUT .\capitoli\Documento dei requisiti software\Classi di analisi.tex
@@ -1901,6 +1940,12 @@ INPUT capitoli\Documento dei requisiti software\TabelleCockburn.aux
 INPUT .\capitoli\Documento dei requisiti software\Mockup.aux
 INPUT capitoli\Documento dei requisiti software\Mockup.aux
 INPUT capitoli\Documento dei requisiti software\Mockup.aux
+INPUT .\capitoli\Valutazione usabilità\Usabilità a priori.aux
+INPUT capitoli\Valutazione usabilità\Usabilità a priori.aux
+INPUT capitoli\Valutazione usabilità\Usabilità a priori.aux
+INPUT .\capitoli\Glossario\Glossario.aux
+INPUT capitoli\Glossario\Glossario.aux
+INPUT capitoli\Glossario\Glossario.aux
 INPUT .\capitoli\Documento dei requisiti software\Classi di analisi.aux
 INPUT capitoli\Documento dei requisiti software\Classi di analisi.aux
 INPUT capitoli\Documento dei requisiti software\Classi di analisi.aux
