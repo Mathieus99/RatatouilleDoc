@@ -1,0 +1,40 @@
+@startuml
+actor Admin 
+boundary ListaRistoranti
+boundary MenuDialog
+control ControllerRistorante
+control ControllerMenu
+
+activate Admin
+Admin -> ListaRistoranti: preme su "Gestisci"
+activate ListaRistoranti
+
+ListaRistoranti -> ControllerRistorante: gestisciRistorante()
+deactivate ListaRistoranti
+activate ControllerRistorante
+
+ControllerRistorante -> MenuDialog: show()
+deactivate ControllerRistorante
+activate MenuDialog
+
+MenuDialog->ControllerMenu: "preme su crea menu"
+activate ControllerMenu
+
+ControllerMenu->MenuDialog: mostraNuovoMenu()
+
+MenuDialog->ControllerMenu: salva
+ControllerMenu->MenuDialog: saveMenu()
+
+deactivate ControllerMenu
+
+MenuDialog->ControllerRistorante: updateMenu()
+activate ControllerRistorante
+
+ControllerRistorante -> ListaRistoranti: updateList()
+deactivate ControllerRistorante
+deactivate MenuDialog
+
+
+
+deactivate Admin
+@enduml
