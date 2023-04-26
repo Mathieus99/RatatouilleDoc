@@ -1077,6 +1077,9 @@ INPUT capitoli\Documento dei requisiti software\Classi di analisi.aux
 INPUT .\capitoli\Documento dei requisiti software\Sequence di analisi.aux
 INPUT capitoli\Documento dei requisiti software\Sequence di analisi.aux
 INPUT capitoli\Documento dei requisiti software\Sequence di analisi.aux
+INPUT .\capitoli\Documento dei requisiti software\State Diagram.aux
+INPUT capitoli\Documento dei requisiti software\State Diagram.aux
+INPUT capitoli\Documento dei requisiti software\State Diagram.aux
 OUTPUT main.aux
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -1970,6 +1973,19 @@ INPUT .\assets\Logo1.png
 INPUT .\assets\Logo1.png
 INPUT assets\Logo1.png
 INPUT .\assets\Logo1.png
+INPUT .\capitoli\Documento dei requisiti software\State Diagram.tex
+OUTPUT capitoli\Documento dei requisiti software\State Diagram.aux
+INPUT .\capitoli\Documento dei requisiti software\State Diagram.tex
+INPUT .\capitoli\Documento dei requisiti software\State Diagram.tex
+INPUT .\capitoli\Documento dei requisiti software\State Diagram.tex
+INPUT .\capitoli\Documento dei requisiti software\State Diagram.tex
+INPUT capitoli\Documento dei requisiti software\State Diagram.tex
+INPUT .\capitoli\Documento dei requisiti software\State Diagram.tex
+INPUT capitoli\Documento dei requisiti software\State Diagram.tex
+INPUT .\assets\Logo1.png
+INPUT .\assets\Logo1.png
+INPUT assets\Logo1.png
+INPUT .\assets\Logo1.png
 INPUT main.aux
 INPUT .\capitoli\Premessa.aux
 INPUT capitoli\Premessa.aux
@@ -2001,6 +2017,9 @@ INPUT capitoli\Documento dei requisiti software\Classi di analisi.aux
 INPUT .\capitoli\Documento dei requisiti software\Sequence di analisi.aux
 INPUT capitoli\Documento dei requisiti software\Sequence di analisi.aux
 INPUT capitoli\Documento dei requisiti software\Sequence di analisi.aux
+INPUT .\capitoli\Documento dei requisiti software\State Diagram.aux
+INPUT capitoli\Documento dei requisiti software\State Diagram.aux
+INPUT capitoli\Documento dei requisiti software\State Diagram.aux
 INPUT .\main.out
 INPUT .\main.out
 INPUT C:\Users\vesse\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk

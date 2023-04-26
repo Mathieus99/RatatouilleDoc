@@ -48,3 +48,4 @@
 \contentsline {subsubsection}{\numberline {2.10.6}Class diagram Ordini}{56}{subsubsection.2.10.6}%
 \contentsline {subsubsection}{\numberline {2.10.7}Class diagram statistiche}{56}{subsubsection.2.10.7}%
 \contentsline {subsection}{\numberline {2.11}Sequence di analisi}{57}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}Diagrammi di stato}{59}{subsection.2.12}%
