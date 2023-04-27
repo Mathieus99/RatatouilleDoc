@@ -1,0 +1,10 @@
+@startuml
+
+state "Admin Dashboard" as AdminD
+state Avvisi : entry/ carica lista avvisi\ndo/ aggiorna avvisi
+
+[*] -> AdminD
+AdminD --> Avvisi : AvvisiButtonClick()
+
+
+@enduml

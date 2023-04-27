@@ -48,4 +48,8 @@
 \contentsline {subsubsection}{\numberline {2.10.6}Class diagram Ordini}{56}{subsubsection.2.10.6}%
 \contentsline {subsubsection}{\numberline {2.10.7}Class diagram statistiche}{56}{subsubsection.2.10.7}%
 \contentsline {subsection}{\numberline {2.11}Sequence di analisi}{57}{subsection.2.11}%
-\contentsline {subsection}{\numberline {2.12}Diagrammi di stato}{59}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.12}Statechart}{59}{subsection.2.12}%
+\contentsline {subsubsection}{\numberline {2.12.1}Aggiungi ristorante}{59}{subsubsection.2.12.1}%
+\contentsline {subsubsection}{\numberline {2.12.2}Aggiungi piatto}{60}{subsubsection.2.12.2}%
+\contentsline {subsubsection}{\numberline {2.12.3}Prendi ordine}{61}{subsubsection.2.12.3}%
+\contentsline {subsubsection}{\numberline {2.12.4}Visualizza avvisi}{62}{subsubsection.2.12.4}%

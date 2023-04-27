@@ -1,0 +1,24 @@
+@startuml
+
+state "Admin Dashboard" as AdminD
+state "Dashboard Ristorante" as RestD
+state "Gestione Menu" as ManageMenu
+state "Compila campi piatto" as Plate
+state "Compila campi preconfezionato" as Plate2
+state "Campi errati" as error
+
+error : do/ mostra campi non corretti
+
+[*] --> AdminD
+AdminD --> RestD : ManageResturantButtonClick()
+RestD --> ManageMenu : ManageMenuButtonClick()
+ManageMenu --> Plate : AddPlateBtnClick() [!preconfezionato]
+ManageMenu -left-> Plate2 : addPlateBtnClick() [preconfezionato]
+Plate -left-> error : OkBtnClick() [!campiCorretti]
+Plate2 --> error : OkBtnClick() [!campiCorretti]
+error -up-> Plate2[H]
+error --> Plate[H]
+Plate -up-> ManageMenu : AnnullaBtnClick()
+Plate2 --> ManageMenu : AnnullaBtnClick()
+
+@enduml

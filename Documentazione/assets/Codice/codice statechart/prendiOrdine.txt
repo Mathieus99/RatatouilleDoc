@@ -1,0 +1,19 @@
+@startuml
+
+state "Dashboard cameriere" as WaiterD
+state "Nessun tavolo selezionato" as NoTable
+state "Prendi ordine" as Order{
+  state "Nessun piatto aggiunto" as NoItem
+  state "Piatti aggiunti" as Item
+  
+  [*] -> NoItem
+  NoItem -> Item : prendiOrdinazione()
+  Item -> [*]
+}
+
+WaiterD --> NoTable : prendiOrdineButtonClick()
+NoTable --> Order : selezionaTavolo()
+Order --> WaiterD : SalvaButtonClick()
+Order --> WaiterD : AnnullaButtonClick()
+
+@enduml

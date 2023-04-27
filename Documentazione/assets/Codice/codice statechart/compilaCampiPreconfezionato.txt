@@ -1,0 +1,34 @@
+@startuml
+
+state "Compila campi preconfezionato" as Plate2 {
+  state "Nome vuoto" as NoName
+  state "OpenFoodFact" as OpenFood
+  state "Seleziona prodotto" as Name
+  state "Nome inserito" as YesName
+  [*] -> NoName
+  NoName --> OpenFood : cercaButtonClick()
+  OpenFood --> Name : restituisciRisultati()
+  Name -> YesName : selezionaProdotto()
+  YesName -> [*]
+  --
+  state "Prezzo non inserito" as NoPrice
+  state "Prezzo inserito" as Price
+  [*] -> NoPrice
+  NoPrice -> Price : inserisciPrezzo()
+  Price -> [*]
+  --
+  state "Tipo portata non inserito" as NoType
+  state "Tipo portata inserito" as Type
+  [*] -> NoType
+  NoType -> Type : inserisciTipoPortata()
+  Type -> [*]
+  --
+   state "Tipo alimento non inserito" as NoAType
+  state "Tipo alimento inserito" as AType
+  [*] -> NoAType
+  NoAType -> AType : inserisciTipoAlimento()
+  AType -> [*]
+  
+}
+
+@enduml

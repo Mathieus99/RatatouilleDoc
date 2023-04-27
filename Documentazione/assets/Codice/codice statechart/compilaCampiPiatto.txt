@@ -1,0 +1,42 @@
+@startuml
+
+state "Compila campi piatto" as Plate {
+  state "Nome vuoto" as NoName
+  state "Nome inserito" as YesName
+  [*] -> NoName
+  NoName -> YesName : inserisciNome()
+  YesName -> [*]
+  --
+  state "Descizione non inserita" as NoDescription
+  state "Descizione inserita" as Description
+  [*] -> NoDescription
+  NoDescription -> Description : inserisciDescrizione()
+  Description -> [*]
+  --
+  state "Allergeni non inseriti" as NoAllerg
+  state "Allergeni inseriti" as Allerg
+  [*] -> NoAllerg
+  NoAllerg -> Allerg : inserisciAllergeni()
+  Allerg -> [*]
+  --
+  state "Prezzo non inserito" as NoPrice
+  state "Prezzo inserito" as Price
+  [*] -> NoPrice
+  NoPrice -> Price : inserisciPrezzo()
+  Price -> [*]
+  --
+  state "Tipo portata non inserito" as NoType
+  state "Tipo portata inserito" as Type
+  [*] -> NoType
+  NoType -> Type : inserisciTipoPortata()
+  Type -> [*]
+  --
+   state "Tipo alimento non inserito" as NoAType
+  state "Tipo alimento inserito" as AType
+  [*] -> NoAType
+  NoAType -> AType : inserisciTipoAlimento()
+  AType -> [*]
+  
+}
+
+@enduml

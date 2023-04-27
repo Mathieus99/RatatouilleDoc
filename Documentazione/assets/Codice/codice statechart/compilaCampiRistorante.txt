@@ -1,0 +1,29 @@
+@startuml
+
+state "Compila campi ristorante" as feelFields {
+  state "Nome vuoto" as NoName
+  state "Nome inserito" as YesName
+  [*] -> NoName
+  NoName -> YesName : inserisciNome()
+  YesName -> [*]
+  --
+  state "Numero coperti vuoto" as NCopertiVuoto
+  state "Numero coperti inserito" as NCoperti
+  [*] -> NCopertiVuoto
+  NCopertiVuoto -> NCoperti : inserisciCoperti()
+  NCoperti -> [*]
+  --
+  state "Località non inserita" as NoLoc
+  state "Località inserita" as Loc
+  [*] -> NoLoc
+  NoLoc -> Loc : inserisciLocalità()
+  Loc -> [*]
+  --
+  state "Numero di telefono non inserito" as NoPhone
+  state "Numero di telefono inserito" as Phone
+  [*] -> NoPhone
+  NoPhone -> Phone : inserisciNumero()
+  Phone -> [*]
+}
+
+@enduml

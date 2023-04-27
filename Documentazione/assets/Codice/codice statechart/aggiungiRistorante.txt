@@ -1,0 +1,16 @@
+@startuml
+
+state "Admin Dashboard" as AdminD
+state "Campi errati" as errorFields
+state "Compila campi ristorante" as feelFields
+
+AdminD : entry/ popola lista ristoranti
+errorFields : do/ mostra campi non corretti
+
+[*] --> AdminD
+AdminD --> feelFields : NuovoRistoranteButtonClick()
+feelFields --> errorFields : SalvaButtonClick() [!campiCorretti]
+errorFields -up-> feelFields[H]
+feelFields --> AdminD : SalvaButtonClick() [campiCorretti]
+
+@enduml
