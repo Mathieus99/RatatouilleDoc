@@ -1065,6 +1065,9 @@ INPUT capitoli\Target utenti\Target utenti.aux
 INPUT .\capitoli\Glossario\Glossario.aux
 INPUT capitoli\Glossario\Glossario.aux
 INPUT capitoli\Glossario\Glossario.aux
+INPUT .\capitoli\Documento di design\Architettura.aux
+INPUT capitoli\Documento di design\Architettura.aux
+INPUT capitoli\Documento di design\Architettura.aux
 OUTPUT main.aux
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -1192,7 +1195,6 @@ INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnr5.tfm
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnbx5.tfm
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnr7.tfm
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vntt8.tfm
-INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnbx7.tfm
 INPUT .\main.toc
 INPUT main.toc
 INPUT main.toc
@@ -1468,10 +1470,6 @@ INPUT .\assets\Logo1.png
 INPUT .\assets\Logo1.png
 INPUT assets\Logo1.png
 INPUT .\assets\Logo1.png
-INPUT .\assets\Logo1.png
-INPUT .\assets\Logo1.png
-INPUT assets\Logo1.png
-INPUT .\assets\Logo1.png
 INPUT main.aux
 INPUT .\capitoli\Premessa.aux
 INPUT capitoli\Premessa.aux
@@ -1502,8 +1500,6 @@ INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbx10.
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbx10.pfb
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbx12.pfb
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbx12.pfb
-INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbx7.pfb
-INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbx7.pfb
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbxti10.pfb
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbxti10.pfb
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnr10.pfb
