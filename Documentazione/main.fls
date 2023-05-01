@@ -1068,6 +1068,9 @@ INPUT capitoli\Glossario\Glossario.aux
 INPUT .\capitoli\Documento di design\Architettura.aux
 INPUT capitoli\Documento di design\Architettura.aux
 INPUT capitoli\Documento di design\Architettura.aux
+INPUT .\capitoli\Documento di design\Sequence Design.aux
+INPUT capitoli\Documento di design\Sequence Design.aux
+INPUT capitoli\Documento di design\Sequence Design.aux
 OUTPUT main.aux
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -1470,6 +1473,30 @@ INPUT .\assets\Logo1.png
 INPUT .\assets\Logo1.png
 INPUT assets\Logo1.png
 INPUT .\assets\Logo1.png
+INPUT .\assets\Logo1.png
+INPUT .\assets\Logo1.png
+INPUT assets\Logo1.png
+INPUT .\assets\Logo1.png
+INPUT .\capitoli\Documento di design\Sequence Design.tex
+OUTPUT capitoli\Documento di design\Sequence Design.aux
+INPUT .\capitoli\Documento di design\Sequence Design.tex
+INPUT .\capitoli\Documento di design\Sequence Design.tex
+INPUT .\capitoli\Documento di design\Sequence Design.tex
+INPUT .\capitoli\Documento di design\Sequence Design.tex
+INPUT capitoli\Documento di design\Sequence Design.tex
+INPUT .\capitoli\Documento di design\Sequence Design.tex
+INPUT capitoli\Documento di design\Sequence Design.tex
+INPUT .\assets\diagrammi\Sequence di design\Salva Ristorante.png
+INPUT .\assets\diagrammi\Sequence di design\Salva Ristorante.png
+INPUT assets\diagrammi\Sequence di design\Salva Ristorante.png
+INPUT .\assets\diagrammi\Sequence di design\Salva Ristorante.png
+INPUT .\assets\diagrammi\Sequence di design\Salva Ristorante.png
+INPUT .\assets\diagrammi\Sequence di design\Salva Ristorante.png
+INPUT .\assets\diagrammi\Sequence di design\Salva Ristorante.png
+INPUT .\assets\Logo1.png
+INPUT .\assets\Logo1.png
+INPUT assets\Logo1.png
+INPUT .\assets\Logo1.png
 INPUT main.aux
 INPUT .\capitoli\Premessa.aux
 INPUT capitoli\Premessa.aux
@@ -1492,6 +1519,9 @@ INPUT capitoli\Glossario\Glossario.aux
 INPUT .\capitoli\Documento di design\Architettura.aux
 INPUT capitoli\Documento di design\Architettura.aux
 INPUT capitoli\Documento di design\Architettura.aux
+INPUT .\capitoli\Documento di design\Sequence Design.aux
+INPUT capitoli\Documento di design\Sequence Design.aux
+INPUT capitoli\Documento di design\Sequence Design.aux
 INPUT .\main.out
 INPUT .\main.out
 INPUT C:\Users\vesse\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk

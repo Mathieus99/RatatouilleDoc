@@ -19,3 +19,5 @@
 \contentsline {subsection}{\numberline {2.9}Introduzione}{22}{subsection.2.9}%
 \contentsline {subsubsection}{\numberline {2.9.1}Client}{22}{subsubsection.2.9.1}%
 \contentsline {subsubsection}{\numberline {2.9.2}Server}{22}{subsubsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.10}Sequence diagram di design}{24}{subsection.2.10}%
+\contentsline {subsubsection}{\numberline {2.10.1}4 funzionalità}{24}{subsubsection.2.10.1}%
