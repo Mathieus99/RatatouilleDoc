@@ -1,0 +1,63 @@
+@startuml
+actor Amministratore as admin
+activate admin
+activate PlateManagerActivity
+
+
+autonumber
+opt [Ristorante.getMenu()!=null]
+  admin -> PlateManagerActivity: addProductCard.onClick(view)
+  activate PlateManagerActivity
+end opt
+
+
+PlateManagerActivity -> addPlateDialog**: <<create>>
+
+
+deactivate PlateManagerActivity
+activate addPlateDialog
+
+opt [menuPreconfSwitch.isTrue()]
+    
+    addPlateDialog -> addPlateDialog: getDataFromOpenFood()
+    activate addPlateDialog
+    addPlateDialog -> OpenData: sendHttpRequestOpenFood(nome_piatto)
+    deactivate addPlateDialog
+    activate OpenData
+    OpenData -> PlateManagerActivity: onRensponse(result) 
+    deactivate OpenData
+    activate PlateManagerActivity
+    PlateManagerActivity->addPlateDialog: descriptionItemMenu.setText(descriptionFromOpenFood)
+    PlateManagerActivity->addPlateDialog: allergensItemMenu.setText(allergensFromOpenFood)
+    deactivate PlateManagerActivity
+    addPlateDialog->PiattoController: addPiatto(nome_piatto,descrizione, prezzo, allergeni, contiene, codice_menu, tipo,  tipoPietanza) 
+    activate PiattoController
+    
+
+else [menuPreconfSwitch.isFalse()]
+   deactivate OpenData
+   addPlateDialog -> PiattoController: addPiatto(nome_piatto,descrizione, prezzo, allergeni, contiene, codice_menu, tipo,  tipoPietanza)
+end opt
+
+   PiattoController->Piatto **: create 
+   activate Piatto
+
+   PiattoController -> Piatto: setNomePiatto()
+   PiattoController -> Piatto: setTipo()
+   PiattoController -> Piatto: setTipoPietanza()
+   PiattoController -> Piatto: setDescrizione()
+   PiattoController -> Piatto: setAllergeni()
+   PiattoController -> Piatto: setPrezzo()
+
+   PiattoController -> PiattoRepository: save(Piatto)
+   deactivate Piatto
+   activate PiattoRepository
+   PiattoRepository --> PiattoController: <<saved_entity>>
+   deactivate PiattoRepository
+   
+
+   
+   PiattoController -> PlateManagerActivity: onResponse(result) 
+   deactivate PiattoController
+
+@enduml
