@@ -19,24 +19,26 @@ activate AccountUtils
 AccountUtils --> SaveRestaurantActivity: error_codes[]
 deactivate AccountUtils
 
-opt error_codes.isEmpty() == false
+opt [error_codes.isEmpty()==false]
 autonumber 5.1
   SaveRestaurantActivity -> SaveRestaurantActivity: errorHandler(error_codes[])
   deactivate SaveRestaurantActivity
-else error_codes.isEmpty()
+else [error_codes.isEmpty()]
    SaveRestaurantActivity->RistoranteController: addNewRistorante(email, nome, coperti, locazione,telefono)
    activate RistoranteController
-   create entity Ristorante
-   RistoranteController->Ristorante:create
+   
+   RistoranteController->Ristorante**:create
+   activate Ristorante
    RistoranteController->Ristorante: setNome(nome)
    RistoranteController->Ristorante: setLocazione(locazione)
    RistoranteController->Ristorante: setCoperti(coperti)
    RistoranteController->Ristorante: setTelefono(telefono)
 
    RistoranteController -> RistoranteRepository: save(Ristorante)
+   deactivate Ristorante
    activate RistoranteRepository
 
-   RistoranteRepository --> RistoranteController
+   RistoranteRepository --> RistoranteController: <<saved_entity>>
    deactivate RistoranteRepository
 
    RistoranteController --> SaveRestaurantActivity: onResponse(VolleyCallback)
