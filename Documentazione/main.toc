@@ -64,3 +64,4 @@
 \contentsline {subsubsection}{\numberline {3.3.3}Funzionalità: "Prendi ordinazione"}{66}{subsubsection.3.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.4}Funzionalità: "Visualizza avvisi"}{66}{subsubsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.4}Class diagram di design}{67}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Login}{67}{subsubsection.3.4.1}%
