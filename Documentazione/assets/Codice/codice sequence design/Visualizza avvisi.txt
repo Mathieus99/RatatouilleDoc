@@ -1,0 +1,53 @@
+@startuml
+
+actor Utente as u
+participant DashboardUserActivity as da
+participant NotificationActivity as na
+participant CoordinatorLayout as cl
+participant AvvisiController as ac
+participant AvvisiRepository as ar
+
+
+u->da:visualizzaNotificheCard.onClick(view)
+
+activate da
+da->na: startActivity()
+deactivate da
+activate na
+na->na:inizializzaComponenti()
+opt [checkNewAvvisi.equals("YES")]
+  na->na:downloadNewAvvisi()
+  activate na
+  na->ac: getNewAvvisi()
+  activate ac
+  ac->ar: findAll()
+  activate ar
+  ar-->ac: List<avviso>
+  deactivate ar
+  ac->na: onResponse(result)
+  deactivate ac
+  deactivate na
+
+end opt
+ 
+
+activate na
+na->NotificationRecycleViewAdapter**:create (context, ristorante.getAvvisi(), dipendenteLoggato, coordinatorLayout)
+activate NotificationRecycleViewAdapter
+
+NotificationRecycleViewAdapter --> na: adapter
+
+
+na->na: setUpNotification()
+activate na
+na->cl: popolate()
+activate cl
+cl-->na:avvisi[]
+deactivate cl
+
+
+na --> u: done
+deactivate na
+deactivate na
+
+@enduml
