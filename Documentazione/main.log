@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.23)  2 MAY 2023 08:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.23)  2 MAY 2023 08:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -835,7 +835,7 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangrammax=\count372
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 37.
- (main.aux (capitoli/Premessa.aux) (capitoli/Documento dei requisiti software/Requisiti.aux) (capitoli/Documento dei requisiti software/TabelleCockburn.aux) (capitoli/Valutazione usabilità/Usabilità a priori.aux) (capitoli/Target utenti/Target utenti.aux) (capitoli/Glossario/Glossario.aux) (capitoli/Documento di design/Architettura.aux) (capitoli/Documento di design/Sequence Design.aux))
+ (main.aux (capitoli/Premessa.aux) (capitoli/Documento dei requisiti software/Requisiti.aux) (capitoli/Documento dei requisiti software/TabelleCockburn.aux) (capitoli/Valutazione usabilità/Usabilità a priori.aux) (capitoli/Target utenti/Target utenti.aux) (capitoli/Glossario/Glossario.aux) (capitoli/Documento di design/Architettura.aux) (capitoli/Documento di design/Sequence Design.aux) (capitoli/Documento di design/Classi di design.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -936,7 +936,7 @@ Package: xparse 2023-02-02 L3 Experimental document command parser
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<assets/Logo1.png, id=91, 497.86pt x 455.7025pt>
+<assets/Logo1.png, id=103, 497.86pt x 455.7025pt>
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 44.
@@ -1199,4 +1199,312 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 216.
 > Step: init table inner spec.
 > Step: parse table inner spec.
 > Step: execute table commands.
-> Step: ca
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 276.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [9]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 285.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [10]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+)
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 91.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [11]
+\openout2 = `"capitoli/Documento dei requisiti software/TabelleCockburn.aux"'.
+
+ (capitoli/Documento dei requisiti software/TabelleCockburn.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 68.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [12
+
+
+
+]
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 68.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [13]
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 71.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [14]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 112.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [15]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 155.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [16]
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 158.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [17]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 196.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [18])
+\openout2 = `"capitoli/Valutazione usabilità/Usabilità a priori.aux"'.
+
+ (capitoli/Valutazione usabilità/Usabilità a priori.tex
+<assets/immagini varie/grafico usabilita.png, id=239, 602.25pt x 391.4625pt>
+File: assets/immagini varie/grafico usabilita.png Graphic file (type png)
+<use assets/immagini varie/grafico usabilita.png>
+Package pdftex.def Info: assets/immagini varie/grafico usabilita.png  used on input line 17.
+(pdftex.def)             Requested size: 361.35278pt x 234.8793pt.
+)
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 95.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [19
+
+
+
+ <./assets/immagini varie/grafico usabilita.png>]
+\openout2 = `"capitoli/Target utenti/Target utenti.aux"'.
+
+ (capitoli/Target utenti/Target utenti.tex
+<assets/immagini varie/target utenti.png, id=248, 457.10776pt x 209.583pt>
+File: assets/immagini varie/target utenti.png Graphic file (type png)
+<use assets/immagini varie/target utenti.png>
+Package pdftex.def Info: assets/immagini varie/target utenti.png  used on input line 31.
+(pdftex.def)             Requested size: 228.55331pt x 104.79123pt.
+)
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 96.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [20
+
+
+
+ <./assets/immagini varie/target utenti.png>]
+\openout2 = `capitoli/Glossario/Glossario.aux'.
+
+ (capitoli/Glossario/Glossario.tex)
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 97.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [21
+
+
+
+]
+\openout2 = `"capitoli/Documento di design/Architettura.aux"'.
+
+ (capitoli/Documento di design/Architettura.tex
+<assets/immagini varie/spring-boot-architecture2.png, id=260, 602.25pt x 401.5pt>
+File: assets/immagini varie/spring-boot-architecture2.png Graphic file (type png)
+<use assets/immagini varie/spring-boot-architecture2.png>
+Package pdftex.def Info: assets/immagini varie/spring-boot-architecture2.png  used on input line 34.
+(pdftex.def)             Requested size: 180.67639pt x 120.45091pt.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 37.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [22
+
+
+
+ <./assets/immagini varie/spring-boot-architecture2.png>]
+<assets/immagini varie/azure loc.png, id=268, 602.25pt x 312.16624pt>
+File: assets/immagini varie/azure loc.png Graphic file (type png)
+<use assets/immagini varie/azure loc.png>
+Package pdftex.def Info: assets/immagini varie/azure loc.png  used on input line 52.
+(pdftex.def)             Requested size: 301.12425pt x 156.08273pt.
+)
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 101.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [23 <./assets/immagini varie/azure loc.png (PNG copy)>]
+\openout2 = `"capitoli/Documento di design/Sequence Design.aux"'.
+
+ (capitoli/Documento di design/Sequence Design.tex
+<assets/diagrammi/Sequence di design/Salva Ristorante.png, id=275, 1650.165pt x 822.07124pt>
+File: assets/diagrammi/Sequence di design/Salva Ristorante.png Graphic file (type png)
+<use assets/diagrammi/Sequence di design/Salva Ristorante.png>
+Package pdftex.def Info: assets/diagrammi/Sequence di design/Salva Ristorante.png  used on input line 12.
+(pdftex.def)             Requested size: 495.05333pt x 246.62328pt.
+
+Overfull \hbox (11.35646pt too wide) in paragraph at lines 12--13
+ [][] 
+ []
+
+<assets/diagrammi/Sequence di design/Aggiungi Piatto.png, id=276, 1756.5625pt x 882.29625pt>
+File: assets/diagrammi/Sequence di design/Aggiungi Piatto.png Graphic file (type png)
+<use assets/diagrammi/Sequence di design/Aggiungi Piatto.png>
+Package pdftex.def Info: assets/diagrammi/Sequence di design/Aggiungi Piatto.png  used on input line 20.
+(pdftex.def)             Requested size: 526.97282pt x 264.69092pt.
+
+Overfull \hbox (43.27596pt too wide) in paragraph at lines 20--21
+ [][] 
+ []
+
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 23.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+[24
+
+
+
+ <./assets/diagrammi/Sequence di design/Salva Ristorante.png (PNG copy)> <./assets/diagrammi/Sequence di design/Aggiungi Piatto.png (PNG copy)>]
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 28.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [25])
+\openout2 = `"capitoli/Documento di design/Classi di design.aux"'.
+
+ (capitoli/Documento di design/Classi di design.tex)
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 103.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [26
+
+
+
+] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(main.aux (capitoli/Premessa.aux) (capitoli/Documento dei requisiti software/Requisiti.aux) (capitoli/Documento dei requisiti software/TabelleCockburn.aux) (capitoli/Valutazione usabilità/Usabilità a priori.aux) (capitoli/Target utenti/Target utenti.aux) (capitoli/Glossario/Glossario.aux) (capitoli/Documento di design/Architettura.aux) (capitoli/Documento di design/Sequence Design.aux) (capitoli/Documento di design/Classi di design.aux))
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 44F35E0DE779D858C3C1095409691D13;4162.
+ ) 
+Here is how much of TeX's memory you used:
+ 23977 strings out of 476331
+ 496284 string characters out of 5787765
+ 1926660 words of memory out of 5000000
+ 43929 multiletter control sequences out of 15000+600000
+ 576282 words of font info for 190 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 90i,24n,116p,436b,1516s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\vesse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt8.pfb>
+Output written on main.pdf (26 pages, 521485 bytes).
+PDF statistics:
+ 348 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+
