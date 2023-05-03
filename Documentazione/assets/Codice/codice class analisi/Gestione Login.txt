@@ -71,12 +71,12 @@ class FormCambioPassword  <<boundary>>  #header:C6AD77 {
    -cancelButton: Button
 }
 
-CredenzialiController  -down-- Lavoratore
+CredenzialiController  -down- Lavoratore
 CredenzialiController -up- FormLogin
 CredenzialiController -up- FormCambioPassword
 CredenzialiController -right-- LoginController
 LoginController -up- AdminDashboard
-LoginController -up- SupervisoreDashboard
-LoginController -up- AddettoCucinaDashboard
+LoginController -down- SupervisoreDashboard
+LoginController -down- AddettoCucinaDashboard
 LoginController -up- CameriereDashboard
 @enduml
