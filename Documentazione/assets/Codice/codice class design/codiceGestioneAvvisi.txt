@@ -34,18 +34,6 @@ package "Model" {
 }
 
 
-
-
-  class Menu #header:C6AD77{
-    -id_menu : Long
-    -portate : List<Piatto>
-    -nome : String
-    -tipo : String
-    -lingua : String
-  }
-
-  
-
   class Admin #header:C6AD77{
    -partita_iva : String
    -ristoranti : List<Ristorante>
@@ -99,49 +87,15 @@ package "Controller/Repository"{
    +String setLettoDa(Long avviso_id, String cod_fisc)
 }
   
-  class CameriereController #header:C6AD77{
-    +CameriereController(CameriereRepository camRepo,
-    RistoranteRepository ristRepo, OrdineRepository ordRepo)
-    +List<Cameriere> getAllCamerieri()
-    +Ristorante addNewCameriere(Long codRistorante, String cf, 
-    String nome, String cognome, String email, String hpass)
-    +Ristorante getRistoranteCameriere(String id)
-    +String changePassword(String id, String passNew)
-    +String deleteMenu(String cameriere_id)
-  }
-  
-  class LavoratoreController #header:C6AD77{
-    +LavoratoreController(CameriereRepository camRepo,
-    AddettoCucinaRepository addettoRepo,
-    SupervisoreRepository supRepo, RistoranteRepository ristRepo)
-    +Ristorante addNuovoLavoratore(String codRistorante, String cf, 
-    String ruolo, String nome, String cognome, String email, String hpass)
-  }
-  
-  class SupervisoreController #header:C6AD77{
-    +SupervisoreController(SupervisoreRepository supRepo,
-    CameriereRepository camRepo)
-    +Ristorante getRistoranteCameriere(String id)
-    +String changePassword(String id, String passNew)
-    +String deleteMenu(String sup_id)
-  }
-  
-  interface AddettoCucinaRepository #header:C6AD77{
-    AddettoCucina findByEmailAddress(String email)
-  }
-  
-  interface CameriereRepository #header:C6AD77{
-    Cameriere findByEmailAddress(String email)
-  }
  
   interface AvvisoRepository #header:C6AD77{
+  }
+  
+  
+  interface RistoranteRepository #header:C6AD77{
    
   }
-  
-  
-  interface SupervisoreRepository #header:C6AD77{
-    Supervisore findByEmailAddress(String email)
-  }
+
 }
 
 package Singleton{
@@ -227,5 +181,21 @@ interface VolleyCallback #header:C6AD77{
 
 
 
+Admin "1"--"0...*"Ristorante
+Ristorante "1"--"0...*" Cameriere
+Ristorante-Supervisore
+Ristorante-AddettoCucina
+AdminSingleton-Admin
+AvvisoController-AvvisoRepository
+AvvisoController-left-RistoranteRepository
+NotificationActivity->CustomRequest
+CustomRequest-up-VolleySingleton
+CustomRequest-down-AvvisoController
+NotificationActivity-up-Ristorante
+Ristorante "1" -- "0..*" Avviso
+AddettoCucinaSingleton-NotificationActivity
+SupervisoreSingleton-NotificationActivity
+CameriereSingleton-NotificationActivity
+NotificationActivity-down-VolleyCallback
 
 @enduml
