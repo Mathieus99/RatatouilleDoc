@@ -1,0 +1,82 @@
+@startuml
+
+skinparam class{
+  BackgroundColor white
+}
+skinparam package{
+  BackgroundColor white
+}
+
+class FormLogin <<boundary>>  #header:C6AD77  {
+ -Email EditText
+ -Password PasswordEditText
+}
+
+class AdminDashboard <<boundary>>  #header:C6AD77 {
++vediStatistiche()
++gestisciDipendenti()
++gestisciRistoranti()
++emanaAvvisi()
+
+}
+
+class SupervisoreDashboard <<boundary>> #header:C6AD77  {
++emettiAvviso()
++vediOrdini()
+
+}
+
+class AddettoCucinaDashboard <<boundary>>  #header:C6AD77 {
++vediOrdinazioni()
+
+}
+
+class CameriereDashboard <<boundary>> #header:C6AD77  {
++prendiOrdine()
++visualizzaOrdini()
+
+}
+
+ 
+class Lavoratore <<entity>>  #header:C6AD77  {
+   -nome: String
+   -cognome: String
+   -codice_fiscale: String
+   -email: String
+   -password: String
+} 
+
+class CredenzialiController  <<controller>>  #header:C6AD77 {
+ +controllaCredenziali()
+ +hashPassword()
+ +controllaRuolo()
+ +isPrimoAccesso()
+ +setNewPassword()
+ +istanziaLavoratore()
+}
+
+class LoginController <<controller>> #header:C6AD77 {
+ +getLavoratore()
+ +istanziaAdmin()
+ +istanziaCameriere()
+ +istanziaaSupervisore()
+ +istanziaAddettoCucina()
+ +switchToHome()
+}
+
+
+class FormCambioPassword  <<boundary>>  #header:C6AD77 {
+   -NewPassoword:PasswordEditText
+   -okButton: Button
+   -cancelButton: Button
+}
+
+CredenzialiController  -down-- Lavoratore
+CredenzialiController -up- FormLogin
+CredenzialiController -up- FormCambioPassword
+CredenzialiController -right-- LoginController
+LoginController -up- AdminDashboard
+LoginController -up- SupervisoreDashboard
+LoginController -up- AddettoCucinaDashboard
+LoginController -up- CameriereDashboard
+@enduml

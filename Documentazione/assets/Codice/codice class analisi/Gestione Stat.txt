@@ -1,37 +1,45 @@
 @startuml
-class Admin <<entity>> {
- Nome: String
- Cognome: String
- CodiceFiscale: String
- email:String
- hashedPassword:String
- ruolo: String
- getters()
- setters()
+
+skinparam class{
+  BackgroundColor white
+}
+skinparam package{
+  BackgroundColor white
 }
 
-class Ristorante<<entity>> {
- nome: String
- localita: String
- coperti: integer
- numeroTelefono: String
- dipendenti: List<Lavoratore>
- getters()
- setters()
+class Admin <<entity>>  #header:C6AD77 {
+ -Nome: String
+ -Cognome: String
+ -CodiceFiscale: String
+ -email:String
+ -hashedPassword:String
+ -ruolo: String
+ +getters()
+ +setters()
+}
+
+class Ristorante<<entity>>  #header:C6AD77 {
+ -nome: String
+ -localita: String
+ -coperti: integer
+ -numeroTelefono: String
+ -dipendenti: List<Lavoratore>
+ +getters()
+ +setters()
 }
 
 
-class StatisticheController << controller >> {
-generaGrafici()
-visualizzaGrafici()
-statisticheActivity()
+class StatisticheController << controller >>  #header:C6AD77 {
++generaGrafici()
++visualizzaGrafici()
++statisticheActivity()
 }
 
 
 
-class StatisticheActivity << boundary >> {
- ordini:List<Ordine>
- conti: List<Integer>
+class StatisticheActivity << boundary >> #header:C6AD77  {
+ -ordini:List<Ordine>
+ -conti: List<Integer>
 }
 
 

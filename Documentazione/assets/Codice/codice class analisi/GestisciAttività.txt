@@ -1,45 +1,53 @@
 @startuml
-class Ristorante << entity>> {
- nome: String
- localita: String
- numeroCoperti: int
- numeroTelefono: String
- getter()
- setter()
+
+skinparam class{
+  BackgroundColor white
+}
+skinparam package{
+  BackgroundColor white
+}
+
+class Ristorante << entity>> #header:C6AD77 {
+ -nome: String
+ -localita: String
+ -numeroCoperti: int
+ -numeroTelefono: String
+ +getter()
+ +setter()
 }
 
  
-class Admin << entity >> {
-   nome: string
-   cognome: string
-   codice fiscale: string
-   email: string
-   password: string
-   getter()
-   setter()
+class Admin << entity >>#header:C6AD77 {
+  -nome: string
+   -cognome: string
+   -codice fiscale: string
+   -email: string
+   -password: string
+   +getter()
+   +setter()
 } 
 
-class AdminDashboardController << controller >> {
- inserisciRistorante()
- eliminaRistorante()
- inserisciAvviso()
- inserisciDipendente()
- visualizzaStatistiche()
+class AdminDashboardController << controller >> #header:C6AD77{
+ +inserisciRistorante()
+ +eliminaRistorante()
+ +inserisciAvviso()
+ +inserisciDipendente()
+ +visualizzaStatistiche()
  
 }
 
-class AggiungiRistoranteForm << boundary >> {
- Nome: EditText
- Localita: EditText
- Numero coperti: decimalEditText
- Numero Telefono: decimalEditText
- SaveButton: Button
+class AggiungiRistoranteForm << boundary >> #header:C6AD77{
+ -Nome: EditText
+ -Localita: EditText
+ -Numero coperti: decimalEditText
+ -Numero Telefono: decimalEditText
+ -SaveButton: Button
 } 
 
-class ListaRistoranti << boundary >> {
- numeroRistoranti: int
- getListFromAdmin()
- viewList()
+class ListaRistoranti << boundary >> #header:C6AD77{
+ -numeroRistoranti: int
+ +getListFromAdmin()
+ +viewList()
 } 
 
 

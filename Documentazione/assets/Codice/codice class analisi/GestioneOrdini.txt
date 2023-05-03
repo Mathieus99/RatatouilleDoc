@@ -1,75 +1,85 @@
 @startuml
-class Ordine << entity>> {
- nome: String
- localita: String
- numeroCoperti: int
- numeroTelefono: String
- getter()
- setter()
+
+skinparam class{
+  BackgroundColor white
+}
+skinparam package{
+  BackgroundColor white
 }
 
-class Piatto << entity >> {
-nomePiatto: String
-descrizione: String
-prezzo: Int
-allergeni: String
-tipo: String
-tipoPietanza: String
+class Ordine << entity>>  #header:C6AD77{
+ -nome: String
+ -localita: String
+ -numeroCoperti: int
+ -numeroTelefono: String
+ +getter()
+ +setter()
 }
 
-class Supervisore <<entity>> {
- Nome: String
- Cognome: String
- CodiceFiscale: String
- email:String
- hashedPassword:String
- ruolo: String
- getter()
- setter()
+class Piatto << entity >>  #header:C6AD77{
+-nomePiatto: String
+-descrizione: String
+-prezzo: Int
+-allergeni: String
+-tipo: String
+-tipoPietanza: String
 }
 
-class Cameriere << entity >> {
- Nome: String
- Cognome: String
- CodiceFiscale: String
- email:String
- hashedPassword:String
- ruolo: String
- getter()
- setter()
+class Supervisore <<entity>>  #header:C6AD77{
+ -Nome: String
+ -Cognome: String
+ -CodiceFiscale: String
+ -email:String
+ -hashedPassword:String
+ -ruolo: String
+ +getter()
+ +setter()
+}
+
+class Cameriere << entity >>  #header:C6AD77{
+ -Nome: String
+ -Cognome: String
+ -CodiceFiscale: String
+ -email:String
+ -hashedPassword:String
+ -ruolo: String
+ +getter()
+ +setter()
 } 
 
 
-class AddettoCucina<< entity >> {
- Nome: String
- Cognome: String
- CodiceFiscale: String
- email:String
- hashedPassword:String
- ruolo: String
- getter()
- setter()
+class AddettoCucina<< entity >>  #header:C6AD77{
+ -Nome: String
+ -Cognome: String
+ -CodiceFiscale: String
+ -email:String
+ -hashedPassword:String
+ -ruolo: String
+ +getter()
+ +setter()
 } 
 
 
-class OrdineController << controller >> {
- prendiOrdine()
- visualizzaOrdini()
- generaListe()
+class OrdineController << controller >>  #header:C6AD77 {
+ +prendiOrdine()
+ +visualizzaOrdini()
+ +generaListe()
 }
 
-class PrendiOrdineActivity << boundary >> {
+class PrendiOrdineActivity << boundary >>  #header:C6AD77{
++visualizzaPiatti()
++aggiungiPortata()
 
 } 
 
-class ListaPiatti << boundary >> {
- numeroPiatti: int
- primi: ArrayList
- secondi: ArrayList
- frutta: ArrayList
- dessert: ArrayList
- getListFromMenu()
- viewList()
+class ListaPiatti << boundary >>  #header:C6AD77{
+ -numeroPiatti: int
+ -primi: ArrayList
+ -secondi: ArrayList
+ -frutta: ArrayList
+ -dessert: ArrayList
+ +getListFromMenu()
+ +viewList()
 } 
 
 OrdineController -- Piatto
