@@ -1,46 +1,52 @@
 @startuml
-class Menu << entity>> {
- nome: String
- localita: String
- numeroCoperti: int
- numeroTelefono: String
- getter()
- setter()
+
+skinparam class{
+  BackgroundColor white
+}
+skinparam package{
+  BackgroundColor white
+}
+
+class Menu << entity>> #header:C6AD77 {
+ -nome: String
+ -tipoMenu: String
+ +getter()
+ +setter()
 }
 
  
-class Piatto<< entity >> {
- Nome: String
- Descrizione: String
- Allergeni: String
- tipo: enum
- tipoPiatto: enum
- getter()
- setter()
+class Piatto<< entity >>#header:C6AD77 {
+ -Nome: String
+ -Descrizione: String
+ -Allergeni: String
+ -tipo: enum
+ -tipoPiatto: enum
+ +getter()
+ +setter()
 } 
 
-class MenuController << controller >> {
- inserisciPiatto()
- visualizzaPiatti()
- generaMenuPdf()
- cercaSuOpenFood()
+class MenuController << controller >> #header:C6AD77{
+ +inserisciPiatto()
+ +visualizzaPiatti()
+ +generaMenuPdf()
+ +cercaSuOpenFood()
 }
 
-class AggiungiPiattoForm << boundary >> {
- Nome: EditText
- Descrizione: EditText
- Allergeni: EditText
- tipo: Spinner
- tipoPiatto: Spinner
- SaveButton: Button
- SearchButton: Button
- Preconfezionato: Switch
+class AggiungiPiattoForm << boundary >> #header:C6AD77{
+ -Nome: EditText
+ -Descrizione: EditText
+ -Allergeni: EditText
+ -tipo: Spinner
+ -tipoPiatto: Spinner
+ -SaveButton: Button
+ -SearchButton: Button
+ -Preconfezionato: Switch
 } 
 
-class ListaPiatti << boundary >> {
- numeroRistoranti: int
- getListFromMenu()
- viewList()
+class ListaPiatti << boundary >> #header:C6AD77{
+ -numeroRistoranti: int
+ +getListFromMenu()
+ +viewList()
 } 
 
 Menu "1" --- "1" MenuController 
