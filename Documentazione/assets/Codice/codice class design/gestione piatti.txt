@@ -1,0 +1,153 @@
+@startuml
+
+'Gestione piatti
+
+skinparam class{
+  BackgroundColor white
+}
+skinparam package{
+  BackgroundColor white
+}
+skinparam ClassStereotypeFontColor brown
+
+package "Model" {
+  class Menu #header:C6AD77{
+    -id_menu : Long
+    -portate : List<Piatto>
+    -nome : String
+    -tipo : String
+    -lingua : String
+  }
+
+  class Piatto #header:C6AD77{
+    -id_piatto : Long
+    -nome_piatto : String
+    -tipo : String
+    -tipoPietanza : String
+    -descrizione : String
+    -allergeni : String
+    -contiene : String
+    -prezzo : String
+  } 
+}
+
+class VolleySingleton #header:C6AD77{
+  -{static}istance : VolleySingleton
+  -requestQueue : RequestQueue
+  -imageLoader : ImageLoader
+  -{static} ctx : Context
+  -VolleySingleton(Context c)
+  +{static}synchronized VolleySingleton getIstance(Context c)
+  +void addToRequestQueue(Request<T> req)
+}
+
+VolleySingleton "1"-->"1" CustomRequest
+
+class AdminSingleton #header:C6AD77{
+  -{static}istance : AdminSingleton
+  -admin : Admin
+  -AdminSingleton()
+  +{static}AdminSingleton getIstance()
+  +Admin getAccount()
+  +void setAccount()
+}
+
+AdminSingleton "1"-->"1" PlateManagerActivity
+
+package Repository {
+  class PiattoController #header:C6AD77{
+    -PIATTOREPO : PiattoRepository
+    -MENUREPO : MenuRepository
+    +PiattoController(PiattoRepository plateRepo, MenuRepository menuRepo)
+    +Menu addNewPiatto(String nome, String descrizione, String prezzo, 
+    String allergeni, String contiene, Long codiceMenu, String tipo, String tipoAlimento)
+    +List<Piatto> getPiatto(Long codiceMenu)
+  }
+  
+  Menu "*"-->"1" PiattoController
+  Piatto "*"-->"1" PiattoController
+  
+  interface PiattoRepository #header:C6AD77{
+  }
+  
+  PiattoController "1"<--"1" PiattoRepository
+  
+  interface MenuRepository #header:C6AD77{
+  }
+  
+  PiattoController "1"<--"1" MenuRepository
+}
+
+class PlateManagerActivity #header:C6AD77{
+  -okButtonDialog : Button
+  -goProductButton : Button
+  -insertMenuButtonDialog : Button
+  -itemMenuDescription : EditText
+  -price : EditText
+  -allergensEditText : EditText
+  -addPlateDialog : Dialog
+  -addMenuDialog : Dialog
+  -ingredientsList : String
+  -productName : String
+  -description : String
+  -allergens : String
+  -prezzo : String
+  -myBallon : Balloon
+  -logo : ImageView
+  -autoCompTV : AutoCompleteTextView
+  -tipo : Spinner
+  -tipoAlimento : Spinner
+  -restNumber : int
+  #void onCreate(Bundle savedIstance)
+  -void inizializzaComponenti()
+  -void createMenu()
+  -void sendHttpRequestOpenFood(String foodName)
+  -void sendAddPlateRequest(String name, String description, 
+  String prezzo, String allergeni, String contiene, String tipo, String tipoAlimento)
+  -void sendAddMenuRequest()
+  -void parseJsnoResponse(String result)
+  -void sendDeleteMenuRequest()
+  +void onResponse(String result)
+}
+
+Menu "1"-->"1" PlateManagerActivity
+Piatto "*"-->"1" PlateManagerActivity
+
+class AggiungiPiattoDialog <<Dialog>> #header:C6AD77{
+  nomeProdotto : EditText
+  descrizione : EditText
+  allergeni : EditText
+  prezzo : EditText
+  tipo : Spinner
+  tipoAlimento : Spinner
+  preconfezionato : boolean
+  cerca : Button  
+  ok : Button
+  annulla : Button
+}
+
+PlateManagerActivity "1"<--"1" AggiungiPiattoDialog
+
+class CustomRequest #header:C6AD77{
+  -url : String
+  -params : Map<String, String>
+  -context : Context
+  +CustomRequest(String url, Map<String, String> params, 
+  Context c, VolleyCallback v)
+  +void sendGetRequest()
+  +void sendPostRequest()
+  +void sendPatchRequest()
+  +void sendDeleteRequest()
+}
+
+CustomRequest "1"-->"1" PiattoController
+PlateManagerActivity "1"-->"*" CustomRequest
+
+interface VolleyCallback #header:C6AD77{
+  void onResponse(String result)
+}
+
+VolleyCallback .left.> AggiungiPiattoDialog
+VolleyCallback "1"-right->"1" CustomRequest
+
+@enduml
