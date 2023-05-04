@@ -1,4 +1,5 @@
 # Fdb version 4
+<<<<<<< HEAD
 ["pdflatex"] 1683207716 "x:/Matteo/Drive/Università/Ingegneria del Software/Progetto/Documentazione/RatatouilleDoc-1/Documentazione/main.tex" "main.pdf" "main" 1683207759 0
   "assets/Logo1.png" 1681309952 79406 43a8cffe964178c1ed242745d6f01b0b ""
   "assets/diagrammi/Class diagram di analisi/Gestione Avvisi.png" 1683126635 50616 f037ebeb6f1709c1089bf231a1bd8ab3 ""
@@ -270,3 +271,5 @@
   "main.pdf"
   "main.toc"
   (rewritten before read)
+=======
+>>>>>>> 936c67e0031794c403c9d76e9ad96b721647c2a2

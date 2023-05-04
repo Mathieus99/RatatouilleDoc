@@ -1,0 +1,257 @@
+@startuml
+
+skinparam class{
+  BackgroundColor white
+}
+skinparam package{
+  BackgroundColor white
+}
+package "AndroidActivity"{
+
+class RestaurantDashActivity #header:C6AD77{
+    -waiterLinearL: LinearLayout 
+    -numeroCamerieri: int;
+    -alertDialog: Dialog
+    -buttonSendAlert: Button 
+    -multiLineEdt: EditText 
+    -restNumber: int
+
+    -LinearLayout createResturantRow(Lavoratore dipendente)
+    -void switchToAddCameriere()
+    -void switchToMenuActivity()
+    -void createNewAlert() 
+    -void sendAvviso(String avvisoString)
+    -void sendEliminaCameriereRequest(String codice_fiscale)
+    -void sendEliminaSupervisoreRequest(String codice_fiscale)
+    -void sendEliminaAddettoCucinaRequest(String codice_fiscale)
+    -void onResponse(String result)
+}
+
+class ProfileActivity #header:C6AD77 {
+    -myBalloon: Baloon 
+    -logo: ImageView
+
+    -void inizializzaComponenti()
+    -void onResponse(String result)
+    -void sendNewEmailRequest(String emailNew)
+    -void void onBackPressed()
+}
+
+class SaveWorkerActivity #header:C6AD77 {
+
+    -nomeText, cognomeText, pIvaText, 
+    emailText, codiceFiscaleText: EditText
+    -okButton: Button
+    -logo:ImageView 
+    -passwordText: TextInputEditText 
+    -welcomeTexView: TextView
+    -myBalloon:Balloon 
+    -loading:GifImageView 
+    -layoutLogo:LinearLayout 
+    
+     -void inizializzaComponenti()
+     -void sendRegisterRequest(Editable nome, Editable cognome, 
+      Editable codiceFiscale, Editable email, String ruolo)
+     -void onResponse(String result)
+     -void onClick(View view)
+     -void onBackPressed() 
+
+
+}
+
+
+
+}
+
+
+package "Model" {
+  class Ristorante #header:C6AD77{
+  -codice_ristorante : Long
+  -nome : String
+  -coperti : int
+  -locazione : String
+  -numeroTelefono : String
+  -proprietario : Admin
+  -camerieri : List<Cameriere>
+  -avvisi : List<Avviso>
+  -locTuristica : boolean
+  +Ristorante(Long codRistorante, String nome, int coperti, 
+  String locazione, Admin proprietario, List<Cameriere> c)
+  +boolean isLocTuristica()
+  }
+
+
+
+  class Admin #header:C6AD77{
+   -partita_iva : String
+   -ristoranti : List<Ristorante>
+   +Lista<Ristorante> getRistoranti()
+   +void setRistoranti(List<Ristorante> r)
+   +String getPartita_iva()
+   +void setPartita_iva(String partita_iva)
+  }
+  
+  class Supervisore #header:C6AD77{
+    -numeroAvvisi : int
+    +int getNumeroAvvisi()
+    +void setNumeroAvvisi(int n)
+    +Ristorante getRistorante()
+    +void setRistorante(Ristorante r)
+  }
+  
+  abstract class Lavoratore #header:C6AD77{
+    -codiceFiscale : String
+    -nome : String
+    -cognome : String
+    -email : String
+    -hashedPassword : String
+    -ruolo : String
+  }
+  
+  class Cameriere #header:C6AD77{
+    -ordini : List<Ordine>
+    +Ristorante getRistorante()
+    +void setRistorante(Ristorante r)
+    +List<Ordine> getOrdini()
+    +void setOrdini(List<Ordine> o)
+  }
+  
+  class AddettoCucina #header:C6AD77{
+    -numeroOrdiniEvasi : int
+    +Ristorante getRistorante()
+    +void setRistorante(Ristorante r)
+    +int getNumeroOrdiniEvasi()
+    +void setNumeroOrdiniEvasi()
+  }
+}
+
+package "Controller/Repository"{
+ 
+  class AddettoCucinaController #header:C6AD77{
+    +AddettoCucinaController(AddettoCucinaRepository addettoRepo, 
+    RistoranteRepository ristRepo)
+    +Ristorante getRistoranteCameriere(String id)
+    +String changePassword(String id, String passNew)
+    +String deleteMenu(String addetto_id)
+  }
+  
+  
+  class CameriereController #header:C6AD77{
+    +CameriereController(CameriereRepository camRepo,
+    RistoranteRepository ristRepo, OrdineRepository ordRepo)
+    +List<Cameriere> getAllCamerieri()
+    +Ristorante addNewCameriere(Long codRistorante, String cf, 
+    String nome, String cognome, String email, String hpass)
+    +Ristorante getRistoranteCameriere(String id)
+    +String changePassword(String id, String passNew)
+    +String deleteMenu(String cameriere_id)
+  }
+  
+  class LavoratoreController #header:C6AD77{
+    +LavoratoreController(CameriereRepository camRepo,
+    AddettoCucinaRepository addettoRepo,
+    SupervisoreRepository supRepo, RistoranteRepository ristRepo)
+    +Ristorante addNuovoLavoratore(String codRistorante, String cf, 
+    String ruolo, String nome, String cognome, String email, String hpass)
+  }
+  
+  class SupervisoreController #header:C6AD77{
+    +SupervisoreController(SupervisoreRepository supRepo,
+    CameriereRepository camRepo)
+    +Ristorante getRistoranteCameriere(String id)
+    +String changePassword(String id, String passNew)
+    +String deleteMenu(String sup_id)
+  }
+  
+  interface AddettoCucinaRepository #header:C6AD77{
+    AddettoCucina findByEmailAddress(String email)
+  }
+  interface AdminRepository #header:C6AD77{
+    
+  }
+  
+
+  interface CameriereRepository #header:C6AD77{
+    Cameriere findByEmailAddress(String email)
+  }
+  
+  interface SupervisoreRepository #header:C6AD77{
+    Supervisore findByEmailAddress(String email)
+  }
+}
+
+package Singleton{
+  class AdminSingleton #header:C6AD77{
+    -{static}istance : AdminSingleton
+    -admin : Admin
+    -AdminSingleton()
+    +{static}AdminSingleton getIstance()
+    +Admin getAccount()
+    +void setAccount()
+  }
+  
+  class VolleySingleton #header:C6AD77{
+    -{static}istance : VolleySingleton
+    -requestQueue : RequestQueue
+    -imageLoader : ImageLoader
+    -{static} ctx : Context
+    -VolleySingleton(Context c)
+    +{static}synchronized VolleySingleton getIstance(Context c)
+    +void addToRequestQueue(Request<T> req)
+  }
+  class AddettoCucinaSingleton #header:C6AD77{
+    -{static}istance : AddettoCucinaSingleton
+    -addetto : AddettoCucina
+    -AddettoCucinaSingleton()
+    +{static}AddettoCucinaSingleton getIstance()
+    +AddettoCucina getAccount()
+    +void setAccount(AddettoCucina addetto)
+  }
+  
+  class CameriereSingleton #header:C6AD77{
+    -{static}istance : CameriereSingleton
+    -cameriere : Cameriere
+    -CameriereSingleton()
+    +{static}CameriereSingleton getIstance()
+    +Cameriere getAccout()
+    +void setAccount(Cameriere c)
+  }
+  
+  class SupervisoreSingleton #header:C6AD77{
+    -{static}istance : SupervisoreSingleton
+    -sup : Supervisore
+    -SupervisoreSingleton()
+    +{static}SupervisoreSingleton getIstance()
+    +Supervisore getAccount()
+    +void setAccount(Supervisore s)
+  }
+}
+
+
+
+class CustomRequest #header:C6AD77{
+  -url : String
+  -params : Map<String, String>
+  -context : Context
+  -volley : VolleyCallback
+  +CustomRequest(String url, Map<String, String> params, 
+  Context c, VolleyCallback v)
+  +void sendGetRequest()
+  +void sendPostRequest()
+  +void sendPatchRequest()
+  +void sendDeleteRequest()
+}
+
+interface VolleyCallback #header:C6AD77{
+  void onResponse(String result)
+}
+CustomRequest-right-VolleySingleton
+SaveWorkerActivity -up- CustomRequest
+SaveWorkerActivity -up- VolleyCallback
+CustomRequest -down- LavoratoreController
+SaveWorkerActivity-down-Ristorante
+
+LavoratoreController-down-AddettoCucinaRepository
+LavoratoreController-down-CameriereRepository
+LavoratoreController-down-SupervisoreRepository
+@enduml
