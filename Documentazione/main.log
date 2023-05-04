@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.12)  4 MAY 2023 15:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.12)  4 MAY 2023 17:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2186,11 +2186,12 @@ File: assets/diagrammi/Class diagram di design/gestione statistiche.png Graphic 
 <use assets/diagrammi/Class diagram di design/gestione statistiche.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di design/gestione statistiche.png  used on input line 50.
 (pdftex.def)             Requested size: 295.49876pt x 185.28896pt.
+)
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 53.
+Package pdftex.def Info: assets/Logo1.png  used on input line 103.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
-[71 <./assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png (PNG copy)> <./assets/diagrammi/Class diagram di design/gestione dipendenti.png (PNG copy)>])
+ [71 <./assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png (PNG copy)> <./assets/diagrammi/Class diagram di design/gestione dipendenti.png (PNG copy)>]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 103.
@@ -2213,7 +2214,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  90i,25n,116p,566b,1516s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnbxti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/vntex/vnr/vntt8.pfb>
-Output written on main.pdf (72 pages, 4595891 bytes).
+Output written on main.pdf (72 pages, 4596852 bytes).
 PDF statistics:
  991 PDF objects out of 1000 (max. 8388607)
  800 compressed objects within 8 object streams
