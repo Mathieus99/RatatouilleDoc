@@ -1047,6 +1047,48 @@ INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
 INPUT .\main.aux
 INPUT main.aux
 INPUT main.aux
+INPUT .\capitoli\Premessa.aux
+INPUT capitoli\Premessa.aux
+INPUT capitoli\Premessa.aux
+INPUT .\capitoli\Documento dei requisiti software\Requisiti.aux
+INPUT capitoli\Documento dei requisiti software\Requisiti.aux
+INPUT capitoli\Documento dei requisiti software\Requisiti.aux
+INPUT .\capitoli\Documento dei requisiti software\UseCaseDiagram.aux
+INPUT capitoli\Documento dei requisiti software\UseCaseDiagram.aux
+INPUT capitoli\Documento dei requisiti software\UseCaseDiagram.aux
+INPUT .\capitoli\Documento dei requisiti software\TabelleCockburn.aux
+INPUT capitoli\Documento dei requisiti software\TabelleCockburn.aux
+INPUT capitoli\Documento dei requisiti software\TabelleCockburn.aux
+INPUT .\capitoli\Documento dei requisiti software\Mockup.aux
+INPUT capitoli\Documento dei requisiti software\Mockup.aux
+INPUT capitoli\Documento dei requisiti software\Mockup.aux
+INPUT .\capitoli\Valutazione usabilità\Usabilità a priori.aux
+INPUT capitoli\Valutazione usabilità\Usabilità a priori.aux
+INPUT capitoli\Valutazione usabilità\Usabilità a priori.aux
+INPUT .\capitoli\Target utenti\Target utenti.aux
+INPUT capitoli\Target utenti\Target utenti.aux
+INPUT capitoli\Target utenti\Target utenti.aux
+INPUT .\capitoli\Glossario\Glossario.aux
+INPUT capitoli\Glossario\Glossario.aux
+INPUT capitoli\Glossario\Glossario.aux
+INPUT .\capitoli\Documento dei requisiti software\Classi di analisi.aux
+INPUT capitoli\Documento dei requisiti software\Classi di analisi.aux
+INPUT capitoli\Documento dei requisiti software\Classi di analisi.aux
+INPUT .\capitoli\Documento dei requisiti software\Sequence di analisi.aux
+INPUT capitoli\Documento dei requisiti software\Sequence di analisi.aux
+INPUT capitoli\Documento dei requisiti software\Sequence di analisi.aux
+INPUT .\capitoli\Documento dei requisiti software\State Diagram.aux
+INPUT capitoli\Documento dei requisiti software\State Diagram.aux
+INPUT capitoli\Documento dei requisiti software\State Diagram.aux
+INPUT .\capitoli\Documento di design\Architettura.aux
+INPUT capitoli\Documento di design\Architettura.aux
+INPUT capitoli\Documento di design\Architettura.aux
+INPUT .\capitoli\Documento di design\Sequence Design.aux
+INPUT capitoli\Documento di design\Sequence Design.aux
+INPUT capitoli\Documento di design\Sequence Design.aux
+INPUT .\capitoli\Documento di design\Classi di design.aux
+INPUT capitoli\Documento di design\Classi di design.aux
+INPUT capitoli\Documento di design\Classi di design.aux
 OUTPUT main.aux
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -1068,8 +1110,18 @@ INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-s
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-OUTPUT main.out
+INPUT .\main.out
+INPUT main.out
+INPUT .\main.out
+INPUT main.out
+INPUT .\main.out
+INPUT main.out
+INPUT .\main.out
+INPUT main.out
 OUTPUT main.pdf
+INPUT .\main.out
+INPUT .\main.out
+OUTPUT main.out
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\ninecolors\ninecolors.sty
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\ninecolors\ninecolors.sty
@@ -1164,864 +1216,14 @@ INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnr5.tfm
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnbx5.tfm
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnr7.tfm
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vntt8.tfm
-INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnbx7.tfm
+INPUT .\main.toc
+INPUT main.toc
+INPUT main.toc
+INPUT .\assets\Logo1.png
+INPUT .\assets\Logo1.png
+INPUT assets\Logo1.png
+INPUT .\assets\Logo1.png
 OUTPUT main.toc
-<<<<<<< HEAD
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnr12.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnti10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnbx12.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-OUTPUT capitoli/Premessa.aux
-INPUT ./assets/Logo1.png
-INPUT ./capitoli/Documento dei requisiti software/Requisiti.tex
-INPUT ./capitoli/Documento dei requisiti software/Requisiti.tex
-INPUT ./capitoli/Documento dei requisiti software/Requisiti.tex
-OUTPUT capitoli/Documento dei requisiti software/Requisiti.aux
-INPUT ./capitoli/Documento dei requisiti software/Requisiti.tex
-INPUT ./capitoli/Documento dei requisiti software/Requisiti.tex
-INPUT ./capitoli/Documento dei requisiti software/Requisiti.tex
-INPUT capitoli/Documento dei requisiti software/Requisiti.tex
-INPUT ./capitoli/Documento dei requisiti software/Requisiti.tex
-INPUT capitoli/Documento dei requisiti software/Requisiti.tex
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
-INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
-INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
-OUTPUT capitoli/Documento dei requisiti software/UseCaseDiagram.aux
-INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
-INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
-INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
-INPUT capitoli/Documento dei requisiti software/UseCaseDiagram.tex
-INPUT ./capitoli/Documento dei requisiti software/UseCaseDiagram.tex
-INPUT capitoli/Documento dei requisiti software/UseCaseDiagram.tex
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnbxti10.tfm
-INPUT ./assets/diagrammi/Use-Case/Use-Case Generale.png
-INPUT ./assets/diagrammi/Use-Case/Use-Case Generale.png
-INPUT assets/diagrammi/Use-Case/Use-Case Generale.png
-INPUT ./assets/diagrammi/Use-Case/Use-Case Generale.png
-INPUT ./assets/diagrammi/Use-Case/Use-Case Generale.png
-INPUT ./assets/diagrammi/Use-Case/Modifica Profilo.png
-INPUT ./assets/diagrammi/Use-Case/Modifica Profilo.png
-INPUT assets/diagrammi/Use-Case/Modifica Profilo.png
-INPUT ./assets/diagrammi/Use-Case/Modifica Profilo.png
-INPUT ./assets/diagrammi/Use-Case/Modifica Profilo.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Use-Case/Gestione ristoranti.png
-INPUT ./assets/diagrammi/Use-Case/Gestione ristoranti.png
-INPUT assets/diagrammi/Use-Case/Gestione ristoranti.png
-INPUT ./assets/diagrammi/Use-Case/Gestione ristoranti.png
-INPUT ./assets/diagrammi/Use-Case/Gestione ristoranti.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Use-Case/Gestione piatti.png
-INPUT ./assets/diagrammi/Use-Case/Gestione piatti.png
-INPUT assets/diagrammi/Use-Case/Gestione piatti.png
-INPUT ./assets/diagrammi/Use-Case/Gestione piatti.png
-INPUT ./assets/diagrammi/Use-Case/Gestione piatti.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Use-Case/Gestione ordini.png
-INPUT ./assets/diagrammi/Use-Case/Gestione ordini.png
-INPUT assets/diagrammi/Use-Case/Gestione ordini.png
-INPUT ./assets/diagrammi/Use-Case/Gestione ordini.png
-INPUT ./assets/diagrammi/Use-Case/Gestione ordini.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Use-Case/Gestione dipendenti.png
-INPUT ./assets/diagrammi/Use-Case/Gestione dipendenti.png
-INPUT assets/diagrammi/Use-Case/Gestione dipendenti.png
-INPUT ./assets/diagrammi/Use-Case/Gestione dipendenti.png
-INPUT ./assets/diagrammi/Use-Case/Gestione dipendenti.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Use-Case/Gestione avvisi.png
-INPUT ./assets/diagrammi/Use-Case/Gestione avvisi.png
-INPUT assets/diagrammi/Use-Case/Gestione avvisi.png
-INPUT ./assets/diagrammi/Use-Case/Gestione avvisi.png
-INPUT ./assets/diagrammi/Use-Case/Gestione avvisi.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./capitoli/Documento dei requisiti software/TabelleCockburn.tex
-INPUT ./capitoli/Documento dei requisiti software/TabelleCockburn.tex
-INPUT ./capitoli/Documento dei requisiti software/TabelleCockburn.tex
-OUTPUT capitoli/Documento dei requisiti software/TabelleCockburn.aux
-INPUT ./capitoli/Documento dei requisiti software/TabelleCockburn.tex
-INPUT ./capitoli/Documento dei requisiti software/TabelleCockburn.tex
-INPUT ./capitoli/Documento dei requisiti software/TabelleCockburn.tex
-INPUT capitoli/Documento dei requisiti software/TabelleCockburn.tex
-INPUT ./capitoli/Documento dei requisiti software/TabelleCockburn.tex
-INPUT capitoli/Documento dei requisiti software/TabelleCockburn.tex
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
-INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
-INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
-OUTPUT capitoli/Documento dei requisiti software/Mockup.aux
-INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
-INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
-INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
-INPUT capitoli/Documento dei requisiti software/Mockup.tex
-INPUT ./capitoli/Documento dei requisiti software/Mockup.tex
-INPUT capitoli/Documento dei requisiti software/Mockup.tex
-INPUT ./assets/immagini varie/interfaccia utente.png
-INPUT ./assets/immagini varie/interfaccia utente.png
-INPUT assets/immagini varie/interfaccia utente.png
-INPUT ./assets/immagini varie/interfaccia utente.png
-INPUT ./assets/immagini varie/interfaccia utente.png
-INPUT ./assets/diagrammi/Mockup/Mockup_HomePage.png
-INPUT ./assets/diagrammi/Mockup/Mockup_HomePage.png
-INPUT assets/diagrammi/Mockup/Mockup_HomePage.png
-INPUT ./assets/diagrammi/Mockup/Mockup_HomePage.png
-INPUT ./assets/diagrammi/Mockup/Mockup_HomePage.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnti12.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnbxti10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Accesso.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Accesso.png
-INPUT assets/diagrammi/Mockup/Mockup_Accesso.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Accesso.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Accesso.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Register.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Register.png
-INPUT assets/diagrammi/Mockup/Mockup_Register.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Register.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Register.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/vntex/vnr/vnti12.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AdminDash.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AdminDash.png
-INPUT assets/diagrammi/Mockup/Mockup_AdminDash.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AdminDash.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AdminDash.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_SaveResturant.png
-INPUT ./assets/diagrammi/Mockup/Mockup_SaveResturant.png
-INPUT assets/diagrammi/Mockup/Mockup_SaveResturant.png
-INPUT ./assets/diagrammi/Mockup/Mockup_SaveResturant.png
-INPUT ./assets/diagrammi/Mockup/Mockup_SaveResturant.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_ResturantDash.png
-INPUT ./assets/diagrammi/Mockup/Mockup_ResturantDash.png
-INPUT assets/diagrammi/Mockup/Mockup_ResturantDash.png
-INPUT ./assets/diagrammi/Mockup/Mockup_ResturantDash.png
-INPUT ./assets/diagrammi/Mockup/Mockup_ResturantDash.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_SaveWorker.png
-INPUT ./assets/diagrammi/Mockup/Mockup_SaveWorker.png
-INPUT assets/diagrammi/Mockup/Mockup_SaveWorker.png
-INPUT ./assets/diagrammi/Mockup/Mockup_SaveWorker.png
-INPUT ./assets/diagrammi/Mockup/Mockup_SaveWorker.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_MenuManager.png
-INPUT ./assets/diagrammi/Mockup/Mockup_MenuManager.png
-INPUT assets/diagrammi/Mockup/Mockup_MenuManager.png
-INPUT ./assets/diagrammi/Mockup/Mockup_MenuManager.png
-INPUT ./assets/diagrammi/Mockup/Mockup_MenuManager.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_HypervisorDash.png
-INPUT ./assets/diagrammi/Mockup/Mockup_HypervisorDash.png
-INPUT assets/diagrammi/Mockup/Mockup_HypervisorDash.png
-INPUT ./assets/diagrammi/Mockup/Mockup_HypervisorDash.png
-INPUT ./assets/diagrammi/Mockup/Mockup_HypervisorDash.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_ExitDialog.png
-INPUT ./assets/diagrammi/Mockup/Mockup_ExitDialog.png
-INPUT assets/diagrammi/Mockup/Mockup_ExitDialog.png
-INPUT ./assets/diagrammi/Mockup/Mockup_ExitDialog.png
-INPUT ./assets/diagrammi/Mockup/Mockup_ExitDialog.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_WaiterDash.png
-INPUT ./assets/diagrammi/Mockup/Mockup_WaiterDash.png
-INPUT assets/diagrammi/Mockup/Mockup_WaiterDash.png
-INPUT ./assets/diagrammi/Mockup/Mockup_WaiterDash.png
-INPUT ./assets/diagrammi/Mockup/Mockup_WaiterDash.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_OrderStatus.png
-INPUT ./assets/diagrammi/Mockup/Mockup_OrderStatus.png
-INPUT assets/diagrammi/Mockup/Mockup_OrderStatus.png
-INPUT ./assets/diagrammi/Mockup/Mockup_OrderStatus.png
-INPUT ./assets/diagrammi/Mockup/Mockup_OrderStatus.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Profile.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Profile.png
-INPUT assets/diagrammi/Mockup/Mockup_Profile.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Profile.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Profile.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AdminChangePass.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AdminChangePass.png
-INPUT assets/diagrammi/Mockup/Mockup_AdminChangePass.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AdminChangePass.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AdminChangePass.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AdminChangeMail.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AdminChangeMail.png
-INPUT assets/diagrammi/Mockup/Mockup_AdminChangeMail.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AdminChangeMail.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AdminChangeMail.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_WorkerChangePass.png
-INPUT ./assets/diagrammi/Mockup/Mockup_WorkerChangePass.png
-INPUT assets/diagrammi/Mockup/Mockup_WorkerChangePass.png
-INPUT ./assets/diagrammi/Mockup/Mockup_WorkerChangePass.png
-INPUT ./assets/diagrammi/Mockup/Mockup_WorkerChangePass.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_SaveAdv.png
-INPUT ./assets/diagrammi/Mockup/Mockup_SaveAdv.png
-INPUT assets/diagrammi/Mockup/Mockup_SaveAdv.png
-INPUT ./assets/diagrammi/Mockup/Mockup_SaveAdv.png
-INPUT ./assets/diagrammi/Mockup/Mockup_SaveAdv.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AddPlate.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AddPlate.png
-INPUT assets/diagrammi/Mockup/Mockup_AddPlate.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AddPlate.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AddPlate.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AddOrder.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AddOrder.png
-INPUT assets/diagrammi/Mockup/Mockup_AddOrder.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AddOrder.png
-INPUT ./assets/diagrammi/Mockup/Mockup_AddOrder.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Statistics.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Statistics.png
-INPUT assets/diagrammi/Mockup/Mockup_Statistics.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Statistics.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Statistics.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Notifications.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Notifications.png
-INPUT assets/diagrammi/Mockup/Mockup_Notifications.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Notifications.png
-INPUT ./assets/diagrammi/Mockup/Mockup_Notifications.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./capitoli/Valutazione usabilità/Usabilità a priori.tex
-OUTPUT capitoli/Valutazione usabilità/Usabilità a priori.aux
-INPUT ./capitoli/Valutazione usabilità/Usabilità a priori.tex
-INPUT ./capitoli/Valutazione usabilità/Usabilità a priori.tex
-INPUT ./capitoli/Valutazione usabilità/Usabilità a priori.tex
-INPUT ./capitoli/Valutazione usabilità/Usabilità a priori.tex
-INPUT capitoli/Valutazione usabilità/Usabilità a priori.tex
-INPUT ./capitoli/Valutazione usabilità/Usabilità a priori.tex
-INPUT capitoli/Valutazione usabilità/Usabilità a priori.tex
-INPUT ./assets/immagini varie/grafico usabilita.png
-INPUT ./assets/immagini varie/grafico usabilita.png
-INPUT assets/immagini varie/grafico usabilita.png
-INPUT ./assets/immagini varie/grafico usabilita.png
-INPUT ./assets/immagini varie/grafico usabilita.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./capitoli/Target utenti/Target utenti.tex
-OUTPUT capitoli/Target utenti/Target utenti.aux
-INPUT ./capitoli/Target utenti/Target utenti.tex
-INPUT ./capitoli/Target utenti/Target utenti.tex
-INPUT ./capitoli/Target utenti/Target utenti.tex
-INPUT ./capitoli/Target utenti/Target utenti.tex
-INPUT capitoli/Target utenti/Target utenti.tex
-INPUT ./capitoli/Target utenti/Target utenti.tex
-INPUT capitoli/Target utenti/Target utenti.tex
-INPUT ./assets/immagini varie/target utenti.png
-INPUT ./assets/immagini varie/target utenti.png
-INPUT assets/immagini varie/target utenti.png
-INPUT ./assets/immagini varie/target utenti.png
-INPUT ./assets/immagini varie/target utenti.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./capitoli/Glossario/Glossario.tex
-OUTPUT capitoli/Glossario/Glossario.aux
-INPUT ./capitoli/Glossario/Glossario.tex
-INPUT ./capitoli/Glossario/Glossario.tex
-INPUT ./capitoli/Glossario/Glossario.tex
-INPUT ./capitoli/Glossario/Glossario.tex
-INPUT capitoli/Glossario/Glossario.tex
-INPUT ./capitoli/Glossario/Glossario.tex
-INPUT capitoli/Glossario/Glossario.tex
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./capitoli/Documento dei requisiti software/Classi di analisi.tex
-OUTPUT capitoli/Documento dei requisiti software/Classi di analisi.aux
-INPUT ./capitoli/Documento dei requisiti software/Classi di analisi.tex
-INPUT ./capitoli/Documento dei requisiti software/Classi di analisi.tex
-INPUT ./capitoli/Documento dei requisiti software/Classi di analisi.tex
-INPUT ./capitoli/Documento dei requisiti software/Classi di analisi.tex
-INPUT capitoli/Documento dei requisiti software/Classi di analisi.tex
-INPUT ./capitoli/Documento dei requisiti software/Classi di analisi.tex
-INPUT capitoli/Documento dei requisiti software/Classi di analisi.tex
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione Login.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione Login.png
-INPUT assets/diagrammi/Class diagram di analisi/Gestione Login.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione Login.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione Login.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione ristorante.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione ristorante.png
-INPUT assets/diagrammi/Class diagram di analisi/Gestione ristorante.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione ristorante.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione ristorante.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione dipendenti.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione dipendenti.png
-INPUT assets/diagrammi/Class diagram di analisi/Gestione dipendenti.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione dipendenti.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione dipendenti.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione piatto.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione piatto.png
-INPUT assets/diagrammi/Class diagram di analisi/Gestione piatto.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione piatto.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione piatto.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione Avvisi.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione Avvisi.png
-INPUT assets/diagrammi/Class diagram di analisi/Gestione Avvisi.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione Avvisi.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione Avvisi.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione ordini.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione ordini.png
-INPUT assets/diagrammi/Class diagram di analisi/Gestione ordini.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione ordini.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione ordini.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione Stat.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione Stat.png
-INPUT assets/diagrammi/Class diagram di analisi/Gestione Stat.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione Stat.png
-INPUT ./assets/diagrammi/Class diagram di analisi/Gestione Stat.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./capitoli/Documento dei requisiti software/Sequence di analisi.tex
-OUTPUT capitoli/Documento dei requisiti software/Sequence di analisi.aux
-INPUT ./capitoli/Documento dei requisiti software/Sequence di analisi.tex
-INPUT ./capitoli/Documento dei requisiti software/Sequence di analisi.tex
-INPUT ./capitoli/Documento dei requisiti software/Sequence di analisi.tex
-INPUT ./capitoli/Documento dei requisiti software/Sequence di analisi.tex
-INPUT capitoli/Documento dei requisiti software/Sequence di analisi.tex
-INPUT ./capitoli/Documento dei requisiti software/Sequence di analisi.tex
-INPUT capitoli/Documento dei requisiti software/Sequence di analisi.tex
-INPUT ./assets/diagrammi/Sequence di analisi/sequence_add_menu.png
-INPUT ./assets/diagrammi/Sequence di analisi/sequence_add_menu.png
-INPUT assets/diagrammi/Sequence di analisi/sequence_add_menu.png
-INPUT ./assets/diagrammi/Sequence di analisi/sequence_add_menu.png
-INPUT ./assets/diagrammi/Sequence di analisi/sequence_add_menu.png
-INPUT ./assets/diagrammi/Sequence di analisi/sequence_take_order.png
-INPUT ./assets/diagrammi/Sequence di analisi/sequence_take_order.png
-INPUT assets/diagrammi/Sequence di analisi/sequence_take_order.png
-INPUT ./assets/diagrammi/Sequence di analisi/sequence_take_order.png
-INPUT ./assets/diagrammi/Sequence di analisi/sequence_take_order.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./capitoli/Documento dei requisiti software/State Diagram.tex
-OUTPUT capitoli/Documento dei requisiti software/State Diagram.aux
-INPUT ./capitoli/Documento dei requisiti software/State Diagram.tex
-INPUT ./capitoli/Documento dei requisiti software/State Diagram.tex
-INPUT ./capitoli/Documento dei requisiti software/State Diagram.tex
-INPUT ./capitoli/Documento dei requisiti software/State Diagram.tex
-INPUT capitoli/Documento dei requisiti software/State Diagram.tex
-INPUT ./capitoli/Documento dei requisiti software/State Diagram.tex
-INPUT capitoli/Documento dei requisiti software/State Diagram.tex
-INPUT ./assets/diagrammi/Statechart/aggiungiRistorante.png
-INPUT ./assets/diagrammi/Statechart/aggiungiRistorante.png
-INPUT assets/diagrammi/Statechart/aggiungiRistorante.png
-INPUT ./assets/diagrammi/Statechart/aggiungiRistorante.png
-INPUT ./assets/diagrammi/Statechart/aggiungiRistorante.png
-INPUT ./assets/diagrammi/Statechart/aggiungiPiatto.png
-INPUT ./assets/diagrammi/Statechart/aggiungiPiatto.png
-INPUT assets/diagrammi/Statechart/aggiungiPiatto.png
-INPUT ./assets/diagrammi/Statechart/aggiungiPiatto.png
-INPUT ./assets/diagrammi/Statechart/aggiungiPiatto.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Statechart/compilaCampiPiatto.png
-INPUT ./assets/diagrammi/Statechart/compilaCampiPiatto.png
-INPUT assets/diagrammi/Statechart/compilaCampiPiatto.png
-INPUT ./assets/diagrammi/Statechart/compilaCampiPiatto.png
-INPUT ./assets/diagrammi/Statechart/compilaCampiPiatto.png
-INPUT ./assets/diagrammi/Statechart/compilaCampiPreconfezionato.png
-INPUT ./assets/diagrammi/Statechart/compilaCampiPreconfezionato.png
-INPUT assets/diagrammi/Statechart/compilaCampiPreconfezionato.png
-INPUT ./assets/diagrammi/Statechart/compilaCampiPreconfezionato.png
-INPUT ./assets/diagrammi/Statechart/compilaCampiPreconfezionato.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Statechart/prendiOrdine.png
-INPUT ./assets/diagrammi/Statechart/prendiOrdine.png
-INPUT assets/diagrammi/Statechart/prendiOrdine.png
-INPUT ./assets/diagrammi/Statechart/prendiOrdine.png
-INPUT ./assets/diagrammi/Statechart/prendiOrdine.png
-INPUT ./assets/diagrammi/Statechart/visualizzaAvvisi.png
-INPUT ./assets/diagrammi/Statechart/visualizzaAvvisi.png
-INPUT assets/diagrammi/Statechart/visualizzaAvvisi.png
-INPUT ./assets/diagrammi/Statechart/visualizzaAvvisi.png
-INPUT ./assets/diagrammi/Statechart/visualizzaAvvisi.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./capitoli/Documento di design/Architettura.tex
-OUTPUT capitoli/Documento di design/Architettura.aux
-INPUT ./capitoli/Documento di design/Architettura.tex
-INPUT ./capitoli/Documento di design/Architettura.tex
-INPUT ./capitoli/Documento di design/Architettura.tex
-INPUT ./capitoli/Documento di design/Architettura.tex
-INPUT capitoli/Documento di design/Architettura.tex
-INPUT ./capitoli/Documento di design/Architettura.tex
-INPUT capitoli/Documento di design/Architettura.tex
-INPUT ./assets/immagini varie/spring-boot-architecture2.png
-INPUT ./assets/immagini varie/spring-boot-architecture2.png
-INPUT assets/immagini varie/spring-boot-architecture2.png
-INPUT ./assets/immagini varie/spring-boot-architecture2.png
-INPUT ./assets/immagini varie/spring-boot-architecture2.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/immagini varie/azure loc.png
-INPUT ./assets/immagini varie/azure loc.png
-INPUT assets/immagini varie/azure loc.png
-INPUT ./assets/immagini varie/azure loc.png
-INPUT ./assets/immagini varie/azure loc.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./capitoli/Documento di design/Sequence Design.tex
-OUTPUT capitoli/Documento di design/Sequence Design.aux
-INPUT ./capitoli/Documento di design/Sequence Design.tex
-INPUT ./capitoli/Documento di design/Sequence Design.tex
-INPUT ./capitoli/Documento di design/Sequence Design.tex
-INPUT ./capitoli/Documento di design/Sequence Design.tex
-INPUT capitoli/Documento di design/Sequence Design.tex
-INPUT ./capitoli/Documento di design/Sequence Design.tex
-INPUT capitoli/Documento di design/Sequence Design.tex
-INPUT ./assets/diagrammi/Sequence di design/Salva Ristorante.png
-INPUT ./assets/diagrammi/Sequence di design/Salva Ristorante.png
-INPUT assets/diagrammi/Sequence di design/Salva Ristorante.png
-INPUT ./assets/diagrammi/Sequence di design/Salva Ristorante.png
-INPUT ./assets/diagrammi/Sequence di design/Salva Ristorante.png
-INPUT ./assets/diagrammi/Sequence di design/Aggiungi Piatto.png
-INPUT ./assets/diagrammi/Sequence di design/Aggiungi Piatto.png
-INPUT assets/diagrammi/Sequence di design/Aggiungi Piatto.png
-INPUT ./assets/diagrammi/Sequence di design/Aggiungi Piatto.png
-INPUT ./assets/diagrammi/Sequence di design/Aggiungi Piatto.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Sequence di design/Visualizza avvisi.png
-INPUT ./assets/diagrammi/Sequence di design/Visualizza avvisi.png
-INPUT assets/diagrammi/Sequence di design/Visualizza avvisi.png
-INPUT ./assets/diagrammi/Sequence di design/Visualizza avvisi.png
-INPUT ./assets/diagrammi/Sequence di design/Visualizza avvisi.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./capitoli/Documento di design/Classi di design.tex
-OUTPUT capitoli/Documento di design/Classi di design.aux
-INPUT ./capitoli/Documento di design/Classi di design.tex
-INPUT ./capitoli/Documento di design/Classi di design.tex
-INPUT ./capitoli/Documento di design/Classi di design.tex
-INPUT ./capitoli/Documento di design/Classi di design.tex
-INPUT capitoli/Documento di design/Classi di design.tex
-INPUT ./capitoli/Documento di design/Classi di design.tex
-INPUT capitoli/Documento di design/Classi di design.tex
-INPUT ./assets/diagrammi/Class diagram di design/ClassDiagram_Login.png
-INPUT ./assets/diagrammi/Class diagram di design/ClassDiagram_Login.png
-INPUT assets/diagrammi/Class diagram di design/ClassDiagram_Login.png
-INPUT ./assets/diagrammi/Class diagram di design/ClassDiagram_Login.png
-INPUT ./assets/diagrammi/Class diagram di design/ClassDiagram_Login.png
-INPUT ./assets/diagrammi/Class diagram di design/gestione piatti.png
-INPUT ./assets/diagrammi/Class diagram di design/gestione piatti.png
-INPUT assets/diagrammi/Class diagram di design/gestione piatti.png
-INPUT ./assets/diagrammi/Class diagram di design/gestione piatti.png
-INPUT ./assets/diagrammi/Class diagram di design/gestione piatti.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Class diagram di design/ClassDiagramGestioneAvvisi.png
-INPUT ./assets/diagrammi/Class diagram di design/ClassDiagramGestioneAvvisi.png
-INPUT assets/diagrammi/Class diagram di design/ClassDiagramGestioneAvvisi.png
-INPUT ./assets/diagrammi/Class diagram di design/ClassDiagramGestioneAvvisi.png
-INPUT ./assets/diagrammi/Class diagram di design/ClassDiagramGestioneAvvisi.png
-INPUT ./assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png
-INPUT ./assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png
-INPUT assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png
-INPUT ./assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png
-INPUT ./assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/diagrammi/Class diagram di design/gestione statistiche.png
-INPUT ./assets/diagrammi/Class diagram di design/gestione statistiche.png
-INPUT assets/diagrammi/Class diagram di design/gestione statistiche.png
-INPUT ./assets/diagrammi/Class diagram di design/gestione statistiche.png
-INPUT ./assets/diagrammi/Class diagram di design/gestione statistiche.png
-INPUT ./assets/Logo1.png
-INPUT ./assets/Logo1.png
-INPUT assets/Logo1.png
-INPUT ./assets/Logo1.png
-=======
 INPUT .\assets\Logo1.png
 INPUT .\assets\Logo1.png
 INPUT assets\Logo1.png
@@ -2983,11 +2185,21 @@ INPUT .\assets\diagrammi\Class diagram di design\gestione dipendenti.png
 INPUT .\assets\diagrammi\Class diagram di design\gestione dipendenti.png
 INPUT .\assets\diagrammi\Class diagram di design\gestione dipendenti.png
 INPUT .\assets\diagrammi\Class diagram di design\gestione dipendenti.png
+INPUT .\assets\diagrammi\Class diagram di design\gestione statistiche.png
+INPUT .\assets\diagrammi\Class diagram di design\gestione statistiche.png
+INPUT assets\diagrammi\Class diagram di design\gestione statistiche.png
+INPUT .\assets\diagrammi\Class diagram di design\gestione statistiche.png
+INPUT .\assets\diagrammi\Class diagram di design\gestione statistiche.png
+INPUT .\assets\diagrammi\Class diagram di design\gestione statistiche.png
+INPUT .\assets\diagrammi\Class diagram di design\gestione statistiche.png
 INPUT .\assets\Logo1.png
 INPUT .\assets\Logo1.png
 INPUT assets\Logo1.png
 INPUT .\assets\Logo1.png
->>>>>>> 936c67e0031794c403c9d76e9ad96b721647c2a2
+INPUT .\assets\Logo1.png
+INPUT .\assets\Logo1.png
+INPUT assets\Logo1.png
+INPUT .\assets\Logo1.png
 INPUT main.aux
 INPUT .\capitoli\Premessa.aux
 INPUT capitoli\Premessa.aux
@@ -3039,8 +2251,6 @@ INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbx10.
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbx10.pfb
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbx12.pfb
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbx12.pfb
-INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbx7.pfb
-INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbx7.pfb
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbxti10.pfb
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnbxti10.pfb
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\vnr\vnr10.pfb
