@@ -32,7 +32,7 @@
                                                         & {4a}   &  & {Torna alla schermata \textbf{ \emph{M04}}}\\
 
             \SetCell[r=2]{c}{\textbf{Extension \#2} \\ L'amministratore ha aggiunto un ristorante già presenta nella propria lista di ristoranti} & {Step} & {UserAction} & {System}\\*
-                                                        & {4b}   &  & {Mostra uno dei messaggi di errore della schermata \textbf{ \emph{{M0boh}}} restando allo step \textbf{2} dello scenario principale}\\
+                                                        & {4b}   &  & {Mostra uno dei messaggi di errore della schermata \textbf{ \emph{{M05}}} restando allo step \textbf{2} dello scenario principale}\\
 
             \SetCell[r=2]{c}{\textbf{Extension \#3}\\ L'amministratore ha lasciato uno o più campi vuoti}
                                                     & {Step} & {UserAction} & {System}  \\
@@ -56,13 +56,13 @@
             %%% Subvariations
             \SetCell[r=4]{c}{\textbf{Subvariation \#1} \\ L'amministratore torna indietro completando solo parzialmente i campi} 
                                                         & {Step} & {UserAction} & {System}\\
-                                                        & {1} & & {Mostra la schermata \textbf{ \emph{M0boh}}}\\
+                                                        & {1} & & {Mostra la schermata \textbf{ \emph{M10}}}\\
                                                         & {2} & {Preme su  "SI" } & \\
                                                         & {3} & & {Torna alla schermata \textbf{ \emph{M04}}}\\
 
             \SetCell[r=4]{c}{\textbf{Subvariation \#2} \\ L'amministratore inizialmente vuole tornare indietro completando solo parzialmente i campi ma cambia idea}
                                                             & {Step} & {UserAction} & {System}\\
-                                                            & {1} & & {Mostra la schermata \textbf{ \emph{M0boh}}}\\
+                                                            & {1} & & {Mostra la schermata \textbf{ \emph{M10}}}\\
                                                             & {2} & {Preme su  "NO" } & \\
                                                             & {3} & & {Torna alla schermata \textbf{ \emph{M05}} allo step \textbf{2} dello scenario principale}\\
       \end{longtblr}
@@ -100,13 +100,13 @@
             %%% Subvariations
             \SetCell[r=4]{c}{\textbf{Subvariation \#1} \\ Il cameriere torna indietro dopo aver aggiunto \\ dei piatti all'ordine senza salvare} 
                                                         & {Step} & {UserAction} & {System}\\
-                                                        & {1} &     & {Mostra la schermata \textbf{ \emph{M0boh}}}\\
+                                                        & {1} &     & {Mostra la schermata \textbf{ \emph{M10}}}\\
                                                         & {2} & {Preme su  "SI" } & \\
                                                         & {3} &     & {Torna alla schermata \textbf{ \emph{M11}}}\\
 
-            \SetCell[r=4]{c}{\textbf{Subvariation \#2} \\ L'amministratore inizialmente vuole tornare indietro completando solo parzialmente i campi ma cambia idea}
+            \SetCell[r=4]{c}{\textbf{Subvariation \#2} \\ Il cameriere inizialmente vuole tornare indietro, con dei piatti aggiunti all'ordinazione, ma cambia idea}
                                                             & {Step} & {UserAction} & {System}\\*
-                                                            & {1} & & {Mostra la schermata \textbf{ \emph{M0boh}}}\\
+                                                            & {1} & & {Mostra la schermata \textbf{ \emph{M10}}}\\
                                                             & {2} & {Preme su  "NO" } & \\
                                                             & {3} & & {Torna alla schermata \textbf{ \emph{M11}}}\\
       \end{longtblr}
@@ -141,7 +141,7 @@
 
             \SetCell[r=2]{c}{\textbf{Extension \#\ 2}\\ L'amministratore compila solo parzialmente \\ i campi e preme sul pulsante \emph{OK}}
                                                         & {Step} & {UserAction} & {System}\\
-                                                        & {4a}   &  & {Mostra l'errore nella schermata \textbf{\emph{M0boh}}}\\
+                                                        & {4a}   &  & {Mostra l'errore nella schermata \textbf{\emph{M18}}}\\
 
             %%% Subvariations
             \SetCell[r=6]{c}{\textbf{Subvariation \#1} \\ L'amministratore vuole aggiungere un prodotto \\ preconfezionato al proprio menu} 
@@ -188,7 +188,7 @@
             \SetCell[r=3]{c}{\textbf{Subvariation \#1} \\ Il Dipendente vuole marcare un avviso come visualizzato} 
                                                         & {Step} & {UserAction} & {System}\\
                                                         & {1} & {Il Dipendente scorre col dito sull'avviso}   & \\
-                                                        & {2} &       & {Aggiorna la schermata \textbf{\emph{M21}} eliminando l'avviso} \\
+                                                        & {2} &       & {Resta sulla schermata \textbf{\emph{M21}} eliminando l'avviso} \\
 
       \end{longtblr}
     \end{center}

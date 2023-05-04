@@ -24,7 +24,7 @@
 \contentsline {subsubsection}{\numberline {2.6.7}Schermata di registrazione di un nuovo dipendente}{34}{subsubsection.2.6.7}%
 \contentsline {subsubsection}{\numberline {2.6.8}Schermata di gestione del menù}{35}{subsubsection.2.6.8}%
 \contentsline {subsubsection}{\numberline {2.6.9}Schermata home per i supervisori}{36}{subsubsection.2.6.9}%
-\contentsline {subsubsection}{\numberline {2.6.10}Schermata di conferma di logout}{37}{subsubsection.2.6.10}%
+\contentsline {subsubsection}{\numberline {2.6.10}Schermata di conferma di uscita}{37}{subsubsection.2.6.10}%
 \contentsline {subsubsection}{\numberline {2.6.11}Schermata home per i camerieri}{38}{subsubsection.2.6.11}%
 \contentsline {subsubsection}{\numberline {2.6.12}Schermata di visualizzazione dello stato degli ordini}{39}{subsubsection.2.6.12}%
 \contentsline {subsubsection}{\numberline {2.6.13}Schermata di visualizzazione del profilo}{40}{subsubsection.2.6.13}%
