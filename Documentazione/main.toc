@@ -68,3 +68,4 @@
 \contentsline {subsubsection}{\numberline {3.4.2}Gestione piatti}{70}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}Gestione Avvisi}{70}{subsubsection.3.4.3}%
 \contentsline {subsubsection}{\numberline {3.4.4}Gestione Ordini}{71}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}Visualizzazione Statistiche}{71}{subsubsection.3.4.5}%

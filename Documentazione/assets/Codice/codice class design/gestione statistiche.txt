@@ -1,0 +1,119 @@
+@startuml
+
+'Gestione statistiche
+
+skinparam class{
+  BackgroundColor white
+}
+skinparam package{
+  BackgroundColor white
+}
+skinparam ClassStereotypeFontColor brown
+
+package "Model"{
+
+  class Cameriere #header:C6AD77{
+    +Ristorante getRistorante()
+    +void setRistorante(Ristorante r)
+    +List<Ordine> getOrdini()
+    +void setOrdini(List<Ordine> o)
+  }
+  Ordine "*"--"1" Cameriere
+  
+  class Ordine #header:C6AD77{
+    -idOrdine : Long
+    -numeroTavolo : int
+    -evaso : boolean
+    -evasoDa : String
+    -piattiOrdinati : String
+    -pagato : boolean
+    -sollecitato : boolean
+    -dataOrdine : LocalDate
+    -conto : int
+    +boolean isSollecitato()
+  }
+  
+  class Avviso  #header:C6AD77 {
+    -emessoDa: String
+    -descrizione: String
+    -oraEmissione: LocalTime
+    -dataEmissione: LocalTime
+    -lettoDa: String
+  }
+  
+  class Admin #header:C6AD77{
+   -partita_iva : String
+   -ristoranti : List<Ristorante>
+   +Lista<Ristorante> getRistoranti()
+   +void setRistoranti(List<Ristorante> r)
+   +String getPartita_iva()
+   +void setPartita_iva(String partita_iva)
+  }
+  
+  class Supervisore #header:C6AD77{
+    -numeroAvvisi : int
+    +int getNumeroAvvisi()
+    +void setNumeroAvvisi(int n)
+    +Ristorante getRistorante()
+    +void setRistorante(Ristorante r)
+  }
+  
+  class AddettoCucina #header:C6AD77{
+    -numeroOrdiniEvasi : int
+    +Ristorante getRistorante()
+    +void setRistorante(Ristorante r)
+    +int getNumeroOrdiniEvasi()
+    +void setNumeroOrdiniEvasi()
+  }
+  
+  class Menu #header:C6AD77{
+    -id_menu : Long
+    -portate : List<Piatto>
+    -nome : String
+    -tipo : String
+    -lingua : String
+  }
+  
+  class Ristorante #header:C6AD77{
+  -codice_ristorante : Long
+  -nome : String
+  -coperti : int
+  -locazione : String
+  -numeroTelefono : String
+  -proprietario : Admin
+  -locTuristica : boolean
+  +Ristorante(Long codRistorante, String nome, int coperti, 
+  String locazione, Admin proprietario, List<Cameriere> c)
+  +boolean isLocTuristica()
+  }
+  Cameriere "*"-->"1"Ristorante
+  Avviso "*"-->"1"Ristorante
+  Admin "1"-left-"*"Ristorante
+  Menu "1"--"1" Ristorante
+  AddettoCucina "1"-right-"1" Ristorante
+  Supervisore "1"-up-"1" Ristorante
+}
+
+class AdminSingleton #header:C6AD77{
+  -{static}istance : AdminSingleton
+  -admin : Admin
+  +{static}AdminSingleton getIstance()
+  +Admin getAccount()
+  +void setAccount()
+}
+
+class StatisticsActivity #header:C6AD77{
+  -barChart : BarChart
+  -spinnerRisto : Spinner
+  -restNumber : int
+  #void onCreate(Bundle savedIstance)
+  -void inizializzaComponenti()
+  -void initBarDataSet(BarDataSet barDataSet)
+  -void initBarChart
+}
+
+Ordine "*"--> "1" StatisticsActivity
+Cameriere --> StatisticsActivity
+AdminSingleton --> StatisticsActivity
+
+@enduml
