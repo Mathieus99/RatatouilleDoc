@@ -58,21 +58,21 @@
 \contentsline {subsection}{\numberline {3.2}Introduzione}{66}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Client}{66}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Server}{66}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Sequence diagram di design}{68}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Funzionalità: "Aggiungi Ristorante"}{68}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Funzionalità: "Aggiungi portata"}{68}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Funzionalità: "Prendi ordinazione"}{69}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Funzionalità: "Visualizza avvisi"}{69}{subsubsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.4}Class diagram di design}{70}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Login}{70}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Gestione piatti}{71}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Gestione Avvisi}{71}{subsubsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4}Gestione Ordini}{72}{subsubsection.3.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.5}Gestione Dipendenti}{72}{subsubsection.3.4.5}%
-\contentsline {subsubsection}{\numberline {3.4.6}Visualizzazione Statistiche}{73}{subsubsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.5}Testing xUnit}{74}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Usabilità sul campo}{75}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Premessa}{75}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}Presentazione degli utenti}{75}{subsubsection.3.6.2}%
-\contentsline {subsubsection}{\numberline {3.6.3}Il confronto con gli utenti}{75}{subsubsection.3.6.3}%
-\contentsline {subsubsection}{\numberline {3.6.4}Valutazione finale}{76}{subsubsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.3}Sequence diagram di design}{69}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Funzionalità: "Aggiungi Ristorante"}{69}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Funzionalità: "Aggiungi portata"}{69}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Funzionalità: "Prendi ordinazione"}{70}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Funzionalità: "Visualizza avvisi"}{70}{subsubsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.4}Class diagram di design}{71}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Login}{71}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Gestione piatti}{72}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Gestione Avvisi}{72}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Gestione Ordini}{73}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}Gestione Dipendenti}{73}{subsubsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.6}Visualizzazione Statistiche}{74}{subsubsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.5}Testing xUnit}{75}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Usabilità sul campo}{76}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Premessa}{76}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Presentazione degli utenti}{76}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Il confronto con gli utenti}{76}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}Valutazione finale}{77}{subsubsection.3.6.4}%

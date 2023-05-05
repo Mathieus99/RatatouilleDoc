@@ -1,0 +1,59 @@
+@startuml
+actor       Cameriere       as c
+activate c
+participant WaiterDashboardActivity as cact
+activate cact
+participant TakeOrderActivity as tact
+participant CameriereSingleton as cs
+participant CameriereController as cc
+participant CameriereRepository as cr
+
+autonumber
+c -> cact: takeOrderButton.onClick(view)
+
+cact -> tact: startActivity(gotoTakeOrder)
+deactivate cact
+activate tact
+
+tact -> Ordine **: <<create>>
+activate Ordine
+tact->tact:setMenu()
+activate tact
+tact -> Ordine: setCameriere(CameriereSingleton.getInstance().getAccount())
+deactivate Ordine
+tact -> cs: CameriereSingleton.getInstance().getAccount().getRistorante().getCoperti()
+activate cs
+
+cs --> tact: numeroCoperti
+deactivate cs
+  loop i < numeroCoperti
+  tact -> tact: numeroTavoli.add(i+1)
+  end loop
+
+tact -> tact: numeroTavoloSpin.setAdapter(adapter);
+
+loop Piatto p in piatti
+  tact->tact:createMenuItem(Piatto p)
+  activate tact
+end loop
+c -> tact: saveOrderButton.onClick(view)
+tact->CustomRequest**:create
+activate CustomRequest
+tact->CustomRequest: saveOrder()
+CustomRequest->cc: addNewOrder(JsonObject Order)
+activate cc
+activate Ordine
+cc->Ordine:setOrdine(Order)
+cc->cr: save()
+deactivate Ordine
+activate cr
+cr --> cc: <<saved_entity>>
+deactivate cr
+cc->tact:onResponse(result)
+deactivate cc
+deactivate tact
+deactivate tact
+tact -> c: done
+
+deactivate tact
+@enduml
