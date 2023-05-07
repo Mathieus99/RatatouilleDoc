@@ -47,6 +47,12 @@ class Cameriere << entity >>  #header:C6AD77{
  +setter()
 } 
 
+class Menu <<entity>> #header:C6AD77 {
+-nome:String
+-tipo:String
++getter()
++setter()
+}
 
 class AddettoCucina<< entity >>  #header:C6AD77{
  -Nome: String
@@ -66,7 +72,18 @@ class OrdineController << controller >>  #header:C6AD77 {
  +generaListe()
 }
 
-class PrendiOrdineActivity << boundary >>  #header:C6AD77{
+class VisualizzaOrdiniForm <<boundary>> #header:C6AD77 {
+-listOrdini: ScrollList
+-sollecitaButton: Button
+-completeOrder: Button
++completeOrder()
+}
+
+class PrendiOrdineForm << boundary >>  #header:C6AD77{
+-aggiungiPiatto: Button
+-rimuoviPiatto: Button
+-save: Button
+-cancel: Button
 +visualizzaPiatti()
 +aggiungiPortata()
 
@@ -82,11 +99,15 @@ class ListaPiatti << boundary >>  #header:C6AD77{
  +viewList()
 } 
 
-OrdineController -- Piatto
+Menu "1" -right- "0...*" Piatto
+OrdineController - VisualizzaOrdiniForm
+OrdineController -- Menu
 OrdineController -- Ordine
 OrdineController -up- Supervisore
-OrdineController -right- PrendiOrdineActivity
-PrendiOrdineActivity -right- ListaPiatti
+OrdineController -right- PrendiOrdineForm
+PrendiOrdineForm -right- ListaPiatti
 OrdineController -left- Cameriere
 OrdineController -up- AddettoCucina
+Cameriere "1" -up- "1...*" Ordine 
+ListaPiatti - Piatto
 @enduml

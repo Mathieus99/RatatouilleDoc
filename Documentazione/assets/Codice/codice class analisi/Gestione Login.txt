@@ -38,7 +38,7 @@ class CameriereDashboard <<boundary>> #header:C6AD77  {
 }
 
  
-class Lavoratore <<entity>>  #header:C6AD77  {
+abstract Lavoratore <<entity>>  #header:C6AD77  {
    -nome: String
    -cognome: String
    -codice_fiscale: String
@@ -64,6 +64,15 @@ class LoginController <<controller>> #header:C6AD77 {
  +switchToHome()
 }
 
+class Ristorante<<entity>>  #header:C6AD77 {
+ -nome: String
+ -localita: String
+ -coperti: integer
+ -numeroTelefono: String
+ -dipendenti: List<Lavoratore>
+ +getters()
+ +setters()
+}
 
 class FormCambioPassword  <<boundary>>  #header:C6AD77 {
    -NewPassoword:PasswordEditText
@@ -71,10 +80,14 @@ class FormCambioPassword  <<boundary>>  #header:C6AD77 {
    -cancelButton: Button
 }
 
+Ristorante "1" -down- "0...*" Lavoratore
 CredenzialiController  -down- Lavoratore
-CredenzialiController -up- FormLogin
-CredenzialiController -up- FormCambioPassword
+LoginController-down- Lavoratore
+
+CredenzialiController "1" -up- "1" FormLogin
+CredenzialiController "1" -up- "1" FormCambioPassword
 CredenzialiController -right-- LoginController
+LoginController -right- Ristorante
 LoginController -up- AdminDashboard
 LoginController -down- SupervisoreDashboard
 LoginController -down- AddettoCucinaDashboard

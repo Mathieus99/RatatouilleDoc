@@ -42,6 +42,15 @@ class AggiungiPiattoForm << boundary >> #header:C6AD77{
  -SearchButton: Button
  -Preconfezionato: Switch
 } 
+class Ristorante<<entity>>  #header:C6AD77 {
+ -nome: String
+ -localita: String
+ -coperti: integer
+ -numeroTelefono: String
+ -dipendenti: List<Lavoratore>
+ +getters()
+ +setters()
+}
 
 class ListaPiatti << boundary >> #header:C6AD77{
  -numeroRistoranti: int
@@ -49,8 +58,7 @@ class ListaPiatti << boundary >> #header:C6AD77{
  +viewList()
 } 
 
-Menu "1" --- "1" MenuController 
-Menu "1" --- "0...*" Piatto
-MenuController -- ListaPiatti
-MenuController -- AggiungiPiattoForm
-@enduml
+class OpenData <<service>> #header:C6AD77 {
++httpSearch()
++jsonResult()
+}

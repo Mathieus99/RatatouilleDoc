@@ -18,6 +18,27 @@ class Admin <<entity>>  #header:C6AD77 {
  +setters()
 }
 
+class Cameriere <<entity>>  #header:C6AD77 {
+ -Nome: String
+ -Cognome: String
+ -CodiceFiscale: String
+ -email:String
+ -hashedPassword:String
+ -ruolo: String
+ - ordini: List<Ordine> 
+ +getters()
+ +setters()
+}
+
+class Ordine <<entity>> #header:C6AD77 {
+ -conto: float
+ -dataOrdine: Date
+ -evasoDa: String
+ -descrizione: String
+  +getter()
+  +setter()
+}
+
 class Ristorante<<entity>>  #header:C6AD77 {
  -nome: String
  -localita: String
@@ -32,7 +53,12 @@ class Ristorante<<entity>>  #header:C6AD77 {
 class StatisticheController << controller >>  #header:C6AD77 {
 +generaGrafici()
 +visualizzaGrafici()
-+statisticheActivity()
++calcolaMedia()
++scegliRangeData()
+}
+
+class ChartClass <<boundary>> #header:C6AD77 {
+ -barChart: BarChart
 }
 
 
@@ -40,10 +66,14 @@ class StatisticheController << controller >>  #header:C6AD77 {
 class StatisticheActivity << boundary >> #header:C6AD77  {
  -ordini:List<Ordine>
  -conti: List<Integer>
+ -datePickerDialog: DialogDatePicker
 }
 
-
-StatisticheController -- Admin
-StatisticheController -- Ristorante
-StatisticheController -left- StatisticheActivity
+Cameriere "1" --right-  "0..*" Ordine
+Admin "1" -up- "1..*" Ristorante
+Ristorante "1" -up- "possiede 0..*"  Cameriere
+StatisticheController -right- ChartClass
+StatisticheController "1" --  "1" Admin
+StatisticheController -left- Ristorante
+StatisticheController -up- StatisticheActivity
 @enduml

@@ -17,7 +17,7 @@ class Ristorante << entity>> #header:C6AD77{
 }
 
  
-class Dipendente<< entity >> #header:C6AD77{
+abstract Lavoratore<< entity >> #header:C6AD77{
    -nome: string
    -cognome: string
    -codice fiscale: string
@@ -28,12 +28,18 @@ class Dipendente<< entity >> #header:C6AD77{
    +setter()
 } 
 
-class RistoranteDashboardController << controller >> #header:C6AD77{
+class DipendentiController << controller >> #header:C6AD77{
  +inserisciDipendente()
  +eliminaDipendente()
  +inserisciMenu()
  +eliminaMenu()
++visualizzaProfilo()
  
+}
+class VisualizzaProfilo <<boundary>> #header:C6AD77 {
+-nome: TextView
+-cognome: TextView
+-someDataFields: TextView
 }
 
 class AggiungiDipendenteForm << boundary >> #header:C6AD77{
@@ -42,10 +48,12 @@ class AggiungiDipendenteForm << boundary >> #header:C6AD77{
  -Email: EditText
  -Codice Fiscale: EditText
  -ruolo: Spinner
- -Password: EditText (fixed)
+ -Password: EditText 
  -SaveButton: Button
  -GoBackButton: Button
  -BackDialog: CustomDialog
+ +save()
+ +cancel()
 } 
 
 class ListaDipendenti << boundary >> #header:C6AD77 {
@@ -54,10 +62,11 @@ class ListaDipendenti << boundary >> #header:C6AD77 {
  +viewList()
 } 
 
-
-
-Ristorante "1" --- "1" RistoranteDashboardController
-Ristorante "1" --- "0...*" Dipendente
-RistoranteDashboardController --- ListaDipendenti
-RistoranteDashboardController --- AggiungiDipendenteForm
+ListaDipendenti "1" -- "0...*" Lavoratore 
+VisualizzaProfilo - Lavoratore
+Ristorante "1" -- "1" DipendentiController 
+Ristorante "1" -left- "0...*" Lavoratore
+DipendentiController -- ListaDipendenti
+DipendentiController -left-- AggiungiDipendenteForm
+DipendentiController -right- VisualizzaProfilo
 @enduml

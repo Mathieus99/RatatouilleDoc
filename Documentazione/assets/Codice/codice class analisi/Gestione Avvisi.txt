@@ -19,26 +19,26 @@ class Supervisore <<entity>>  #header:C6AD77 {
 }
 
 class Admin<<entity>>  #header:C6AD77 {
- Nome: String
- Cognome: String
- CodiceFiscale: String
- email:String
- hashedPassword:String
- ruolo: String
- getters()
- setters()
+ -Nome: String
+ -Cognome: String
+ -CodiceFiscale: String
+ -email:String
+ -hashedPassword:String
+ -ruolo: String
+ +getters()
+ +setters()
 }
 
 
 class Cameriere << entity >>  #header:C6AD77 {
- Nome: String
- Cognome: String
- CodiceFiscale: String
- email:String
- hashedPassword:String
- ruolo: String
- getters()
- setters()
+ -Nome: String
+ -Cognome: String
+ -CodiceFiscale: String
+ -email:String
+ -hashedPassword:String
+ -ruolo: String
+ +getters()
+ +setters()
 } 
 
 class Avviso << entity >>  #header:C6AD77 {
@@ -64,6 +64,15 @@ class AddettoCucina<< entity >>  #header:C6AD77 {
  +setter()
 } 
 
+class Ristorante<<entity>>  #header:C6AD77 {
+ -nome: String
+ -localita: String
+ -coperti: integer
+ -numeroTelefono: String
+ -dipendenti: List<Lavoratore>
+ +getters()
+ +setters()
+}
 
 class AvvisiController << controller >>  #header:C6AD77{
  +mostraNotifica()
@@ -83,12 +92,17 @@ class NotificationLayout<< boundary >>  #header:C6AD77{
 +displayAvvisi()
 }
 
-
+Ristorante "1" -up- "1...*" Cameriere
+Ristorante "1" - "1...*" AddettoCucina
+Ristorante "1...*" - "1" Admin
+Ristorante "1" -up- "0..*" Avviso
+Ristorante -up- Supervisore
+AvvisiController - Ristorante
 AvvisiController -- Cameriere
 AvvisiController -- Admin
 AvvisiController -up- Supervisore
 AvvisiController -up- Avviso
 AvvisiController -up- AddettoCucina
 AvvisiController -left- NotificationLayout
-AvvisiController -right- DialogCreaAvviso
+AvvisiController "1" --right- "1" DialogCreaAvviso
 @enduml

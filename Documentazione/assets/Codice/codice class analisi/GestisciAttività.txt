@@ -16,6 +16,15 @@ class Ristorante << entity>> #header:C6AD77 {
  +setter()
 }
 
+abstract Lavoratore <<entity>>  #header:C6AD77  {
+   -nome: String
+   -cognome: String
+   -codice_fiscale: String
+   -email: String
+   -password: String
+   +getter()
+   +setter()
+} 
  
 class Admin << entity >>#header:C6AD77 {
   -nome: string
@@ -27,7 +36,7 @@ class Admin << entity >>#header:C6AD77 {
    +setter()
 } 
 
-class AdminDashboardController << controller >> #header:C6AD77{
+class RistoranteController << controller >> #header:C6AD77{
  +inserisciRistorante()
  +eliminaRistorante()
  +inserisciAvviso()
@@ -36,13 +45,22 @@ class AdminDashboardController << controller >> #header:C6AD77{
  
 }
 
+class EmanaAvvisoForm <<boundary>> #header:C6AD77 {
+ -testo
+ +save()
+ +cancel()
+}
+
 class AggiungiRistoranteForm << boundary >> #header:C6AD77{
  -Nome: EditText
  -Localita: EditText
  -Numero coperti: decimalEditText
  -Numero Telefono: decimalEditText
  -SaveButton: Button
+ +save()
+ +cancel()
 } 
+
 
 class ListaRistoranti << boundary >> #header:C6AD77{
  -numeroRistoranti: int
@@ -50,10 +68,13 @@ class ListaRistoranti << boundary >> #header:C6AD77{
  +viewList()
 } 
 
-
-
-Admin "1" --- "1" AdminDashboardController
-Admin "1" --- "0...*" Ristorante
-AdminDashboardController --- ListaRistoranti 
-AdminDashboardController --- AggiungiRistoranteForm 
+RistoranteController -right- Ristorante
+RistoranteController -left- Lavoratore
+Admin "1" -right- "1" RistoranteController
+Admin "1" -- "0...*" Ristorante
+RistoranteController --- ListaRistoranti 
+ListaRistoranti "1" - "0...*" Ristorante
+RistoranteController--- AggiungiRistoranteForm 
+Ristorante "1" - "0...*" Lavoratore
+RistoranteController -right- EmanaAvvisoForm
 @enduml
