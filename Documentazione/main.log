@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.5)  8 MAY 2023 10:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.5)  8 MAY 2023 10:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2109,7 +2109,7 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 101.
  (capitoli/Documento di design/Architettura.tex
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 43.
+Package pdftex.def Info: assets/Logo1.png  used on input line 42.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [68
 
@@ -2119,17 +2119,17 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 43.
 <assets/immagini varie/spring-boot-architecture2.png, id=903, 602.25pt x 401.5pt>
 File: assets/immagini varie/spring-boot-architecture2.png Graphic file (type png)
 <use assets/immagini varie/spring-boot-architecture2.png>
-Package pdftex.def Info: assets/immagini varie/spring-boot-architecture2.png  used on input line 48.
+Package pdftex.def Info: assets/immagini varie/spring-boot-architecture2.png  used on input line 51.
 (pdftex.def)             Requested size: 180.67639pt x 120.45091pt.
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 51.
+Package pdftex.def Info: assets/Logo1.png  used on input line 54.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [69 <./assets/immagini varie/spring-boot-architecture2.png>]
 <assets/immagini varie/azure loc.png, id=911, 602.25pt x 312.16624pt>
 File: assets/immagini varie/azure loc.png Graphic file (type png)
 <use assets/immagini varie/azure loc.png>
-Package pdftex.def Info: assets/immagini varie/azure loc.png  used on input line 66.
+Package pdftex.def Info: assets/immagini varie/azure loc.png  used on input line 69.
 (pdftex.def)             Requested size: 301.12425pt x 156.08273pt.
 )
 File: assets/Logo1.png Graphic file (type png)
@@ -2330,7 +2330,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  90i,25n,116p,581b,2611s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\vesse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrb8v.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrr8v.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr5.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on main.pdf (83 pages, 5147923 bytes).
+Output written on main.pdf (83 pages, 5148731 bytes).
 PDF statistics:
  1370 PDF objects out of 1440 (max. 8388607)
  453 named destinations out of 1000 (max. 500000)

@@ -17,7 +17,7 @@
         ma con alcune modifiche per adattarsi al contesto specifico di Android. Talvolta entrano in gioco, come nel nostro caso, altri patter architetturali:\\
         \vspace{0.2cm}
         \textbf{\emph{Pattern Singleton:}} Abbiamo usato il pattern Singleton per generare una sola istanza del dipendente che si logga nell'app. 
-        Cosi facendo, è risultato più semplice aggiornare gli oggetti entità quali Cameriere, Addetto Cucina, Admin e Supervisore e mantenere costantemente un rapporto 1:1 con quanto salvato nel server.\vspace{0.2cm}
+        Cosi facendo, è risultato più semplice aggiornare gli oggetti entità quali Cameriere, Addetto Cucina, Admin e Supervisore e mantenere costantemente un rapporto 1:1 con quanto salvato nel server.\vspace{1cm}
         
         \textbf{\emph{Pattern Observer:}} Molte componenti del sistema Android utilizzano il pattern Observer. 
         Il pattern Observer prevede che un oggetto, chiamato soggetto (Subject), mantenga una lista di oggetti dipendenti, chiamati osservatori (Observers), 
@@ -25,8 +25,11 @@
         gli osservatori possono essere aggiornati in modo efficiente sullo stato del soggetto senza dover verificare continuamente se qualcosa è cambiato.
         In Android, il pattern Observer viene utilizzato, ad esempio, per gestire gli eventi generati dall'utente (come i tap sullo schermo), per notificare i cambiamenti nei dati  o per gestire la comunicazione tra componenti diversi dell'applicazione.
         Anche l'implementazione di \textbf{CallBack} come nel nostro caso (con VolleyCallback) possono essere viste come un' implementazione del pattern Observer.
-        Più in particolare la nostra VolleyCallback, che altro non è che un'interfaccia, richiede di implementare in ogni Activity il metodo onResponse() che aggiorna i dati locali con i dati ricevuti dal server.
-
+        Più in particolare la nostra VolleyCallback, che altro non è che un'interfaccia, richiede di implementare in ogni Activity il metodo onResponse() che aggiorna i dati locali con i dati ricevuti dal server.\vspace{1cm}
+       
+        \textbf{Volley} Volley è una libreria Android sviluppata da Google che semplifica l'elaborazione di richieste di rete in applicazioni Android. È stata progettata per gestire facilmente le chiamate REST API e può essere utilizzata per inviare e ricevere dati in diversi formati, come JSON, XML e immagini.
+        Volley utilizza una combinazione di caching e pooling di connessioni per garantire prestazioni elevate e ridurre il consumo di risorse. Inoltre, supporta la gestione automatica di thread e gestisce in modo trasparente gli errori di rete, semplificando notevolmente la scrittura di codice robusto e affidabile.
+        Implementata come Singleton, garantisce l'esistenza di una sola istanza di essa, e ci assicura consumi di memoria costanti e limitati.
     \end{flushleft}
     \vspace{0.2cm}
 

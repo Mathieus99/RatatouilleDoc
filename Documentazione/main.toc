@@ -57,7 +57,7 @@
 \contentsline {subsection}{\numberline {3.1}Architettura del sistema}{68}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Introduzione}{68}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Client}{68}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Server}{68}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2}Server}{69}{subsubsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.3}Sequence diagram di design}{71}{subsection.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1}Funzionalità: "Aggiungi Ristorante"}{71}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Funzionalità: "Aggiungi portata"}{71}{subsubsection.3.3.2}%
