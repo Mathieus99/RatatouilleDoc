@@ -86,14 +86,10 @@ package "Model"{
   String locazione, Admin proprietario, List<Cameriere> c)
   +boolean isLocTuristica()
   }
-  Cameriere "*"-->"1"Ristorante
-  Avviso "*"-->"1"Ristorante
-  Admin "1"-left-"*"Ristorante
-  Menu "1"--"1" Ristorante
-  AddettoCucina "1"-right-"1" Ristorante
-  Supervisore "1"-up-"1" Ristorante
-}
 
+
+}
+package "Singleton" {
 class AdminSingleton #header:C6AD77{
   -{static}istance : AdminSingleton
   -admin : Admin
@@ -101,19 +97,36 @@ class AdminSingleton #header:C6AD77{
   +Admin getAccount()
   +void setAccount()
 }
-
+}
 class StatisticsActivity #header:C6AD77{
   -barChart : BarChart
   -spinnerRisto : Spinner
   -restNumber : int
+  -spinnerRisto: Spinner
+  -mediaText:TextView
+  -selectDataButton: Button 
+  -scrollLinear: LinearLayout
+
   #void onCreate(Bundle savedIstance)
   -void inizializzaComponenti()
   -void initBarDataSet(BarDataSet barDataSet)
   -void initBarChart
+  -float media(int giorni, float incasso)
+  -int getIncassoRangeGiorni(Date dataInizio, ArrayList<Ordine> orders)
+  -void countOrders(int numeroRistorante) 
+  -void showDatePickerDialog()
 }
 
-Ordine "*"--> "1" StatisticsActivity
-Cameriere --> StatisticsActivity
-AdminSingleton --> StatisticsActivity
+
+Cameriere "*"--"1"Ristorante
+Avviso "*"--"1"Ristorante
+Admin "1"-left-"*"Ristorante
+Menu "1"--"1" Ristorante
+AddettoCucina "1"-right-"1" Ristorante
+Supervisore "1"-up-"1" Ristorante
+Ordine "*"-- "1" StatisticsActivity
+Cameriere -- StatisticsActivity
+AdminSingleton -- StatisticsActivity
+Admin - AdminSingleton
 
 @enduml

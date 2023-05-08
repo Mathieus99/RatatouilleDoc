@@ -64,12 +64,13 @@
 \contentsline {subsubsection}{\numberline {3.3.3}Funzionalità: "Prendi ordinazione"}{72}{subsubsection.3.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.4}Funzionalità: "Visualizza avvisi"}{72}{subsubsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.4}Class diagram di design}{73}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Login}{73}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Gestione piatti}{74}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Gestione Avvisi}{74}{subsubsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4}Gestione Ordini}{75}{subsubsection.3.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.5}Gestione Dipendenti}{75}{subsubsection.3.4.5}%
-\contentsline {subsubsection}{\numberline {3.4.6}Visualizzazione Statistiche}{76}{subsubsection.3.4.6}%
+\contentsline {subsubsection}{\numberline {3.4.1}Espansione modelli Lavoratore}{73}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Login}{73}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Gestione piatti}{74}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Gestione Avvisi}{74}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}Gestione Ordini}{75}{subsubsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.6}Gestione Dipendenti}{75}{subsubsection.3.4.6}%
+\contentsline {subsubsection}{\numberline {3.4.7}Visualizzazione Statistiche}{76}{subsubsection.3.4.7}%
 \contentsline {subsection}{\numberline {3.5}Testing xUnit}{77}{subsection.3.5}%
 \contentsline {subsubsection}{\numberline {3.5.1}Test funzione che controlla il codice fiscale.}{77}{subsubsection.3.5.1}%
 \contentsline {subsubsection}{\numberline {3.5.2}Test funzione che controlla i campi di un ristorante.}{78}{subsubsection.3.5.2}%

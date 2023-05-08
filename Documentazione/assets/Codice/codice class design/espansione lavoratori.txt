@@ -1,0 +1,75 @@
+@startuml
+
+'Gestione statistiche
+
+skinparam class{
+  BackgroundColor white
+}
+skinparam package{
+  BackgroundColor white
+}
+skinparam ClassStereotypeFontColor brown
+
+package "Lavoratore Model"{
+
+  abstract Lavoratore #header:C6AD77 {
+    -hashedPassword:String 
+    -codiceFiscale:String
+    -nome:String 
+    -cognome:String 
+    -email:String
+    -ruolo: String 
+
+    +String getCodiceFiscale()
+    +void setCodiceFiscale(String codiceFiscale)
+    +String getNome() 
+    +void setNome(String nome) 
+    +String getCognome() 
+    +void setCognome(String cognome) 
+    +String getEmail() 
+    +void setEmail(String email)
+    +String getRuolo() 
+    +void setRuolo(String ruolo) 
+  }
+
+
+  class Cameriere #header:C6AD77{
+    +Ristorante getRistorante()
+    +void setRistorante(Ristorante r)
+    +List<Ordine> getOrdini()
+    +void setOrdini(List<Ordine> o)
+  }
+ 
+  
+
+  class Admin #header:C6AD77{
+   -partita_iva : String
+   -ristoranti : List<Ristorante>
+   +Lista<Ristorante> getRistoranti()
+   +void setRistoranti(List<Ristorante> r)
+   +String getPartita_iva()
+   +void setPartita_iva(String partita_iva)
+  }
+  
+  class Supervisore #header:C6AD77{
+    -numeroAvvisi : int
+    +int getNumeroAvvisi()
+    +void setNumeroAvvisi(int n)
+    +Ristorante getRistorante()
+    +void setRistorante(Ristorante r)
+  }
+  
+  class AddettoCucina #header:C6AD77{
+    -numeroOrdiniEvasi : int
+    +Ristorante getRistorante()
+    +void setRistorante(Ristorante r)
+    +int getNumeroOrdiniEvasi()
+    +void setNumeroOrdiniEvasi()
+  }
+  
+ Cameriere .up.|> Lavoratore
+ Supervisore .up.|> Lavoratore
+ Admin .up.|> Lavoratore
+ AddettoCucina .up.|> Lavoratore
+
+@enduml
