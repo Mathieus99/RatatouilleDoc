@@ -58,25 +58,25 @@
 \contentsline {subsection}{\numberline {3.2}Introduzione}{68}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Client}{68}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Server}{69}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Sequence diagram di design}{71}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Funzionalità: "Aggiungi Ristorante"}{71}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Funzionalità: "Aggiungi portata"}{71}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Funzionalità: "Prendi ordinazione"}{72}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Funzionalità: "Visualizza avvisi"}{72}{subsubsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.4}Class diagram di design}{73}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Espansione modelli Lavoratore}{73}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Login}{73}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Gestione piatti}{74}{subsubsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4}Gestione Avvisi}{74}{subsubsection.3.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.5}Gestione Ordini}{75}{subsubsection.3.4.5}%
-\contentsline {subsubsection}{\numberline {3.4.6}Gestione Dipendenti}{75}{subsubsection.3.4.6}%
-\contentsline {subsubsection}{\numberline {3.4.7}Visualizzazione Statistiche}{76}{subsubsection.3.4.7}%
-\contentsline {subsection}{\numberline {3.5}Testing xUnit}{77}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Test funzione che calcola incasso in un range di date.}{77}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Test funzione che controlla i campi di un ristorante.}{79}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}Testing delle funzione media (in statistiche).}{81}{subsubsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.6}Usabilità sul campo}{84}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Premessa}{84}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}Presentazione degli utenti}{84}{subsubsection.3.6.2}%
-\contentsline {subsubsection}{\numberline {3.6.3}Il confronto con gli utenti}{84}{subsubsection.3.6.3}%
-\contentsline {subsubsection}{\numberline {3.6.4}Valutazione finale}{85}{subsubsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.3}Sequence diagram di design}{72}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Funzionalità: "Aggiungi Ristorante"}{72}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Funzionalità: "Aggiungi portata"}{72}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Funzionalità: "Prendi ordinazione"}{73}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Funzionalità: "Visualizza avvisi"}{73}{subsubsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.4}Class diagram di design}{74}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Espansione modelli Lavoratore}{74}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Login}{74}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Gestione piatti}{75}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Gestione Avvisi}{75}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}Gestione Ordini}{76}{subsubsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.6}Gestione Dipendenti}{76}{subsubsection.3.4.6}%
+\contentsline {subsubsection}{\numberline {3.4.7}Visualizzazione Statistiche}{77}{subsubsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.5}Testing xUnit}{78}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Test funzione che calcola incasso in un range di date.}{78}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Test funzione che controlla i campi di un ristorante.}{80}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Testing delle funzione media (in statistiche).}{82}{subsubsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.6}Usabilità sul campo}{85}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Premessa}{85}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Presentazione degli utenti}{85}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Il confronto con gli utenti}{85}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}Valutazione finale}{86}{subsubsection.3.6.4}%

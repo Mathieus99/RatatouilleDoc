@@ -55,13 +55,13 @@
 
     \begin{flushleft}
         \textbf{Microsoft Azure}\\
-        Microsoft Azure è la piattaforma cloud pubblica di Microsoft, che offre servizi di cloud computing. Tra i vari piani che mette a disposizione, abbiamo usufruito
-        di quello "gratuito" che ci permette di eseguire una macchian virtuale linux e un database relazionale, che nel nostro caso è stato PostgreSQL.
+        Microsoft Azure è la piattaforma cloud pubblica di Microsoft, che offre servizi di cloud computing. Tra i vari piani che mette a disposizione abbiamo usufruito
+        di quello "gratuito" che ci ha permesso di eseguire una macchian virtuale linux (seppur con poche risorse) e un database relazionale, che nel nostro caso è stato PostgreSQL.
         La configurazione della macchina virtuale non ha richiesto particolari abilità: tramite connessione ssh abbiamo configurato il progetto Spring Boot e avviandolo 
         mettiamo a disposizione gli end-point raggiungibili poi dai client.
         La potenza computazionale in questa fase di sviluppo e di utilizzo limitato dell'applicativo potrebbe risultare esile, ma il vantaggio di piattaforme quali
         Azure è possibile in qualsiasi momento aumentare le risorse dedicate a db e/o macchina virtuale, aumentando di fatto la scalabilità della nostra applicazione.
-
+        
     \end{flushleft}
 
     \begin{figure}[H]
@@ -69,3 +69,43 @@
         \includegraphics[scale=0.5]{assets/immagini varie/azure loc.png}
         \caption*{\textbf{Figura}: Micrsoft Azure}\label{fig:mic_az}
     \end{figure}
+    \newpage
+    \begin{flushleft}
+        \textbf{E la sicurezza?}\\
+        La sicurezza è garantita sia dalla sicurezza intrinseca dei servizi offerti da Microsoft Azure (parliamo quindi di operatività, assistenza, scalabilità) sia da un piccolo sistema di sicurezza pensato dal team:
+    \end{flushleft}
+
+    \begin{lstlisting}[language = Java, frame = trBL, firstnumber = last, escapeinside={(*@}{@*)}]
+        @Component
+        public class AppCodeInterceptor implements HandlerInterceptor {
+
+            private static final String HEADER_APP_CODE = "app_code";
+            private static final String EXPECTED_APP_CODE = "Ratatuille23";
+
+            @Override
+            public boolean preHandle(HttpServletRequest request, 
+            HttpServletResponse response, Object handler) throws Exception {
+                String appCode = request.getHeader(HEADER_APP_CODE);
+                if (appCode == null || !appCode.equals(EXPECTED_APP_CODE)) {
+                    System.out.println("Access denied");
+                    response.setStatus(HttpStatus.UNAUTHORIZED.value());
+                    return false;
+                }
+                return true;
+            }
+            
+            // Override degli altri metodi dell'interceptor se necessario
+        }
+    \end{lstlisting}
+    
+
+    \begin{flushleft}
+        Questa piccola parte di codice presente nel back-end, ci garantisce che nessun'altra richiesta al di fuori da 
+        quelle effettuate con il parametro "appcode" da noi definito sul client venga accettata.
+        Estranei e malintenzionati, riceveranno lo status 401 se proveranno ad accedere a qualunque dei nostri endpoint.
+    
+    \end{flushleft}
+
+   
+        
+    

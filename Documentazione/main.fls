@@ -2145,6 +2145,14 @@ INPUT .\assets\Logo1.png
 INPUT .\assets\Logo1.png
 INPUT assets\Logo1.png
 INPUT .\assets\Logo1.png
+INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT .\assets\Logo1.png
+INPUT .\assets\Logo1.png
+INPUT assets\Logo1.png
+INPUT .\assets\Logo1.png
 INPUT .\capitoli\Documento di design\Sequence Design.tex
 OUTPUT capitoli\Documento di design\Sequence Design.aux
 INPUT .\capitoli\Documento di design\Sequence Design.tex
@@ -2274,10 +2282,6 @@ INPUT .\capitoli\Testing e Usabilità\Testing.tex
 INPUT capitoli\Testing e Usabilità\Testing.tex
 INPUT .\capitoli\Testing e Usabilità\Testing.tex
 INPUT capitoli\Testing e Usabilità\Testing.tex
-INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnr9.tfm
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\ucrr8v.tfm
 INPUT .\assets\Logo1.png
