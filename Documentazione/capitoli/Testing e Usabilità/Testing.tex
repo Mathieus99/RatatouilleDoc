@@ -27,17 +27,13 @@ numberstyle = \tiny,
 \subsection{Test funzione check credenziali}
 \begin{flushleft}
     
-    Il metodo \textit{checkCredentials} ha il compito di verificare la validità di un indirizzo email e di una password. In particolare, il metodo accetta due stringhe come input: \textit{mail}, che rappresenta l'indirizzo email, e \textit{pswrd}, che rappresenta la password.
-
-    Il metodo restituisce un oggetto \textit{ArrayList} di interi, che rappresenta una lista di eventuali errori verificatisi durante l'esecuzione del metodo. In altre parole, il metodo controlla se l'indirizzo email e la password rispettano determinati requisiti, e in caso contrario, aggiunge il corrispondente codice di errore alla lista.
-    
-    Nel dettaglio, il metodo controlla i seguenti aspetti:
-    
-    \begin{itemize}
-    \item L'indirizzo email non deve essere vuoto e deve essere valido secondo le regole definite dal metodo \textit{isValid} dell'oggetto \textit{EmailValidator}. In caso contrario, viene aggiunto il codice di errore 12 o 13 alla lista degli errori.
-    \item La password non deve essere vuota e deve rispettare il formato definito dall'espressione regolare \textit{regex}. In caso contrario, viene aggiunto il codice di errore 9, 10 o 11 alla lista degli errori.
-    \end{itemize}
-    
+    Il metodo \textit{checkCredentials} ha il compito di verificare la validità di un indirizzo email
+     e di una password. In particolare, il metodo accetta due stringhe come input: \textit{mail}, che 
+     rappresenta l'indirizzo email, e \textit{pswrd}, che rappresenta la password.
+    Il metodo restituisce un oggetto \textit{ArrayList} di interi, che rappresenta una 
+    lista di eventuali errori verificatisi durante l'esecuzione del metodo. In altre parole, 
+    il metodo controlla se l'indirizzo email e la password rispettano determinati requisiti, 
+    e in caso contrario, aggiunge il corrispondente codice di errore alla lista.
     Infine, il metodo restituisce la lista degli errori, eventualmente vuota se non sono stati riscontrati problemi.\\
 \end{flushleft}
 
@@ -206,7 +202,7 @@ numberstyle = \tiny,
     Dato che la funzione "getIncassoRangeGiorni" fa parte della classe StatisticsActivity e fa uso della classe Ordini,
     abbiamo creato nel Package "Driver" i seguenti \textit{Mock} per poter eseguire il testing:
 \end{flushleft}
-\vspace{0.2cm}
+\vspace{1cm}
 
 \begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)} , commentstyle=\color{brown}]
     public class StatisticsActivityMock {
@@ -301,7 +297,7 @@ public class OrdineMock {
      {NULL , VALIDI} : 1 Caso
 
  ------------------------------------------------------------------------------ */  
-   
+
 public class getIncassoRangeGiorniTest {
 
     StatisticsActivityMock statisticsActivityMock;
@@ -430,28 +426,58 @@ public class getIncassoRangeGiorniTest {
 
 \subsection{Test funzione che controlla i campi di un ristorante.}
 \begin{flushleft}
-    \textbf{Abbiamo utilizzato il modo}Valutando l'implementazione del metodo verso cui stiamo eseguendo del testing con strategia Black-Box, riteniamo che il WEAK EQUIVALENCE CLASS TESTING sia il criterio di copertura più indicato, fornendo
-    8 Test Cases che riteniamo siano sufficienti a ritenere la batteria di testing esaustiva\\
-
-    \textbf{Classi di equivalenza individuate:}\\ getRestaurantFieldsError è un metodo che prende 4 parametri di tipo Stringa: Nome, Coperti, Indirizzo, Numero di telefono: N, C, I, T.
-    Il valore di ritorno del metodo sarà un ArrayList di interi dove ognuno conterrà un valore.
-
-    Per ogni campo possimo identificare delle classi di equivalenza:
-    \begin{itemize}
-        \item N = \{VALIDO, TROPPO CORTO, NULL\} - TROPPO CORTO: Nome compostoda un solo carattere
-        \item C = \{VALIDO, FUORI RANGE, NON VALIDO, NULL\} - FUORI RANGE: C > 1000 || C < 5 - NON VALIDO: C contiene o è interamente composto da caratteri non numerici
-        \item I = \{VALIDO, TROPPO CORTO, NON VALIDO NULL\}- TROPPO CORTO: I < 5 - NON VALIDO: I contiene o è composto da caratteri speciali
-        \item T = \{VALIDO, NON VALIDO, NULL\} - NON VALIDO: T non rispetta la regex che controlla che sia effettivamente un numero di telefono valido\\
-
-    \end{itemize}
-    
-
+    Questo metodo prende in input quattro stringhe che rappresentano il nome di un ristorante,
+     il numero di coperti, l'indirizzo' e il numero di telefono. Il metodo restituisce un oggetto ArrayList
+     di interi che rappresenta una lista di eventuali errori verificatisi durante l'esecuzione del metodo.
 \end{flushleft}
 \vspace{0.2cm}
 
 \begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)} , commentstyle=\color{brown}]
 public class getRestaurantFiedlsErrorsTest {
-
+/*
+    CLASSI DI EQUIVALENZA:
+ 
+       NOME: {VALIDO, VUOTO, TROPPO CORTO}
+ 
+       COPERTI: {VALIDO, VUOTO, FUORI-RANGE, NON VALIDO}
+         - FUORI RANGE: <5 && > 1000
+         - NON VALIDO: Non composto da soli numeri
+ 
+       INDIRIZZO: {VALIDO, VUOTO, TROPPO CORTO, NON VALIDO}
+         - NON VALIDO: Contiene caratteri speciali
+ 
+       TELEFONO: {VALIDO, VUOTO, NON VALIDO}
+ 
+  --------------------------------------------------------------------------------
+ 
+    CODICI DI ERRORE:
+     1 = NOME TROPPO CORTO (1 CARATTERE MINIMO)
+     2 = NOME MANCANTE
+     3 = NUMERO DI COPERTI MANCANTE
+     4 = NUMERO DI COPERTI FUORI RANGE
+     5 = INDIRIZZO MANCANTE
+     6 = INDIRIZZO TROPPO CORTA (MINIMO 5 CARATTERI)
+     7 = NUMERO DI TELEFONO MANCANTE
+     8 = NUMERO DI TELEFONO NON VALIDO (10 CIFRE NUMERICHE RICHIESTE)
+     9 = NUMERO DI COPERTI ERRATO
+     10 = INDIRIZZO NON VALIDO
+ 
+ -------------------------------------------------------------------------------------
+ 
+    STRATEGIE DI TESTING UTILIZZATE:
+       BlackBox secondo il criterio WECT
+ 
+    CASI DI TESTING RITENUTI NECESSARI:
+      {VALIDO, VALIDO, VALIDO, VALIDO} : 1 Caso
+      {TROPPO CORTO, VALIDO, VALIDO, VALIDO} : 1 Caso
+      {VALIDO, FUORI-RANGE, VALIDO, VALIDO} : 2 Casi
+      {VALIDO, NON VALIDO, VALIDO, VALIDO} : 2 Casi
+      {VALIDO, VALIDO, TROPPO CORTO, VALIDO} : 1 Caso
+      {VALIDO, VALIDO, NON VALIDO, VALIDO} : 1 Caso
+      {VALIDO, VALIDO, VALIDO, NON VALIDO} : 1 Caso
+      {NULL, NULL, NULL, NULL} : 1 Caso
+ 
+  ---------------------------------------------------------------------------- */
     public ArrayList<Integer> codici_errore = new ArrayList<Integer>();
 
 
@@ -534,12 +560,29 @@ public class getRestaurantFiedlsErrorsTest {
 
 \subsection{Testing delle funzione media (in statistiche).}
 \begin{flushleft}
-    \textbf{Abbiamo utilizzato il modo} "Modo"\\
-    \textbf{Classi di equivalenza individuate:} "classi"
+    La funzione media prende in input il numero di giorni e l'incasso totale di un ristorante in quei giorni.
+     Essa calcola la media giornaliera di incasso dividento l'incasso totale per il numero di giorni e restituisce 
+     il valore ottenuto. Inoltre, la funzione effettua alcune verifiche di validità sui parametri di input, come il 
+     controllo che il numero di giorni non sia negativo o pari a zero, e che l'incasso sia maggiore di zero. In caso
+      di violazione di queste condizioni, la funzione lancia un'eccezione per segnalare l'errore.
 \end{flushleft}
 \vspace{0.2cm}
 \begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)} , commentstyle=\color{brown}]
 public class mediaTest {
+/*
+   CLASSI DI EQUIVALENZA:
+
+      INCASSO: {NULL, NEGATIVO, POSITIVO}
+      GIORNI: {NULL, NEGATIVO, ZERO, POSITIVO}
+
+ --------------------------------------------------------------------------------
+
+   STRATEGIE DI TESTING UTILIZZATE:
+      BlackBox e WhiteBox secondo il criterio SECT
+
+     ==== BLACKBOX ====
+
+ ------------------------------------------------------------------------------ */
 
     StatisticsActivityMock mock;
 
@@ -547,8 +590,6 @@ public class mediaTest {
     public void setUp(){
         mock = new StatisticsActivityMock();
     }
-
-    //TESTING BLACK BOX
 
     @Test
     public void testMedia(){
@@ -585,8 +626,13 @@ public class mediaTest {
                 )
         );
     }
+\end{lstlisting}
+\vspace{0.2cm}
 
-    //TESTING WHITE BOX
+\begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)} , commentstyle=\color{brown}]
+/*     ==== WHITEKBOX ====
+
+------------------------------------------------------------------------------ */
 
     @Test
     public void testGiornoNull(){

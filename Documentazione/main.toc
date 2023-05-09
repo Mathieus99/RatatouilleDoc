@@ -5,9 +5,9 @@
 \contentsline {subsection}{\numberline {2.1}Test funzione check credenziali}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Test funzione che calcola incasso in un range di date.}{8}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Test funzione che controlla i campi di un ristorante.}{13}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Testing delle funzione media (in statistiche).}{15}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Usabilità sul campo}{18}{subsection.2.5}%
-\contentsline {subsubsection}{\numberline {2.5.1}Premessa}{18}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}Presentazione degli utenti}{18}{subsubsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.3}Il confronto con gli utenti}{18}{subsubsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.4}Valutazione finale}{19}{subsubsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.4}Testing delle funzione media (in statistiche).}{16}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Usabilità sul campo}{19}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Premessa}{19}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Presentazione degli utenti}{19}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Il confronto con gli utenti}{19}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Valutazione finale}{20}{subsubsection.2.5.4}%

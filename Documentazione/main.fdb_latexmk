@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1683659760 "c:/Users/Biagio/OneDrive/Desktop/RatatouilleDoc/Documentazione/main.tex" "main.pdf" "main" 1683659763 0
+["pdflatex"] 1683664352 "c:/Users/Biagio/OneDrive/Desktop/RatatouilleDoc/Documentazione/main.tex" "main.pdf" "main" 1683664355 0
   "assets/Logo1.png" 1683651491 79406 43a8cffe964178c1ed242745d6f01b0b ""
   "c:/Users/Biagio/OneDrive/Desktop/RatatouilleDoc/Documentazione/main.tex" 1683652016 4717 c8126246a138871bc2d70153be6ed67f ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1681312024 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -166,16 +166,16 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1681324440 4683147 9a6f76ba1d2531f688b92e219d43aae8 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1681324591 7885511 a731c3105f610e70f9d9b6d02c971627 ""
   "c:/texlive/2023/texmf.cnf" 1681324415 713 e69b156964470283e0530f5060668171 ""
-  "capitoli/Premessa.aux" 1683659762 1133 4c6e29651d1ee305071aed21b8bb5817 "pdflatex"
+  "capitoli/Premessa.aux" 1683664354 1133 4c6e29651d1ee305071aed21b8bb5817 "pdflatex"
   "capitoli/Premessa.tex" 0 -1 0 ""
-  "capitoli/Testing e Usabilità/Testing.aux" 1683659762 1880 47eea28075f8539ed0ae5b39899701d0 "pdflatex"
-  "capitoli/Testing e Usabilità/Testing.tex" 1683659756 23373 fda2eb8013dcafc1bbe0022921bdf29e ""
-  "capitoli/Testing e Usabilità/Usabilità sul campo.aux" 1683659762 1849 42cc579b3a8baf70b4e0f6a6c661a5be "pdflatex"
+  "capitoli/Testing e Usabilità/Testing.aux" 1683664355 1880 9d6cab01faf335c9cf9fb4ae6d9cf186 "pdflatex"
+  "capitoli/Testing e Usabilità/Testing.tex" 1683664352 24531 e2548a6335b86a8d3f1a365cf79a606b ""
+  "capitoli/Testing e Usabilità/Usabilità sul campo.aux" 1683664355 1849 ed86545dddbe5523bda373e54ec3eb2d "pdflatex"
   "capitoli/Testing e Usabilità/Usabilità sul campo.tex" 1683651491 6171 1407f9c540d3257e1fcfab93b91026fc ""
-  "main.aux" 1683659762 1060 59d10a1a0d45d535a60d11c93298cb7f "pdflatex"
-  "main.out" 1683659762 2356 4a9c668e239aede1fbfa7008d7259a4c "pdflatex"
+  "main.aux" 1683664355 1060 b134614fda3f867712a41008a94ea1ba "pdflatex"
+  "main.out" 1683664355 2356 4a9c668e239aede1fbfa7008d7259a4c "pdflatex"
   "main.tex" 1683652016 4717 c8126246a138871bc2d70153be6ed67f ""
-  "main.toc" 1683659762 1133 2995bdd7ab3434095575b1a2a0debb48 "pdflatex"
+  "main.toc" 1683664355 1133 b064f85078685bb60a52029c54336dd5 "pdflatex"
   "style.sty" 1683651491 3174 0056478be27ce08a6c3891fa7f3b30ab ""
   (generated)
   "capitoli/Premessa.aux"
