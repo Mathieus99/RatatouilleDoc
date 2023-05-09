@@ -1,4 +1,4 @@
-\section{Testing xUnit}
+\section{Testing JUnit}
 
 \lstset{
 tabsize = 4, %% set tab space width
@@ -15,8 +15,10 @@ numberstyle = \tiny,
  
 
 \begin{flushleft}
-    In questa sezione presentiamo quella che forse è una delle parti fondamentali nel ciclo di sviluppo di un software: il testing.
-    Ne esistono di vari tipi, per "semplicità" qui si richiede il testing di unità, effettuato con jUnit.
+
+    In questa sezione, presentiamo una delle fasi cruciali all'interno del ciclo di sviluppo del software, ovvero il testing. 
+    Il testing può assumere diverse forme e tipologie, ma per la semplicità della presentazione, in questa sede si richiede
+    il testing di soli 4 metodi con due o più parametri, che verrà effettuato mediante l'utilizzo del framework JUnit 5.
 \end{flushleft}
 
 
@@ -24,17 +26,56 @@ numberstyle = \tiny,
 
 \subsection{Test funzione check credenziali}
 \begin{flushleft}
-    \textbf{Abbiamo utilizzato il modo} "Modo"\\
-    \textbf{Classi di equivalenza individuate:} "classi"
+    
+    Il metodo \textit{checkCredentials} ha il compito di verificare la validità di un indirizzo email e di una password. In particolare, il metodo accetta due stringhe come input: \textit{mail}, che rappresenta l'indirizzo email, e \textit{pswrd}, che rappresenta la password.
+
+    Il metodo restituisce un oggetto \textit{ArrayList} di interi, che rappresenta una lista di eventuali errori verificatisi durante l'esecuzione del metodo. In altre parole, il metodo controlla se l'indirizzo email e la password rispettano determinati requisiti, e in caso contrario, aggiunge il corrispondente codice di errore alla lista.
+    
+    Nel dettaglio, il metodo controlla i seguenti aspetti:
+    
+    \begin{itemize}
+    \item L'indirizzo email non deve essere vuoto e deve essere valido secondo le regole definite dal metodo \textit{isValid} dell'oggetto \textit{EmailValidator}. In caso contrario, viene aggiunto il codice di errore 12 o 13 alla lista degli errori.
+    \item La password non deve essere vuota e deve rispettare il formato definito dall'espressione regolare \textit{regex}. In caso contrario, viene aggiunto il codice di errore 9, 10 o 11 alla lista degli errori.
+    \end{itemize}
+    
+    Infine, il metodo restituisce la lista degli errori, eventualmente vuota se non sono stati riscontrati problemi.\\
 \end{flushleft}
+
 \vspace{0.2cm}
 
-\begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)}]
+\begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)}, commentstyle=\color{brown}]
 
     public class CheckCredentialsTest {
 
-    //  CODICI DI ERRORE: 9 = PASSWORD VUOTA, 10 = PASSWORD TROPPO CORTA, 11 = PASSWORD NON VALIDA (REGEX)
-    //                    12 = EMAIL VUOTA, 13 = EMAIL NON VALIDA
+    /*
+    CLASSI DI EQUIVALENZA:
+   
+    PASSWORD: {VALIDA, VUOTA, TROPPO CORTA, NON RISPETTA LA REGEX}
+      - VALIDA = Almeno 8 caratteri di cui 1 Maiuscola,
+      1 Minuscola, 1 Carattere speciale, 1 numero
+
+    EMAIL: {VALIDA, VUOTA, NON VALIDA}
+      - VALIDA = Deve rispettare la sintassi
+      di un email corretta
+
+--------------------------------------------------------------------------------
+
+    CODICI DI ERRORE:
+      9 = PASSWORD VUOTA,
+      10 = PASSWORD TROPPO CORTA,
+      11 = PASSWORD NON VALIDA (REGEX)
+      12 = EMAIL VUOTA, 
+      13 = EMAIL NON VALIDA
+
+---------------------------------------------------------------------------------
+
+    STRATEGIE DI TESTING UTILIZZATE: 
+      BlackBox secondo il criterio SECT
+
+    CASI DI TESTING INDIVIDUATI: 
+      22 in 12 metodi
+
+------------------------------------------------------------------------------ */
 
     public ArrayList<Integer> codici_errore = new ArrayList<Integer>();
 
@@ -153,12 +194,114 @@ numberstyle = \tiny,
 %SECONDO METODO
 \subsection{Test funzione che calcola incasso in un range di date.}
 \begin{flushleft}
-    \textbf{Abbiamo utilizzato il modo} "Modo"\\
-    \textbf{Classi di equivalenza individuate:} "classi"
+   La funzione "getIncassoRangeGiorni" prende in input una data di inizio e una lista di ordini e calcola l'incasso totale degli ordini che sono stati effettuati tra la data di inizio e la data attuale.
+
+    La funzione controlla che la lista degli ordini non sia nulla. In caso contrario, restituisce zero. Successivamente, per ogni ordine nella lista degli ordini, la funzione controlla se la data dell'ordine è compresa tra la data di inizio e la data attuale. Se la data è compresa nel range, l'importo dell'ordine viene aggiunto all'incasso totale.
+    
+    Infine, la funzione restituisce l'incasso totale degli ordini effettuati nel range di tempo specificato.
 \end{flushleft}
 \vspace{0.2cm}
 
-\begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)}]
+\begin{flushleft}
+    Dato che la funzione "getIncassoRangeGiorni" fa parte della classe StatisticsActivity e fa uso della classe Ordini,
+    abbiamo creato nel Package "Driver" i seguenti \textit{Mock} per poter eseguire il testing:
+\end{flushleft}
+\vspace{0.2cm}
+
+\begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)} , commentstyle=\color{brown}]
+    public class StatisticsActivityMock {
+
+    public float media(int giorni, float incasso){
+        float media = 0;
+        if(giorni < 0) throw new IllegalArgumentException("Il numero di giorni non deve essere negativo");
+        if (giorni == 0) throw new ArithmeticException("Il numero di giorni non puo essere 0");
+        if (incasso < 0) throw new IllegalArgumentException("l'incasso deve essere maggiore di 0.");
+        media = incasso / giorni;
+        media = Math.round(media * 100) / 100f;
+
+        return media;
+    }
+
+    public int getIncassoRangeGiorni(LocalDate dataInizio, ArrayList<OrdineMock> orders){
+        int incassoTotale = 0;
+        LocalDate endDate = LocalDate.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+
+        if (orders == null) return 0;
+        for (OrdineMock ordine : orders) {
+            LocalDate orderDate = LocalDate.parse(ordine.getDataOrdine(), formatter);
+            if (orderDate.isEqual(dataInizio) || orderDate.isAfter(dataInizio) && orderDate.isBefore(endDate)) {
+                incassoTotale += ordine.getConto();
+
+
+            }
+        }
+        return incassoTotale;
+    }
+}
+\end{lstlisting}
+\vspace{0.2cm}
+
+\begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)} , commentstyle=\color{brown}]
+   
+ /*
+    IN QUESTO CASO LA CLASSE ORDINE MOCK CONTIENE SOLO
+    GLI ATTRIBUTI DI ORDINE CHE ENTRANO IN GIOCO ALL'INTERNO
+    DEL METODO getIncassoRangeGiorni
+*/
+
+public class OrdineMock {
+
+   private int conto;
+   private String dataOrdine;
+
+   public OrdineMock(int conto, String dataOrdine) {
+       this.conto = conto;
+       this.dataOrdine = dataOrdine;
+   }
+
+   public int getConto() {
+       return conto;
+   }
+
+   public String getDataOrdine() {
+       return dataOrdine;
+   }
+}
+
+\end{lstlisting}
+\vspace{0.2cm}
+    
+\begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)} , commentstyle=\color{brown}]
+
+/*
+   CLASSI DI EQUIVALENZA:
+   
+      DATA_INIZIO: {VALIDA, NULL}
+        - Valida: a sua volta puo' essere
+             1.1) Verosimile e precedente agli ordini
+             1.2) Futura agli ordini
+             1.3) Inverosimilmente precedente agli ordini
+
+      ORDINI: {VALIDI, NULL, LISTA VUOTA, CON DATA SBAGLIATA}
+
+ --------------------------------------------------------------------------------
+
+   STRATEGIE DI TESTING UTILIZZATE:
+
+      BlackBox secondo il criterio WECT
+      
+   CASI DI TESTING RITENUTI NECESSARI:
+     {VALIDA , VALIDI} : 1 Caso
+     {VALIDA , NULL} : 1 Caso
+     {VALIDA , LISTA VUOTA} : 1 Caso
+     {VALIDA , CON DATA SBAGLIATA} : 4 Casi
+     {DATA FUTURA , VALIDI} : 1 Caso
+     {DATA INVEROSIMILMENTE PRECEDENTE , VALIDI} : 1 Caso
+     {NULL , VALIDI} : 1 Caso
+
+ ------------------------------------------------------------------------------ */  
+   
 public class getIncassoRangeGiorniTest {
 
     StatisticsActivityMock statisticsActivityMock;
@@ -306,7 +449,7 @@ public class getIncassoRangeGiorniTest {
 \end{flushleft}
 \vspace{0.2cm}
 
-\begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)}]
+\begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)} , commentstyle=\color{brown}]
 public class getRestaurantFiedlsErrorsTest {
 
     public ArrayList<Integer> codici_errore = new ArrayList<Integer>();
@@ -395,7 +538,7 @@ public class getRestaurantFiedlsErrorsTest {
     \textbf{Classi di equivalenza individuate:} "classi"
 \end{flushleft}
 \vspace{0.2cm}
-\begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)}]
+\begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)} , commentstyle=\color{brown}]
 public class mediaTest {
 
     StatisticsActivityMock mock;
