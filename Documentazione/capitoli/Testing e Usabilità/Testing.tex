@@ -1,4 +1,4 @@
-\subsection{Testing xUnit}
+\section{Testing xUnit}
 
 \lstset{
 tabsize = 4, %% set tab space width
@@ -12,13 +12,151 @@ basicstyle = \small \ttfamily, %% set listing font and size
 breaklines = true, %% enable line breaking
 numberstyle = \tiny,
 }
+ 
 
 \begin{flushleft}
     In questa sezione presentiamo quella che forse è una delle parti fondamentali nel ciclo di sviluppo di un software: il testing.
     Ne esistono di vari tipi, per "semplicità" qui si richiede il testing di unità, effettuato con jUnit.
 \end{flushleft}
 
-\subsubsection{Test funzione che calcola incasso in un range di date.}
+
+%PRIMO METODO
+
+\subsection{Test funzione check credenziali}
+\begin{flushleft}
+    \textbf{Abbiamo utilizzato il modo} "Modo"\\
+    \textbf{Classi di equivalenza individuate:} "classi"
+\end{flushleft}
+\vspace{0.2cm}
+
+\begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)}]
+
+    public class CheckCredentialsTest {
+
+    //  CODICI DI ERRORE: 9 = PASSWORD VUOTA, 10 = PASSWORD TROPPO CORTA, 11 = PASSWORD NON VALIDA (REGEX)
+    //                    12 = EMAIL VUOTA, 13 = EMAIL NON VALIDA
+
+    public ArrayList<Integer> codici_errore = new ArrayList<Integer>();
+
+    @AfterEach
+    public void clearArrayList() {
+        codici_errore.clear();
+    }
+
+    @Test
+    public void testCheckCredentials(){
+        assertEquals(codici_errore, checkCredentials("ser.dimartino@studenti.unina.it", "Password.123"));
+    }
+
+    @Test
+    public void tesPasswordVuota(){
+        codici_errore.add(9);
+        assertAll(
+                () -> assertEquals(codici_errore, checkCredentials("fra.cutugno@studenti.unina.it", null)),
+                () -> assertEquals(codici_errore, checkCredentials("lu.starace@studenti.unina.it", ""))
+        );
+    }
+
+    @Test
+    public void testPasswordTroppoCorta(){
+        codici_errore.add(10);
+        assertEquals(codici_errore, checkCredentials("gio.cutolo@studenti.unina.it", "Aa_09."));
+    }
+
+    @Test
+    public void testPasswordNonValida(){
+        codici_errore.add(11);
+        assertAll(
+                () -> assertEquals(codici_errore, checkCredentials("alb.aloisio@studenti.unina.it", "password?123")),  // MANCA LA MAIUSCOLA
+                () -> assertEquals(codici_errore, checkCredentials("an.corazza@studenti.unina.it", "PASSWORD#123")),  //MANCA LA MINUSCOLA
+                () -> assertEquals(codici_errore, checkCredentials("alb.aloisio@studenti.unina.it", "Password123")),  // MANCA IL CARATTERE SPECIALE
+                () -> assertEquals(codici_errore, checkCredentials("an.corazza@studenti.unina.it", "Password_unoduetre")) // MANCA IL NUMERO
+        );
+
+    }
+
+    @Test
+    public void testEmailVuota(){
+        codici_errore.add(12);
+        assertAll(
+                () -> assertEquals(codici_errore, checkCredentials(null, "Password.123")),
+                () -> assertEquals(codici_errore, checkCredentials("", "Password.123"))
+        );
+    }
+
+    @Test
+    public void testEmaildNonValida(){
+        codici_errore.add(13);
+        assertAll(
+                () -> assertEquals(codici_errore, checkCredentials("emailcompletamentesbagliata", "Password.123")),  // EMAIL COMPLETAMENTE SBAGLIATA
+                () -> assertEquals(codici_errore, checkCredentials("@gmail.com", "Password.123")),  // MANCA LO USERNAME
+                () -> assertEquals(codici_errore, checkCredentials("biagio@.net", "Password.123")),  // MANCA IL SECOND LEVEL DOMAIN
+                () -> assertEquals(codici_errore, checkCredentials("matteo@libero.", "Password.123")), // MANCA IL TOP LEVEL DOMAIN
+                () -> assertEquals(codici_errore, checkCredentials("luigivirgilio.it", "Password.123")), //MANCA LA @
+                () -> assertEquals(codici_errore, checkCredentials("MATTEO[BIAGIO]LUIGI_@libero.IT", "Password.123")) // LO USERNAME PRESENTA CARATTERI NON CORRETTI
+        );
+    }
+
+    @Test
+    public void testErroriMultipli_9_12(){
+        codici_errore.add(9);
+        codici_errore.add(12);
+
+        assertEquals(codici_errore, checkCredentials("", ""));
+    }
+
+    @Test
+    public void testErroriMultipli_9_13(){
+        codici_errore.add(9);
+        codici_errore.add(13);
+
+        assertEquals(codici_errore, checkCredentials("@studenti.@libero@com", ""));
+    }
+
+    @Test
+    public void testErroriMultipli_10_12(){
+        codici_errore.add(10);
+        codici_errore.add(12);
+
+        assertEquals(codici_errore, checkCredentials("", "Ab.34"));
+    }
+
+    @Test
+    public void testErroriMultipli_10_13(){
+        codici_errore.add(10);
+        codici_errore.add(13);
+
+        assertEquals(codici_errore, checkCredentials("emailcompletamentesbagliata", "Ab.34"));
+    }
+
+    @Test
+    public void testErroriMultipli_11_12(){
+        codici_errore.add(11);
+        codici_errore.add(12);
+
+        assertEquals(codici_errore, checkCredentials("", "Password.Password"));
+    }
+
+    @Test
+    public void testErroriMultipli_11_13(){
+        codici_errore.add(11);
+        codici_errore.add(13);
+
+        assertEquals(codici_errore, checkCredentials("@studenti.@libero@com", "@studenti.it"));
+    }
+}
+
+\end{lstlisting}
+
+
+
+%SECONDO METODO
+\subsection{Test funzione che calcola incasso in un range di date.}
+\begin{flushleft}
+    \textbf{Abbiamo utilizzato il modo} "Modo"\\
+    \textbf{Classi di equivalenza individuate:} "classi"
+\end{flushleft}
+\vspace{0.2cm}
 
 \begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)}]
 public class getIncassoRangeGiorniTest {
@@ -144,7 +282,29 @@ public class getIncassoRangeGiorniTest {
 
 \end{lstlisting}
 
-\subsubsection{Test funzione che controlla i campi di un ristorante.}
+
+%TERZO METODO
+
+\subsection{Test funzione che controlla i campi di un ristorante.}
+\begin{flushleft}
+    \textbf{Abbiamo utilizzato il modo}Valutando l'implementazione del metodo verso cui stiamo eseguendo del testing con strategia Black-Box, riteniamo che il WEAK EQUIVALENCE CLASS TESTING sia il criterio di copertura più indicato, fornendo
+    8 Test Cases che riteniamo siano sufficienti a ritenere la batteria di testing esaustiva\\
+
+    \textbf{Classi di equivalenza individuate:}\\ getRestaurantFieldsError è un metodo che prende 4 parametri di tipo Stringa: Nome, Coperti, Indirizzo, Numero di telefono: N, C, I, T.
+    Il valore di ritorno del metodo sarà un ArrayList di interi dove ognuno conterrà un valore.
+
+    Per ogni campo possimo identificare delle classi di equivalenza:
+    \begin{itemize}
+        \item N = \{VALIDO, TROPPO CORTO, NULL\} - TROPPO CORTO: Nome compostoda un solo carattere
+        \item C = \{VALIDO, FUORI RANGE, NON VALIDO, NULL\} - FUORI RANGE: C > 1000 || C < 5 - NON VALIDO: C contiene o è interamente composto da caratteri non numerici
+        \item I = \{VALIDO, TROPPO CORTO, NON VALIDO NULL\}- TROPPO CORTO: I < 5 - NON VALIDO: I contiene o è composto da caratteri speciali
+        \item T = \{VALIDO, NON VALIDO, NULL\} - NON VALIDO: T non rispetta la regex che controlla che sia effettivamente un numero di telefono valido\\
+
+    \end{itemize}
+    
+
+\end{flushleft}
+\vspace{0.2cm}
 
 \begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)}]
 public class getRestaurantFiedlsErrorsTest {
@@ -224,7 +384,17 @@ public class getRestaurantFiedlsErrorsTest {
 }
 \end{lstlisting}
 
-\subsubsection{Testing delle funzione media (in statistiche).}
+
+
+%QUARTO METODO
+
+
+\subsection{Testing delle funzione media (in statistiche).}
+\begin{flushleft}
+    \textbf{Abbiamo utilizzato il modo} "Modo"\\
+    \textbf{Classi di equivalenza individuate:} "classi"
+\end{flushleft}
+\vspace{0.2cm}
 \begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)}]
 public class mediaTest {
 
