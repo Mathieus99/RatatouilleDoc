@@ -18,59 +18,128 @@ numberstyle = \tiny,
     Ne esistono di vari tipi, per "semplicità" qui si richiede il testing di unità, effettuato con jUnit.
 \end{flushleft}
 
-\subsubsection{Test funzione che controlla il codice fiscale.}
+\subsubsection{Test funzione che calcola incasso in un range di date.}
 
 \begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)}]
-    public class CodiceFiscaleTest {
+public class getIncassoRangeGiorniTest {
+
+    StatisticsActivityMock statisticsActivityMock;
+    ArrayList<OrdineMock> ordiniM;
+    DateTimeFormatter formatter;
+
+    @Before
+    public void setUp(){
+        statisticsActivityMock = new StatisticsActivityMock();
+        ordiniM = new ArrayList<>();
+        formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+    }
+
+    @AfterEach
+    public void clearArrayList(){
+        ordiniM.clear();
+    }
+
+
     @Test
-    public void testCodiceFiscaleValido() {
-        String cf = "SPRBGI99P20F839N"; //BIAGIO SPERANZA 20/09/1999 - NAPOLI
-        assertTrue(isCodiceFiscaleValido(cf));
+    public void testGetIncassoRangeGiorni() {
+        ordiniM.add(new OrdineMock(3, "2023-05-04"));
+        ordiniM.add(new OrdineMock(105, "2023-05-04"));
+        ordiniM.add(new OrdineMock(72, "2023-02-04"));
+
+        LocalDate dataInizio = LocalDate.parse("2023-02-05", formatter);
+
+        int result = statisticsActivityMock.getIncassoRangeGiorni(dataInizio, ordiniM);
+        assertEquals(108, result);
     }
 
     @Test
-    public void testCodiceFiscaleValidoConSpazio() {
-        String cf = "SPRBGI9 9P20F8 39N"; //CODICE FISCALE CORRETTO MA CON AGGIUNTA DI SPAZI
-        assertFalse(isCodiceFiscaleValido(cf));
+    public void testZeroOrdini()  {
+        LocalDate dataInizio = LocalDate.parse("2023-02-01", formatter);
+
+        int result = statisticsActivityMock.getIncassoRangeGiorni(dataInizio, ordiniM);
+        assertEquals(0, result);
+
     }
 
     @Test
-    public void testCodiceFiscaleNonValido() {
-        String cf = "BPRBGI99P20F839N"; //VARIAZIONE DI UN CARATTERE DEL CODICE FISCALE CORRETTO
-        assertFalse(isCodiceFiscaleValido(cf));
+    public void testOrdiniNull()  {
+        LocalDate dataInizio = LocalDate.parse("2023-02-01", formatter);
+
+        int result = statisticsActivityMock.getIncassoRangeGiorni(dataInizio, null);
+        assertEquals(0, result);
+
     }
 
     @Test
-    public void testCodiceFiscaleInventato() {
-        String cf = "BBHFTI09V87H011N"; //CODICE FISCALE COMPLETAMENTE INVENTATO
-        assertFalse(isCodiceFiscaleValido(cf));
+    public void testDataInizioNull()  {
+        ordiniM.add(new OrdineMock(3, "2023-05-04"));
+        ordiniM.add(new OrdineMock(105, "2023-05-04"));
+        ordiniM.add(new OrdineMock(72, "2023-02-04"));
+
+        assertThrows(NullPointerException.class,
+                () -> statisticsActivityMock.getIncassoRangeGiorni(null, ordiniM));
     }
 
     @Test
-    public void testCodiceFiscaleCaratteriNonValidi() {
-        String cf = "$PRBGI.9P20F839%"; //CODICE FISCALE CON CARATTERI NON VALIDI
-        assertFalse(isCodiceFiscaleValido(cf));
+    public void testDataInizioFutura() {
+        ordiniM.add(new OrdineMock(3, "2023-05-04"));
+        ordiniM.add(new OrdineMock(105, "2023-05-04"));
+        ordiniM.add(new OrdineMock(72, "2023-02-04"));
+
+        LocalDate dataInizio = LocalDate.parse("2033-02-05", formatter);
+
+        int result = statisticsActivityMock.getIncassoRangeGiorni(dataInizio, ordiniM);
+        assertEquals(0, result);
     }
 
     @Test
-    public void testCodiceFiscaleConCaratteriEscape() {
-        String cf = "SPR\u0009BGI99P20F839N"; //CODICE FISCALE CON UN CARATTERE DI ESCAPE
-        assertFalse(isCodiceFiscaleValido(cf));
+    public void testDataInizioIrrealistica() {
+        ordiniM.add(new OrdineMock(3, "2023-05-04"));
+        ordiniM.add(new OrdineMock(105, "2023-05-04"));
+        ordiniM.add(new OrdineMock(72, "2023-02-04"));
+
+        LocalDate dataInizio = LocalDate.parse("0133-02-05", formatter);
+
+        int result = statisticsActivityMock.getIncassoRangeGiorni(dataInizio, ordiniM);
+        assertEquals(180, result);
     }
 
     @Test
-    public void testCodiceFiscaleLunghezzaNonCorretta() {
+    public void testDataOrdiniInFormatoSbagliato(){
+        ArrayList<OrdineMock> ordiniM_1 = new ArrayList<>();
+        ArrayList<OrdineMock> ordiniM_2 = new ArrayList<>();
+        ArrayList<OrdineMock> ordiniM_3 = new ArrayList<>();
+        ArrayList<OrdineMock> ordiniM_4 = new ArrayList<>();
+
+        ordiniM_1.add(new OrdineMock(3, "2023"));
+        ordiniM_2.add(new OrdineMock(105, "02/05/2023"));
+        ordiniM_3.add(new OrdineMock(72, "due-aprile-2023"));
+        ordiniM_4.add(new OrdineMock(105, "2023-32-31"));
+
+
+        LocalDate dataInizio = LocalDate.parse("2023-02-01", formatter);
+
         assertAll(
-                () -> assertFalse(isCodiceFiscaleValido("SPRBGI99P20F839N4VB")), // CODICE FISCALE TROPPO LUNGO
-                () -> assertFalse(isCodiceFiscaleValido("SP")) // CODICE FISCALE TROPPO CORTO
+                () ->   assertThrows(DateTimeParseException.class,
+                        () -> statisticsActivityMock.getIncassoRangeGiorni(dataInizio, ordiniM_1)
+                ),
+                () ->   assertThrows(DateTimeParseException.class,
+                        () ->statisticsActivityMock.getIncassoRangeGiorni(dataInizio, ordiniM_2)
+                ),
+                () ->   assertThrows(DateTimeParseException.class,
+                        () -> statisticsActivityMock.getIncassoRangeGiorni(dataInizio, ordiniM_3)
+                ),
+                () ->   assertThrows(DateTimeException.class,
+                        () -> statisticsActivityMock.getIncassoRangeGiorni(dataInizio, ordiniM_4)
+                )
+
         );
+        ordiniM_1.clear();
+        ordiniM_2.clear();
+        ordiniM_3.clear();
+        ordiniM_4.clear();
     }
 
-    @Test
-    public void testCodiceFiscaleNull() {
-        String cf = null; //CODICE FISCALE NULL
-        assertFalse(isCodiceFiscaleValido(cf));
-    }
 }
 
 \end{lstlisting}
@@ -78,7 +147,7 @@ numberstyle = \tiny,
 \subsubsection{Test funzione che controlla i campi di un ristorante.}
 
 \begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)}]
-    public class getRestaurantFiedlsErrorsTest {
+public class getRestaurantFiedlsErrorsTest {
 
     public ArrayList<Integer> codici_errore = new ArrayList<Integer>();
 
@@ -157,7 +226,7 @@ numberstyle = \tiny,
 
 \subsubsection{Testing delle funzione media (in statistiche).}
 \begin{lstlisting}[language = Java , frame = trBL , firstnumber = last , escapeinside={(*@}{@*)}]
-    public class mediaTest {
+public class mediaTest {
 
     StatisticsActivityMock mock;
 

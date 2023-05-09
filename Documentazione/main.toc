@@ -72,11 +72,11 @@
 \contentsline {subsubsection}{\numberline {3.4.6}Gestione Dipendenti}{75}{subsubsection.3.4.6}%
 \contentsline {subsubsection}{\numberline {3.4.7}Visualizzazione Statistiche}{76}{subsubsection.3.4.7}%
 \contentsline {subsection}{\numberline {3.5}Testing xUnit}{77}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Test funzione che controlla il codice fiscale.}{77}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Test funzione che controlla i campi di un ristorante.}{78}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}Testing delle funzione media (in statistiche).}{80}{subsubsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.6}Usabilità sul campo}{82}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Premessa}{82}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}Presentazione degli utenti}{82}{subsubsection.3.6.2}%
-\contentsline {subsubsection}{\numberline {3.6.3}Il confronto con gli utenti}{82}{subsubsection.3.6.3}%
-\contentsline {subsubsection}{\numberline {3.6.4}Valutazione finale}{83}{subsubsection.3.6.4}%
+\contentsline {subsubsection}{\numberline {3.5.1}Test funzione che calcola incasso in un range di date.}{77}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Test funzione che controlla i campi di un ristorante.}{79}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Testing delle funzione media (in statistiche).}{81}{subsubsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.6}Usabilità sul campo}{84}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Premessa}{84}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Presentazione degli utenti}{84}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Il confronto con gli utenti}{84}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}Valutazione finale}{85}{subsubsection.3.6.4}%

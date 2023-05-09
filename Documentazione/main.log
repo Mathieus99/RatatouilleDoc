@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.5)  8 MAY 2023 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.5)  9 MAY 2023 12:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2269,7 +2269,7 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 64.
+Package pdftex.def Info: assets/Logo1.png  used on input line 66.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [77
 
@@ -2278,24 +2278,34 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 64.
 ]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 110.
+Package pdftex.def Info: assets/Logo1.png  used on input line 115.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [78]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 152.
+Package pdftex.def Info: assets/Logo1.png  used on input line 162.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [79]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 201.
+Package pdftex.def Info: assets/Logo1.png  used on input line 203.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [80])
+ [80]
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 250.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [81]
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 299.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [82])
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 105.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [81]
+ [83]
 \openout2 = `"capitoli/Testing e Usabilità/Usabilità sul campo.aux"'.
 
  (capitoli/Testing e Usabilità/Usabilità sul campo.tex
@@ -2303,7 +2313,7 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 49.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [82
+ [84
 
 
 
@@ -2312,27 +2322,27 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 106.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [83] 
+ [85] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (main.aux (capitoli/Premessa.aux) (capitoli/Documento dei requisiti software/Requisiti.aux) (capitoli/Documento dei requisiti software/UseCaseDiagram.aux) (capitoli/Documento dei requisiti software/TabelleCockburn.aux) (capitoli/Documento dei requisiti software/Mockup.aux) (capitoli/Documento dei requisiti software/Valutazione usabilità/Usabilità a priori.aux) (capitoli/Documento dei requisiti software/Target utenti/Target utenti.aux) (capitoli/Documento dei requisiti software/Glossario/Glossario.aux) (capitoli/Documento dei requisiti software/Classi di analisi.aux) (capitoli/Documento dei requisiti software/Sequence di analisi.aux) (capitoli/Documento dei requisiti software/State Diagram.aux) (capitoli/Documento di design/Architettura.aux) (capitoli/Documento di design/Sequence Design.aux) (capitoli/Documento di design/Classi di design.aux) (capitoli/Testing e Usabilità/Testing.aux) (capitoli/Testing e Usabilità/Usabilità sul campo.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 26F27E9EAB8F043DDF28E2FD9B1CAF3C;16177.
+(rerunfilecheck)             Checksum: 6130C17F80EF31EAFD91743591ECB9EF;16226.
  ) 
 Here is how much of TeX's memory you used:
- 26870 strings out of 476315
- 567618 string characters out of 5787197
- 2130068 words of memory out of 5000000
- 46320 multiletter control sequences out of 15000+600000
+ 26951 strings out of 476315
+ 568851 string characters out of 5787197
+ 2147068 words of memory out of 5000000
+ 46330 multiletter control sequences out of 15000+600000
  606525 words of font info for 258 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,25n,116p,581b,2611s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\vesse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrb8v.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrr8v.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr5.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on main.pdf (83 pages, 5148731 bytes).
+Output written on main.pdf (85 pages, 5163697 bytes).
 PDF statistics:
- 1370 PDF objects out of 1440 (max. 8388607)
- 453 named destinations out of 1000 (max. 500000)
+ 1464 PDF objects out of 1728 (max. 8388607)
+ 524 named destinations out of 1000 (max. 500000)
  946 words of extra memory for PDF output out of 10000 (max. 10000000)
 
