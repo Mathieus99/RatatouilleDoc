@@ -15,7 +15,7 @@
         per l'accesso agli endpoint forniti dal nostro server Spring-Boot. \\
         In generale, l'architettura di un progetto Android di default segue il pattern architetturale \emph{Model-View-Controller (MVC)}, 
         ma con alcune modifiche per adattarsi al contesto specifico di Android. Talvolta entrano in gioco, come nel nostro caso, altri patter architetturali:\\
-        \vspace{0.2cm}
+        \vspace{1cm}
         \textbf{\emph{Pattern Singleton:}} Abbiamo usato il pattern Singleton per generare una sola istanza del dipendente che si logga nell'app. 
         Cosi facendo, è risultato più semplice aggiornare gli oggetti entità quali Cameriere, Addetto Cucina, Admin e Supervisore e mantenere costantemente un rapporto 1:1 con quanto salvato nel server.\vspace{1cm}
         
@@ -25,11 +25,14 @@
         gli osservatori possono essere aggiornati in modo efficiente sullo stato del soggetto senza dover verificare continuamente se qualcosa è cambiato.
         In Android, il pattern Observer viene utilizzato, ad esempio, per gestire gli eventi generati dall'utente (come i tap sullo schermo), per notificare i cambiamenti nei dati  o per gestire la comunicazione tra componenti diversi dell'applicazione.
         Anche l'implementazione di \textbf{CallBack} come nel nostro caso (con VolleyCallback) possono essere viste come un' implementazione del pattern Observer.
-        Più in particolare la nostra VolleyCallback, che altro non è che un'interfaccia, richiede di implementare in ogni Activity il metodo onResponse() che aggiorna i dati locali con i dati ricevuti dal server.\vspace{1cm}
+        Più in particolare la nostra VolleyCallback, che altro non è che un'interfaccia, richiede di implementare in ogni Activity il metodo onResponse() che aggiorna i dati locali con i dati ricevuti dal server.
+        Ciò che andiamo ad aggiornare in locale sono poi i Singleton del lavoratore loggato. Da lì, si passa poi all'aggiornamento delle viste nel caso di novità nell'oggetto risposta ricevuto. \vspace{1cm}
        
         \textbf{Volley} Volley è una libreria Android sviluppata da Google che semplifica l'elaborazione di richieste di rete in applicazioni Android. È stata progettata per gestire facilmente le chiamate REST API e può essere utilizzata per inviare e ricevere dati in diversi formati, come JSON, XML e immagini.
         Volley utilizza una combinazione di caching e pooling di connessioni per garantire prestazioni elevate e ridurre il consumo di risorse. Inoltre, supporta la gestione automatica di thread e gestisce in modo trasparente gli errori di rete, semplificando notevolmente la scrittura di codice robusto e affidabile.
         Implementata come Singleton, garantisce l'esistenza di una sola istanza di essa, e ci assicura consumi di memoria costanti e limitati.
+        
+        \textbf{Gson} Gson è una libreria Java sviluppata da Google che permette la serializzazione e la deserializzazione di oggetti JSON (JavaScript Object Notation) in oggetti Java. Gson offre una serie di metodi per la conversione di oggetti Java in JSON e viceversa, semplificando il processo di scambio di dati tra applicazioni Java e servizi web che utilizzano il formato JSON. 
     \end{flushleft}
     \vspace{0.2cm}
 
@@ -51,6 +54,13 @@
         \includegraphics[scale=0.3]{assets/immagini varie/spring-boot-architecture2.png}
         \caption*{\textbf{Figura}: Spring-Boot}\label{fig:spring_Arch}
     \end{figure}
+
+    \begin{flushleft}
+        La scelta di utilizzare spring è dovuta principalmente alle sue caratteristiche di flessibilità e scalabilità. Semplifica inoltre lo sviluppo dell'intero applicativo
+        grazie alle sue funzionalità di auto-configurazione e di gestione delle dipendenze, che avviene con Gradle e Maven. Spring Boot fornisce inoltre un'ampia gamma di funzionalità per sviluppare applicazioni web in modo rapido e facile. Queste funzionalità includono la gestione delle richieste HTTP, la gestione delle sessioni, la sicurezza e la gestione delle transazioni, tra le altre.
+    \end{flushleft}
+    
+
     \newpage
 
     \begin{flushleft}

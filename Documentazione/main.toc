@@ -48,7 +48,11 @@
 \contentsline {subsubsection}{\numberline {2.10.6}Class diagram Ordini}{60}{subsubsection.2.10.6}%
 \contentsline {subsubsection}{\numberline {2.10.7}Class diagram statistiche}{61}{subsubsection.2.10.7}%
 \contentsline {subsection}{\numberline {2.11}Sequence di analisi}{62}{subsection.2.11}%
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {2.12}Statechart}{64}{subsection.2.12}%
+=======
+\contentsline {subsection}{\numberline {2.12}Prototipazione funzionale via statechart dell’interfaccia grafica}{64}{subsection.2.12}%
+>>>>>>> eaf68418bb31fcff6c99680db0c0308a73e7774e
 \contentsline {subsubsection}{\numberline {2.12.1}Aggiungi ristorante}{64}{subsubsection.2.12.1}%
 \contentsline {subsubsection}{\numberline {2.12.2}Aggiungi piatto}{65}{subsubsection.2.12.2}%
 \contentsline {subsubsection}{\numberline {2.12.3}Prendi ordine}{66}{subsubsection.2.12.3}%
