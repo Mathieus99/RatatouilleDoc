@@ -19,14 +19,17 @@ activate ListaPiatti
 
 loop preme su "inoltra ordine"
    Cameriere->ListaPiatti: preme sul piatto che desidera ordinare
-   ListaPiatti->OrdineController: aggiungiPortata()
+   ListaPiatti->CameriereController: aggiungiPortata()
    activate OrdineController
    OrdineController->ListaPiatti:aggiornaLista()
 end
+Cameriere -> ListaPiatti: preme su salva ordinazione
+ListaPiatti->OrdineController: salvaOrdine()
+OrdineController->Cameriere: finito
 deactivate ListaPiatti
-
+deactivate OrdineController
 deactivate CameriereDashboardMockup
-
+deactivate Cameriere
 
 
 @enduml
