@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.5)  10 MAY 2023 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.5)  10 MAY 2023 18:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -858,7 +858,10 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangrammax=\count380
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 38.
- (main.aux (capitoli/Premessa.aux) (capitoli/Documento dei requisiti software/Requisiti.aux) (capitoli/Documento dei requisiti software/UseCaseDiagram.aux) (capitoli/Documento dei requisiti software/TabelleCockburn.aux) (capitoli/Documento dei requisiti software/Mockup.aux
+ (main.aux (capitoli/Premessa/Premessa.aux) (capitoli/Documento dei requisiti software/Requisiti.aux) (capitoli/Documento dei requisiti software/UseCaseDiagram.aux) (capitoli/Documento dei requisiti software/TabelleCockburn.aux) (capitoli/Documento dei requisiti software/Mockup.aux
+
+LaTeX Warning: Label `fig:Mockup_Homepage' multiply defined.
+
 
 LaTeX Warning: Label `fig:Mockup_WaiterDash' multiply defined.
 
@@ -971,7 +974,7 @@ Package: xparse 2023-02-02 L3 Experimental document command parser
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<assets/Logo1.png, id=327, 497.86pt x 455.7025pt>
+<assets/Logo1.png, id=331, 497.86pt x 455.7025pt>
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 45.
@@ -1022,13 +1025,25 @@ File: assets/Logo1.png Graphic file (type png)
 Package pdftex.def Info: assets/Logo1.png  used on input line 91.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [5]
-\openout2 = `capitoli/Premessa.aux'.
+\openout2 = `capitoli/Premessa/Premessa.aux'.
 
+ (capitoli/Premessa/Premessa.tex
+<assets/immagini varie/D.Norman grafico.png, id=453, 431.81325pt x 242.70676pt>
+File: assets/immagini varie/D.Norman grafico.png Graphic file (type png)
+<use assets/immagini varie/D.Norman grafico.png>
+Package pdftex.def Info: assets/immagini varie/D.Norman grafico.png  used on input line 4.
+(pdftex.def)             Requested size: 215.90608pt x 121.35307pt.
+)
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 91.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [6
 
-No file capitoli/Premessa.tex.
+ <./assets/immagini varie/D.Norman grafico.png>]
 \openout2 = `"capitoli/Documento dei requisiti software/Requisiti.aux"'.
 
-(capitoli/Documento dei requisiti software/Requisiti.tex
+ (capitoli/Documento dei requisiti software/Requisiti.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1065,8 +1080,7 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 63.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [6
-
+ [7
 
 
 
@@ -1115,7 +1129,7 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 108.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [7]
+ [8]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1159,59 +1173,6 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 108.
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 155.
-(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [8]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-File: assets/Logo1.png Graphic file (type png)
-<use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 216.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [9]
 > Step: init table outer spec.
@@ -1264,9 +1225,62 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 216.
 > Step: build the whole table.
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 276.
+Package pdftex.def Info: assets/Logo1.png  used on input line 216.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [10]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 276.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [11]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1279,7 +1293,7 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 285.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [11]
+ [12]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1325,16 +1339,16 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 92.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [12]
+ [13]
 \openout2 = `"capitoli/Documento dei requisiti software/UseCaseDiagram.aux"'.
 
  (capitoli/Documento dei requisiti software/UseCaseDiagram.tex
-<assets/diagrammi/Use-Case/Use-Case Generale.png, id=484, 1214.5375pt x 1293.83376pt>
+<assets/diagrammi/Use-Case/Use-Case Generale.png, id=497, 1214.5375pt x 1293.83376pt>
 File: assets/diagrammi/Use-Case/Use-Case Generale.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Use-Case Generale.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Use-Case Generale.png  used on input line 15.
 (pdftex.def)             Requested size: 386.95897pt x 412.21896pt.
-<assets/diagrammi/Use-Case/Modifica Profilo.png, id=485, 622.325pt x 461.725pt>
+<assets/diagrammi/Use-Case/Modifica Profilo.png, id=498, 622.325pt x 461.725pt>
 File: assets/diagrammi/Use-Case/Modifica Profilo.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Modifica Profilo.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Modifica Profilo.png  used on input line 22.
@@ -1343,12 +1357,12 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 26.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [13
+ [14
 
 
 
  <./assets/diagrammi/Use-Case/Use-Case Generale.png>]
-<assets/diagrammi/Use-Case/Gestione ristoranti.png, id=494, 982.67125pt x 923.45pt>
+<assets/diagrammi/Use-Case/Gestione ristoranti.png, id=506, 982.67125pt x 923.45pt>
 File: assets/diagrammi/Use-Case/Gestione ristoranti.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Gestione ristoranti.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Gestione ristoranti.png  used on input line 29.
@@ -1357,8 +1371,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 33.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [14 <./assets/diagrammi/Use-Case/Modifica Profilo.png>]
-<assets/diagrammi/Use-Case/Gestione piatti.png, id=502, 879.285pt x 698.61pt>
+ [15 <./assets/diagrammi/Use-Case/Modifica Profilo.png>]
+<assets/diagrammi/Use-Case/Gestione piatti.png, id=514, 879.285pt x 698.61pt>
 File: assets/diagrammi/Use-Case/Gestione piatti.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Gestione piatti.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Gestione piatti.png  used on input line 36.
@@ -1367,8 +1381,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 40.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [15 <./assets/diagrammi/Use-Case/Gestione ristoranti.png>]
-<assets/diagrammi/Use-Case/Gestione ordini.png, id=510, 923.45pt x 944.52875pt>
+ [16 <./assets/diagrammi/Use-Case/Gestione ristoranti.png>]
+<assets/diagrammi/Use-Case/Gestione ordini.png, id=522, 923.45pt x 944.52875pt>
 File: assets/diagrammi/Use-Case/Gestione ordini.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Gestione ordini.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Gestione ordini.png  used on input line 43.
@@ -1377,8 +1391,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 47.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [16 <./assets/diagrammi/Use-Case/Gestione piatti.png>]
-<assets/diagrammi/Use-Case/Gestione dipendenti.png, id=518, 602.25pt x 623.32875pt>
+ [17 <./assets/diagrammi/Use-Case/Gestione piatti.png>]
+<assets/diagrammi/Use-Case/Gestione dipendenti.png, id=530, 602.25pt x 623.32875pt>
 File: assets/diagrammi/Use-Case/Gestione dipendenti.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Gestione dipendenti.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Gestione dipendenti.png  used on input line 50.
@@ -1387,8 +1401,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 54.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [17 <./assets/diagrammi/Use-Case/Gestione ordini.png>]
-<assets/diagrammi/Use-Case/Gestione avvisi.png, id=526, 702.625pt x 782.925pt>
+ [18 <./assets/diagrammi/Use-Case/Gestione ordini.png>]
+<assets/diagrammi/Use-Case/Gestione avvisi.png, id=538, 702.625pt x 782.925pt>
 File: assets/diagrammi/Use-Case/Gestione avvisi.png Graphic file (type png)
 <use assets/diagrammi/Use-Case/Gestione avvisi.png>
 Package pdftex.def Info: assets/diagrammi/Use-Case/Gestione avvisi.png  used on input line 57.
@@ -1397,12 +1411,12 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 61.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [18 <./assets/diagrammi/Use-Case/Gestione dipendenti.png>]
+ [19 <./assets/diagrammi/Use-Case/Gestione dipendenti.png>]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 61.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [19 <./assets/diagrammi/Use-Case/Gestione avvisi.png>])
+ [20 <./assets/diagrammi/Use-Case/Gestione avvisi.png>])
 \openout2 = `"capitoli/Documento dei requisiti software/TabelleCockburn.aux"'.
 
  (capitoli/Documento dei requisiti software/TabelleCockburn.tex
@@ -1418,7 +1432,7 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 68.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [20
+ [21
 
 
 
@@ -1427,23 +1441,10 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 68.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [21]
+ [22]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 71.
-(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [22]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-File: assets/Logo1.png Graphic file (type png)
-<use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 112.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [23]
 > Step: init table outer spec.
@@ -1456,14 +1457,27 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 112.
 > Step: build the whole table.
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 155.
+Package pdftex.def Info: assets/Logo1.png  used on input line 112.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
  [24]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+File: assets/Logo1.png Graphic file (type png)
+<use assets/Logo1.png>
+Package pdftex.def Info: assets/Logo1.png  used on input line 155.
+(pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
+ [25]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 158.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [25]
+ [26]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1476,16 +1490,16 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 196.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [26])
+ [27])
 \openout2 = `"capitoli/Documento dei requisiti software/Mockup.aux"'.
 
  (capitoli/Documento dei requisiti software/Mockup.tex
-<assets/immagini varie/figma.jpg, id=582, 616.704pt x 346.896pt>
+<assets/immagini varie/figma.jpg, id=594, 616.704pt x 346.896pt>
 File: assets/immagini varie/figma.jpg Graphic file (type jpg)
 <use assets/immagini varie/figma.jpg>
 Package pdftex.def Info: assets/immagini varie/figma.jpg  used on input line 13.
 (pdftex.def)             Requested size: 308.35124pt x 173.44757pt.
-<assets/immagini varie/interfaccia utente.png, id=583, 368.577pt x 95.75775pt>
+<assets/immagini varie/interfaccia utente.png, id=595, 368.577pt x 95.75775pt>
 File: assets/immagini varie/interfaccia utente.png Graphic file (type png)
 <use assets/immagini varie/interfaccia utente.png>
 Package pdftex.def Info: assets/immagini varie/interfaccia utente.png  used on input line 20.
@@ -1494,12 +1508,12 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 26.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [27
+ [28
 
 
 
  <./assets/immagini varie/figma.jpg> <./assets/immagini varie/interfaccia utente.png>]
-<assets/diagrammi/Mockup/Mockup_Homepage.png, id=591, 409.53pt x 730.73pt>
+<assets/diagrammi/Mockup/Mockup_Homepage.png, id=603, 409.53pt x 730.73pt>
 File: assets/diagrammi/Mockup/Mockup_Homepage.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_Homepage.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_Homepage.png  used on input line 31.
@@ -1508,7 +1522,7 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 35.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [28 <./assets/diagrammi/Mockup/Mockup_Homepage.png>]
+ [29 <./assets/diagrammi/Mockup/Mockup_Homepage.png>]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1521,8 +1535,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 51.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [29]
-<assets/diagrammi/Mockup/Mockup_Accesso.png, id=604, 401.5pt x 722.7pt>
+ [30]
+<assets/diagrammi/Mockup/Mockup_Accesso.png, id=616, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_Accesso.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_Accesso.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_Accesso.png  used on input line 56.
@@ -1539,8 +1553,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 74.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [30 <./assets/diagrammi/Mockup/Mockup_Accesso.png>]
-<assets/diagrammi/Mockup/Mockup_Register.png, id=612, 401.5pt x 722.7pt>
+ [31 <./assets/diagrammi/Mockup/Mockup_Accesso.png>]
+<assets/diagrammi/Mockup/Mockup_Register.png, id=625, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_Register.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_Register.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_Register.png  used on input line 78.
@@ -1557,8 +1571,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 101.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [31 <./assets/diagrammi/Mockup/Mockup_Register.png>]
-<assets/diagrammi/Mockup/Mockup_AdminDash.png, id=623, 401.5pt x 722.7pt>
+ [32 <./assets/diagrammi/Mockup/Mockup_Register.png>]
+<assets/diagrammi/Mockup/Mockup_AdminDash.png, id=635, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_AdminDash.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_AdminDash.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_AdminDash.png  used on input line 105.
@@ -1575,8 +1589,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 124.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [32 <./assets/diagrammi/Mockup/Mockup_AdminDash.png>]
-<assets/diagrammi/Mockup/Mockup_SaveResturant.png, id=632, 401.5pt x 722.7pt>
+ [33 <./assets/diagrammi/Mockup/Mockup_AdminDash.png>]
+<assets/diagrammi/Mockup/Mockup_SaveResturant.png, id=644, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_SaveResturant.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_SaveResturant.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_SaveResturant.png  used on input line 129.
@@ -1593,8 +1607,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 147.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [33 <./assets/diagrammi/Mockup/Mockup_SaveResturant.png>]
-<assets/diagrammi/Mockup/Mockup_ResturantDash.png, id=640, 401.5pt x 722.7pt>
+ [34 <./assets/diagrammi/Mockup/Mockup_SaveResturant.png>]
+<assets/diagrammi/Mockup/Mockup_ResturantDash.png, id=652, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_ResturantDash.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_ResturantDash.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_ResturantDash.png  used on input line 151.
@@ -1611,8 +1625,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 170.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [34 <./assets/diagrammi/Mockup/Mockup_ResturantDash.png>]
-<assets/diagrammi/Mockup/Mockup_SaveWorker.png, id=648, 401.5pt x 722.7pt>
+ [35 <./assets/diagrammi/Mockup/Mockup_ResturantDash.png>]
+<assets/diagrammi/Mockup/Mockup_SaveWorker.png, id=660, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_SaveWorker.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_SaveWorker.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_SaveWorker.png  used on input line 175.
@@ -1629,8 +1643,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 195.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [35 <./assets/diagrammi/Mockup/Mockup_SaveWorker.png>]
-<assets/diagrammi/Mockup/Mockup_MenuManager.png, id=656, 401.5pt x 722.7pt>
+ [36 <./assets/diagrammi/Mockup/Mockup_SaveWorker.png>]
+<assets/diagrammi/Mockup/Mockup_MenuManager.png, id=668, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_MenuManager.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_MenuManager.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_MenuManager.png  used on input line 200.
@@ -1647,8 +1661,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 218.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [36 <./assets/diagrammi/Mockup/Mockup_MenuManager.png>]
-<assets/diagrammi/Mockup/Mockup_HypervisorDash.png, id=664, 401.5pt x 722.7pt>
+ [37 <./assets/diagrammi/Mockup/Mockup_MenuManager.png>]
+<assets/diagrammi/Mockup/Mockup_HypervisorDash.png, id=677, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_HypervisorDash.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_HypervisorDash.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_HypervisorDash.png  used on input line 223.
@@ -1665,8 +1679,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 244.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [37 <./assets/diagrammi/Mockup/Mockup_HypervisorDash.png>]
-<assets/diagrammi/Mockup/Mockup_ExitDialog.png, id=673, 401.5pt x 722.7pt>
+ [38 <./assets/diagrammi/Mockup/Mockup_HypervisorDash.png>]
+<assets/diagrammi/Mockup/Mockup_ExitDialog.png, id=685, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_ExitDialog.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_ExitDialog.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_ExitDialog.png  used on input line 249.
@@ -1683,8 +1697,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 267.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [38 <./assets/diagrammi/Mockup/Mockup_ExitDialog.png>]
-<assets/diagrammi/Mockup/Mockup_WaiterDash.png, id=681, 401.5pt x 722.7pt>
+ [39 <./assets/diagrammi/Mockup/Mockup_ExitDialog.png>]
+<assets/diagrammi/Mockup/Mockup_WaiterDash.png, id=693, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_WaiterDash.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_WaiterDash.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_WaiterDash.png  used on input line 272.
@@ -1701,8 +1715,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 292.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [39 <./assets/diagrammi/Mockup/Mockup_WaiterDash.png>]
-<assets/diagrammi/Mockup/Mockup_OrderStatus.png, id=689, 401.5pt x 722.7pt>
+ [40 <./assets/diagrammi/Mockup/Mockup_WaiterDash.png>]
+<assets/diagrammi/Mockup/Mockup_OrderStatus.png, id=701, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_OrderStatus.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_OrderStatus.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_OrderStatus.png  used on input line 298.
@@ -1719,8 +1733,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 317.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [40 <./assets/diagrammi/Mockup/Mockup_OrderStatus.png>]
-<assets/diagrammi/Mockup/Mockup_Profile.png, id=697, 401.5pt x 722.7pt>
+ [41 <./assets/diagrammi/Mockup/Mockup_OrderStatus.png>]
+<assets/diagrammi/Mockup/Mockup_Profile.png, id=709, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_Profile.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_Profile.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_Profile.png  used on input line 322.
@@ -1737,8 +1751,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 340.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [41 <./assets/diagrammi/Mockup/Mockup_Profile.png>]
-<assets/diagrammi/Mockup/Mockup_AdminChangePass.png, id=705, 401.5pt x 722.7pt>
+ [42 <./assets/diagrammi/Mockup/Mockup_Profile.png>]
+<assets/diagrammi/Mockup/Mockup_AdminChangePass.png, id=717, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_AdminChangePass.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_AdminChangePass.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_AdminChangePass.png  used on input line 345.
@@ -1755,8 +1769,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 364.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [42 <./assets/diagrammi/Mockup/Mockup_AdminChangePass.png>]
-<assets/diagrammi/Mockup/Mockup_AdminChangeMail.png, id=713, 401.5pt x 722.7pt>
+ [43 <./assets/diagrammi/Mockup/Mockup_AdminChangePass.png>]
+<assets/diagrammi/Mockup/Mockup_AdminChangeMail.png, id=726, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_AdminChangeMail.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_AdminChangeMail.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_AdminChangeMail.png  used on input line 369.
@@ -1773,8 +1787,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 388.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [43 <./assets/diagrammi/Mockup/Mockup_AdminChangeMail.png>]
-<assets/diagrammi/Mockup/Mockup_WorkerChangePass.png, id=722, 409.53pt x 730.73pt>
+ [44 <./assets/diagrammi/Mockup/Mockup_AdminChangeMail.png>]
+<assets/diagrammi/Mockup/Mockup_WorkerChangePass.png, id=734, 409.53pt x 730.73pt>
 File: assets/diagrammi/Mockup/Mockup_WorkerChangePass.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_WorkerChangePass.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_WorkerChangePass.png  used on input line 393.
@@ -1791,8 +1805,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 412.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [44 <./assets/diagrammi/Mockup/Mockup_WorkerChangePass.png>]
-<assets/diagrammi/Mockup/Mockup_SaveAdv.png, id=730, 401.5pt x 722.7pt>
+ [45 <./assets/diagrammi/Mockup/Mockup_WorkerChangePass.png>]
+<assets/diagrammi/Mockup/Mockup_SaveAdv.png, id=742, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_SaveAdv.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_SaveAdv.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_SaveAdv.png  used on input line 417.
@@ -1809,8 +1823,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 435.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [45 <./assets/diagrammi/Mockup/Mockup_SaveAdv.png>]
-<assets/diagrammi/Mockup/Mockup_AddPlate.png, id=738, 401.5pt x 722.7pt>
+ [46 <./assets/diagrammi/Mockup/Mockup_SaveAdv.png>]
+<assets/diagrammi/Mockup/Mockup_AddPlate.png, id=750, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_AddPlate.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_AddPlate.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_AddPlate.png  used on input line 440.
@@ -1827,13 +1841,13 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 463.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [46 <./assets/diagrammi/Mockup/Mockup_AddPlate.png>]
+ [47 <./assets/diagrammi/Mockup/Mockup_AddPlate.png>]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 466.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [47]
-<assets/diagrammi/Mockup/Mockup_AddOrder.png, id=752, 401.5pt x 722.7pt>
+ [48]
+<assets/diagrammi/Mockup/Mockup_AddOrder.png, id=764, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_AddOrder.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_AddOrder.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_AddOrder.png  used on input line 471.
@@ -1850,8 +1864,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 490.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [48 <./assets/diagrammi/Mockup/Mockup_AddOrder.png>]
-<assets/diagrammi/Mockup/Mockup_Statistics.png, id=760, 401.5pt x 722.7pt>
+ [49 <./assets/diagrammi/Mockup/Mockup_AddOrder.png>]
+<assets/diagrammi/Mockup/Mockup_Statistics.png, id=773, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_Statistics.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_Statistics.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_Statistics.png  used on input line 495.
@@ -1868,8 +1882,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 513.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [49 <./assets/diagrammi/Mockup/Mockup_Statistics.png>]
-<assets/diagrammi/Mockup/Mockup_Notifications.png, id=770, 401.5pt x 722.7pt>
+ [50 <./assets/diagrammi/Mockup/Mockup_Statistics.png>]
+<assets/diagrammi/Mockup/Mockup_Notifications.png, id=782, 401.5pt x 722.7pt>
 File: assets/diagrammi/Mockup/Mockup_Notifications.png Graphic file (type png)
 <use assets/diagrammi/Mockup/Mockup_Notifications.png>
 Package pdftex.def Info: assets/diagrammi/Mockup/Mockup_Notifications.png  used on input line 518.
@@ -1887,20 +1901,20 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 95.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [50 <./assets/diagrammi/Mockup/Mockup_Notifications.png>]
+ [51 <./assets/diagrammi/Mockup/Mockup_Notifications.png>]
 \openout2 = `"capitoli/Documento dei requisiti software/Valutazione usabilità/Usabilità a priori.aux"'.
 
  (capitoli/Documento dei requisiti software/Valutazione usabilità/Usabilità a priori.tex
-<assets/immagini varie/grafico usabilita.png, id=779, 602.25pt x 391.4625pt>
+<assets/immagini varie/grafico usabilita.png, id=791, 602.25pt x 391.4625pt>
 File: assets/immagini varie/grafico usabilita.png Graphic file (type png)
 <use assets/immagini varie/grafico usabilita.png>
-Package pdftex.def Info: assets/immagini varie/grafico usabilita.png  used on input line 24.
+Package pdftex.def Info: assets/immagini varie/grafico usabilita.png  used on input line 26.
 (pdftex.def)             Requested size: 361.35278pt x 234.8793pt.
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
-Package pdftex.def Info: assets/Logo1.png  used on input line 28.
+Package pdftex.def Info: assets/Logo1.png  used on input line 30.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [51
+ [52
 
 
 
@@ -1909,11 +1923,11 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 96.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [52 <./assets/immagini varie/grafico usabilita.png>]
+ [53 <./assets/immagini varie/grafico usabilita.png>]
 \openout2 = `"capitoli/Documento dei requisiti software/Target utenti/Target utenti.aux"'.
 
  (capitoli/Documento dei requisiti software/Target utenti/Target utenti.tex
-<assets/immagini varie/target utenti.png, id=793, 457.10776pt x 209.583pt>
+<assets/immagini varie/target utenti.png, id=805, 457.10776pt x 209.583pt>
 File: assets/immagini varie/target utenti.png Graphic file (type png)
 <use assets/immagini varie/target utenti.png>
 Package pdftex.def Info: assets/immagini varie/target utenti.png  used on input line 33.
@@ -1923,7 +1937,7 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 97.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [53
+ [54
 
 
 
@@ -1935,7 +1949,7 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 98.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [54
+ [55
 
 
 
@@ -1943,12 +1957,12 @@ Package pdftex.def Info: assets/Logo1.png  used on input line 98.
 \openout2 = `"capitoli/Documento dei requisiti software/Classi di analisi.aux"'.
 
  (capitoli/Documento dei requisiti software/Classi di analisi.tex
-<assets/diagrammi/Class diagram di analisi/Gestione Login.png, id=805, 1037.8775pt x 563.10374pt>
+<assets/diagrammi/Class diagram di analisi/Gestione Login.png, id=818, 1037.8775pt x 563.10374pt>
 File: assets/diagrammi/Class diagram di analisi/Gestione Login.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di analisi/Gestione Login.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di analisi/Gestione Login.png  used on input line 19.
 (pdftex.def)             Requested size: 467.04057pt x 253.39435pt.
-<assets/diagrammi/Class diagram di analisi/Gestione ristorante.png, id=806, 834.11626pt x 532.99126pt>
+<assets/diagrammi/Class diagram di analisi/Gestione ristorante.png, id=819, 834.11626pt x 532.99126pt>
 File: assets/diagrammi/Class diagram di analisi/Gestione ristorante.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di analisi/Gestione ristorante.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di analisi/Gestione ristorante.png  used on input line 26.
@@ -1957,12 +1971,12 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 29.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [55
+ [56
 
 
 
  <./assets/diagrammi/Class diagram di analisi/Gestione Login.png (PNG copy)>]
-<assets/diagrammi/Class diagram di analisi/Gestione dipendenti.png, id=814, 618.31pt x 662.475pt>
+<assets/diagrammi/Class diagram di analisi/Gestione dipendenti.png, id=826, 618.31pt x 662.475pt>
 File: assets/diagrammi/Class diagram di analisi/Gestione dipendenti.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di analisi/Gestione dipendenti.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di analisi/Gestione dipendenti.png  used on input line 33.
@@ -1971,8 +1985,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 36.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [56 <./assets/diagrammi/Class diagram di analisi/Gestione ristorante.png (PNG copy)>]
-<assets/diagrammi/Class diagram di analisi/Gestione piatto.png, id=821, 658.46pt x 828.09375pt>
+ [57 <./assets/diagrammi/Class diagram di analisi/Gestione ristorante.png (PNG copy)>]
+<assets/diagrammi/Class diagram di analisi/Gestione piatto.png, id=833, 658.46pt x 828.09375pt>
 File: assets/diagrammi/Class diagram di analisi/Gestione piatto.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di analisi/Gestione piatto.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di analisi/Gestione piatto.png  used on input line 40.
@@ -1981,8 +1995,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 43.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [57 <./assets/diagrammi/Class diagram di analisi/Gestione dipendenti.png (PNG copy)>]
-<assets/diagrammi/Class diagram di analisi/Gestione Avvisi.png, id=828, 743.77875pt x 877.2775pt>
+ [58 <./assets/diagrammi/Class diagram di analisi/Gestione dipendenti.png (PNG copy)>]
+<assets/diagrammi/Class diagram di analisi/Gestione Avvisi.png, id=840, 743.77875pt x 877.2775pt>
 File: assets/diagrammi/Class diagram di analisi/Gestione Avvisi.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di analisi/Gestione Avvisi.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di analisi/Gestione Avvisi.png  used on input line 47.
@@ -1991,8 +2005,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 50.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [58 <./assets/diagrammi/Class diagram di analisi/Gestione piatto.png (PNG copy)>]
-<assets/diagrammi/Class diagram di analisi/Gestione ordini.png, id=835, 931.48pt x 679.53876pt>
+ [59 <./assets/diagrammi/Class diagram di analisi/Gestione piatto.png (PNG copy)>]
+<assets/diagrammi/Class diagram di analisi/Gestione ordini.png, id=847, 931.48pt x 679.53876pt>
 File: assets/diagrammi/Class diagram di analisi/Gestione ordini.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di analisi/Gestione ordini.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di analisi/Gestione ordini.png  used on input line 54.
@@ -2001,8 +2015,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 57.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [59 <./assets/diagrammi/Class diagram di analisi/Gestione Avvisi.png (PNG copy)>]
-<assets/diagrammi/Class diagram di analisi/Gestione Stat.png, id=842, 732.7375pt x 749.80125pt>
+ [60 <./assets/diagrammi/Class diagram di analisi/Gestione Avvisi.png (PNG copy)>]
+<assets/diagrammi/Class diagram di analisi/Gestione Stat.png, id=854, 732.7375pt x 749.80125pt>
 File: assets/diagrammi/Class diagram di analisi/Gestione Stat.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di analisi/Gestione Stat.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di analisi/Gestione Stat.png  used on input line 61.
@@ -2012,21 +2026,21 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 99.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [60 <./assets/diagrammi/Class diagram di analisi/Gestione ordini.png (PNG copy)>]
+ [61 <./assets/diagrammi/Class diagram di analisi/Gestione ordini.png (PNG copy)>]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 99.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [61 <./assets/diagrammi/Class diagram di analisi/Gestione Stat.png (PNG copy)>]
+ [62 <./assets/diagrammi/Class diagram di analisi/Gestione Stat.png (PNG copy)>]
 \openout2 = `"capitoli/Documento dei requisiti software/Sequence di analisi.aux"'.
 
  (capitoli/Documento dei requisiti software/Sequence di analisi.tex
-<assets/diagrammi/Sequence di analisi/sequence_add_menu.png, id=856, 721.69624pt x 533.995pt>
+<assets/diagrammi/Sequence di analisi/sequence_add_menu.png, id=868, 721.69624pt x 533.995pt>
 File: assets/diagrammi/Sequence di analisi/sequence_add_menu.png Graphic file (type png)
 <use assets/diagrammi/Sequence di analisi/sequence_add_menu.png>
 Package pdftex.def Info: assets/diagrammi/Sequence di analisi/sequence_add_menu.png  used on input line 13.
 (pdftex.def)             Requested size: 433.02109pt x 320.39948pt.
-<assets/diagrammi/Sequence di analisi/sequence_take_order.png, id=857, 771.88374pt x 475.7775pt>
+<assets/diagrammi/Sequence di analisi/sequence_take_order.png, id=869, 771.88374pt x 475.7775pt>
 File: assets/diagrammi/Sequence di analisi/sequence_take_order.png Graphic file (type png)
 <use assets/diagrammi/Sequence di analisi/sequence_take_order.png>
 Package pdftex.def Info: assets/diagrammi/Sequence di analisi/sequence_take_order.png  used on input line 20.
@@ -2036,7 +2050,7 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 100.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [62
+ [63
 
 
 
@@ -2045,16 +2059,16 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 100.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [63 <./assets/diagrammi/Sequence di analisi/sequence_take_order.png (PNG copy)>]
+ [64 <./assets/diagrammi/Sequence di analisi/sequence_take_order.png (PNG copy)>]
 \openout2 = `"capitoli/Documento dei requisiti software/State Diagram.aux"'.
 
  (capitoli/Documento dei requisiti software/State Diagram.tex
-<assets/diagrammi/Statechart/aggiungiRistorante.png, id=870, 445.665pt x 424.58624pt>
+<assets/diagrammi/Statechart/aggiungiRistorante.png, id=882, 445.665pt x 424.58624pt>
 File: assets/diagrammi/Statechart/aggiungiRistorante.png Graphic file (type png)
 <use assets/diagrammi/Statechart/aggiungiRistorante.png>
 Package pdftex.def Info: assets/diagrammi/Statechart/aggiungiRistorante.png  used on input line 17.
 (pdftex.def)             Requested size: 289.67882pt x 275.97778pt.
-<assets/diagrammi/Statechart/aggiungiPiatto.png, id=871, 976.64874pt x 585.18625pt>
+<assets/diagrammi/Statechart/aggiungiPiatto.png, id=883, 976.64874pt x 585.18625pt>
 File: assets/diagrammi/Statechart/aggiungiPiatto.png Graphic file (type png)
 <use assets/diagrammi/Statechart/aggiungiPiatto.png>
 Package pdftex.def Info: assets/diagrammi/Statechart/aggiungiPiatto.png  used on input line 24.
@@ -2063,17 +2077,17 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 27.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [64
+ [65
 
 
 
  <./assets/diagrammi/Statechart/aggiungiRistorante.png (PNG copy)>]
-<assets/diagrammi/Statechart/compilaCampiPiatto.png, id=878, 664.4825pt x 421.575pt>
+<assets/diagrammi/Statechart/compilaCampiPiatto.png, id=890, 664.4825pt x 421.575pt>
 File: assets/diagrammi/Statechart/compilaCampiPiatto.png Graphic file (type png)
 <use assets/diagrammi/Statechart/compilaCampiPiatto.png>
 Package pdftex.def Info: assets/diagrammi/Statechart/compilaCampiPiatto.png  used on input line 30.
 (pdftex.def)             Requested size: 398.69257pt x 252.94695pt.
-<assets/diagrammi/Statechart/compilaCampiPreconfezionato.png, id=879, 664.4825pt x 503.8825pt>
+<assets/diagrammi/Statechart/compilaCampiPreconfezionato.png, id=891, 664.4825pt x 503.8825pt>
 File: assets/diagrammi/Statechart/compilaCampiPreconfezionato.png Graphic file (type png)
 <use assets/diagrammi/Statechart/compilaCampiPreconfezionato.png>
 Package pdftex.def Info: assets/diagrammi/Statechart/compilaCampiPreconfezionato.png  used on input line 36.
@@ -2082,13 +2096,13 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 39.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [65 <./assets/diagrammi/Statechart/aggiungiPiatto.png (PNG copy)> <./assets/diagrammi/Statechart/compilaCampiPiatto.png (PNG copy)>]
-<assets/diagrammi/Statechart/prendiOrdine.png, id=887, 572.1375pt x 365.365pt>
+ [66 <./assets/diagrammi/Statechart/aggiungiPiatto.png (PNG copy)> <./assets/diagrammi/Statechart/compilaCampiPiatto.png (PNG copy)>]
+<assets/diagrammi/Statechart/prendiOrdine.png, id=899, 572.1375pt x 365.365pt>
 File: assets/diagrammi/Statechart/prendiOrdine.png Graphic file (type png)
 <use assets/diagrammi/Statechart/prendiOrdine.png>
 Package pdftex.def Info: assets/diagrammi/Statechart/prendiOrdine.png  used on input line 43.
 (pdftex.def)             Requested size: 400.49352pt x 255.75375pt.
-<assets/diagrammi/Statechart/visualizzaAvvisi.png, id=888, 262.9825pt x 203.76125pt>
+<assets/diagrammi/Statechart/visualizzaAvvisi.png, id=900, 262.9825pt x 203.76125pt>
 File: assets/diagrammi/Statechart/visualizzaAvvisi.png Graphic file (type png)
 <use assets/diagrammi/Statechart/visualizzaAvvisi.png>
 Package pdftex.def Info: assets/diagrammi/Statechart/visualizzaAvvisi.png  used on input line 50.
@@ -2098,12 +2112,12 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 101.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [66 <./assets/diagrammi/Statechart/compilaCampiPreconfezionato.png (PNG copy)> <./assets/diagrammi/Statechart/prendiOrdine.png (PNG copy)>]
+ [67 <./assets/diagrammi/Statechart/compilaCampiPreconfezionato.png (PNG copy)> <./assets/diagrammi/Statechart/prendiOrdine.png (PNG copy)>]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 101.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [67 <./assets/diagrammi/Statechart/visualizzaAvvisi.png (PNG copy)>]
+ [68 <./assets/diagrammi/Statechart/visualizzaAvvisi.png (PNG copy)>]
 \openout2 = `"capitoli/Documento di design/Architettura.aux"'.
 
  (capitoli/Documento di design/Architettura.tex
@@ -2111,12 +2125,12 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 36.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [68
+ [69
 
 
 
 ]
-<assets/immagini varie/spring-boot-architecture2.png, id=908, 602.25pt x 401.5pt>
+<assets/immagini varie/spring-boot-architecture2.png, id=920, 602.25pt x 401.5pt>
 File: assets/immagini varie/spring-boot-architecture2.png Graphic file (type png)
 <use assets/immagini varie/spring-boot-architecture2.png>
 Package pdftex.def Info: assets/immagini varie/spring-boot-architecture2.png  used on input line 54.
@@ -2125,8 +2139,8 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 64.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [69 <./assets/immagini varie/spring-boot-architecture2.png>]
-<assets/immagini varie/azure loc.png, id=916, 602.25pt x 312.16624pt>
+ [70 <./assets/immagini varie/spring-boot-architecture2.png>]
+<assets/immagini varie/azure loc.png, id=928, 602.25pt x 312.16624pt>
 File: assets/immagini varie/azure loc.png Graphic file (type png)
 <use assets/immagini varie/azure loc.png>
 Package pdftex.def Info: assets/immagini varie/azure loc.png  used on input line 79.
@@ -2135,18 +2149,18 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 82.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [70 <./assets/immagini varie/azure loc.png (PNG copy)>] (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+ [71 <./assets/immagini varie/azure loc.png (PNG copy)>] (C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 ))
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 102.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [71]
+ [72]
 \openout2 = `"capitoli/Documento di design/Sequence Design.aux"'.
 
  (capitoli/Documento di design/Sequence Design.tex
-<assets/diagrammi/Sequence di design/Salva Ristorante.png, id=949, 1650.165pt x 822.07124pt>
+<assets/diagrammi/Sequence di design/Salva Ristorante.png, id=961, 1650.165pt x 822.07124pt>
 File: assets/diagrammi/Sequence di design/Salva Ristorante.png Graphic file (type png)
 <use assets/diagrammi/Sequence di design/Salva Ristorante.png>
 Package pdftex.def Info: assets/diagrammi/Sequence di design/Salva Ristorante.png  used on input line 12.
@@ -2156,7 +2170,7 @@ Overfull \hbox (11.35646pt too wide) in paragraph at lines 12--13
  [][] 
  []
 
-<assets/diagrammi/Sequence di design/Aggiungi Piatto.png, id=950, 1756.5625pt x 882.29625pt>
+<assets/diagrammi/Sequence di design/Aggiungi Piatto.png, id=962, 1756.5625pt x 882.29625pt>
 File: assets/diagrammi/Sequence di design/Aggiungi Piatto.png Graphic file (type png)
 <use assets/diagrammi/Sequence di design/Aggiungi Piatto.png>
 Package pdftex.def Info: assets/diagrammi/Sequence di design/Aggiungi Piatto.png  used on input line 20.
@@ -2170,17 +2184,17 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 23.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
-[72
+[73
 
 
 
  <./assets/diagrammi/Sequence di design/Salva Ristorante.png (PNG copy)> <./assets/diagrammi/Sequence di design/Aggiungi Piatto.png (PNG copy)>]
-<assets/diagrammi/Sequence di design/Take Order.png, id=958, 1694.33pt x 876.27374pt>
+<assets/diagrammi/Sequence di design/Take Order.png, id=971, 1694.33pt x 876.27374pt>
 File: assets/diagrammi/Sequence di design/Take Order.png Graphic file (type png)
 <use assets/diagrammi/Sequence di design/Take Order.png>
 Package pdftex.def Info: assets/diagrammi/Sequence di design/Take Order.png  used on input line 28.
 (pdftex.def)             Requested size: 338.86pt x 175.25163pt.
-<assets/diagrammi/Sequence di design/Visualizza avvisi.png, id=959, 1265.72874pt x 673.51625pt>
+<assets/diagrammi/Sequence di design/Visualizza avvisi.png, id=972, 1265.72874pt x 673.51625pt>
 File: assets/diagrammi/Sequence di design/Visualizza avvisi.png Graphic file (type png)
 <use assets/diagrammi/Sequence di design/Visualizza avvisi.png>
 Package pdftex.def Info: assets/diagrammi/Sequence di design/Visualizza avvisi.png  used on input line 35.
@@ -2194,21 +2208,21 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 39.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
-[73 <./assets/diagrammi/Sequence di design/Take Order.png (PNG copy)> <./assets/diagrammi/Sequence di design/Visualizza avvisi.png (PNG copy)>])
+[74 <./assets/diagrammi/Sequence di design/Take Order.png (PNG copy)> <./assets/diagrammi/Sequence di design/Visualizza avvisi.png (PNG copy)>])
 \openout2 = `"capitoli/Documento di design/Classi di design.aux"'.
 
  (capitoli/Documento di design/Classi di design.tex
-<assets/diagrammi/Class diagram di design/vista lavoratore.png, id=968, 1218.5525pt x 580.1675pt>
+<assets/diagrammi/Class diagram di design/vista lavoratore.png, id=980, 1218.5525pt x 580.1675pt>
 File: assets/diagrammi/Class diagram di design/vista lavoratore.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di design/vista lavoratore.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di design/vista lavoratore.png  used on input line 15.
 (pdftex.def)             Requested size: 426.49977pt x 203.06166pt.
-<assets/diagrammi/Class diagram di design/ClassDiagram_Login.png, id=969, 4015.0pt x 1376.14125pt>
+<assets/diagrammi/Class diagram di design/ClassDiagram_Login.png, id=981, 4015.0pt x 1376.14125pt>
 File: assets/diagrammi/Class diagram di design/ClassDiagram_Login.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di design/ClassDiagram_Login.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di design/ClassDiagram_Login.png  used on input line 22.
 (pdftex.def)             Requested size: 481.77922pt x 165.12982pt.
-<assets/diagrammi/Class diagram di design/gestione piatti.png, id=970, 1423.3175pt x 1420.30624pt>
+<assets/diagrammi/Class diagram di design/gestione piatti.png, id=982, 1423.3175pt x 1420.30624pt>
 File: assets/diagrammi/Class diagram di design/gestione piatti.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di design/gestione piatti.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di design/gestione piatti.png  used on input line 29.
@@ -2217,17 +2231,17 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 32.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [74
+ [75
 
 
 
  <./assets/diagrammi/Class diagram di design/vista lavoratore.png (PNG copy)> <./assets/diagrammi/Class diagram di design/ClassDiagram_Login.png (PNG copy)>]
-<assets/diagrammi/Class diagram di design/ClassDiagramGestioneAvvisi.png, id=978, 2753.28625pt x 1125.20375pt>
+<assets/diagrammi/Class diagram di design/ClassDiagramGestioneAvvisi.png, id=990, 2753.28625pt x 1125.20375pt>
 File: assets/diagrammi/Class diagram di design/ClassDiagramGestioneAvvisi.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di design/ClassDiagramGestioneAvvisi.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di design/ClassDiagramGestioneAvvisi.png  used on input line 36.
 (pdftex.def)             Requested size: 412.97513pt x 168.77328pt.
-<assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png, id=979, 3330.4425pt x 2095.83pt>
+<assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png, id=991, 3330.4425pt x 2095.83pt>
 File: assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png  used on input line 43.
@@ -2241,18 +2255,18 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 46.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
-[75 <./assets/diagrammi/Class diagram di design/gestione piatti.png (PNG copy)> <./assets/diagrammi/Class diagram di design/ClassDiagramGestioneAvvisi.png (PNG copy)>]
-<assets/diagrammi/Class diagram di design/gestione dipendenti.png, id=987, 3302.3375pt x 1548.78625pt>
+[76 <./assets/diagrammi/Class diagram di design/gestione piatti.png (PNG copy)> <./assets/diagrammi/Class diagram di design/ClassDiagramGestioneAvvisi.png (PNG copy)>]
+<assets/diagrammi/Class diagram di design/gestione dipendenti.png, id=999, 3829.30624pt x 1378.14874pt>
 File: assets/diagrammi/Class diagram di design/gestione dipendenti.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di design/gestione dipendenti.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di design/gestione dipendenti.png  used on input line 50.
-(pdftex.def)             Requested size: 495.32925pt x 232.3079pt.
+(pdftex.def)             Requested size: 574.37117pt x 206.7134pt.
 
-Overfull \hbox (11.63239pt too wide) in paragraph at lines 50--51
+Overfull \hbox (90.6743pt too wide) in paragraph at lines 50--51
  [][] 
  []
 
-<assets/diagrammi/Class diagram di design/gestione statistiche.png, id=988, 1655.18375pt x 1090.0725pt>
+<assets/diagrammi/Class diagram di design/gestione statistiche.png, id=1000, 1655.18375pt x 1090.0725pt>
 File: assets/diagrammi/Class diagram di design/gestione statistiche.png Graphic file (type png)
 <use assets/diagrammi/Class diagram di design/gestione statistiche.png>
 Package pdftex.def Info: assets/diagrammi/Class diagram di design/gestione statistiche.png  used on input line 57.
@@ -2262,12 +2276,12 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 104.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [76 <./assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png (PNG copy)> <./assets/diagrammi/Class diagram di design/gestione dipendenti.png (PNG copy)>]
+ [77 <./assets/diagrammi/Class diagram di design/Class Diagramm Design Gestione Ordini.png (PNG copy)> <./assets/diagrammi/Class diagram di design/gestione dipendenti.png (PNG copy)>]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 104.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [77 <./assets/diagrammi/Class diagram di design/gestione statistiche.png (PNG copy)>]
+ [78 <./assets/diagrammi/Class diagram di design/gestione statistiche.png (PNG copy)>]
 \openout2 = `"capitoli/Testing e Usabilità/Testing.aux"'.
 
  (capitoli/Testing e Usabilità/Testing.tex
@@ -2275,7 +2289,7 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 76.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [78
+ [79
 
 
 
@@ -2284,53 +2298,53 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 116.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [79]
+ [80]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 156.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [80]
+ [81]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 210.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [81]
+ [82]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 256.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [82]
+ [83]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 308.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [83]
+ [84]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 357.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [84]
+ [85]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 405.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [85]
+ [86]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 458.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [86]
+ [87]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 504.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [87]
+ [88]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 546.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [88]
-<assets/immagini varie/grafico media.jpeg, id=1520, 752.8125pt x 1064.97874pt>
+ [89]
+<assets/immagini varie/grafico media.jpeg, id=1532, 752.8125pt x 1064.97874pt>
 File: assets/immagini varie/grafico media.jpeg Graphic file (type jpg)
 <use assets/immagini varie/grafico media.jpeg>
 Package pdftex.def Info: assets/immagini varie/grafico media.jpeg  used on input line 572.
@@ -2339,22 +2353,22 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 578.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [89 <./assets/immagini varie/grafico media.jpeg>]
+ [90 <./assets/immagini varie/grafico media.jpeg>]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 627.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [90]
+ [91]
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 678.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [91])
+ [92])
 File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 105.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [92]
+ [93]
 \openout2 = `"capitoli/Testing e Usabilità/Usabilità sul campo.aux"'.
 
  (capitoli/Testing e Usabilità/Usabilità sul campo.tex
@@ -2362,7 +2376,7 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 49.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [93
+ [94
 
 
 
@@ -2371,27 +2385,27 @@ File: assets/Logo1.png Graphic file (type png)
 <use assets/Logo1.png>
 Package pdftex.def Info: assets/Logo1.png  used on input line 106.
 (pdftex.def)             Requested size: 28.44972pt x 28.44656pt.
- [94] 
+ [95] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(main.aux (capitoli/Premessa.aux) (capitoli/Documento dei requisiti software/Requisiti.aux) (capitoli/Documento dei requisiti software/UseCaseDiagram.aux) (capitoli/Documento dei requisiti software/TabelleCockburn.aux) (capitoli/Documento dei requisiti software/Mockup.aux) (capitoli/Documento dei requisiti software/Valutazione usabilità/Usabilità a priori.aux) (capitoli/Documento dei requisiti software/Target utenti/Target utenti.aux) (capitoli/Documento dei requisiti software/Glossario/Glossario.aux) (capitoli/Documento dei requisiti software/Classi di analisi.aux) (capitoli/Documento dei requisiti software/Sequence di analisi.aux) (capitoli/Documento dei requisiti software/State Diagram.aux) (capitoli/Documento di design/Architettura.aux) (capitoli/Documento di design/Sequence Design.aux) (capitoli/Documento di design/Classi di design.aux) (capitoli/Testing e Usabilità/Testing.aux) (capitoli/Testing e Usabilità/Usabilità sul campo.aux))
+(main.aux (capitoli/Premessa/Premessa.aux) (capitoli/Documento dei requisiti software/Requisiti.aux) (capitoli/Documento dei requisiti software/UseCaseDiagram.aux) (capitoli/Documento dei requisiti software/TabelleCockburn.aux) (capitoli/Documento dei requisiti software/Mockup.aux) (capitoli/Documento dei requisiti software/Valutazione usabilità/Usabilità a priori.aux) (capitoli/Documento dei requisiti software/Target utenti/Target utenti.aux) (capitoli/Documento dei requisiti software/Glossario/Glossario.aux) (capitoli/Documento dei requisiti software/Classi di analisi.aux) (capitoli/Documento dei requisiti software/Sequence di analisi.aux) (capitoli/Documento dei requisiti software/State Diagram.aux) (capitoli/Documento di design/Architettura.aux) (capitoli/Documento di design/Sequence Design.aux) (capitoli/Documento di design/Classi di design.aux) (capitoli/Testing e Usabilità/Testing.aux) (capitoli/Testing e Usabilità/Usabilità sul campo.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 799A7EC9C131B395A0C797B81E2C8B09;16697.
+(rerunfilecheck)             Checksum: B42779EFCB2F0DDCBD7733769FB1642B;16881.
  ) 
 Here is how much of TeX's memory you used:
- 27334 strings out of 476315
- 575060 string characters out of 5787197
- 2207068 words of memory out of 5000000
- 46393 multiletter control sequences out of 15000+600000
+ 27348 strings out of 476315
+ 575804 string characters out of 5787197
+ 2206068 words of memory out of 5000000
+ 46401 multiletter control sequences out of 15000+600000
  606525 words of font info for 258 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,25n,116p,590b,2599s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\vesse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrb8v.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrr8v.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr5.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti10.pfb><C:/Users/vesse/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on main.pdf (94 pages, 5272029 bytes).
+Output written on main.pdf (95 pages, 5318939 bytes).
 PDF statistics:
- 1887 PDF objects out of 2073 (max. 8388607)
- 842 named destinations out of 1000 (max. 500000)
- 959 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1899 PDF objects out of 2073 (max. 8388607)
+ 845 named destinations out of 1000 (max. 500000)
+ 972 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1067,9 +1067,9 @@ INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
 INPUT .\main.aux
 INPUT main.aux
 INPUT main.aux
-INPUT .\capitoli\Premessa.aux
-INPUT capitoli\Premessa.aux
-INPUT capitoli\Premessa.aux
+INPUT .\capitoli\Premessa\Premessa.aux
+INPUT capitoli\Premessa\Premessa.aux
+INPUT capitoli\Premessa\Premessa.aux
 INPUT .\capitoli\Documento dei requisiti software\Requisiti.aux
 INPUT capitoli\Documento dei requisiti software\Requisiti.aux
 INPUT capitoli\Documento dei requisiti software\Requisiti.aux
@@ -1258,11 +1258,29 @@ INPUT .\assets\Logo1.png
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnr12.tfm
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnti10.tfm
 INPUT C:\Users\vesse\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\vnr\vnbx12.tfm
+INPUT .\capitoli\Premessa\Premessa.tex
+INPUT .\capitoli\Premessa\Premessa.tex
+INPUT .\capitoli\Premessa\Premessa.tex
 INPUT .\assets\Logo1.png
 INPUT .\assets\Logo1.png
 INPUT assets\Logo1.png
 INPUT .\assets\Logo1.png
-OUTPUT capitoli\Premessa.aux
+OUTPUT capitoli\Premessa\Premessa.aux
+INPUT .\assets\Logo1.png
+INPUT .\capitoli\Premessa\Premessa.tex
+INPUT capitoli\Premessa\Premessa.tex
+INPUT .\capitoli\Premessa\Premessa.tex
+INPUT capitoli\Premessa\Premessa.tex
+INPUT .\assets\immagini varie\D.Norman grafico.png
+INPUT .\assets\immagini varie\D.Norman grafico.png
+INPUT assets\immagini varie\D.Norman grafico.png
+INPUT .\assets\immagini varie\D.Norman grafico.png
+INPUT .\assets\immagini varie\D.Norman grafico.png
+INPUT .\assets\immagini varie\D.Norman grafico.png
+INPUT .\assets\immagini varie\D.Norman grafico.png
+INPUT .\assets\Logo1.png
+INPUT .\assets\Logo1.png
+INPUT assets\Logo1.png
 INPUT .\assets\Logo1.png
 INPUT .\capitoli\Documento dei requisiti software\Requisiti.tex
 INPUT .\capitoli\Documento dei requisiti software\Requisiti.tex
@@ -2370,9 +2388,9 @@ INPUT .\assets\Logo1.png
 INPUT assets\Logo1.png
 INPUT .\assets\Logo1.png
 INPUT main.aux
-INPUT .\capitoli\Premessa.aux
-INPUT capitoli\Premessa.aux
-INPUT capitoli\Premessa.aux
+INPUT .\capitoli\Premessa\Premessa.aux
+INPUT capitoli\Premessa\Premessa.aux
+INPUT capitoli\Premessa\Premessa.aux
 INPUT .\capitoli\Documento dei requisiti software\Requisiti.aux
 INPUT capitoli\Documento dei requisiti software\Requisiti.aux
 INPUT capitoli\Documento dei requisiti software\Requisiti.aux

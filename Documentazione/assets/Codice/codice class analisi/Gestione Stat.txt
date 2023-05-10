@@ -54,7 +54,7 @@ class StatisticheController << controller >>  #header:C6AD77 {
 +generaGrafici()
 +visualizzaGrafici()
 +calcolaMedia()
-+scegliRangeData()
++incassoInRange()
 }
 
 class ChartClass <<boundary>> #header:C6AD77 {
@@ -63,9 +63,9 @@ class ChartClass <<boundary>> #header:C6AD77 {
 
 
 
-class StatisticheActivity << boundary >> #header:C6AD77  {
+class StatisticheDashboard << boundary >> #header:C6AD77  {
  -ordini:List<Ordine>
- -conti: List<Integer>
+ -incassiTotali: List<Integer>
  -datePickerDialog: DialogDatePicker
 }
 
@@ -75,5 +75,5 @@ Ristorante "1" -up- "possiede 0..*"  Cameriere
 StatisticheController -right- ChartClass
 StatisticheController "1" --  "1" Admin
 StatisticheController -left- Ristorante
-StatisticheController -up- StatisticheActivity
+StatisticheController -up- StatisticheDashboard
 @enduml
