@@ -1,24 +1,29 @@
 @startuml
 
-state "Admin Dashboard" as AdminD
-state "Dashboard Ristorante" as RestD
-state "Gestione Menu" as ManageMenu
-state "Compila campi piatto" as Plate
-state "Compila campi preconfezionato" as Plate2
-state "Campi errati" as error
+[*] -> AdminDashboard
 
-error : do/ mostra campi non corretti
-
-[*] --> AdminD
-AdminD --> RestD : ManageResturantButtonClick()
-RestD --> ManageMenu : ManageMenuButtonClick()
-ManageMenu --> Plate : AddPlateBtnClick() [!preconfezionato]
-ManageMenu -left-> Plate2 : addPlateBtnClick() [preconfezionato]
-Plate -left-> error : OkBtnClick() [!campiCorretti]
-Plate2 --> error : OkBtnClick() [!campiCorretti]
-error -up-> Plate2[H]
-error --> Plate[H]
-Plate -up-> ManageMenu : AnnullaBtnClick()
-Plate2 --> ManageMenu : AnnullaBtnClick()
+state AdminDashboard : entry/ aggiorna lista ristoranti
+state RistoranteDashboard : entry/ aggiorna menu
+AdminDashboard -> RistoranteDashboard : gestisciRistoranteBtnClick()
+RistoranteDashboard -down-> GestioneMenuDash : gestisciMenuBtnClick()
+state GestioneMenuDash{
+state GestionePiatto{
+ [*] -> AggiungiPiatto
+  state AggiungiPiatto {
+    [*] -> CompilaCampi
+    CompilaCampi -> [*]
+  }
+--
+ [*] -> AggiungiPreconfezionato
+ state AggiungiPreconfezionato { 
+    [*] -> CompilaCampiParziale
+    CompilaCampiParziale -> [*]
+  }
+ }
+ [*] -> GestionePiatto
+ GestionePiatto -> [*] : [piattoAggiunto || preconfezionatoAggiunto]
+}
+GestioneMenuDash -> RistoranteDashboard : aggiungiBtn()
+RistoranteDashboard -> AdminDashboard : goBack()
 
 @enduml

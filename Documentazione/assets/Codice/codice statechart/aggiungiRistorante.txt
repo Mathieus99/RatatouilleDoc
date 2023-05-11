@@ -1,16 +1,27 @@
 @startuml
 
-state "Admin Dashboard" as AdminD
-state "Campi errati" as errorFields
-state "Compila campi ristorante" as feelFields
+[*] -> AdminDashboard
 
-AdminD : entry/ popola lista ristoranti
-errorFields : do/ mostra campi non corretti
+state AdminDashboard : entry/ aggiorna lista ristoranti
 
-[*] --> AdminD
-AdminD --> feelFields : NuovoRistoranteButtonClick()
-feelFields --> errorFields : SalvaButtonClick() [!campiCorretti]
-errorFields -up-> feelFields[H]
-feelFields --> AdminD : SalvaButtonClick() [campiCorretti]
+AdminDashboard -> Nuovo_Ristorante : NuovoRistoranteBtnClick()
+
+state Nuovo_Ristorante {
+  [*] --> Modifica
+   state Modifica{
+
+PopolaCampi -> [*]
+   state PopolaCampi
+ }
+   state PopUpCampiErrati : do/ Mostra errori
+  Modifica -up-> PopUpCampiErrati : salvaBtn()[!getRestaurantFieldsError.isEmpty]
+  PopUpCampiErrati -> Modifica[H]
+ 
+}
+
+Nuovo_Ristorante -> AdminDashboard : salvaBtn()[getRestaurantFieldsError.isEmpty]
+AdminDashboard --> [*]
+
+
 
 @enduml
