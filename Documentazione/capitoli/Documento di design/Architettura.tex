@@ -1,11 +1,10 @@
 \section{Documento di design}
     \subsection{Architettura del sistema}
 
-    \subsection{Introduzione}
     \begin{flushleft}
         Alla luce delle valutazioni effettuate durante l'analisi dei requisiti, abbiamo trovato conveniente strutturare la nostra app seguendo un tipo di 
-        architettura client-server. I client, nel nostro caso, sono quasi sempre dei dispositivi portatili dotati di sistema operativo android (con la possibilità volendo di utilizzare emulatori da pc desktop)
-        mentre il server è stato realizzato con il framework di sviluppo Spring Boot.
+        architettura generale client-server (con server centralizzato). I client, nel nostro caso, sono quasi sempre dei dispositivi portatili dotati di sistema operativo android (con la possibilità volendo di utilizzare emulatori da pc desktop)
+        mentre il server è stato realizzato con il framework di sviluppo Spring Boot. Il client comunica con il server che offre delle REST API attraverso delle richieste HTTP (le risposte del server saranno quasi sempre in formato JSON). 
 
     \end{flushleft}
 
@@ -14,7 +13,7 @@
         Come già detto, il client è composto da un'applicazione android distribuita o tramite apk o tramite play store (rispetta tutti i requisiti per essere pubblicata) che mira ad offrire un'interfaccia utente semplice e pulita 
         per l'accesso agli endpoint forniti dal nostro server Spring-Boot. \\
         In generale, l'architettura di un progetto Android di default segue il pattern architetturale \emph{Model-View-Controller (MVC)}, 
-        ma con alcune modifiche per adattarsi al contesto specifico di Android. Talvolta entrano in gioco, come nel nostro caso, altri patter architetturali:\\
+        ma con alcune modifiche per adattarsi al contesto specifico di Android. In aggiunta, elenchiamo qui altri pattern e librerie che abbiamo adoperato per lo sviluppo dell'app:\\
         \vspace{1cm}
         \textbf{\emph{Pattern Singleton:}} Abbiamo usato il pattern Singleton per generare una sola istanza del dipendente che si logga nell'app. 
         Cosi facendo, è risultato più semplice aggiornare gli oggetti entità quali Cameriere, Addetto Cucina, Admin e Supervisore e mantenere costantemente un rapporto 1:1 con quanto salvato nel server.\vspace{1cm}
@@ -43,9 +42,8 @@
         L'architettura che prevede è anch'essa a 3 livelli e prevede i seguenti componenti:
         \begin{itemize}
             \item Model: L'insieme di classi che rappresentano le entità della nostra applicazione. Le stesse sono riportate sul client, e, cosa più importate, spring mappa le classe con annotation "@entity" 1:1 con le tabelle nel db relazionale.\\
-                
             \item Repository: Sfruttando il framework JPA (Java Persistence API) riusciamo a gestire persistenza e consistenza dei dati nel db in maniera quasi automatizzata. Spring ci fornisce un gran supporto in questo ambito.
-            \item Controller: Qui ci va tutta la logica di controllo del server. Sono queste le classi che espongono gli end-point Rest ai client e, comunicando con le repository aggiornano i model e le tabelle nel db allo stesso tempo.
+            \item Controller: Qui ci va tutta la logica di controllo del server. Sono queste le classi che espongono gli end-point Rest ai client e, comunicando con le repository aggiornano i model e le tabelle nel db allo stesso tempo. Nel controller mappiamo tutti gli end-point a reindirizziamo le richieste http alla rispettiva funzione.
         \end{itemize}
     \end{flushleft}
 
@@ -56,8 +54,10 @@
     \end{figure}
 
     \begin{flushleft}
+        \textbf{Perchè Spring?}\\
         La scelta di utilizzare spring è dovuta principalmente alle sue caratteristiche di flessibilità e scalabilità. Semplifica inoltre lo sviluppo dell'intero applicativo
-        grazie alle sue funzionalità di auto-configurazione e di gestione delle dipendenze, che avviene con Gradle e Maven. Spring Boot fornisce inoltre un'ampia gamma di funzionalità per sviluppare applicazioni web in modo rapido e facile. Queste funzionalità includono la gestione delle richieste HTTP, la gestione delle sessioni, la sicurezza e la gestione delle transazioni, tra le altre.
+        grazie alle sue funzionalità di auto-configurazione e di gestione delle dipendenze, che avviene con Gradle e Maven. Spring Boot fornisce inoltre un'ampia gamma di funzionalità per sviluppare applicazioni web in modo rapido e facile. Queste funzionalità includono la gestione delle richieste HTTP, la gestione delle sessioni, la sicurezza, la gestione delle transazioni e, tra le altre, il pieno supporto alle API REST e operazioni CRUD.\\
+        In sintesi, Spring Boot semplifica lo sviluppo di servizi web basati su REST e consente di creare API performanti, scalabili e sicure in modo rapido ed efficiente.
     \end{flushleft}
     
 
@@ -71,7 +71,6 @@
         mettiamo a disposizione gli end-point raggiungibili poi dai client.
         La potenza computazionale in questa fase di sviluppo e di utilizzo limitato dell'applicativo potrebbe risultare esile, ma il vantaggio di piattaforme quali
         Azure è possibile in qualsiasi momento aumentare le risorse dedicate a db e/o macchina virtuale, aumentando di fatto la scalabilità della nostra applicazione.
-        
     \end{flushleft}
 
     \begin{figure}[H]
@@ -103,8 +102,6 @@
                 }
                 return true;
             }
-            
-            // Override degli altri metodi dell'interceptor se necessario
         }
     \end{lstlisting}
     
@@ -113,7 +110,6 @@
         Questa piccola parte di codice presente nel back-end, ci garantisce che nessun'altra richiesta al di fuori da 
         quelle effettuate con il parametro "appcode" da noi definito sul client venga accettata.
         Estranei e malintenzionati, riceveranno lo status 401 se proveranno ad accedere a qualunque dei nostri endpoint.
-    
     \end{flushleft}
 
    

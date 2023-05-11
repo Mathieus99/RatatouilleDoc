@@ -56,22 +56,21 @@
 \contentsline {subsubsection}{\numberline {2.12.4}Visualizza avvisi}{68}{subsubsection.2.12.4}%
 \contentsline {section}{\numberline {3}Documento di design}{69}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Architettura del sistema}{69}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Introduzione}{69}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Client}{69}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Server}{70}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Sequence diagram di design}{73}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Funzionalità: "Aggiungi Ristorante"}{73}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Funzionalità: "Aggiungi portata"}{73}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Funzionalità: "Prendi ordinazione"}{74}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Funzionalità: "Visualizza avvisi"}{74}{subsubsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.4}Class diagram di design}{75}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Espansione modelli Lavoratore}{75}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Login}{75}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Gestione piatti}{76}{subsubsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4}Gestione Avvisi}{76}{subsubsection.3.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.5}Gestione Ordini}{77}{subsubsection.3.4.5}%
-\contentsline {subsubsection}{\numberline {3.4.6}Gestione Dipendenti}{77}{subsubsection.3.4.6}%
-\contentsline {subsubsection}{\numberline {3.4.7}Visualizzazione Statistiche}{78}{subsubsection.3.4.7}%
+\contentsline {subsubsection}{\numberline {3.1.1}Client}{69}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Server}{70}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Sequence diagram di design}{73}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Funzionalità: "Aggiungi Ristorante"}{73}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Funzionalità: "Aggiungi portata"}{73}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Funzionalità: "Prendi ordinazione"}{74}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Funzionalità: "Visualizza avvisi"}{74}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Class diagram di design}{75}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Espansione modelli Lavoratore}{75}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Login}{75}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Gestione piatti}{76}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Gestione Avvisi}{76}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Gestione Ordini}{77}{subsubsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.6}Gestione Dipendenti}{77}{subsubsection.3.3.6}%
+\contentsline {subsubsection}{\numberline {3.3.7}Visualizzazione Statistiche}{78}{subsubsection.3.3.7}%
 \contentsline {section}{\numberline {4}Testing JUnit}{79}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Test funzione check credenziali}{79}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Test funzione che calcola incasso in un range di date.}{82}{subsection.4.2}%
